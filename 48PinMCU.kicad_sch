@@ -55692,7 +55692,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2742cada-834a-48e8-9d33-2eeab8aef9af")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 259.334 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55793,7 +55793,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/b29cdb0a-e663-432f-b9f2-efe06a830bdc"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -59197,7 +59197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee591242-5918-4102-a71e-b57c61658a4f")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 254 151.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59267,7 +59267,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/b29cdb0a-e663-432f-b9f2-efe06a830bdc"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
