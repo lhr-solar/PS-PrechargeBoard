@@ -18904,7 +18904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1333329-f4e2-40f5-9812-35a41f66040e")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 35.56 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19048,7 +19048,7 @@
 			)
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/d871e5fa-d64d-4178-a9ac-7b40bce44e34"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
