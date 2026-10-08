@@ -1904,7 +1904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b5b7fd6-b1a2-49bf-aab6-5b1c87c9f917")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 78.994 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1977,7 +1977,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6c9f9146-fe47-479e-b844-c090447a528f"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
