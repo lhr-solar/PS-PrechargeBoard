@@ -46,7 +46,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(page "11")
+					(page "3")
 				)
 			)
 		)
@@ -92,7 +92,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(page "10")
+					(page "2")
 				)
 			)
 		)

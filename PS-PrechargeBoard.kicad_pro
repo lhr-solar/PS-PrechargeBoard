@@ -670,20 +670,16 @@
       "PS-PrechargeBoard"
     ],
     [
-      "02a41495-882b-4810-b33b-fbf874cacbbd",
-      "48PinMCU"
+      "ad0f3840-ec25-4ea7-b025-1d3129a06533",
+      "HV"
     ],
     [
-      "b1f43d5a-c322-4586-a0be-8c986728595c",
-      "CAN_Transceiver"
+      "0def18ef-81e8-47ac-b719-2d9f8237a855",
+      "LV"
     ],
     [
       "9b47e6f4-7691-492a-9adf-22bd19fd1cb1",
       "PowerProtection"
-    ],
-    [
-      "341b12dc-4ba7-44e5-bada-7052e6453482",
-      "USB-C_Connector"
     ],
     [
       "cd8ca406-e250-4c51-b6e8-7777acbf36c8",
@@ -698,12 +694,16 @@
       "LDO"
     ],
     [
-      "ad0f3840-ec25-4ea7-b025-1d3129a06533",
-      "HV"
+      "02a41495-882b-4810-b33b-fbf874cacbbd",
+      "48PinMCU"
     ],
     [
-      "0def18ef-81e8-47ac-b719-2d9f8237a855",
-      "LV"
+      "341b12dc-4ba7-44e5-bada-7052e6453482",
+      "USB-C_Connector"
+    ],
+    [
+      "b1f43d5a-c322-4586-a0be-8c986728595c",
+      "CAN_Transceiver"
     ]
   ],
   "text_variables": {},
