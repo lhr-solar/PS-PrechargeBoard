@@ -2024,7 +2024,7 @@
 					(unit 1)
 				)
 			)
-			(project "LV"
+			(project "lv"
 				(path "/88356d12-c87f-4bdd-bbd8-756414c90a6d/d07b4748-03cd-4373-ba6d-42f770522878"
 					(reference "C?")
 					(unit 1)
@@ -2152,7 +2152,7 @@
 					(unit 1)
 				)
 			)
-			(project "LV"
+			(project "lv"
 				(path "/88356d12-c87f-4bdd-bbd8-756414c90a6d/d07b4748-03cd-4373-ba6d-42f770522878"
 					(reference "TP_3.3V?")
 					(unit 1)
@@ -2291,7 +2291,7 @@
 					(unit 1)
 				)
 			)
-			(project "LV"
+			(project "lv"
 				(path "/88356d12-c87f-4bdd-bbd8-756414c90a6d/d07b4748-03cd-4373-ba6d-42f770522878"
 					(reference "U?")
 					(unit 1)
@@ -2427,7 +2427,7 @@
 					(unit 1)
 				)
 			)
-			(project "LV"
+			(project "lv"
 				(path "/88356d12-c87f-4bdd-bbd8-756414c90a6d/d07b4748-03cd-4373-ba6d-42f770522878"
 					(reference "D?")
 					(unit 1)
@@ -2543,7 +2543,7 @@
 					(unit 1)
 				)
 			)
-			(project "LV"
+			(project "lv"
 				(path "/88356d12-c87f-4bdd-bbd8-756414c90a6d/d07b4748-03cd-4373-ba6d-42f770522878"
 					(reference "C?")
 					(unit 1)
