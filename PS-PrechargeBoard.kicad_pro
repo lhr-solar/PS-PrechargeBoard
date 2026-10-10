@@ -661,7 +661,7 @@
         "uuid": "74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
       }
     ],
-    "used_designators": "D1-12,#PWR1-52,J1-11,IC1-4,R1-41,#FLG1-12,C1-59,FB1-2,F1-4,JP1,L1,Q1-2,SW1-2,TP1-20,TP_3.3V1,U1-7,Y1,PS1",
+    "used_designators": "D1-12,#PWR1-52,J1-11,IC1-4,R1-44,#FLG1-12,C1-59,FB1-2,F1-4,JP1,L1,Q1-2,SW1-2,TP1-20,TP_3.3V1,U1-7,Y1,PS1",
     "variants": []
   },
   "sheets": [
@@ -704,6 +704,14 @@
     [
       "b1f43d5a-c322-4586-a0be-8c986728595c",
       "CAN_Transceiver"
+    ],
+    [
+      "c44cc650-ec3c-42a9-ae3c-bb53bdf38e25",
+      "Battery_Voltage"
+    ],
+    [
+      "c3a8be03-ea6f-409a-9c75-c47de7f52741",
+      "Motor_Voltage"
     ]
   ],
   "text_variables": {},
