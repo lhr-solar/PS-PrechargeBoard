@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "315910a3-2124-4976-81db-39be86b81e45")
+	(uuid "e0fd7dde-95c7-41e7-863f-8f6fbba7123c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "AMC1350DWVR_1"

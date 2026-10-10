@@ -661,7 +661,7 @@
         "uuid": "74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
       }
     ],
-    "used_designators": "D1-9,#PWR1-20,J1-7,IC1-2,R1-27,#FLG1-10,C1-39,FB1-2,F1-3,JP1,L1,Q1-2,SW1-2,TP1-8,TP_3.3V1,U1-4,Y1",
+    "used_designators": "D1-10,#PWR1-52,J1-7,IC1-3,R1-30,#FLG1-10,C1-46,FB1-2,F1-3,JP1,L1,Q1-2,SW1-2,TP1-12,TP_3.3V1,U1-4,Y1",
     "variants": []
   },
   "sheets": [
@@ -670,32 +670,40 @@
       "PS-PrechargeBoard"
     ],
     [
-      "5dc15275-6052-4c98-bd51-73c91f41d1ab",
-      "PowerProtection"
-    ],
-    [
-      "66a9177f-bd25-4fda-b01a-2c74f98dabbc",
-      "12VBuck"
-    ],
-    [
-      "6c9f9146-fe47-479e-b844-c090447a528f",
-      "Power_Mux"
-    ],
-    [
-      "ac0b82bc-5139-4aa7-86f9-8716cbcedbf0",
-      "LDO"
-    ],
-    [
-      "b29cdb0a-e663-432f-b9f2-efe06a830bdc",
+      "02a41495-882b-4810-b33b-fbf874cacbbd",
       "48PinMCU"
     ],
     [
-      "d871e5fa-d64d-4178-a9ac-7b40bce44e34",
+      "b1f43d5a-c322-4586-a0be-8c986728595c",
+      "CAN_Transceiver"
+    ],
+    [
+      "9b47e6f4-7691-492a-9adf-22bd19fd1cb1",
+      "PowerProtection"
+    ],
+    [
+      "341b12dc-4ba7-44e5-bada-7052e6453482",
       "USB-C_Connector"
     ],
     [
-      "47eb15e8-7080-422c-b470-d12560c6f586",
-      "CAN_Transceiver"
+      "cd8ca406-e250-4c51-b6e8-7777acbf36c8",
+      "12VBuck"
+    ],
+    [
+      "47a0820e-ddb4-4652-9c69-8d106132f60e",
+      "Power_Mux"
+    ],
+    [
+      "d07b4748-03cd-4373-ba6d-42f770522878",
+      "LDO"
+    ],
+    [
+      "ad0f3840-ec25-4ea7-b025-1d3129a06533",
+      "HV"
+    ],
+    [
+      "0def18ef-81e8-47ac-b719-2d9f8237a855",
+      "LV"
     ]
   ],
   "text_variables": {},
