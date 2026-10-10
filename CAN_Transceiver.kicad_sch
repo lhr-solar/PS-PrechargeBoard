@@ -33675,7 +33675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11fc3897-418c-456a-8fd5-75858f7bdad9")
-		(property "Reference" "C37"
+		(property "Reference" "C?"
 			(at 76.2 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33753,27 +33753,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "62490040-1afe-4ec9-9fdd-5ae650351c74")
+			(uuid "22c0365a-8947-432b-8fee-fb2188b8b18d")
 		)
 		(pin "2"
-			(uuid "cfbcadea-96cf-424c-ad91-890e544e6363")
+			(uuid "4f8cf9bc-bf86-4bd3-b2b6-2b99e0676d6e")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "C6")
-					(unit 1)
-				)
-			)
 			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/47eb15e8-7080-422c-b470-d12560c6f586"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "C2")
+				(path "/11743897-1544-4e3c-979c-dcc54ac7093b/b1f43d5a-c322-4586-a0be-8c986728595c"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -33790,7 +33778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "269c1b14-22dd-4a9f-bc64-46d9c4d23a1e")
-		(property "Reference" "C39"
+		(property "Reference" "C?"
 			(at 194.564 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33866,27 +33854,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b0d596f-f884-4807-ad90-b5139a0a7756")
+			(uuid "e3d3bc75-c599-4875-9f89-f0355ab69bb0")
 		)
 		(pin "2"
-			(uuid "0f0b5e97-daad-483c-a5d0-5d662ddb8640")
+			(uuid "1926e6d4-3744-444a-9a33-9593998be696")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "C8")
-					(unit 1)
-				)
-			)
 			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/47eb15e8-7080-422c-b470-d12560c6f586"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "C4")
+				(path "/11743897-1544-4e3c-979c-dcc54ac7093b/b1f43d5a-c322-4586-a0be-8c986728595c"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -33904,7 +33880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "418918ed-79a5-4844-a068-77984ff1998e")
-		(property "Reference" "JP1"
+		(property "Reference" "JP?"
 			(at 215.9 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33958,33 +33934,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1ec1902-e105-4b87-9a53-3c130be47f4d")
+			(uuid "9d22573a-58ba-4237-9109-8f09f9ec2062")
 		)
 		(pin "2"
-			(uuid "3d0c2ea2-acd1-49f7-986a-b378f6b430a0")
+			(uuid "7cc5f172-5a11-4330-b36c-644db81da230")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
 			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/47eb15e8-7080-422c-b470-d12560c6f586"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/81d906df-a099-480a-8398-28a8e913d125"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "JP1")
+				(path "/11743897-1544-4e3c-979c-dcc54ac7093b/b1f43d5a-c322-4586-a0be-8c986728595c"
+					(reference "JP?")
 					(unit 1)
 				)
 			)
@@ -34001,7 +33959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7484bcdc-1ddf-4a31-9ac2-deff0b8d2fc5")
-		(property "Reference" "C38"
+		(property "Reference" "C?"
 			(at 88.138 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34079,27 +34037,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "85aa2bda-d2f7-4634-9149-c3a03f575c6e")
+			(uuid "f7034948-e4d4-4677-99b6-341140bb6748")
 		)
 		(pin "2"
-			(uuid "1e6d57eb-788f-4ab6-9e32-f0227f9fcce7")
+			(uuid "83b80002-d6b2-4b9f-8d08-468a6dc03e38")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "C7")
-					(unit 1)
-				)
-			)
 			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/47eb15e8-7080-422c-b470-d12560c6f586"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "C3")
+				(path "/11743897-1544-4e3c-979c-dcc54ac7093b/b1f43d5a-c322-4586-a0be-8c986728595c"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -34116,7 +34062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc6d0f8-90a9-4a3e-bd4c-4f1d37db40e4")
-		(property "Reference" "C36"
+		(property "Reference" "C?"
 			(at 65.278 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34194,33 +34140,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "931d7d00-34c0-432f-b957-5973964ff07a")
+			(uuid "f6b6d48e-dca8-438e-b203-b5438d73f47d")
 		)
 		(pin "2"
-			(uuid "a68fbfcf-27e7-4ded-8e8c-d9afa05a2b87")
+			(uuid "255663c3-46b0-4694-824e-36bbccf07598")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "C5")
-					(unit 1)
-				)
-			)
 			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/47eb15e8-7080-422c-b470-d12560c6f586"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/81d906df-a099-480a-8398-28a8e913d125"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "C1")
+				(path "/11743897-1544-4e3c-979c-dcc54ac7093b/b1f43d5a-c322-4586-a0be-8c986728595c"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -34237,7 +34165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3dc1093-5927-44fd-b183-035a11ec5677")
-		(property "Reference" "R26"
+		(property "Reference" "R?"
 			(at 201.93 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34313,27 +34241,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bcdf47c-1070-4824-954d-f11fc9f517da")
+			(uuid "141dcfc5-67db-424d-a4ab-68891ebf59e3")
 		)
 		(pin "2"
-			(uuid "eadbc9ef-015e-416b-b429-cb310da85012")
+			(uuid "84be4f7a-b9b7-4b4a-8e7d-5f82d4483120")
 		)
 		(instances
-			(project "kk36984"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "R23")
-					(unit 1)
-				)
-			)
 			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/47eb15e8-7080-422c-b470-d12560c6f586"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "R2")
+				(path "/11743897-1544-4e3c-979c-dcc54ac7093b/b1f43d5a-c322-4586-a0be-8c986728595c"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -34351,7 +34267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7bbf058-1019-472a-b210-c9dc6eda02c8")
-		(property "Reference" "D9"
+		(property "Reference" "D?"
 			(at 196.85 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34478,30 +34394,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "13cdd691-ca15-475a-aa4d-4c989ce45527")
+			(uuid "fd87b05f-737c-4174-9923-cc50f18dc995")
 		)
 		(pin "2"
-			(uuid "87f00ac4-f9fd-4b58-b326-8eb61cbae89e")
+			(uuid "d62d3b22-b959-47f4-ba8b-c2b444249617")
 		)
 		(pin "3"
-			(uuid "b0e2adf7-a02b-4ad8-a0aa-e181c8c6489b")
+			(uuid "aaf0426f-6b00-4dc5-9495-084143b9a2f9")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "D8")
-					(unit 1)
-				)
-			)
 			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/47eb15e8-7080-422c-b470-d12560c6f586"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "D1")
+				(path "/11743897-1544-4e3c-979c-dcc54ac7093b/b1f43d5a-c322-4586-a0be-8c986728595c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -34519,7 +34423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f525b581-e914-48f3-856d-b707a04117a7")
-		(property "Reference" "IC2"
+		(property "Reference" "IC?"
 			(at 128.27 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34646,45 +34550,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "222d85c9-7fcd-4631-a28f-08cf613da8b8")
+			(uuid "7929b554-b0c2-48da-90c9-be4b7b7a018a")
 		)
 		(pin "4"
-			(uuid "23dd2ff9-d2a4-4860-b6f6-3dcaf68d823a")
+			(uuid "f86f86d3-e4ff-41be-baae-dc038a07cab2")
 		)
 		(pin "7"
-			(uuid "ae1a45f4-8169-47eb-ab20-7f3a12cc0739")
+			(uuid "f29747d1-3d1d-467a-a15f-3bde13f23fe0")
 		)
 		(pin "6"
-			(uuid "28c00350-192e-488d-8eed-1e221a850e3a")
+			(uuid "98a2747c-9bec-4be5-8ff7-4de894a2e753")
 		)
 		(pin "2"
-			(uuid "37691bbb-c337-4983-bc9a-05ac6e0366bd")
+			(uuid "7b0d1e2c-95a7-4fa8-a7c1-d2a0eb90ae74")
 		)
 		(pin "3"
-			(uuid "3c87ecf4-bb35-4a81-80a2-c831e1b99868")
+			(uuid "85467149-6be7-4f9f-8a17-6dd99a680aa6")
 		)
 		(pin "5"
-			(uuid "6abcd12c-fa9b-4e47-ae0c-626bedaab829")
+			(uuid "06f075fc-fb49-4ad5-98f2-0af4bc340669")
 		)
 		(pin "8"
-			(uuid "bda5a424-c010-4a72-ba4f-0982ceea7b46")
+			(uuid "c371fe00-dcd4-46d2-a01c-b61616062a18")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
 			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/47eb15e8-7080-422c-b470-d12560c6f586"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "IC1")
+				(path "/11743897-1544-4e3c-979c-dcc54ac7093b/b1f43d5a-c322-4586-a0be-8c986728595c"
+					(reference "IC?")
 					(unit 1)
 				)
 			)
@@ -34701,7 +34593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f905bbd5-25e3-4518-9a89-c3e959777327")
-		(property "Reference" "R25"
+		(property "Reference" "R?"
 			(at 176.53 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34777,33 +34669,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "86d33648-15d7-4302-99c9-26ba60e42db7")
+			(uuid "add6f5ad-112b-43d3-855d-d765ed3f7303")
 		)
 		(pin "2"
-			(uuid "c60f6f6c-5e75-4ba9-87cd-a842ff79f089")
+			(uuid "fdcf508a-ef83-421c-8d24-44f97fbbc607")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "R22")
-					(unit 1)
-				)
-			)
 			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/47eb15e8-7080-422c-b470-d12560c6f586"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/81d906df-a099-480a-8398-28a8e913d125"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "R1")
+				(path "/11743897-1544-4e3c-979c-dcc54ac7093b/b1f43d5a-c322-4586-a0be-8c986728595c"
+					(reference "R?")
 					(unit 1)
 				)
 			)
