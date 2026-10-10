@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 19.685 21.59)
+		(at 48.26 80.645)
 		(size 34.925 18.415)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "ad0f3840-ec25-4ea7-b025-1d3129a06533")
 		(property "Sheetname" "HV"
-			(at 19.685 20.8784 0)
+			(at 48.26 79.9334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "HV.kicad_sch"
-			(at 19.685 40.5896 0)
+			(at 48.26 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
