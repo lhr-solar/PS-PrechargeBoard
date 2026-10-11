@@ -34303,7 +34303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7bbf058-1019-472a-b210-c9dc6eda02c8")
-		(property "Reference" "D12"
+		(property "Reference" "D14"
 			(at 196.85 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34441,7 +34441,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855/b1f43d5a-c322-4586-a0be-8c986728595c"
-					(reference "D12")
+					(reference "D14")
 					(unit 1)
 				)
 			)

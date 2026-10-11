@@ -8004,7 +8004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b1f39e-9c15-4348-af46-f76ae259a754")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG06"
 			(at 149.86 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -8065,7 +8065,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855/cd8ca406-e250-4c51-b6e8-7777acbf36c8"
-					(reference "#FLG08")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -8558,7 +8558,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "65b27499-2375-4e47-ac1b-2ec7217507d9")
 		(property "Reference" "U4"
@@ -8768,7 +8768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7855cb12-f127-4b25-95f0-afd5dab05ec0")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG08"
 			(at 179.07 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -8828,7 +8828,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855/cd8ca406-e250-4c51-b6e8-7777acbf36c8"
-					(reference "#FLG010")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -8852,7 +8852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a00d41b-8759-4c8c-9944-46e0f416cef4")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG05"
 			(at 88.9 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -8912,7 +8912,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855/cd8ca406-e250-4c51-b6e8-7777acbf36c8"
-					(reference "#FLG07")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -9262,7 +9262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "986d12fd-760e-47b3-b949-1eff6bbf7e14")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG07"
 			(at 149.86 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -9323,7 +9323,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855/cd8ca406-e250-4c51-b6e8-7777acbf36c8"
-					(reference "#FLG09")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)

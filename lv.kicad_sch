@@ -1192,121 +1192,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 13.97 106.68)
@@ -1428,6 +1313,16 @@
 		)
 		(uuid "ff203510-ef40-4edb-acff-4c1567cef4f2")
 	)
+	(text "could use 5V power instead of label"
+		(exclude_from_sim no)
+		(at 243.84 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04e24ce3-d280-4d73-83ae-881b2e7591fd")
+	)
 	(text "LDO to convert 5V to regulated 3.3V"
 		(exclude_from_sim no)
 		(at 263.525 16.51 0)
@@ -1449,6 +1344,26 @@
 		)
 		(uuid "0f028351-8603-4ad4-aa84-cae072ff3f99")
 	)
+	(text "CubeMX to check which works for RX and TX"
+		(exclude_from_sim no)
+		(at 86.995 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18697393-9568-49be-9913-7d643a1570db")
+	)
+	(text "pair TX and RX"
+		(exclude_from_sim no)
+		(at 92.075 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b662b70-18e7-4fbf-aaa2-1b50e5dd6f0e")
+	)
 	(text "Surge, reverse polarity, and over/undervoltage protection"
 		(exclude_from_sim no)
 		(at 112.395 16.51 0)
@@ -1458,6 +1373,16 @@
 			)
 		)
 		(uuid "4424b976-447e-4fb7-b298-d8897eab69a2")
+	)
+	(text "dis bps CAN"
+		(exclude_from_sim no)
+		(at 26.67 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50a898d3-4a15-450d-b869-4d4ab2d44416")
 	)
 	(text "Mux selects 5V from the buck or USB, with the buck \nprioritized"
 		(exclude_from_sim no)
@@ -1501,6 +1426,26 @@
 		)
 		(uuid "74f11608-a898-45b4-968f-e722a0c4c074")
 	)
+	(text "adjust to work with it placed and not placed"
+		(exclude_from_sim no)
+		(at 78.105 92.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a286135-5c30-4cef-a3db-b60786737cc4")
+	)
+	(text "no need for first box, put F4 to CAN Nanos"
+		(exclude_from_sim no)
+		(at 43.815 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82633907-398a-4f00-80c5-4dceff743b8c")
+	)
 	(text "CAN Nanos"
 		(exclude_from_sim no)
 		(at 19.685 44.45 0)
@@ -1542,23 +1487,21 @@
 		)
 		(uuid "d70ae039-f7ee-4f72-b3a8-0195b51a798f")
 	)
-	(junction
-		(at 194.31 37.465)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00939c56-a3d9-4a5a-9891-93ee2ab78ca8")
+	(text "dnp buck and mux"
+		(exclude_from_sim no)
+		(at 83.185 89.535 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3521630-07fd-4b58-a0a6-2a58dbe8b767")
 	)
 	(junction
-		(at 57.785 26.67)
+		(at 194.31 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b29db8e-ee37-4677-9b2f-92ad322cd6cf")
-	)
-	(junction
-		(at 57.785 32.385)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf34e538-79c5-4eb5-b70b-c96103d08293")
+		(uuid "93690cda-dbbf-418d-811f-443bcf88cc4e")
 	)
 	(no_connect
 		(at 109.855 58.42)
@@ -1686,6 +1629,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 35.56) (xy 194.31 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028212a8-6535-497b-bfda-186bc2e45997")
+	)
+	(wire
+		(pts
 			(xy 108.585 52.705) (xy 108.585 52.07)
 		)
 		(stroke
@@ -1763,6 +1716,16 @@
 			(type default)
 		)
 		(uuid "126806a7-cd26-4f4a-9862-15054563652d")
+	)
+	(wire
+		(pts
+			(xy 194.31 35.56) (xy 194.31 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142db1ab-323b-4c75-be1a-3e7254d7d333")
 	)
 	(wire
 		(pts
@@ -1856,16 +1819,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 35.56) (xy 194.31 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29686c0d-2783-40f3-ad7c-d6ac499ad9fa")
-	)
-	(wire
-		(pts
 			(xy 142.875 79.375) (xy 144.145 79.375)
 		)
 		(stroke
@@ -1896,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 26.67) (xy 62.23 26.67)
+			(xy 52.07 26.67) (xy 57.785 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2006,16 +1959,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 37.465) (xy 203.2 37.465)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43983cfe-ec15-4de3-8dea-754b831d2bc5")
-	)
-	(wire
-		(pts
 			(xy 247.65 25.4) (xy 255.27 25.4)
 		)
 		(stroke
@@ -2033,16 +1976,6 @@
 			(type default)
 		)
 		(uuid "47378cec-2995-44d4-8a2a-cef9906e4238")
-	)
-	(wire
-		(pts
-			(xy 205.105 31.115) (xy 213.995 31.115)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bad6cca-f9da-4baf-8bcd-4c7d5a010303")
 	)
 	(wire
 		(pts
@@ -2146,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 26.67) (xy 69.85 26.67)
+			(xy 80.01 26.67) (xy 65.405 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2353,16 +2286,6 @@
 			(type default)
 		)
 		(uuid "9fdd9744-6671-4e06-8c8d-899fe58d3dcb")
-	)
-	(wire
-		(pts
-			(xy 205.105 26.035) (xy 213.995 26.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08e6e85-d33a-46d0-b2bf-d1a9508888f6")
 	)
 	(wire
 		(pts
@@ -2586,6 +2509,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 31.115) (xy 203.2 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d469e1-dc0d-4478-a8d5-b9d8a3d34071")
+	)
+	(wire
+		(pts
 			(xy 102.87 79.375) (xy 111.125 79.375)
 		)
 		(stroke
@@ -2606,7 +2539,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 26.035) (xy 194.31 26.035)
+			(xy 194.31 26.035) (xy 213.995 26.035)
 		)
 		(stroke
 			(width 0)
@@ -2673,6 +2606,16 @@
 			(type default)
 		)
 		(uuid "f22013ab-72e4-4bc3-bc02-f10cdc8364d8")
+	)
+	(wire
+		(pts
+			(xy 203.2 31.115) (xy 213.995 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26477e2-6cf0-44d8-8305-10aaa9d56181")
 	)
 	(wire
 		(pts
@@ -2924,16 +2867,6 @@
 		)
 		(uuid "740dccde-2b98-4a26-8c49-0d15054c772d")
 	)
-	(label "PR1_DIV"
-		(at 203.2 37.465 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7bde66ec-d4d6-422e-aec1-fec059118b4f")
-	)
 	(label "CAN_H"
 		(at 95.25 64.77 180)
 		(effects
@@ -2973,16 +2906,6 @@
 			(justify left bottom)
 		)
 		(uuid "a0edec30-cb06-48f3-876f-7bfbdb239d42")
-	)
-	(label "5V_BUCK"
-		(at 203.2 26.035 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abc21951-07f5-41a0-9b53-e9d6a0885b13")
 	)
 	(label "USB_5V"
 		(at 195.58 74.93 180)
@@ -3105,7 +3028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "023718bc-6952-4e22-ab35-63034c1d3801")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 108.585 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3165,7 +3088,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3459,7 +3382,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22053cca-a257-4eed-8eb4-9786c62caa49")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 210.82 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3519,7 +3442,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3542,7 +3465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c488e91-aead-487f-88a0-13a1ee4d541b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 17.78 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3602,90 +3525,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 57.785 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4f4a7dee-0450-4fd2-b622-bc6c00b977c6")
-		(property "Reference" "#FLG05"
-			(at 57.785 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 57.785 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
-			(at 57.785 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.785 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 57.785 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "beb16c70-39b9-4235-8c14-36572e54d3de")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-			(project "lv"
-				(path "/88356d12-c87f-4bdd-bbd8-756414c90a6d"
-					(reference "#FLG01")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3807,7 +3647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50480ec1-06b2-4b35-a8ef-beeedbcc9741")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 60.96 137.795 0)
 			(hide yes)
 			(show_name no)
@@ -3867,7 +3707,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3970,89 +3810,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 57.785 32.385 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5c75f356-5a11-492a-9841-2960b1a06df4")
-		(property "Reference" "#FLG06"
-			(at 57.785 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 57.785 33.655 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
-			(at 57.785 32.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.785 32.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 57.785 32.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4ec1a25-02d5-4f8d-a14a-843dcc2f0643")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-			(project "lv"
-				(path "/88356d12-c87f-4bdd-bbd8-756414c90a6d"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 134.62 24.13 0)
 		(unit 1)
@@ -4063,7 +3820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "784354e0-ece1-4a11-9ffc-6121d2ec0973")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 134.62 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4123,7 +3880,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4146,7 +3903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a3a11fe-6310-47da-92aa-9ba68ac07a12")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 64.135 73.025 0)
 			(hide yes)
 			(show_name no)
@@ -4206,7 +3963,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4229,7 +3986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ab2e59f-726e-4b87-bd41-e0f8c8d27fc3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 38.1 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4289,7 +4046,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4306,7 +4063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b03885a-5422-4563-bd1e-1cbc31b7951d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 164.592 83.312 0)
 			(hide yes)
 			(show_name no)
@@ -4366,7 +4123,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4380,7 +4137,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_power:Fuse_3557_2")
-		(at 66.04 26.67 90)
+		(at 61.595 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4390,7 +4147,7 @@
 		(dnp no)
 		(uuid "7fbd8305-607f-4088-85d3-4a44f3e9caca")
 		(property "Reference" "F4"
-			(at 66.04 24.765 90)
+			(at 61.595 24.765 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4400,7 +4157,7 @@
 			)
 		)
 		(property "Value" "2A"
-			(at 66.04 28.575 90)
+			(at 61.595 28.575 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4410,7 +4167,7 @@
 			)
 		)
 		(property "Footprint" "LHRS_Power:Fuse-3557-2"
-			(at 66.04 28.448 90)
+			(at 61.595 28.448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,7 +4178,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://3557-2-datasheet.pdf"
-			(at 66.04 26.67 0)
+			(at 61.595 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4432,7 +4189,7 @@
 			)
 		)
 		(property "Description" "Fuse, low-profile"
-			(at 66.04 26.67 0)
+			(at 61.595 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4443,7 +4200,7 @@
 			)
 		)
 		(property "P/N" "3557-2"
-			(at 66.04 26.67 0)
+			(at 61.595 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4454,7 +4211,7 @@
 			)
 		)
 		(property "Mouser P/N" "534-3557-2"
-			(at 66.04 26.67 0)
+			(at 61.595 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,7 +4222,7 @@
 			)
 		)
 		(property "Digikey P/N" "36-3557-2-ND"
-			(at 66.04 26.67 0)
+			(at 61.595 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,7 +4233,7 @@
 			)
 		)
 		(property "LCSC P/N" "C3205238"
-			(at 66.04 26.67 0)
+			(at 61.595 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4518,7 +4275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "822ee2f7-63aa-4f20-b1f6-7929fc1c0bd4")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 252.095 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -4578,7 +4335,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4601,7 +4358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b75382c-74f5-4d26-8a90-2db0df8293c4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4661,7 +4418,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4684,7 +4441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a87ddccc-f690-4548-a1af-3fd80ffbf5a7")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 17.78 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4744,7 +4501,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4761,7 +4518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aead3a77-083c-4c7a-bce9-b53503dc28b6")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4821,7 +4578,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4844,7 +4601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b359e7bb-2dd2-48b0-9b18-3dc27fadfe12")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 108.585 112.395 0)
 			(hide yes)
 			(show_name no)
@@ -4904,7 +4661,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4927,7 +4684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c66a88ba-afc0-4d80-8f8e-df590ac93516")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 63.5 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -4987,7 +4744,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5010,7 +4767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce5af9d6-dc2e-40b4-b227-3267391c11db")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 278.765 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5070,7 +4827,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5093,7 +4850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d374fdab-4492-48f1-a81f-573a09ae56e8")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 194.31 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5153,7 +4910,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5277,7 +5034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d766bd5a-1298-4a2f-9349-ba2185a19498")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 64.135 59.055 0)
 			(hide yes)
 			(show_name no)
@@ -5337,7 +5094,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

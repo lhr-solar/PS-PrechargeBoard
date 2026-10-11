@@ -5301,7 +5301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03fbb6c3-15d6-4535-82c3-c84cadec759c")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 40.64 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5387,7 +5387,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855/9b47e6f4-7691-492a-9adf-22bd19fd1cb1"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5521,7 +5521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "199aa610-9666-48a9-b1cc-4d7400331b7d")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 22.606 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5607,7 +5607,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/0def18ef-81e8-47ac-b719-2d9f8237a855/9b47e6f4-7691-492a-9adf-22bd19fd1cb1"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
