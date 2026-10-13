@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "54a1898c-da9f-4d9e-b59d-2953461ccff2")
+	(uuid "6dc1637d-a792-4f60-8a91-5a7f9dbc8612")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -979,6 +979,16 @@
 			(justify left)
 		)
 		(uuid "4e6a584a-7854-4e08-9e64-1ff8a827fc24")
+	)
+	(text "make universal in hieracvrchal pin"
+		(exclude_from_sim no)
+		(at 83.82 52.705 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b3fd2cc-e218-47d5-ab51-05491d8beaea")
 	)
 	(junction
 		(at 125.73 81.28)

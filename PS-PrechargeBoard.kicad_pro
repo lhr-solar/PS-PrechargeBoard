@@ -670,10 +670,6 @@
       "PS-PrechargeBoard"
     ],
     [
-      "6291af71-eebf-44a7-bc52-a2151a4330f1",
-      "Battery_OpAmp"
-    ],
-    [
       "59deb00b-6309-45f8-bb47-87f7fb4c95d8",
       "Battery_Voltage"
     ],
@@ -682,8 +678,8 @@
       "Motor_Voltage"
     ],
     [
-      "bc962fdc-260e-4810-a436-620e72fe78e1",
-      "Motor_OpAmp"
+      "1eddab22-6734-4f8a-8dd2-45ad51a5d964",
+      "Isolation"
     ],
     [
       "88068a34-f22d-4106-a80b-45e353d7d848",
