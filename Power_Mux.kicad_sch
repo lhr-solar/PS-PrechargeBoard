@@ -2107,7 +2107,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8edbd683-d226-4095-b4a7-38849f22f4d9")
 		(property "Reference" "U5"

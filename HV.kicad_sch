@@ -2670,7 +2670,7 @@
 	)
 	(rectangle
 		(start 13.97 14.605)
-		(end 86.36 51.435)
+		(end 102.235 60.325)
 		(stroke
 			(width 0)
 			(type default)
@@ -2813,7 +2813,7 @@
 	)
 	(text "update sharepoint and put in lhr test points"
 		(exclude_from_sim no)
-		(at 68.58 54.61 0)
+		(at 56.515 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3325,16 +3325,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 33.02) (xy 169.545 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b04708-9ae7-4e14-8596-51d2e47055c2")
-	)
-	(wire
-		(pts
 			(xy 39.37 154.94) (xy 41.91 154.94)
 		)
 		(stroke
@@ -3575,16 +3565,6 @@
 	)
 	(wire
 		(pts
-			(xy 230.505 29.845) (xy 233.68 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9501e3-8f07-47ad-bbba-bc294c3debd6")
-	)
-	(wire
-		(pts
 			(xy 216.535 91.44) (xy 216.535 88.9)
 		)
 		(stroke
@@ -3732,16 +3712,6 @@
 			(type default)
 		)
 		(uuid "6dc3583f-73de-48cc-b079-5cae13e02926")
-	)
-	(wire
-		(pts
-			(xy 230.505 34.29) (xy 233.68 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dec7310-e661-459e-8bb0-31b10209ebad")
 	)
 	(wire
 		(pts
@@ -3955,16 +3925,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 27.305) (xy 169.545 27.305)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fab32ac-2072-49ed-9f8b-f99aad1021e5")
-	)
-	(wire
-		(pts
 			(xy 116.84 106.68) (xy 120.65 106.68)
 		)
 		(stroke
@@ -4005,16 +3965,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 29.845) (xy 126.365 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8b8ccc2-ca92-4d4b-bca2-c7dacfa3bacd")
-	)
-	(wire
-		(pts
 			(xy 216.535 75.565) (xy 216.535 78.74)
 		)
 		(stroke
@@ -4042,16 +3992,6 @@
 			(type default)
 		)
 		(uuid "aaf27e87-4e70-4566-95bc-8e4e82bc0bc4")
-	)
-	(wire
-		(pts
-			(xy 230.505 24.765) (xy 233.68 24.765)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b004f68c-2deb-4991-83ec-2b9468f77cf3")
 	)
 	(wire
 		(pts
@@ -4295,16 +4235,6 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 29.845) (xy 126.365 22.225)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8747366-e7a4-4ded-8ece-88b1233133ee")
-	)
-	(wire
-		(pts
 			(xy 64.77 85.09) (xy 73.66 85.09)
 		)
 		(stroke
@@ -4415,26 +4345,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 29.845) (xy 180.34 24.765)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed1f52ce-ddfd-4cbf-b3a9-8d8462c22aa4")
-	)
-	(wire
-		(pts
-			(xy 167.005 30.48) (xy 169.545 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f256d211-0425-4d90-8747-14db87b02b73")
-	)
-	(wire
-		(pts
 			(xy 91.44 87.63) (xy 93.98 87.63)
 		)
 		(stroke
@@ -4472,16 +4382,6 @@
 			(type default)
 		)
 		(uuid "fb8e2a83-7e6c-476a-bff3-c3ad236ee20f")
-	)
-	(wire
-		(pts
-			(xy 183.515 29.845) (xy 180.34 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0c0009-dcaa-4ce0-a9b4-f927d66d8701")
 	)
 	(wire
 		(pts
@@ -4542,16 +4442,6 @@
 			(justify left bottom)
 		)
 		(uuid "21c4c6e9-5508-453d-a929-05a7ca610bb9")
-	)
-	(label "V2+"
-		(at 233.68 24.765 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "243500ec-9dad-4730-b0e2-f5d995c4d2d8")
 	)
 	(label "V2-"
 		(at 116.84 106.68 0)
@@ -4643,16 +4533,6 @@
 		)
 		(uuid "578208e3-9a30-4415-becf-3f56840edf8f")
 	)
-	(label "V1+"
-		(at 169.545 27.305 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "580436f2-69c4-4df3-90cc-e11c7cbecb92")
-	)
 	(label "PRESENSE+"
 		(at 229.87 146.05 0)
 		(effects
@@ -4723,16 +4603,6 @@
 		)
 		(uuid "865a0549-6fdd-45ef-80be-45a53a83fea1")
 	)
-	(label "V_IN_2"
-		(at 233.68 29.845 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9530e9c6-4997-4101-b73f-79aef8bd0525")
-	)
 	(label "PRE_OUT"
 		(at 41.91 140.97 0)
 		(effects
@@ -4752,16 +4622,6 @@
 			(justify right bottom)
 		)
 		(uuid "a114e874-9eb6-4d12-9dfc-545acd7cef32")
-	)
-	(label "V2-"
-		(at 233.68 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a13787ba-b3e5-4854-a7ad-5e4f5fe86fda")
 	)
 	(label "HV_PREFUSE+"
 		(at 70.485 26.035 180)
@@ -4793,16 +4653,6 @@
 		)
 		(uuid "d8a1ce07-ca9c-436c-9d8b-99c72b4fac2c")
 	)
-	(label "V_IN_1"
-		(at 169.545 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4b59527-df9d-471b-b62e-4974543daa4e")
-	)
 	(label "HV_PREFUSE-"
 		(at 70.485 41.275 180)
 		(effects
@@ -4812,16 +4662,6 @@
 			(justify right bottom)
 		)
 		(uuid "e4dab153-3dda-458d-824c-96063c552d92")
-	)
-	(label "V1-"
-		(at 169.545 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e63c711d-9f7b-414a-a7eb-dba1b7f61d6a")
 	)
 	(label "PRESENSE-"
 		(at 229.87 142.24 0)
@@ -7117,83 +6957,6 @@
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/ad0f3840-ec25-4ea7-b025-1d3129a06533"
 					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 126.365 22.225 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55eeda08-8546-453b-99bb-c44998c3bac3")
-		(property "Reference" "#PWR014"
-			(at 126.365 26.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HV+"
-			(at 126.365 18.415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 126.365 22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 126.365 22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 126.365 22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9047a61-5f30-47ce-a07e-8d2c00cecea9")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/ad0f3840-ec25-4ea7-b025-1d3129a06533"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10799,83 +10562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 180.34 24.765 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ef8c5d43-472a-4ecf-b3bb-c71e21a9d38f")
-		(property "Reference" "#PWR017"
-			(at 180.34 28.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HV+"
-			(at 180.34 20.955 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 180.34 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce4c031d-aada-4a67-b63f-89668e64fe32")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/ad0f3840-ec25-4ea7-b025-1d3129a06533"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 35.56 147.955 90)
 		(unit 1)
@@ -11511,46 +11197,6 @@
 				(justify left top)
 			)
 		)
-		(pin "HV+" input
-			(at 183.515 29.845 180)
-			(uuid "4db0a64a-5242-4d67-9791-3bcc0a36690f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V2+" input
-			(at 230.505 24.765 0)
-			(uuid "2ce20acb-ebcb-4214-889c-2e351c93cc54")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V2-" input
-			(at 230.505 34.29 0)
-			(uuid "977d55d9-2f86-46d2-afb2-b685e1f02115")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_IN_2" input
-			(at 230.505 29.845 0)
-			(uuid "ee2826eb-11e6-47fa-9d08-adab5e80f793")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/ad0f3840-ec25-4ea7-b025-1d3129a06533"
@@ -11595,46 +11241,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "V1+" input
-			(at 167.005 27.305 0)
-			(uuid "a89e19a7-b236-4663-83ae-ba63e9d1834d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V1-" input
-			(at 167.005 33.02 0)
-			(uuid "cc3876eb-4f58-44a5-9dbf-e55309286117")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_IN_1" output
-			(at 167.005 30.48 0)
-			(uuid "098a1583-d79c-4205-9908-8d5936154a01")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HV+" input
-			(at 130.81 29.845 180)
-			(uuid "ee06c04d-191a-423b-8a65-6aa9ce5e900b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
