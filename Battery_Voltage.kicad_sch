@@ -1341,7 +1341,7 @@
 		)
 		(uuid "6b9e15e7-4574-4f04-970a-f731a26de28e")
 	)
-	(hierarchical_label "BAT_V1+"
+	(hierarchical_label "BAT_V+"
 		(shape input)
 		(at 121.285 33.02 0)
 		(effects
@@ -1396,7 +1396,7 @@
 		)
 		(uuid "d67d7e55-603b-4ba8-9605-0c630eacc194")
 	)
-	(hierarchical_label "BAT_V1-"
+	(hierarchical_label "BAT_V-"
 		(shape input)
 		(at 131.445 35.56 0)
 		(effects
