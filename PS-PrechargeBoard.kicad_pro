@@ -661,7 +661,7 @@
         "uuid": "74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
       }
     ],
-    "used_designators": "D1-14,#PWR1-52,J1-11,IC1-4,R1-47,#FLG1-12,C1-59,FB1-2,F1-4,JP1,L1,Q1-2,SW1-2,TP1-20,TP_3.3V1,U1-7,Y1,PS1",
+    "used_designators": "D1-14,#PWR1-71,J1-11,IC1-4,R1-47,#FLG1-18,C1-59,FB1-2,F1-5,JP1,L1,Q1-2,SW1-2,TP1-20,TP_3.3V1,U1-7,Y1,PS1",
     "variants": []
   },
   "sheets": [
@@ -670,48 +670,48 @@
       "PS-PrechargeBoard"
     ],
     [
-      "ad0f3840-ec25-4ea7-b025-1d3129a06533",
-      "HV"
+      "6291af71-eebf-44a7-bc52-a2151a4330f1",
+      "Battery_OpAmp"
     ],
     [
-      "0def18ef-81e8-47ac-b719-2d9f8237a855",
-      "LV"
-    ],
-    [
-      "9b47e6f4-7691-492a-9adf-22bd19fd1cb1",
-      "PowerProtection"
-    ],
-    [
-      "cd8ca406-e250-4c51-b6e8-7777acbf36c8",
-      "12VBuck"
-    ],
-    [
-      "47a0820e-ddb4-4652-9c69-8d106132f60e",
-      "Power_Mux"
-    ],
-    [
-      "d07b4748-03cd-4373-ba6d-42f770522878",
-      "LDO"
-    ],
-    [
-      "02a41495-882b-4810-b33b-fbf874cacbbd",
-      "48PinMCU"
-    ],
-    [
-      "341b12dc-4ba7-44e5-bada-7052e6453482",
-      "USB-C_Connector"
-    ],
-    [
-      "b1f43d5a-c322-4586-a0be-8c986728595c",
-      "CAN_Transceiver"
-    ],
-    [
-      "c44cc650-ec3c-42a9-ae3c-bb53bdf38e25",
+      "59deb00b-6309-45f8-bb47-87f7fb4c95d8",
       "Battery_Voltage"
     ],
     [
-      "c3a8be03-ea6f-409a-9c75-c47de7f52741",
+      "3693db43-3643-4738-b8ce-de25c79abdb1",
       "Motor_Voltage"
+    ],
+    [
+      "bc962fdc-260e-4810-a436-620e72fe78e1",
+      "Motor_OpAmp"
+    ],
+    [
+      "88068a34-f22d-4106-a80b-45e353d7d848",
+      "12VBuck"
+    ],
+    [
+      "00a9aff9-854f-4fe5-b1cf-85d3d4e30c03",
+      "48PinMCU"
+    ],
+    [
+      "b145027e-119d-4806-b245-f9ce431b31da",
+      "CAN_Transceiver"
+    ],
+    [
+      "89c84dd0-0e2d-4c17-95c7-1a7785608971",
+      "LDO"
+    ],
+    [
+      "3c8d3f54-ba9f-4300-800c-08eda88a8ae0",
+      "PowerProtection"
+    ],
+    [
+      "5e9f1eea-2df2-42e3-8b3e-de31498eaece",
+      "Power_Mux"
+    ],
+    [
+      "fc3b8ec8-73b6-403d-a70a-e3464732b3c3",
+      "USB-C_Connector"
     ]
   ],
   "text_variables": {},
