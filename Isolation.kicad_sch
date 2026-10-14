@@ -1605,7 +1605,7 @@
 		)
 		(uuid "08314bca-d3b3-4b01-bfcf-bf9f3c2aa4fe")
 	)
-	(hierarchical_label "LVGND"
+	(hierarchical_label "GND"
 		(shape output)
 		(at 35.56 52.07 180)
 		(effects

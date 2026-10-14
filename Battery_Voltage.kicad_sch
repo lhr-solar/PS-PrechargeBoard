@@ -2230,7 +2230,7 @@
 		)
 		(uuid "1e08833d-71ba-48c6-80aa-2cd9f4f2d0ee")
 	)
-	(hierarchical_label "LVGND"
+	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 138.43 46.99 0)
 		(effects
@@ -2307,7 +2307,7 @@
 		)
 		(uuid "a417e3d7-6e68-42c4-bc24-f9adab97daca")
 	)
-	(hierarchical_label "GNDA"
+	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 112.395 46.99 0)
 		(effects
@@ -3038,7 +3038,7 @@
 				)
 			)
 		)
-		(property "Value" "LVGND"
+		(property "Value" "GND"
 			(at 235.585 79.375 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4040,7 +4040,7 @@
 				)
 			)
 		)
-		(property "Value" "LVGND"
+		(property "Value" "GND"
 			(at 260.985 74.93 0)
 			(show_name no)
 			(do_not_autoplace yes)
