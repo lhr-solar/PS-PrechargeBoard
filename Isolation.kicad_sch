@@ -840,6 +840,355 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lhrs_ics:EL3H7"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "EL3H7"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LHRS_ICs:EL3H7"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EL3H7-D-TA-VG/2692979"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "OPTOISO 3.75KV 1CH TRANS 4-SSOP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "P/N" "EL3H7(D)(TA)-VG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vf" "1.4V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "If" "20mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN DC opto"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOP*4.4x2.6mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EL3H7_1_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 4.445 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lhrs_misc:Multimeter_TP"
 			(pin_numbers
 				(hide yes)
@@ -987,6 +1336,16 @@
 			(justify left)
 		)
 		(uuid "93731fd4-ba5b-4aec-9a56-3c96778437f8")
+	)
+	(text "Just go straight 5V no need for LDO"
+		(exclude_from_sim no)
+		(at 94.615 46.355 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce3708af-ba7d-4036-9be3-16e023d93c40")
 	)
 	(junction
 		(at 62.865 26.67)
@@ -1386,7 +1745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fa41cee-717b-4919-80a9-27d51c0f454b")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 95.885 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1492,7 +1851,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/1eddab22-6734-4f8a-8dd2-45ad51a5d964"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1509,7 +1868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "360dee09-f60f-4b4c-9911-51397c9f8310")
-		(property "Reference" "C18"
+		(property "Reference" "C24"
 			(at 28.575 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1573,7 +1932,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/1eddab22-6734-4f8a-8dd2-45ad51a5d964"
-					(reference "C18")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -1590,7 +1949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "377f7f22-9042-4d33-baf6-e347726c8fc1")
-		(property "Reference" "C21"
+		(property "Reference" "C27"
 			(at 131.445 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1676,7 +2035,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/1eddab22-6734-4f8a-8dd2-45ad51a5d964"
-					(reference "C21")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1871,7 +2230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43339ba5-e159-46f6-920c-a9c0f1385dfe")
-		(property "Reference" "C20"
+		(property "Reference" "C26"
 			(at 111.125 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1957,7 +2316,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/1eddab22-6734-4f8a-8dd2-45ad51a5d964"
-					(reference "C20")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -1975,7 +2334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d874b02-4dd5-4731-a325-929bb9e669b7")
-		(property "Reference" "C19"
+		(property "Reference" "C25"
 			(at 60.325 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2039,7 +2398,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/1eddab22-6734-4f8a-8dd2-45ad51a5d964"
-					(reference "C19")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -2056,7 +2415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a56e6376-cdfa-4dc1-af89-f1cfc65a8a8c")
-		(property "Reference" "TP?"
+		(property "Reference" "TP15"
 			(at 64.135 20.955 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2117,7 +2476,127 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/1eddab22-6734-4f8a-8dd2-45ad51a5d964"
-					(reference "TP?")
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_ics:EL3H7")
+		(at 186.69 28.575 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e91e865b-62d6-49d9-8418-08ab31b7fecb")
+		(property "Reference" "U5"
+			(at 186.69 19.685 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL3H7"
+			(at 186.69 22.225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LHRS_ICs:EL3H7"
+			(at 186.69 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EL3H7-D-TA-VG/2692979"
+			(at 186.69 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "OPTOISO 3.75KV 1CH TRANS 4-SSOP"
+			(at 186.69 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "EL3H7(D)(TA)-VG"
+			(at 186.69 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" "1.4V"
+			(at 186.69 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" "20mA"
+			(at 186.69 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "28865398-63e2-452d-8a1d-d0a4c4783fc7")
+		)
+		(pin "2"
+			(uuid "baf64f34-6259-4278-a096-1e80904fa471")
+		)
+		(pin "1"
+			(uuid "a291831a-cb19-4ba3-8852-9ee7d20efff0")
+		)
+		(pin "4"
+			(uuid "7567731a-a9ea-4186-8d0b-e0f75b7d4d5d")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/1eddab22-6734-4f8a-8dd2-45ad51a5d964"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2212,7 +2691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebe865f9-9a71-4563-a20b-15b77b329afb")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 121.285 20.955 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2321,7 +2800,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/1eddab22-6734-4f8a-8dd2-45ad51a5d964"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)

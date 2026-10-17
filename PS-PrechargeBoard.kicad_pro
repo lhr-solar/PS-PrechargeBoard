@@ -661,7 +661,7 @@
         "uuid": "74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
       }
     ],
-    "used_designators": "D1-14,#PWR1-71,J1-11,IC1-4,R1-49,#FLG1-18,C1-60,FB1-2,F1-5,JP1,L1,Q1-3,SW1-2,TP1-20,TP_3.3V1,U1-7,Y1,PS1,K1",
+    "used_designators": "D1-21,#PWR1-71,J1-11,IC1-6,R1-68,#FLG1-18,C1-76,FB1-2,F1-10,JP1,L1,Q1-4,SW1-2,TP1-30,TP_3.3V1,U1-10,Y1,PS1,K1-2",
     "variants": []
   },
   "sheets": [
@@ -670,20 +670,44 @@
       "PS-PrechargeBoard"
     ],
     [
-      "59deb00b-6309-45f8-bb47-87f7fb4c95d8",
-      "Battery_Voltage"
+      "9d2e20d2-bc37-4993-8fa8-5a82459dba6b",
+      "Main_Precharge"
     ],
     [
-      "3693db43-3643-4738-b8ce-de25c79abdb1",
+      "6627985a-aef4-4302-9d05-a969136ea8f4",
+      "Main_Voltage"
+    ],
+    [
+      "90c6c4b7-1465-4e8f-80ba-ec6b0750446b",
+      "Motor_Precharge"
+    ],
+    [
+      "bb4a92c7-6f06-4544-a86e-ac726b1b2af4",
       "Motor_Voltage"
+    ],
+    [
+      "d0a2e77c-6f3b-4bbc-a3d8-ef9f85477fa8",
+      "12VBuck"
     ],
     [
       "1eddab22-6734-4f8a-8dd2-45ad51a5d964",
       "Isolation"
     ],
     [
-      "88068a34-f22d-4106-a80b-45e353d7d848",
-      "12VBuck"
+      "c6e51092-efec-40a8-afae-63cae62691f2",
+      "Power"
+    ],
+    [
+      "90ec3f79-b3d6-4fd7-840b-31d3af1f4c2b",
+      "LDO"
+    ],
+    [
+      "9aee96ea-fe7f-4344-be59-bff28dc77cb5",
+      "PowerProtection"
+    ],
+    [
+      "c3c1aad2-e774-4d45-973c-7509c3ed46d5",
+      "Power_Mux"
     ],
     [
       "00a9aff9-854f-4fe5-b1cf-85d3d4e30c03",
@@ -692,18 +716,6 @@
     [
       "b145027e-119d-4806-b245-f9ce431b31da",
       "CAN_Transceiver"
-    ],
-    [
-      "89c84dd0-0e2d-4c17-95c7-1a7785608971",
-      "LDO"
-    ],
-    [
-      "3c8d3f54-ba9f-4300-800c-08eda88a8ae0",
-      "PowerProtection"
-    ],
-    [
-      "5e9f1eea-2df2-42e3-8b3e-de31498eaece",
-      "Power_Mux"
     ],
     [
       "fc3b8ec8-73b6-403d-a70a-e3464732b3c3",
