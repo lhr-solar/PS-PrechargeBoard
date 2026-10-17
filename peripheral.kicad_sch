@@ -1,0 +1,141 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cd9f60e7-2232-46f3-9cdc-836381397d7f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 21.59 27.305)
+		(size 20.32 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eb4249ae-ea04-4721-b051-38e4167298a5")
+		(property "Sheetname" "48PinMCU"
+			(at 21.59 26.5934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "48PinMCU.kicad_sch"
+			(at 21.59 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Date Modified" "5/3/2026"
+			(at -106.045 -99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Sathvik Yechuri"
+			(at -106.045 -99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "+3V3" input
+			(at 21.59 29.845 180)
+			(uuid "26ca1f54-6879-49b5-983d-793412df6524")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 21.59 38.1 180)
+			(uuid "59bb09b9-b493-4066-b54d-0335bacdb79b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 41.91 29.845 0)
+			(uuid "6d3c3fe9-0f61-447e-9c4d-79fa21b8d429")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 41.91 32.385 0)
+			(uuid "4bea1ba2-c511-49f5-9d10-8aa937cbebde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB5" bidirectional
+			(at 41.91 38.1 0)
+			(uuid "4c1761e9-5126-495b-8c1f-13ab586c169f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB6" bidirectional
+			(at 41.91 35.56 0)
+			(uuid "57d7da66-6bac-49c9-b637-ab3fff3ccc71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/137c72e3-c645-46a7-ac8b-f7de48af38f8"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "2")
+		)
+	)
+)
