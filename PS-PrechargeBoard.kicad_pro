@@ -661,7 +661,7 @@
         "uuid": "74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
       }
     ],
-    "used_designators": "D1-21,#PWR1-71,J1-11,IC1-6,R1-68,#FLG1-18,C1-76,FB1-2,F1-10,JP1,L1,Q1-4,SW1-2,TP1-30,TP_3.3V1,U1-10,Y1,PS1,K1-2",
+    "used_designators": "#PWR1-71,D1-21,R1-68,#FLG1-18,IC1-6,J1-11,C1-76,FB1-2,F1-10,JP1,L1,Q1-4,SW1-2,TP1-30,TP_3.3V1,U1-10,Y1,PS1,K1-2",
     "variants": []
   },
   "sheets": [
@@ -686,28 +686,16 @@
       "Motor_Voltage"
     ],
     [
-      "d0a2e77c-6f3b-4bbc-a3d8-ef9f85477fa8",
-      "12VBuck"
-    ],
-    [
       "1eddab22-6734-4f8a-8dd2-45ad51a5d964",
       "Isolation"
     ],
     [
-      "c6e51092-efec-40a8-afae-63cae62691f2",
-      "Power"
-    ],
-    [
-      "90ec3f79-b3d6-4fd7-840b-31d3af1f4c2b",
+      "3009d091-62bc-471a-b662-9169ff7ac007",
       "LDO"
     ],
     [
-      "9aee96ea-fe7f-4344-be59-bff28dc77cb5",
+      "1d9e626a-e7f8-4206-aa73-4d13edd0b32c",
       "PowerProtection"
-    ],
-    [
-      "c3c1aad2-e774-4d45-973c-7509c3ed46d5",
-      "Power_Mux"
     ],
     [
       "00a9aff9-854f-4fe5-b1cf-85d3d4e30c03",
