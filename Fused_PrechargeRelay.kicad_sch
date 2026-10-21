@@ -569,20 +569,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "PWR263S-35-3300F_1"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "R1"
+				(at 0 -6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -591,8 +588,8 @@
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "330"
+				(at 0 -4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -601,8 +598,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
+			(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -610,9 +607,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -623,7 +621,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -634,7 +632,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "PARTREV" "12/20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -643,9 +641,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "MANUFACTURER" "Bourns"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -654,14 +653,77 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "R_0_1"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "PWR263S-35-3300F_1_0_0"
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 1.27 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR263S-35-3300F_1_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -5.08 1.905)
+					(end 5.08 -1.905)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -669,39 +731,21 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "PWR263S-35-3300F_1_1_0"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 10.16 -1.27 180)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1045,355 +1089,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lhrs_ics:EL3H7"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "EL3H7"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LHRS_ICs:EL3H7"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EL3H7-D-TA-VG/2692979"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "OPTOISO 3.75KV 1CH TRANS 4-SSOP"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "P/N" "EL3H7(D)(TA)-VG"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vf" "1.4V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "If" "20mA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN DC opto"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOP*4.4x2.6mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "EL3H7_1_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.635) (xy 4.445 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lhrs_misc:Multimeter_TP"
 			(pin_numbers
 				(hide yes)
@@ -1495,125 +1190,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 13.335 13.335)
-		(end 88.265 61.595)
+		(end 83.185 61.595)
 		(stroke
 			(width 0)
 			(type default)
@@ -1624,8 +1204,8 @@
 		(uuid "11081f25-9277-44b2-9de0-31ca285cb88e")
 	)
 	(rectangle
-		(start 89.535 13.335)
-		(end 205.105 61.595)
+		(start 136.6838 13.3349)
+		(end 223.9963 48.5775)
 		(stroke
 			(width 0)
 			(type default)
@@ -1633,18 +1213,19 @@
 		(fill
 			(type none)
 		)
-		(uuid "997aaef3-18f2-4bad-b885-cc8891852354")
+		(uuid "3ee61185-a80d-4cb2-a9b2-ee0dd96fe490")
 	)
-	(text "in from mcu + lil R"
-		(exclude_from_sim no)
-		(at 185.42 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(rectangle
+		(start 84.455 13.335)
+		(end 135.255 66.675)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "1b16a8df-dcc1-43f7-bee0-6af25867e0ca")
+		(fill
+			(type none)
+		)
+		(uuid "fb6a3819-6c09-41db-9de6-e11262949ff0")
 	)
 	(text "Fuse"
 		(exclude_from_sim no)
@@ -1659,7 +1240,7 @@
 	)
 	(text "Precharge Relay"
 		(exclude_from_sim no)
-		(at 97.79 15.24 0)
+		(at 144.78 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1667,97 +1248,107 @@
 		)
 		(uuid "3919c63d-1b70-4d66-94fe-5670dd7e9645")
 	)
-	(text "Precharge Circuit Parameters :\nBattery Vmax: 135V\nTarget Time (Tmax): 0.25 s\nPrecharge Level: 95%\nSystem Capacitance (C): 1420µF\nResistor Selection (R): 50 ohms\n\nFuse Logic :\nPeak Inrush Current: 2.7A\nMargin: 3A fuse too close to 2.7A peak\nSelected: 5A"
+	(text "Precharge Circuit Parameters:\nBattery Vmax: 135V\nTarget Time (Tmax): 0.25 s\nPrecharge Level: 95%\nSystem Capacitance (C): 1420µF\nResistor Selection (R): 50 ohms\n\nFuse Logic :\nPeak Inrush Current: 2.7A\nMargin: 3A fuse too close to 2.7A peak\nSelected: 5A"
 		(exclude_from_sim no)
-		(at 55.245 74.93 0)
+		(at 54.356 63.246 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
 		(uuid "430cd00c-a81d-4dbe-a7d1-5b4e1767120e")
 	)
-	(text "S = GND"
+	(text "Precharge Resistors"
 		(exclude_from_sim no)
-		(at 214.376 119.634 0)
+		(at 85.09 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
-		(uuid "781f7b7e-31bf-49c7-84e8-ad7e87fa4fd1")
-	)
-	(text "Fuse Logic :\nPeak Inrush Current: 0.0166A\nDE1a-12V relay coil draws 16.6 mA (0.0166 A)\nMargin: 3A fuse too close to 2.7A peak\nSelected: 0.5A"
-		(exclude_from_sim no)
-		(at 90.17 56.515 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9fbb24bf-8751-4670-aa7d-edd8472a7515")
-	)
-	(text "optic is isolation for precharge control"
-		(exclude_from_sim no)
-		(at 129.54 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1569b64-910c-4853-b359-a3496268dff2")
+		(uuid "98e54115-ca57-477a-8d9d-7c93ee3cd337")
 	)
 	(junction
-		(at 51.435 24.13)
+		(at 101.6 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fbe6c3a-97a1-4c67-99b0-2b957021d3e8")
+	)
+	(junction
+		(at 52.07 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1afed7fc-81da-4835-8a43-b2e23d614772")
 	)
 	(junction
-		(at 61.595 24.13)
+		(at 123.19 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "31b6a3ec-44f8-4624-ac34-dcb6759e5cf0")
+		(uuid "5f80aa7f-f9b5-4429-8b02-c8a3bd715adc")
 	)
 	(junction
-		(at 61.595 53.34)
+		(at 101.6 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3aacedd2-fa6b-432d-bab5-c8221b82bb68")
+		(uuid "62199171-97ac-4a87-8093-a6d24c43cc47")
 	)
 	(junction
-		(at 163.83 153.67)
+		(at 123.19 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a838e9f-d371-4358-917f-6f8303ad454c")
+		(uuid "6458bb35-1c37-4e59-8531-53b21991d391")
 	)
 	(junction
-		(at 51.435 53.34)
+		(at 123.19 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af6b98d3-fd23-4107-97c5-f8dff05c8c3e")
+	)
+	(junction
+		(at 52.07 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b413be5c-ed17-4585-b9f3-8e6136a3a687")
 	)
 	(junction
-		(at 61.595 38.735)
+		(at 62.23 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df91de20-efdd-41c8-bf33-8f3dc2ac0f45")
 	)
 	(no_connect
-		(at 187.96 111.76)
+		(at 204.47 31.75)
 		(uuid "1372d3e1-2000-4e2d-bdcf-7b733821b94e")
 	)
 	(no_connect
-		(at 187.96 114.3)
+		(at 204.47 34.29)
 		(uuid "6a89a65b-36a6-48db-b7d5-59a4203b52e4")
 	)
 	(wire
 		(pts
-			(xy 186.69 114.3) (xy 187.96 114.3)
+			(xy 123.19 38.1) (xy 123.19 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d84186-e297-4cd8-b293-fe16c8eef387")
+	)
+	(wire
+		(pts
+			(xy 96.52 25.4) (xy 102.87 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056acc57-8fa0-47f6-a634-d24021174be4")
+	)
+	(wire
+		(pts
+			(xy 203.2 34.29) (xy 204.47 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1767,27 +1358,37 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 124.46) (xy 162.56 124.46)
+			(xy 142.24 33.02) (xy 157.48 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08a6d73b-ae8c-4aa8-8b61-ccab19ab997c")
+		(uuid "1427d6f3-9623-41b3-996b-4ad9abce0a80")
 	)
 	(wire
 		(pts
-			(xy 179.07 137.16) (xy 179.07 133.35)
+			(xy 203.2 39.37) (xy 204.47 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "166dacf8-ec7e-4b47-b217-5981b36a5c64")
+		(uuid "1cbef186-993e-423c-b45a-af089c1b021c")
 	)
 	(wire
 		(pts
-			(xy 51.435 53.34) (xy 71.755 53.34)
+			(xy 101.6 27.94) (xy 102.87 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2231480b-4c0f-4310-bd22-e12a06f50310")
+	)
+	(wire
+		(pts
+			(xy 52.07 53.34) (xy 57.15 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1797,27 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 152.4) (xy 140.97 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26aab3a1-bb82-4dc1-9cd0-76837a5a26af")
-	)
-	(wire
-		(pts
-			(xy 128.27 111.76) (xy 128.27 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a4e37c-534e-4eed-8161-ce1ef7af40d9")
-	)
-	(wire
-		(pts
-			(xy 32.385 24.13) (xy 32.385 34.29)
+			(xy 33.02 24.13) (xy 33.02 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1827,17 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 152.4) (xy 163.83 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33c59206-ef30-4a5e-b5e1-0dc48f1baef9")
-	)
-	(wire
-		(pts
-			(xy 186.69 111.76) (xy 187.96 111.76)
+			(xy 203.2 31.75) (xy 204.47 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +1418,17 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 53.34) (xy 43.815 53.34)
+			(xy 123.19 44.45) (xy 123.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6332d6-755f-4c6c-b52f-598acfa9d0a8")
+	)
+	(wire
+		(pts
+			(xy 41.91 53.34) (xy 44.45 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1857,37 +1438,27 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 109.22) (xy 186.69 109.22)
+			(xy 123.19 26.67) (xy 123.19 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "482e33e1-289c-49e2-965b-41719b81d97b")
+		(uuid "49304159-973a-400d-b982-f0b03d5ea798")
 	)
 	(wire
 		(pts
-			(xy 142.24 147.32) (xy 144.78 147.32)
+			(xy 203.2 29.21) (xy 212.09 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bf4c0bf-9947-46de-ab7e-fde035b35194")
+		(uuid "49614c2b-5b5d-4283-b368-2d2c2814a58f")
 	)
 	(wire
 		(pts
-			(xy 130.81 147.32) (xy 134.62 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57c3fa78-be1d-4e72-9418-1426f712c1ee")
-	)
-	(wire
-		(pts
-			(xy 149.86 101.6) (xy 160.02 101.6)
+			(xy 162.56 21.59) (xy 170.18 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1897,77 +1468,47 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 38.735) (xy 61.595 40.005)
+			(xy 212.09 45.72) (xy 212.09 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5976998d-2c0f-48b4-bf12-5a9034a6b2de")
+		(uuid "6a244b4d-44a8-4328-a036-7805cf77baa8")
 	)
 	(wire
 		(pts
-			(xy 163.83 162.56) (xy 163.83 165.1)
+			(xy 101.6 39.37) (xy 102.87 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6823a1ab-3923-4653-ab04-3b469e4d26a7")
+		(uuid "7a6a07f3-f648-4412-8339-8342a1f6aca1")
 	)
 	(wire
 		(pts
-			(xy 160.02 147.32) (xy 167.64 147.32)
+			(xy 123.19 49.53) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f5cba4e-c1c9-4c4e-8ff4-3faaa4212d3a")
+		(uuid "894afa8f-0a9b-4a14-906e-efe4912ccf14")
 	)
 	(wire
 		(pts
-			(xy 170.18 124.46) (xy 179.07 124.46)
+			(xy 154.94 21.59) (xy 152.4 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71f6345f-fee1-47fd-a787-51cc0a477b06")
+		(uuid "8ae513f7-04ee-4176-b783-b659863beb22")
 	)
 	(wire
 		(pts
-			(xy 61.595 53.34) (xy 61.595 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b45e86a-b85e-4c01-b35b-a7836fb4e498")
-	)
-	(wire
-		(pts
-			(xy 179.07 124.46) (xy 179.07 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8403543d-bf32-435c-ac59-dc7b38a19409")
-	)
-	(wire
-		(pts
-			(xy 163.83 153.67) (xy 163.83 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c923276-b777-4b67-8ac5-ed7536137f72")
-	)
-	(wire
-		(pts
-			(xy 198.12 116.84) (xy 198.12 109.22)
+			(xy 212.09 34.29) (xy 212.09 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1977,27 +1518,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 152.4) (xy 140.97 157.48)
+			(xy 101.6 62.23) (xy 102.87 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90b4138a-e8b1-4811-b678-23325b3bb3e5")
+		(uuid "95ae8f17-9b23-4b99-90ce-451189ed8755")
 	)
 	(wire
 		(pts
-			(xy 163.83 153.67) (xy 171.45 153.67)
+			(xy 96.52 59.69) (xy 102.87 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99e56686-8eeb-4917-b94f-54ae14fe3fbf")
+		(uuid "9c9cc67c-9e90-45b0-88ff-6a4349cca8a1")
 	)
 	(wire
 		(pts
-			(xy 43.815 24.13) (xy 41.275 24.13)
+			(xy 44.45 24.13) (xy 41.91 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +1548,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.655 24.13) (xy 32.385 24.13)
+			(xy 34.29 24.13) (xy 33.02 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2017,17 +1558,47 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 93.98) (xy 128.27 102.87)
+			(xy 152.4 29.21) (xy 157.48 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a74d91ee-e466-492a-a500-749bb45c8191")
+		(uuid "adf0ad9f-ceb7-4140-aa84-b2e6dd939d86")
 	)
 	(wire
 		(pts
-			(xy 61.595 38.1) (xy 61.595 38.735)
+			(xy 101.6 50.8) (xy 101.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af04f392-86cb-445b-b7ee-f1f6daf0ac3f")
+	)
+	(wire
+		(pts
+			(xy 101.6 39.37) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13bdb8a-74dc-4946-ab12-e4903cb72607")
+	)
+	(wire
+		(pts
+			(xy 96.52 48.26) (xy 102.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06e26f0-f5aa-48aa-b3c0-c767494e47b1")
+	)
+	(wire
+		(pts
+			(xy 62.23 38.1) (xy 62.23 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +1608,17 @@
 	)
 	(wire
 		(pts
-			(xy 51.435 38.735) (xy 69.215 38.735)
+			(xy 96.52 36.83) (xy 102.87 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19d3fa9-3ac8-4684-abf2-63287acf5d8f")
+	)
+	(wire
+		(pts
+			(xy 52.07 39.37) (xy 69.85 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2047,17 +1628,27 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 24.13) (xy 61.595 25.4)
+			(xy 152.4 34.29) (xy 157.48 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccba7ba5-1059-47ba-abb3-6780265a1f61")
+		(uuid "c7ace598-32c2-4811-8b4a-272dfdcdb527")
 	)
 	(wire
 		(pts
-			(xy 33.655 53.34) (xy 32.385 53.34)
+			(xy 157.48 33.02) (xy 157.48 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfd2813-5c03-4996-a692-5f76418fbe28")
+	)
+	(wire
+		(pts
+			(xy 34.29 53.34) (xy 33.02 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +1658,27 @@
 	)
 	(wire
 		(pts
-			(xy 32.385 53.34) (xy 32.385 43.18)
+			(xy 101.6 50.8) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df27b1d2-3a53-4be0-93eb-5d79e7aad22e")
+	)
+	(wire
+		(pts
+			(xy 101.6 27.94) (xy 101.6 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27a8886-94a8-4295-86c0-3cef75954479")
+	)
+	(wire
+		(pts
+			(xy 33.02 53.34) (xy 33.02 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2077,37 +1688,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 93.98) (xy 128.27 93.98)
+			(xy 123.19 44.45) (xy 133.35 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e61ebd5b-1687-4a64-b512-e707cd16ee0a")
+		(uuid "f1a58466-f00b-44ec-af7c-76e509c69b7e")
 	)
 	(wire
 		(pts
-			(xy 128.27 111.76) (xy 140.97 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eab25620-ed4e-4ee7-b991-ea837e7f8c25")
-	)
-	(wire
-		(pts
-			(xy 160.02 152.4) (xy 163.83 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f214bd29-8a7a-48ff-b679-fd7a3648360d")
-	)
-	(wire
-		(pts
-			(xy 51.435 24.13) (xy 71.755 24.13)
+			(xy 52.07 24.13) (xy 57.15 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2117,323 +1708,13 @@
 	)
 	(wire
 		(pts
-			(xy 32.385 38.735) (xy 43.815 38.735)
+			(xy 33.02 39.37) (xy 44.45 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff2a3ca7-c6d0-477d-b454-214dd23f66e2")
-	)
-	(image
-		(at 109.0474 75.3509)
-		(scale 0.503124)
-		(uuid "2414590c-0fcc-47f0-b950-c60d3b63ad3a")
-		(data "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"
-			"+Oqrr5CUlCRdjP0LdDod5s+fDx8fH0ybNg2PHz+GKIq4desW2rdvj5YtW2L37t3SxUq86OhojBs3"
-			"Dl5eXvj1118RHx8PrVaL48ePw8/PD4MGDUJwcLB0seKNSrgNGzaQu7s7rV69mpKTk6XV9Pfff1OX"
-			"Ll0oICCAEhMTpdWsEKWmplK3bt0oICCATp06Ja0mrVZLGzduJE9PT1q8eLG0usQKDw8nb29vGjNm"
-			"DN29e1daTU+ePKGvvvqKXF1d6dy5c9LqYqtYhJmofUzX/txD237ZTL/tO003n2mls+TJpk2byN3d"
-			"na5evSqtykCv19PAgQMpICCAUlJSpNWMEun+lRO079ettPPweQqPN0hnyDW9Xk/dunWjLl26kFab"
-			"/fYOCwsjLy8vWrp0qbSq+NBrKTk5OYtJS3rp/Fm4f/8+eXt709y5c6VVmezYsYNcXV3p77//llYV"
-			"S0U8zHQUtmMytfKwJAEgpE0KKy/qPHk73dNJ5zdfcnIyubi4mL0h9Xo9tWzZklatWiWtKtESr2+g"
-			"EY3LkkZ4uX0EsnKtS8MXn6bYfGRaUFAQ1a5dO8cgeyk0NJTs7e3p+fPn0qpiQEd/z6hL6nT7ePrJ"
-			"UvMmrYuRLmPayJEjafz48dLiLK1cuZJatGghLS6WinSYpVz8murbCqR2qEVvz1xBW4J+pbXffUid"
-			"KtmQINhQ68/PUV7bST/99BO1b99eWpytPXv2UM2aNaXFJZYuegu95WVBgsqNmg6dSat+3kSr546h"
-			"lh4WpFB40JBN9ymveRYQEEAbNmyQFmerX79+NH/+fGlxMZBIWweWJqXGg+oGtKbWrTNO7Tp+Qgfi"
-			"pctkFhsbS/b29hQZGSmtylJqaiq5u7vTlStXpFXFThEOsxTaP6oiKYVS1HPpnQzNbO2thdTCRkEO"
-			"5d6jg3lMs6ZNm9KOHTukxdkyGAzk7e1N58+fl1aVQPG0+72KpBTsqN0Xf1FCupoXJz6kKipQuRYL"
-			"6I6510fphIWFkaurq9mtspf+/PNPqly5srS4yBP1YTSnmRW51fiELubuK2ewYsUK6tmzp7Q4R9Om"
-			"TaNx48ZJi4udIjuaSWIsboU9ApTlUbtBWSjT1am86qJWWRVSnj7Eo9R0Fblw79491KxZU1qcLYVC"
-			"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"
-			"RaW5gq0TUyoAAAAASUVORK5CYII="
-		)
 	)
 	(image
 		(at 33.655 93.345)
@@ -3804,8 +3085,18 @@
 			"CCGEEMLt/H/adYuE5NaeywAAAABJRU5ErkJggg=="
 		)
 	)
+	(label "RESISTORS"
+		(at 96.52 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e2bef2b-5973-4464-9c45-96eeb53542df")
+	)
 	(label "DRAIN"
-		(at 191.77 109.22 180)
+		(at 209.55 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3814,28 +3105,48 @@
 		)
 		(uuid "101bda04-c903-46b8-bf22-93176244c889")
 	)
-	(label "HV+"
-		(at 124.46 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11816ba7-af20-4019-8df6-48f610a8bb66")
-	)
-	(label "ISO_5V"
-		(at 167.64 147.32 180)
+	(label "RESISTORS"
+		(at 96.52 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "55c8b09d-9dba-4142-a17f-3cb015b9f4c0")
+		(uuid "23febcdf-24ee-4b2c-a9b5-2bbfdc14723a")
+	)
+	(label "RESISTORS"
+		(at 96.52 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d663669-5f3d-4832-a16c-a4cb5fd81b82")
+	)
+	(label "RES_HV-"
+		(at 133.35 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f2fc957-7c09-4e95-b267-daa8acf03e0a")
+	)
+	(label "RES_HV-"
+		(at 142.24 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8993fdbd-a3df-477e-998b-a21ef6a14bfe")
 	)
 	(label "DRAIN"
-		(at 160.02 101.6 180)
+		(at 170.18 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3844,29 +3155,19 @@
 		)
 		(uuid "9f840f16-a990-4a55-b7e9-695422d3fbfb")
 	)
-	(label "VIN_PROT"
-		(at 173.99 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac90dfdf-250a-4891-8a44-40d06355deb8")
-	)
-	(label "GATE"
-		(at 179.07 124.46 180)
+	(label "RESISTORS"
+		(at 96.52 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c6686fe2-03ce-4444-b992-1e01002a63cc")
+		(uuid "9fb7d8a8-e028-4596-8eb7-734a0fb56e71")
 	)
 	(hierarchical_label "HV+"
-		(shape output)
-		(at 61.595 25.4 0)
+		(shape input)
+		(at 57.15 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3877,7 +3178,7 @@
 	)
 	(hierarchical_label "HV_REF"
 		(shape input)
-		(at 32.385 38.735 180)
+		(at 33.02 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3888,7 +3189,7 @@
 	)
 	(hierarchical_label "HV_PREFUSE-"
 		(shape input)
-		(at 32.385 43.18 180)
+		(at 33.02 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3897,9 +3198,20 @@
 		)
 		(uuid "1bf96565-789a-44f7-a9c5-1614a234701d")
 	)
+	(hierarchical_label "HV-"
+		(shape output)
+		(at 152.4 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cb579eb-2437-450f-9b43-ef5a09772a14")
+	)
 	(hierarchical_label "VIN_PROT"
 		(shape input)
-		(at 140.97 109.22 180)
+		(at 152.4 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3908,53 +3220,31 @@
 		)
 		(uuid "1d2face9-e540-48de-8b18-79adab835eb1")
 	)
-	(hierarchical_label "HVPRECHARGE_CTRL"
+	(hierarchical_label "HV_PRECHARGE_CTRL"
 		(shape output)
-		(at 171.45 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1dd4c674-6aa2-4a88-9603-311f17ac61c5")
-	)
-	(hierarchical_label "GND"
-		(shape output)
-		(at 226.06 107.315 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "262068ae-97ab-41d4-a2a6-c63bf6aec117")
-	)
-	(hierarchical_label "GND"
-		(shape output)
-		(at 179.07 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28de05e3-7b92-40cc-a3d8-11101e768c7f")
-	)
-	(hierarchical_label "VPRE_OUT"
-		(shape output)
-		(at 140.97 114.3 180)
+		(at 203.2 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4599a439-9921-49cd-b271-655cfd30de68")
+		(uuid "6f87901a-d166-416b-9182-9430bb1d7240")
+	)
+	(hierarchical_label "HV+"
+		(shape input)
+		(at 101.6 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f8e0bf3-9c93-4de2-8215-091de66c0314")
 	)
 	(hierarchical_label "HV_PREFUSE+"
 		(shape input)
-		(at 32.385 34.29 180)
+		(at 33.02 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3963,9 +3253,20 @@
 		)
 		(uuid "714b6852-4da3-4fc8-9d40-3edecc4f2729")
 	)
+	(hierarchical_label "HVGND"
+		(shape output)
+		(at 212.09 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79aafc04-7c8c-4592-b058-5c6056231298")
+	)
 	(hierarchical_label "HV-"
 		(shape output)
-		(at 61.595 54.61 0)
+		(at 57.15 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3976,7 +3277,7 @@
 	)
 	(hierarchical_label "VIN_PROT"
 		(shape input)
-		(at 142.24 101.6 180)
+		(at 152.4 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3985,53 +3286,9 @@
 		)
 		(uuid "8774df67-b5ad-49c9-bb1b-843d3b6d35d9")
 	)
-	(hierarchical_label "GND"
-		(shape output)
-		(at 140.97 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd579f96-4753-4acb-a68b-6c7021c7014a")
-	)
 	(hierarchical_label "HVGND"
 		(shape output)
-		(at 163.83 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c377ce96-b63f-4e66-824b-9817f3d09797")
-	)
-	(hierarchical_label "PRECHARGE_CTRL"
-		(shape input)
-		(at 130.81 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce707b26-d9cc-4d18-a4c9-e249265d55d2")
-	)
-	(hierarchical_label "PRECHARGE_CTRL"
-		(shape input)
-		(at 154.94 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e86b5208-6944-423b-aada-5249943dde44")
-	)
-	(hierarchical_label "HVGND"
-		(shape output)
-		(at 61.595 40.005 0)
+		(at 69.85 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4042,7 +3299,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 195.58 121.92 0)
+		(at 209.55 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4052,8 +3309,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0468e01f-723c-4f5a-b947-d236bcc4ee60")
-		(property "Reference" "Q?"
-			(at 201.295 120.6499 0)
+		(property "Reference" "Q1"
+			(at 215.265 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4064,7 +3321,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 201.295 123.1899 0)
+			(at 215.265 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4075,7 +3332,7 @@
 			)
 		)
 		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
-			(at 200.66 119.38 0)
+			(at 214.63 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4086,7 +3343,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 195.58 134.62 0)
+			(at 209.55 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4097,7 +3354,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 195.58 121.92 0)
+			(at 209.55 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4108,7 +3365,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 195.58 139.065 0)
+			(at 209.55 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,7 +3376,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 195.58 140.97 0)
+			(at 209.55 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4130,7 +3387,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 195.58 137.16 0)
+			(at 209.55 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4152,11 +3409,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "Q?")
+					(reference "Q2")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4164,7 +3421,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 37.465 53.34 90)
+		(at 38.1 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4173,8 +3430,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f3f5af3-9ffa-4087-8397-308703af80d3")
-		(property "Reference" "F7"
-			(at 37.465 51.435 90)
+		(property "Reference" "F3"
+			(at 38.1 51.435 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4184,7 +3441,7 @@
 			)
 		)
 		(property "Value" "5A"
-			(at 37.465 55.245 90)
+			(at 38.1 55.245 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4194,7 +3451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 37.465 55.118 90)
+			(at 38.1 55.118 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4205,7 +3462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 37.465 53.34 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4216,7 +3473,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 37.465 53.34 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,19 +3492,20 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "F4")
+					(reference "F5")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "F7")
+					(reference "F3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 166.37 124.46 270)
+		(lib_name "PWR263S-35-3300F_1")
+		(lib_id "Precharge-R:PWR263S-35-3300F")
+		(at 113.03 26.67 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4255,9 +3513,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1c072880-575f-4bf1-8480-33b23c3065b6")
-		(property "Reference" "R36"
-			(at 167.64 127.635 0)
+		(uuid "137196d5-dba9-4af5-966d-87a4e9129d25")
+		(property "Reference" "R2"
+			(at 113.03 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4266,8 +3524,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 165.1 128.27 0)
+		(property "Value" "330"
+			(at 113.03 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4276,8 +3534,20 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 166.37 122.682 90)
+		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
+			(at 113.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
+			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4287,8 +3557,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 166.37 124.46 0)
+		(property "Description" "Precharge Resistor"
+			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4298,8 +3568,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 166.37 124.46 0)
+		(property "PARTREV" "12/20"
+			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4307,61 +3577,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin "2"
-			(uuid "8717a960-c4da-42d3-9f9e-f2bef7c123a8")
-		)
-		(pin "1"
-			(uuid "2a9220d7-8ed3-409c-b68b-75f06ae2ffe4")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R34")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 47.625 38.735 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "23790743-a19e-408c-b3c2-50a7ddc1407e")
-		(property "Reference" "D10"
-			(at 47.625 36.195 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RSX068MP2STR"
-			(at 46.99 41.275 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ActivePrecharge-RevB:RSX068MP2STR"
-			(at 47.625 38.735 0)
+		(property "MANUFACTURER" "Bourns"
+			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4369,10 +3589,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rsx068mp2str-e.pdf"
-			(at 47.625 38.735 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
+			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4380,10 +3601,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 47.625 38.735 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4391,10 +3613,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "P/N" "RSX068MP2STR"
-			(at 47.625 38.735 0)
+		(property "P/N" "  PWR263S-35-3300F"
+			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4405,7 +3628,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 47.625 38.735 0)
+			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,7 +3639,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 47.625 38.735 0)
+			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +3650,138 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 47.625 38.735 0)
+			(at 113.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dad526f4-e615-4708-8686-c571fc30453a")
+		)
+		(pin "1"
+			(uuid "57284e59-eb14-49a5-b40d-c847165b24fd")
+		)
+		(pin "3"
+			(uuid "062dadc2-5573-4439-86bf-8e6c54a48060")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 48.26 39.37 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23790743-a19e-408c-b3c2-50a7ddc1407e")
+		(property "Reference" "D2"
+			(at 48.26 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RSX068MP2STR"
+			(at 47.625 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ActivePrecharge-RevB:RSX068MP2STR"
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rsx068mp2str-e.pdf"
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "RSX068MP2STR"
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 48.26 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +3804,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "D10")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4458,7 +3812,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 37.465 24.13 90)
+		(at 38.1 24.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4467,8 +3821,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "246994dc-eaf7-4896-b7d6-a47ad6d01c05")
-		(property "Reference" "F6"
-			(at 37.465 22.225 90)
+		(property "Reference" "F2"
+			(at 38.1 22.225 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4478,7 +3832,7 @@
 			)
 		)
 		(property "Value" "5A"
-			(at 37.465 26.035 90)
+			(at 38.1 26.035 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4488,7 +3842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 37.465 25.908 90)
+			(at 38.1 25.908 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4499,7 +3853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 37.465 24.13 0)
+			(at 38.1 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4510,7 +3864,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 37.465 24.13 0)
+			(at 38.1 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4529,11 +3883,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "F3")
+					(reference "F4")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "F6")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -4541,7 +3895,7 @@
 	)
 	(symbol
 		(lib_id "DE1a-12V:DE1a-12V")
-		(at 140.97 109.22 0)
+		(at 157.48 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4550,8 +3904,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26d29130-7903-452b-a4da-3cb4588cef5d")
-		(property "Reference" "K2"
-			(at 163.83 105.41 0)
+		(property "Reference" "K1"
+			(at 180.34 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4561,7 +3915,7 @@
 			)
 		)
 		(property "Value" "DE1a-12V"
-			(at 151.13 118.11 0)
+			(at 167.64 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4571,7 +3925,7 @@
 			)
 		)
 		(property "Footprint" "DE1a12V"
-			(at 182.88 204.14 0)
+			(at 199.39 124.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +3937,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.it/datasheet/2/315/mech_eng_de-1299471.pdf"
-			(at 182.88 304.14 0)
+			(at 199.39 224.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4595,7 +3949,7 @@
 			)
 		)
 		(property "Description" "General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole , 16.7mA , 720 Ohms , -40C ~ 70C"
-			(at 140.97 109.22 0)
+			(at 157.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4606,7 +3960,7 @@
 			)
 		)
 		(property "Height" "12.8"
-			(at 182.88 504.14 0)
+			(at 199.39 424.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4618,7 +3972,7 @@
 			)
 		)
 		(property "Mouser Part Number" "769-DE1A-12V"
-			(at 182.88 604.14 0)
+			(at 199.39 524.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,7 +3984,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 182.88 704.14 0)
+			(at 199.39 624.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4642,7 +3996,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 182.88 804.14 0)
+			(at 199.39 724.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4654,7 +4008,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DE1a-12V"
-			(at 182.88 904.14 0)
+			(at 199.39 824.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4686,11 +4040,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "K1")
+					(reference "K2")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "K2")
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -4698,7 +4052,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 47.625 24.13 180)
+		(at 48.26 24.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4707,8 +4061,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d981bd9-c55e-4184-85b9-164edf8526d2")
-		(property "Reference" "D9"
-			(at 47.625 21.59 0)
+		(property "Reference" "D1"
+			(at 48.26 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4718,7 +4072,7 @@
 			)
 		)
 		(property "Value" "RSX068MP2STR"
-			(at 48.26 26.67 0)
+			(at 48.895 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4728,7 +4082,7 @@
 			)
 		)
 		(property "Footprint" "ActivePrecharge-RevB:RSX068MP2STR"
-			(at 47.625 24.13 0)
+			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4739,7 +4093,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rsx068mp2str-e.pdf"
-			(at 47.625 24.13 0)
+			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4750,7 +4104,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 47.625 24.13 0)
+			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4761,7 +4115,7 @@
 			)
 		)
 		(property "P/N" "RSX068MP2STR"
-			(at 47.625 24.13 0)
+			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4772,7 +4126,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 47.625 24.13 0)
+			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4783,7 +4137,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 47.625 24.13 0)
+			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4794,7 +4148,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 47.625 24.13 0)
+			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4817,7 +4171,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "D9")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4825,7 +4179,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 51.435 48.26 0)
+		(at 52.07 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4834,8 +4188,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c0b07f0-1d75-4574-8565-38029f385f56")
-		(property "Reference" "TP21"
-			(at 52.705 49.53 0)
+		(property "Reference" "TP2"
+			(at 53.34 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4846,7 +4200,7 @@
 			)
 		)
 		(property "Value" "HV-"
-			(at 52.705 52.07 0)
+			(at 53.34 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4857,7 +4211,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 51.435 48.26 0)
+			(at 52.07 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4868,7 +4222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 51.435 48.26 0)
+			(at 52.07 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4879,7 +4233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 51.435 48.26 0)
+			(at 52.07 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4895,29 +4249,30 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "TP18")
+					(reference "TP13")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "TP21")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 138.43 147.32 90)
+		(lib_name "PWR263S-35-3300F_1")
+		(lib_id "Precharge-R:PWR263S-35-3300F")
+		(at 113.03 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c8dcef4-f937-470c-99d8-dfaea786d7be")
-		(property "Reference" "R?"
-			(at 138.43 145.288 90)
+		(dnp yes)
+		(uuid "6e445d81-c516-483b-867e-1000bd8aa362")
+		(property "Reference" "R5"
+			(at 113.03 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4926,8 +4281,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 138.43 149.606 90)
+		(property "Value" "330"
+			(at 113.284 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4936,8 +4291,20 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 138.43 149.098 90)
+		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
+			(at 113.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
+			(at 113.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4947,8 +4314,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 138.43 147.32 0)
+		(property "Description" "Precharge Resistor"
+			(at 113.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4958,8 +4325,56 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 138.43 147.32 0)
+		(property "PARTREV" "12/20"
+			(at 113.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 113.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
+			(at 113.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 113.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "P/N" "  PWR263S-35-3300F"
+			(at 113.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4969,102 +4384,56 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "eb830764-7966-48d1-80b9-afa723dc8dfb")
+		(property "Sim.Device" ""
+			(at 113.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 113.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 113.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "7366b0b4-b04b-40b6-94be-aa72161a99c3")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 71.755 24.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a4663b4c-b978-4b11-bd9f-454e2b340bc3")
-		(property "Reference" "#FLG09"
-			(at 73.66 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 74.93 24.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.755 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.755 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 71.755 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "ffd1df2f-4cd5-4c83-a131-feb8d6ef2237")
 		)
 		(pin "1"
-			(uuid "34c5f824-4db8-4cae-a395-510bb1567398")
+			(uuid "8410d158-0093-4dc2-bb80-d24a1a8d147f")
+		)
+		(pin "3"
+			(uuid "f696fe0f-fbf4-4ace-824f-83b457b0d5ba")
 		)
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "#FLG06")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "#FLG09")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5072,7 +4441,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 61.595 33.02 0)
+		(at 62.23 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5081,8 +4450,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab66b05c-e7d7-4364-95f5-5756cf3f142d")
-		(property "Reference" "TP22"
-			(at 62.865 34.925 0)
+		(property "Reference" "TP3"
+			(at 63.5 34.925 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5093,7 +4462,7 @@
 			)
 		)
 		(property "Value" "HVGND"
-			(at 62.865 37.465 0)
+			(at 63.5 37.465 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5104,7 +4473,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 61.595 33.02 0)
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5115,7 +4484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 61.595 33.02 0)
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,7 +4495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 61.595 33.02 0)
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5142,94 +4511,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "TP19")
+					(reference "TP14")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 163.83 158.75 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b6434607-6271-476d-9d72-daf18bc471a5")
-		(property "Reference" "R?"
-			(at 166.624 157.734 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 166.116 159.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.608 158.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 163.83 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11c8711b-cf68-452d-b7d0-c210fff01dc8")
-		)
-		(pin "2"
-			(uuid "3fa98d9b-fa8e-48bc-bd85-31887a469af6")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "R?")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5237,7 +4523,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 47.625 53.34 180)
+		(at 48.26 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5246,8 +4532,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf68ffe2-e976-4c43-872e-8d9acc7f2bd8")
-		(property "Reference" "D11"
-			(at 47.625 50.8 0)
+		(property "Reference" "D3"
+			(at 48.26 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5257,7 +4543,7 @@
 			)
 		)
 		(property "Value" "RSX068MP2STR"
-			(at 48.26 55.88 0)
+			(at 48.895 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5267,7 +4553,7 @@
 			)
 		)
 		(property "Footprint" "ActivePrecharge-RevB:RSX068MP2STR"
-			(at 47.625 53.34 0)
+			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5278,7 +4564,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rsx068mp2str-e.pdf"
-			(at 47.625 53.34 0)
+			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,7 +4575,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 47.625 53.34 0)
+			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +4586,7 @@
 			)
 		)
 		(property "P/N" "RSX068MP2STR"
-			(at 47.625 53.34 0)
+			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5311,7 +4597,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 47.625 53.34 0)
+			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5322,7 +4608,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 47.625 53.34 0)
+			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5333,7 +4619,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 47.625 53.34 0)
+			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5356,15 +4642,16 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "D11")
+					(reference "D3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 128.27 106.68 180)
+		(lib_name "PWR263S-35-3300F_1")
+		(lib_id "Precharge-R:PWR263S-35-3300F")
+		(at 113.03 49.53 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5372,9 +4659,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c1b6e3d7-1dc3-4db7-9cb0-025263719f46")
-		(property "Reference" "F8"
-			(at 125.095 105.41 0)
+		(uuid "cd6653fc-9d24-41d3-8f71-74d999a35f25")
+		(property "Reference" "R4"
+			(at 113.03 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5383,8 +4670,8 @@
 				)
 			)
 		)
-		(property "Value" "0.5A"
-			(at 124.46 107.95 0)
+		(property "Value" "330"
+			(at 113.03 52.832 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5393,8 +4680,20 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 130.048 106.68 90)
+		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
+			(at 113.03 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
+			(at 113.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5404,8 +4703,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 128.27 106.68 0)
+		(property "Description" "Precharge Resistor"
+			(at 113.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5415,8 +4714,8 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
-			(at 128.27 106.68 0)
+		(property "PARTREV" "12/20"
+			(at 113.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5424,60 +4723,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin "1"
-			(uuid "15728d23-7f67-4cb7-83cc-de60931b780e")
-		)
-		(pin "2"
-			(uuid "d7f604dc-f94e-4f93-a3c5-4f3e632dd865")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "F5")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "F8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 179.07 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c569d727-14b2-4cb0-a228-cf5873a3fa19")
-		(property "Reference" "R35"
-			(at 182.245 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 182.245 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 177.292 129.54 90)
+		(property "MANUFACTURER" "Bourns"
+			(at 113.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5485,10 +4735,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 179.07 129.54 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
+			(at 113.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5496,10 +4747,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 179.07 129.54 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 113.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5507,381 +4759,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin "2"
-			(uuid "d687db0a-93f9-4d07-9c04-7c82fed1cd9c")
-		)
-		(pin "1"
-			(uuid "09da1863-bed2-4578-99dc-088bdfcd1d4c")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R33")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 71.755 53.34 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db0a0ae0-c2d0-48f8-8bc4-0c78322aaeac")
-		(property "Reference" "#FLG010"
-			(at 73.66 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 74.93 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.755 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.755 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 71.755 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3a52686-d970-4bb6-8458-ef1ad10aae88")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "#FLG07")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "#FLG010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lhrs_ics:EL3H7")
-		(at 152.4 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e91e865b-62d6-49d9-8418-08ab31b7fecb")
-		(property "Reference" "U5"
-			(at 152.4 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EL3H7"
-			(at 152.4 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LHRS_ICs:EL3H7"
-			(at 152.4 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EL3H7-D-TA-VG/2692979"
-			(at 152.4 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "OPTOISO 3.75KV 1CH TRANS 4-SSOP"
-			(at 152.4 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "EL3H7(D)(TA)-VG"
-			(at 152.4 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" "1.4V"
-			(at 152.4 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "If" "20mA"
-			(at 152.4 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "28865398-63e2-452d-8a1d-d0a4c4783fc7")
-		)
-		(pin "2"
-			(uuid "baf64f34-6259-4278-a096-1e80904fa471")
-		)
-		(pin "1"
-			(uuid "a291831a-cb19-4ba3-8852-9ee7d20efff0")
-		)
-		(pin "4"
-			(uuid "7567731a-a9ea-4186-8d0b-e0f75b7d4d5d")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "U5")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 69.215 38.735 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eab04a74-187f-482a-b504-9cead5f90901")
-		(property "Reference" "#FLG08"
-			(at 71.12 38.735 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 72.39 38.735 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.215 38.735 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.215 38.735 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 69.215 38.735 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5322943-b66f-48c0-a4d0-0b0b936ea2a9")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "#FLG05")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 146.05 101.6 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee1e66c1-68ab-4a87-932e-9b08070b20ac")
-		(property "Reference" "D12"
-			(at 146.05 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSSAF522-M3/H"
-			(at 146.05 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UTSVT-Passives:SODFL5026X125N"
-			(at 146.05 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Flyback diode"
-			(at 146.05 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "VSSAF522-M3/H"
-			(at 146.05 101.6 0)
+		(property "P/N" "  PWR263S-35-3300F"
+			(at 113.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5892,7 +4774,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 146.05 101.6 90)
+			(at 113.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5903,7 +4785,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 146.05 101.6 90)
+			(at 113.03 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5914,7 +4796,318 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 146.05 101.6 90)
+			(at 113.03 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2bbefc5a-2742-4b79-909a-2f04088d040a")
+		)
+		(pin "1"
+			(uuid "8e761132-4166-41be-a8a7-fc9742f2fd4d")
+		)
+		(pin "3"
+			(uuid "8c5ada37-c0e8-4b08-9bea-9a07e63041bf")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PWR263S-35-3300F_1")
+		(lib_id "Precharge-R:PWR263S-35-3300F")
+		(at 113.03 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf13b065-4f8d-4241-9e25-e8936449b400")
+		(property "Reference" "R3"
+			(at 113.03 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 112.776 41.402 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Precharge Resistor"
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "12/20"
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "P/N" "  PWR263S-35-3300F"
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 113.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "68ee8858-1905-44f6-98a4-2462ac23ed5c")
+		)
+		(pin "1"
+			(uuid "071c9ab3-eb8c-4ea4-b5e9-002e8d2c8693")
+		)
+		(pin "3"
+			(uuid "3304dde3-9017-4bd0-8d2d-0e081262f2ee")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 158.75 21.59 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee1e66c1-68ab-4a87-932e-9b08070b20ac")
+		(property "Reference" "D4"
+			(at 158.75 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSSAF522-M3/H"
+			(at 158.75 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT-Passives:SODFL5026X125N"
+			(at 158.75 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Flyback diode"
+			(at 158.75 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "VSSAF522-M3/H"
+			(at 158.75 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 158.75 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 158.75 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 158.75 21.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5937,7 +5130,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "D12")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5945,7 +5138,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 51.435 19.05 0)
+		(at 52.07 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5954,8 +5147,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f58f62c7-c7ce-4449-a328-99b04c696c9e")
-		(property "Reference" "TP20"
-			(at 52.705 20.32 0)
+		(property "Reference" "TP1"
+			(at 53.34 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5966,7 +5159,7 @@
 			)
 		)
 		(property "Value" "HV+"
-			(at 52.705 22.86 0)
+			(at 53.34 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5977,7 +5170,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 51.435 19.05 0)
+			(at 52.07 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5988,7 +5181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 51.435 19.05 0)
+			(at 52.07 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5999,7 +5192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 51.435 19.05 0)
+			(at 52.07 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6015,11 +5208,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "TP17")
+					(reference "TP12")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "TP20")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
