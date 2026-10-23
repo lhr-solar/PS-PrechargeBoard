@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DE1a12V"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DE1a12V")
+        (spec "default")
+    )
+)

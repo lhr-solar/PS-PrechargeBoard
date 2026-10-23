@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "26302e70-6d6c-4b0f-8142-7a870ac2b028")
+	(uuid "de0ce7c1-4ea1-4166-9512-5126a9e8d17c")
 	(paper "A4")
 	(lib_symbols)
 	(rectangle
@@ -651,7 +651,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(page "8")
+					(page "9")
 				)
 			)
 		)
@@ -778,7 +778,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(page "11")
+					(page "13")
 				)
 			)
 		)
@@ -853,7 +853,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(page "9")
+					(page "10")
 				)
 			)
 		)
@@ -928,7 +928,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(page "10")
+					(page "11")
 				)
 			)
 		)

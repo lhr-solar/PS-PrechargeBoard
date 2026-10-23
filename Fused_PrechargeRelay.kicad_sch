@@ -1205,7 +1205,7 @@
 	)
 	(rectangle
 		(start 136.6838 13.3349)
-		(end 223.9963 48.5775)
+		(end 221.6149 48.5775)
 		(stroke
 			(width 0)
 			(type default)
@@ -1248,9 +1248,9 @@
 		)
 		(uuid "3919c63d-1b70-4d66-94fe-5670dd7e9645")
 	)
-	(text "Precharge Circuit Parameters:\nBattery Vmax: 135V\nTarget Time (Tmax): 0.25 s\nPrecharge Level: 95%\nSystem Capacitance (C): 1420µF\nResistor Selection (R): 50 ohms\n\nFuse Logic :\nPeak Inrush Current: 2.7A\nMargin: 3A fuse too close to 2.7A peak\nSelected: 5A"
+	(text "Resistor (R) = 50 ohms :\nBattery Vmax: 135V\nTarget Time (Tmax): 0.25 s\nPrecharge Level: 95%\nSystem Capacitance (C): 1420µF\n\nFuse = 5A :\nPeak Inrush Current: 2.7A\n3A fuse too close to 2.7A peak"
 		(exclude_from_sim no)
-		(at 54.356 63.246 0)
+		(at 55.626 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1301,7 +1301,13 @@
 		(uuid "6458bb35-1c37-4e59-8531-53b21991d391")
 	)
 	(junction
-		(at 123.19 44.45)
+		(at 101.6 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e72efc8-6c23-46f5-8545-5481055e7dec")
+	)
+	(junction
+		(at 123.19 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af6b98d3-fd23-4107-97c5-f8dff05c8c3e")
@@ -1319,16 +1325,16 @@
 		(uuid "df91de20-efdd-41c8-bf33-8f3dc2ac0f45")
 	)
 	(no_connect
-		(at 204.47 31.75)
+		(at 203.2 31.75)
 		(uuid "1372d3e1-2000-4e2d-bdcf-7b733821b94e")
 	)
 	(no_connect
-		(at 204.47 34.29)
+		(at 203.2 34.29)
 		(uuid "6a89a65b-36a6-48db-b7d5-59a4203b52e4")
 	)
 	(wire
 		(pts
-			(xy 123.19 38.1) (xy 123.19 44.45)
+			(xy 123.19 38.1) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 34.29) (xy 204.47 34.29)
+			(xy 201.93 34.29) (xy 203.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1364,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 33.02) (xy 157.48 33.02)
+			(xy 96.52 27.94) (xy 101.6 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f89016-248d-47d2-92f0-4f48e9ea02e2")
+	)
+	(wire
+		(pts
+			(xy 147.32 33.02) (xy 156.21 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 39.37) (xy 204.47 39.37)
+			(xy 196.85 39.37) (xy 203.2 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1408,23 +1424,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 31.75) (xy 204.47 31.75)
+			(xy 201.93 31.75) (xy 203.2 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "384ac0d3-ca3d-4563-b099-4f648b966c63")
-	)
-	(wire
-		(pts
-			(xy 123.19 44.45) (xy 123.19 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f6332d6-755f-4c6c-b52f-598acfa9d0a8")
 	)
 	(wire
 		(pts
@@ -1448,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 29.21) (xy 212.09 29.21)
+			(xy 201.93 29.21) (xy 210.82 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 45.72) (xy 212.09 44.45)
+			(xy 210.82 45.72) (xy 210.82 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1488,13 +1494,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 49.53) (xy 123.19 60.96)
+			(xy 123.19 59.69) (xy 132.08 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "894afa8f-0a9b-4a14-906e-efe4912ccf14")
+		(uuid "7feb2b95-4086-4e0a-8da9-73129102fc13")
+	)
+	(wire
+		(pts
+			(xy 156.21 34.29) (xy 147.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ee6c8c-71d7-4da6-b5e0-56338ea16688")
 	)
 	(wire
 		(pts
@@ -1508,7 +1524,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 34.29) (xy 212.09 29.21)
+			(xy 210.82 34.29) (xy 210.82 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1525,6 +1541,16 @@
 			(type default)
 		)
 		(uuid "95ae8f17-9b23-4b99-90ce-451189ed8755")
+	)
+	(wire
+		(pts
+			(xy 147.32 39.37) (xy 147.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ed3472-fe59-48f8-b901-ba659c43e4fe")
 	)
 	(wire
 		(pts
@@ -1558,7 +1584,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 29.21) (xy 157.48 29.21)
+			(xy 152.4 29.21) (xy 156.21 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1628,17 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 34.29) (xy 157.48 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7ace598-32c2-4811-8b4a-272dfdcdb527")
-	)
-	(wire
-		(pts
-			(xy 157.48 33.02) (xy 157.48 31.75)
+			(xy 156.21 33.02) (xy 156.21 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1685,16 +1701,6 @@
 			(type default)
 		)
 		(uuid "e5d73867-8b49-4e64-b38d-83abef42c035")
-	)
-	(wire
-		(pts
-			(xy 123.19 44.45) (xy 133.35 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1a58466-f00b-44ec-af7c-76e509c69b7e")
 	)
 	(wire
 		(pts
@@ -3085,7 +3091,7 @@
 			"CCGEEMLt/H/adYuE5NaeywAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "RESISTORS"
+	(label "RESISTOR"
 		(at 96.52 36.83 180)
 		(effects
 			(font
@@ -3096,7 +3102,7 @@
 		(uuid "0e2bef2b-5973-4464-9c45-96eeb53542df")
 	)
 	(label "DRAIN"
-		(at 209.55 29.21 180)
+		(at 208.28 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3105,7 +3111,7 @@
 		)
 		(uuid "101bda04-c903-46b8-bf22-93176244c889")
 	)
-	(label "RESISTORS"
+	(label "RESISTOR"
 		(at 96.52 59.69 180)
 		(effects
 			(font
@@ -3115,7 +3121,7 @@
 		)
 		(uuid "23febcdf-24ee-4b2c-a9b5-2bbfdc14723a")
 	)
-	(label "RESISTORS"
+	(label "RESISTOR"
 		(at 96.52 48.26 180)
 		(effects
 			(font
@@ -3126,7 +3132,7 @@
 		(uuid "2d663669-5f3d-4832-a16c-a4cb5fd81b82")
 	)
 	(label "RES_HV-"
-		(at 133.35 44.45 180)
+		(at 132.08 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3136,7 +3142,7 @@
 		(uuid "3f2fc957-7c09-4e95-b267-daa8acf03e0a")
 	)
 	(label "RES_HV-"
-		(at 142.24 33.02 0)
+		(at 147.32 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3155,7 +3161,7 @@
 		)
 		(uuid "9f840f16-a990-4a55-b7e9-695422d3fbfb")
 	)
-	(label "RESISTORS"
+	(label "RESISTOR"
 		(at 96.52 25.4 180)
 		(effects
 			(font
@@ -3200,7 +3206,7 @@
 	)
 	(hierarchical_label "HV-"
 		(shape output)
-		(at 152.4 34.29 180)
+		(at 147.32 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3221,8 +3227,8 @@
 		(uuid "1d2face9-e540-48de-8b18-79adab835eb1")
 	)
 	(hierarchical_label "HV_PRECHARGE_CTRL"
-		(shape output)
-		(at 203.2 39.37 180)
+		(shape input)
+		(at 196.85 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3233,7 +3239,7 @@
 	)
 	(hierarchical_label "HV+"
 		(shape input)
-		(at 101.6 44.45 180)
+		(at 96.52 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3255,7 +3261,7 @@
 	)
 	(hierarchical_label "HVGND"
 		(shape output)
-		(at 212.09 45.72 0)
+		(at 210.82 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3299,7 +3305,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 209.55 39.37 0)
+		(at 208.28 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3310,7 +3316,7 @@
 		(fields_autoplaced yes)
 		(uuid "0468e01f-723c-4f5a-b947-d236bcc4ee60")
 		(property "Reference" "Q1"
-			(at 215.265 38.0999 0)
+			(at 213.995 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3321,7 +3327,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 215.265 40.6399 0)
+			(at 213.995 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3332,7 +3338,7 @@
 			)
 		)
 		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
-			(at 214.63 36.83 0)
+			(at 213.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3343,7 +3349,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 209.55 52.07 0)
+			(at 208.28 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3354,7 +3360,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 209.55 39.37 0)
+			(at 208.28 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3365,7 +3371,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 209.55 56.515 0)
+			(at 208.28 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3376,7 +3382,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 209.55 58.42 0)
+			(at 208.28 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3387,7 +3393,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 209.55 54.61 0)
+			(at 208.28 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3530,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "50"
 			(at 113.03 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3534,7 +3540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
+		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
 			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -3546,7 +3552,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/pwr263s_35.pdf"
 			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -3895,7 +3901,7 @@
 	)
 	(symbol
 		(lib_id "DE1a-12V:DE1a-12V")
-		(at 157.48 29.21 0)
+		(at 156.21 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3905,7 +3911,7 @@
 		(dnp no)
 		(uuid "26d29130-7903-452b-a4da-3cb4588cef5d")
 		(property "Reference" "K1"
-			(at 180.34 25.4 0)
+			(at 179.07 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3915,7 +3921,7 @@
 			)
 		)
 		(property "Value" "DE1a-12V"
-			(at 167.64 38.1 0)
+			(at 166.37 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3924,8 +3930,8 @@
 				)
 			)
 		)
-		(property "Footprint" "DE1a12V"
-			(at 199.39 124.13 0)
+		(property "Footprint" "LIB_DE1a-12V:DE1a12V"
+			(at 198.12 124.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3937,7 +3943,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.it/datasheet/2/315/mech_eng_de-1299471.pdf"
-			(at 199.39 224.13 0)
+			(at 198.12 224.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3949,7 +3955,7 @@
 			)
 		)
 		(property "Description" "General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole , 16.7mA , 720 Ohms , -40C ~ 70C"
-			(at 157.48 29.21 0)
+			(at 156.21 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3960,7 +3966,7 @@
 			)
 		)
 		(property "Height" "12.8"
-			(at 199.39 424.13 0)
+			(at 198.12 424.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +3978,7 @@
 			)
 		)
 		(property "Mouser Part Number" "769-DE1A-12V"
-			(at 199.39 524.13 0)
+			(at 198.12 524.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3984,7 +3990,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 199.39 624.13 0)
+			(at 198.12 624.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,7 +4002,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 199.39 724.13 0)
+			(at 198.12 724.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4008,7 +4014,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DE1a-12V"
-			(at 199.39 824.13 0)
+			(at 198.12 824.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4281,7 +4287,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "50"
 			(at 113.284 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4291,7 +4297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
+		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
 			(at 113.03 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4670,7 +4676,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "50"
 			(at 113.03 52.832 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4680,7 +4686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
+		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
 			(at 113.03 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4850,7 +4856,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "50"
 			(at 112.776 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +4866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
+		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
 			(at 113.03 38.1 0)
 			(hide yes)
 			(show_name no)

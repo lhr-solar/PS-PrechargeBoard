@@ -675,7 +675,11 @@
     ],
     [
       "6627985a-aef4-4302-9d05-a969136ea8f4",
-      "Main_Voltage"
+      "Main_VoltageSensor"
+    ],
+    [
+      "1eddab22-6734-4f8a-8dd2-45ad51a5d964",
+      "Main_Isolation"
     ],
     [
       "90c6c4b7-1465-4e8f-80ba-ec6b0750446b",
@@ -683,11 +687,11 @@
     ],
     [
       "bb4a92c7-6f06-4544-a86e-ac726b1b2af4",
-      "Motor_Voltage"
+      "Motor_VoltageSensor"
     ],
     [
-      "1eddab22-6734-4f8a-8dd2-45ad51a5d964",
-      "Isolation"
+      "0a46a740-47a9-44f7-a551-98ecce05cd8b",
+      "Motor_Isolation"
     ],
     [
       "2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0",
@@ -706,12 +710,12 @@
       "PowerProtection"
     ],
     [
-      "2a3ef9c4-dfbd-4c37-804f-440ab95d2b69",
-      "USB-C_Connector"
-    ],
-    [
       "00a9aff9-854f-4fe5-b1cf-85d3d4e30c03",
       "48PinMCU"
+    ],
+    [
+      "2a3ef9c4-dfbd-4c37-804f-440ab95d2b69",
+      "USB-C_Connector"
     ]
   ],
   "text_variables": {},

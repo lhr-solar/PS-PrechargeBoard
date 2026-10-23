@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DE1a-12V
+D General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole , 16.7mA , 720 Ohms , -40C ~ 70C
+K
+F https://www.mouser.it/datasheet/2/315/mech_eng_de-1299471.pdf
+$ENDCMP
+#
+#End Doc Library
