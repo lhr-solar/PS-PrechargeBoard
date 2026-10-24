@@ -4,7 +4,148 @@
 	(generator_version "10.0")
 	(uuid "de0ce7c1-4ea1-4166-9512-5126a9e8d17c")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(rectangle
 		(start 100.076 31.115)
 		(end 144.145 58.42)
@@ -96,6 +237,18 @@
 		)
 		(uuid "915210da-f06e-48ea-a67b-0c36bca3250e")
 	)
+	(junction
+		(at 48.26 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4970cc3b-02cb-42ab-b517-627ce1ffd62a")
+	)
+	(junction
+		(at 27.94 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "552bc313-e475-4bd2-a7b0-f2833d181fb1")
+	)
 	(no_connect
 		(at 50.8 45.72)
 		(uuid "b6edc6b4-35cd-483e-b684-a67251c950b7")
@@ -103,6 +256,16 @@
 	(no_connect
 		(at 50.8 48.26)
 		(uuid "c184ebaa-7ea1-43bc-aa8a-82a6238b1f84")
+	)
+	(wire
+		(pts
+			(xy 27.94 26.67) (xy 27.94 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020dac6f-1ef0-40bc-b6e8-8626550c6810")
 	)
 	(wire
 		(pts
@@ -226,6 +389,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 26.67) (xy 34.29 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecf033b-d311-47eb-aef2-7f7f8b812e56")
+	)
+	(wire
+		(pts
 			(xy 92.71 48.26) (xy 91.44 48.26)
 		)
 		(stroke
@@ -326,6 +499,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 26.67) (xy 48.26 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4139b5-a94b-4ee1-a855-ecce98ac0c9c")
+	)
+	(wire
+		(pts
 			(xy 110.49 52.07) (xy 111.76 52.07)
 		)
 		(stroke
@@ -353,6 +536,16 @@
 			(type default)
 		)
 		(uuid "f87e7cd4-972b-4c3d-b6b9-6788e51129d7")
+	)
+	(wire
+		(pts
+			(xy 48.26 26.67) (xy 48.26 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7b5901-b261-423c-bc4c-b4fdac9174d5")
 	)
 	(label "USB_5V"
 		(at 57.15 52.07 180)
@@ -527,6 +720,85 @@
 			(justify right)
 		)
 		(uuid "c45942f7-1994-4349-8f0f-7b9126935835")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "94f99105-930d-4704-b2c2-a4c65945ecf3")
+		(property "Reference" "R?"
+			(at 38.1 24.638 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 38.1 28.956 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 28.448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f731257f-ad65-453c-9074-81e34d33f610")
+		)
+		(pin "1"
+			(uuid "75e86869-9811-4e54-88f7-e12bc2e522bd")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 111.76 41.91)

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "30968af0-2de6-4c6f-b097-1db1f4740537")
+	(uuid "5e79bd73-7535-47eb-867a-662428b64543")
 	(paper "A4")
 	(lib_symbols
 		(symbol "AMC3311QDWERQ1:AMC3311QDWERQ1"
