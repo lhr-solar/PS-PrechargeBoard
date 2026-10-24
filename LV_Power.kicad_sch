@@ -732,7 +732,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "94f99105-930d-4704-b2c2-a4c65945ecf3")
-		(property "Reference" "R56"
+		(property "Reference" "R57"
 			(at 38.1 24.638 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -794,7 +794,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(reference "R56")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -923,7 +923,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(page "9")
+					(page "16")
 				)
 			)
 		)
@@ -1050,7 +1050,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(page "13")
+					(page "14")
 				)
 			)
 		)
@@ -1125,7 +1125,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(page "10")
+					(page "15")
 				)
 			)
 		)
@@ -1200,7 +1200,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(page "11")
+					(page "13")
 				)
 			)
 		)

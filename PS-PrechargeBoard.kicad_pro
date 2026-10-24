@@ -661,7 +661,7 @@
         "uuid": "74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
       }
     ],
-    "used_designators": "D1-21,#PWR1-71,J1-15,IC1-6,R1-80,#FLG1-18,C1-76,FB1-2,F1-10,JP1,L1,Q1-4,SW1-2,TP1-30,TP_3.3V1,U1-10,Y1,PS1,K1-2",
+    "used_designators": "D1-21,#PWR1-71,J1-15,IC1-6,R1-81,#FLG1-18,C1-76,FB1-2,F1-10,JP1,L1,Q1-4,SW1-2,TP1-30,TP_3.3V1,U1-10,Y1,PS1,K1-2",
     "variants": []
   },
   "sheets": [
@@ -671,19 +671,11 @@
     ],
     [
       "9d2e20d2-bc37-4993-8fa8-5a82459dba6b",
-      "Main_Precharge"
+      "Main_Fuse"
     ],
     [
       "6627985a-aef4-4302-9d05-a969136ea8f4",
       "Main_VoltageSensor"
-    ],
-    [
-      "c9d052f0-39c4-441f-8d4e-0430a3425be4",
-      "Motor_VoltageSensor"
-    ],
-    [
-      "90c6c4b7-1465-4e8f-80ba-ec6b0750446b",
-      "Motor_Precharge"
     ],
     [
       "4cf09e58-0892-4fb3-a566-fe1392b5d663",
@@ -694,28 +686,16 @@
       "VoltageSensor_HV-"
     ],
     [
-      "2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0",
-      "LV Power"
+      "d5231689-0a25-4774-9952-2a5e507de834",
+      "Main_Precharge"
     ],
     [
-      "0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f",
-      "CAN_Transceiver"
+      "90c6c4b7-1465-4e8f-80ba-ec6b0750446b",
+      "Motor_Fuse"
     ],
     [
-      "948d6922-1fd9-4543-b1e5-414190ab0379",
-      "LDO"
-    ],
-    [
-      "f8c7dce2-42c7-4aa0-bec7-e504fb9f435f",
-      "PowerProtection"
-    ],
-    [
-      "00a9aff9-854f-4fe5-b1cf-85d3d4e30c03",
-      "48PinMCU"
-    ],
-    [
-      "2a3ef9c4-dfbd-4c37-804f-440ab95d2b69",
-      "USB-C_Connector"
+      "c9d052f0-39c4-441f-8d4e-0430a3425be4",
+      "Motor_VoltageSensor"
     ],
     [
       "4cf09e58-0892-4fb3-a566-fe1392b5d663",
@@ -727,11 +707,31 @@
     ],
     [
       "5b236d54-dfec-450f-96e4-88b51678f51f",
-      "Motor_Isolation"
+      "Motor_Precharge"
     ],
     [
-      "d5231689-0a25-4774-9952-2a5e507de834",
-      "Main_Isolation"
+      "2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0",
+      "LV Power"
+    ],
+    [
+      "f8c7dce2-42c7-4aa0-bec7-e504fb9f435f",
+      "PowerProtection"
+    ],
+    [
+      "2a3ef9c4-dfbd-4c37-804f-440ab95d2b69",
+      "USB-C_Connector"
+    ],
+    [
+      "948d6922-1fd9-4543-b1e5-414190ab0379",
+      "LDO"
+    ],
+    [
+      "0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f",
+      "CAN_Transceiver"
+    ],
+    [
+      "00a9aff9-854f-4fe5-b1cf-85d3d4e30c03",
+      "48PinMCU"
     ]
   ],
   "text_variables": {},
