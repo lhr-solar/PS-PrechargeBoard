@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "069cfae3-575c-4496-ac6a-0fa4b0242ac6")
+	(uuid "79ba59cf-e9ae-4bfe-ae28-016fd451171d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "DE1a-12V:DE1a-12V"
@@ -1012,7 +1012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65d79452-1a42-42f7-a888-52bb6e26c509")
-		(property "Reference" "Q4"
+		(property "Reference" "Q1"
 			(at 90.805 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1112,11 +1112,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/5b236d54-dfec-450f-96e4-88b51678f51f"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/d5231689-0a25-4774-9952-2a5e507de834"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1133,7 +1133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b825340f-8f9c-48c6-8a37-388a9416bcf6")
-		(property "Reference" "K2"
+		(property "Reference" "K1"
 			(at 55.88 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1269,11 +1269,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/5b236d54-dfec-450f-96e4-88b51678f51f"
-					(reference "K1")
+					(reference "K2")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/d5231689-0a25-4774-9952-2a5e507de834"
-					(reference "K2")
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -1291,7 +1291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de7c8760-f988-479a-8509-c2c618459f54")
-		(property "Reference" "D17"
+		(property "Reference" "D4"
 			(at 35.56 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1397,11 +1397,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/5b236d54-dfec-450f-96e4-88b51678f51f"
-					(reference "D16")
+					(reference "D8")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/d5231689-0a25-4774-9952-2a5e507de834"
-					(reference "D17")
+					(reference "D4")
 					(unit 1)
 				)
 			)

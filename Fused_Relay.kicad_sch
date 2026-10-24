@@ -2601,7 +2601,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R47")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
@@ -2729,7 +2729,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
@@ -2939,7 +2939,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
@@ -3119,7 +3119,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R50")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
@@ -3246,7 +3246,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
@@ -3426,7 +3426,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R49")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
@@ -3606,7 +3606,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R48")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
