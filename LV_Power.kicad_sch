@@ -196,7 +196,7 @@
 	)
 	(text "LDO to convert 5V from USB to \nregulated 3.3V"
 		(exclude_from_sim no)
-		(at 62.484 37.846 0)
+		(at 62.23 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -207,7 +207,7 @@
 	)
 	(text "Surge, reverse polarity, and over/undervoltage \nprotection"
 		(exclude_from_sim no)
-		(at 14.478 15.494 0)
+		(at 13.97 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -218,7 +218,7 @@
 	)
 	(text "USB-C provides 5V power and data"
 		(exclude_from_sim no)
-		(at 31.75 38.608 0)
+		(at 31.75 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -228,7 +228,7 @@
 	)
 	(text "CAN transceiver converts MCU TX/RX to \nCAN_H and CAN_L, with protection and \ntermination"
 		(exclude_from_sim no)
-		(at 100.584 32.004 0)
+		(at 100.33 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -579,7 +579,7 @@
 		(uuid "1758c281-50db-45a9-99fd-13ad4ad3dbe0")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape bidirectional)
 		(at 69.85 55.88 180)
 		(effects
 			(font
@@ -612,7 +612,7 @@
 		(uuid "373a8099-e802-4c7d-a436-53ea3f58a100")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape bidirectional)
 		(at 24.13 55.88 180)
 		(effects
 			(font
@@ -623,7 +623,7 @@
 		(uuid "5216931e-39c7-42d8-aa94-7f6f683f4dff")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape bidirectional)
 		(at 26.67 33.02 180)
 		(effects
 			(font
@@ -656,7 +656,7 @@
 		(uuid "95f32874-8260-4c6a-b411-5344ba2ff1a6")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape bidirectional)
 		(at 110.49 55.88 180)
 		(effects
 			(font
@@ -732,7 +732,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "94f99105-930d-4704-b2c2-a4c65945ecf3")
-		(property "Reference" "R?"
+		(property "Reference" "R56"
 			(at 38.1 24.638 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -794,7 +794,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(reference "R?")
+					(reference "R56")
 					(unit 1)
 				)
 			)

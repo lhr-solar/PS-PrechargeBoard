@@ -1149,7 +1149,7 @@
 	)
 	(text "Resistor (R) = 50 ohms :\nBattery Vmax: 135V\nTarget Time (Tmax): 0.25 s\nPrecharge Level: 95%\nSystem Capacitance (C): 1420µF\n\nFuse = 5A :\nPeak Inrush Current: 2.7A\n3A fuse too close to 2.7A peak"
 		(exclude_from_sim no)
-		(at 71.374 68.834 0)
+		(at 71.12 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3141,7 +3141,7 @@
 		(uuid "714b6852-4da3-4fc8-9d40-3edecc4f2729")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape bidirectional)
 		(at 198.12 45.72 0)
 		(effects
 			(font
@@ -3559,7 +3559,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R26")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
@@ -4234,7 +4234,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R29")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
@@ -4541,7 +4541,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R28")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
@@ -4721,7 +4721,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R27")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"

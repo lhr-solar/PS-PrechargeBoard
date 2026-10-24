@@ -33675,7 +33675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11fc3897-418c-456a-8fd5-75858f7bdad9")
-		(property "Reference" "C34"
+		(property "Reference" "C28"
 			(at 76.2 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33761,7 +33761,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f"
-					(reference "C34")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -33778,7 +33778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "269c1b14-22dd-4a9f-bc64-46d9c4d23a1e")
-		(property "Reference" "C36"
+		(property "Reference" "C30"
 			(at 194.564 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33862,7 +33862,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f"
-					(reference "C36")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -33959,7 +33959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7484bcdc-1ddf-4a31-9ac2-deff0b8d2fc5")
-		(property "Reference" "C35"
+		(property "Reference" "C29"
 			(at 88.138 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34045,7 +34045,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f"
-					(reference "C35")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -34062,7 +34062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc6d0f8-90a9-4a3e-bd4c-4f1d37db40e4")
-		(property "Reference" "C33"
+		(property "Reference" "C27"
 			(at 65.278 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34148,7 +34148,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f"
-					(reference "C33")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -34165,7 +34165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3dc1093-5927-44fd-b183-035a11ec5677")
-		(property "Reference" "R53"
+		(property "Reference" "R58"
 			(at 201.93 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34249,7 +34249,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f"
-					(reference "R53")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -34423,7 +34423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f525b581-e914-48f3-856d-b707a04117a7")
-		(property "Reference" "IC5"
+		(property "Reference" "IC1"
 			(at 128.27 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34576,7 +34576,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f"
-					(reference "IC5")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -34593,7 +34593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f905bbd5-25e3-4518-9a89-c3e959777327")
-		(property "Reference" "R52"
+		(property "Reference" "R57"
 			(at 176.53 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34677,7 +34677,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f"
-					(reference "R52")
+					(reference "R57")
 					(unit 1)
 				)
 			)
