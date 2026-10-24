@@ -6336,7 +6336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fe08faa-65a9-4f7f-8cb1-17f9ece08d3c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 201.93 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6396,7 +6396,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6413,7 +6413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11df30e3-37fe-4778-b932-f200c4787908")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 260.35 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6473,7 +6473,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6723,7 +6723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b0dfca1-9831-44ce-bfa5-0a13acf8c8d7")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 173.99 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6783,7 +6783,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6955,7 +6955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a7d6057-ee42-442c-9ba2-cd072a03df92")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 173.99 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7015,7 +7015,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7032,7 +7032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c79573d-2127-4356-81a2-41a4c19f0f0b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 207.01 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7092,7 +7092,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7110,7 +7110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f14f6a8-5d43-4329-96fc-3bdcd426e189")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 275.59 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7170,7 +7170,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7187,7 +7187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f298712-5ffc-44a1-a753-34396edcda1a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 215.9 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7247,7 +7247,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7579,7 +7579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d50cd89-65bc-4043-94f4-56657bbcc129")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 207.01 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7639,7 +7639,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7736,7 +7736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47c5fb1c-deef-44bb-9ee1-2c0fae7b3de5")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 173.99 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7796,7 +7796,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8145,7 +8145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e961046-be96-40f4-9795-d624a227a601")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 217.17 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8205,7 +8205,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8458,7 +8458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "672c21ec-f9e9-4a36-9273-24ff0c6930c9")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR012"
 			(at 170.18 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8518,7 +8518,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR030")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8775,7 +8775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "711e788d-5328-4afc-9d2c-9efe7a821692")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 201.93 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8835,7 +8835,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8954,7 +8954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eef93b9-b4b8-46aa-b968-8dab1289754e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 275.59 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9014,7 +9014,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9031,7 +9031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8324b400-7459-4b24-a4ce-696261abf55b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 173.99 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9091,7 +9091,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9583,7 +9583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8b10f9d-0be0-4fa7-82b4-9e908c99f26e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 217.17 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9643,7 +9643,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9976,7 +9976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db7743de-0633-4d0d-9db3-65aa5e3e1a03")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR011"
 			(at 170.18 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10036,7 +10036,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR029")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

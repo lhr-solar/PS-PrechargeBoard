@@ -226,7 +226,7 @@
 		)
 		(uuid "72c6f9cf-7a00-412a-b8e5-f7fc511e9392")
 	)
-	(text "CAN transceiver converts MCU TX/RX to \nCAN_H and CAN_L, with protection and \ntermination"
+	(text "CAN transceiver converts MCU RX/TX to \nCAN_H and CAN_L, with protection and \ntermination"
 		(exclude_from_sim no)
 		(at 100.33 31.75 0)
 		(effects
@@ -269,7 +269,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 46.99) (xy 111.76 46.99)
+			(xy 110.49 49.53) (xy 111.76 49.53)
 		)
 		(stroke
 			(width 0)
@@ -299,13 +299,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 49.53) (xy 132.08 49.53)
+			(xy 132.08 46.99) (xy 133.35 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "165b2354-07b7-4e27-a566-ee09305ea656")
+		(uuid "229e1d36-38ef-4803-a040-633d95b9b44a")
+	)
+	(wire
+		(pts
+			(xy 110.49 46.99) (xy 111.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f03236f-d25d-43dd-b860-edc27281e2f1")
 	)
 	(wire
 		(pts
@@ -326,16 +336,6 @@
 			(type default)
 		)
 		(uuid "3734c05f-e539-4966-b8f5-ee310b52c57f")
-	)
-	(wire
-		(pts
-			(xy 133.35 46.99) (xy 132.08 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a697415-832a-451c-89a6-3171b2b587df")
 	)
 	(wire
 		(pts
@@ -489,7 +489,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 52.07) (xy 132.08 52.07)
+			(xy 133.35 49.53) (xy 132.08 49.53)
 		)
 		(stroke
 			(width 0)
@@ -591,7 +591,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 110.49 46.99 180)
+		(at 110.49 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -602,7 +602,7 @@
 	)
 	(hierarchical_label "CAN_L"
 		(shape bidirectional)
-		(at 133.35 52.07 0)
+		(at 133.35 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -635,12 +635,12 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
-		(at 133.35 46.99 0)
+		(at 110.49 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8cb1da3f-5811-47e3-9467-a4d0d29d7abd")
 	)
@@ -668,7 +668,7 @@
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
-		(at 133.35 49.53 0)
+		(at 133.35 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -871,7 +871,7 @@
 			)
 		)
 		(pin "CAN_H" bidirectional
-			(at 132.08 49.53 0)
+			(at 132.08 46.99 0)
 			(uuid "928e12eb-e2e7-4401-b262-e576b247ed9e")
 			(effects
 				(font
@@ -881,7 +881,7 @@
 			)
 		)
 		(pin "CAN_L" bidirectional
-			(at 132.08 52.07 0)
+			(at 132.08 49.53 0)
 			(uuid "0b6a0f18-5087-43ce-851f-79b83c8d8964")
 			(effects
 				(font
@@ -891,17 +891,17 @@
 			)
 		)
 		(pin "CAN_RX" output
-			(at 132.08 46.99 0)
+			(at 111.76 46.99 180)
 			(uuid "253c0cea-5a88-455c-a867-a791b4fbf505")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "CAN_TX" input
-			(at 111.76 46.99 180)
+			(at 111.76 49.53 180)
 			(uuid "1e8c9015-a995-4bbb-80c9-9ae1822a9a62")
 			(effects
 				(font
