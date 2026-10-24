@@ -1089,111 +1089,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lhrs_misc:Multimeter_TP"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "[net name]"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Multimeter_TP_0_1"
-				(circle
-					(center 0 -1.778)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Multimeter_TP_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 13.335 13.335)
-		(end 83.185 61.595)
+		(end 69.85 61.595)
 		(stroke
 			(width 0)
 			(type default)
@@ -1204,8 +1103,8 @@
 		(uuid "11081f25-9277-44b2-9de0-31ca285cb88e")
 	)
 	(rectangle
-		(start 136.6838 13.3349)
-		(end 221.6149 48.5775)
+		(start 123.9838 13.3349)
+		(end 208.9149 48.5775)
 		(stroke
 			(width 0)
 			(type default)
@@ -1216,8 +1115,8 @@
 		(uuid "3ee61185-a80d-4cb2-a9b2-ee0dd96fe490")
 	)
 	(rectangle
-		(start 84.455 13.335)
-		(end 135.255 66.675)
+		(start 71.755 13.335)
+		(end 122.555 66.675)
 		(stroke
 			(width 0)
 			(type default)
@@ -1240,7 +1139,7 @@
 	)
 	(text "Precharge Relay"
 		(exclude_from_sim no)
-		(at 144.78 15.24 0)
+		(at 132.08 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1250,7 +1149,7 @@
 	)
 	(text "Resistor (R) = 50 ohms :\nBattery Vmax: 135V\nTarget Time (Tmax): 0.25 s\nPrecharge Level: 95%\nSystem Capacitance (C): 1420µF\n\nFuse = 5A :\nPeak Inrush Current: 2.7A\n3A fuse too close to 2.7A peak"
 		(exclude_from_sim no)
-		(at 55.626 63.754 0)
+		(at 71.374 68.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1261,7 +1160,7 @@
 	)
 	(text "Precharge Resistors"
 		(exclude_from_sim no)
-		(at 85.09 15.24 0)
+		(at 72.39 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1271,70 +1170,52 @@
 		(uuid "98e54115-ca57-477a-8d9d-7c93ee3cd337")
 	)
 	(junction
-		(at 101.6 39.37)
+		(at 88.9 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fbe6c3a-97a1-4c67-99b0-2b957021d3e8")
 	)
 	(junction
-		(at 52.07 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1afed7fc-81da-4835-8a43-b2e23d614772")
-	)
-	(junction
-		(at 123.19 49.53)
+		(at 110.49 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f80aa7f-f9b5-4429-8b02-c8a3bd715adc")
 	)
 	(junction
-		(at 101.6 50.8)
+		(at 88.9 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62199171-97ac-4a87-8093-a6d24c43cc47")
 	)
 	(junction
-		(at 123.19 38.1)
+		(at 110.49 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6458bb35-1c37-4e59-8531-53b21991d391")
 	)
 	(junction
-		(at 101.6 27.94)
+		(at 88.9 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e72efc8-6c23-46f5-8545-5481055e7dec")
 	)
 	(junction
-		(at 123.19 59.69)
+		(at 110.49 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af6b98d3-fd23-4107-97c5-f8dff05c8c3e")
 	)
-	(junction
-		(at 52.07 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b413be5c-ed17-4585-b9f3-8e6136a3a687")
-	)
-	(junction
-		(at 62.23 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df91de20-efdd-41c8-bf33-8f3dc2ac0f45")
-	)
 	(no_connect
-		(at 203.2 31.75)
+		(at 190.5 31.75)
 		(uuid "1372d3e1-2000-4e2d-bdcf-7b733821b94e")
 	)
 	(no_connect
-		(at 203.2 34.29)
+		(at 190.5 34.29)
 		(uuid "6a89a65b-36a6-48db-b7d5-59a4203b52e4")
 	)
 	(wire
 		(pts
-			(xy 123.19 38.1) (xy 123.19 60.96)
+			(xy 110.49 38.1) (xy 110.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1225,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 25.4) (xy 102.87 25.4)
+			(xy 83.82 25.4) (xy 90.17 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 34.29) (xy 203.2 34.29)
+			(xy 189.23 34.29) (xy 190.5 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1364,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 27.94) (xy 101.6 27.94)
+			(xy 83.82 27.94) (xy 88.9 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 33.02) (xy 156.21 33.02)
+			(xy 134.62 33.02) (xy 143.51 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1265,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 39.37) (xy 203.2 39.37)
+			(xy 184.15 39.37) (xy 190.5 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1275,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 27.94) (xy 102.87 27.94)
+			(xy 88.9 27.94) (xy 90.17 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1424,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 31.75) (xy 203.2 31.75)
+			(xy 189.23 31.75) (xy 190.5 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1444,7 +1325,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 26.67) (xy 123.19 38.1)
+			(xy 110.49 26.67) (xy 110.49 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1454,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 29.21) (xy 210.82 29.21)
+			(xy 189.23 29.21) (xy 198.12 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1464,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 21.59) (xy 170.18 21.59)
+			(xy 149.86 21.59) (xy 157.48 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1474,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 45.72) (xy 210.82 44.45)
+			(xy 198.12 45.72) (xy 198.12 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1484,7 +1365,7 @@
 	)
 	(polyline
 		(pts
-			(xy 179.07 26.67) (xy 179.07 36.83)
+			(xy 166.37 26.67) (xy 166.37 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1494,7 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 39.37) (xy 102.87 39.37)
+			(xy 88.9 39.37) (xy 90.17 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 59.69) (xy 132.08 59.69)
+			(xy 110.49 59.69) (xy 119.38 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1514,7 +1395,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 34.29) (xy 147.32 34.29)
+			(xy 143.51 34.29) (xy 134.62 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1524,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 21.59) (xy 152.4 21.59)
+			(xy 142.24 21.59) (xy 139.7 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1534,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 34.29) (xy 210.82 29.21)
+			(xy 198.12 34.29) (xy 198.12 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1544,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 62.23) (xy 102.87 62.23)
+			(xy 88.9 62.23) (xy 90.17 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 39.37) (xy 147.32 34.29)
+			(xy 134.62 39.37) (xy 134.62 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1564,7 +1445,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 59.69) (xy 102.87 59.69)
+			(xy 83.82 59.69) (xy 90.17 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1594,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 29.21) (xy 156.21 29.21)
+			(xy 139.7 29.21) (xy 143.51 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1604,7 +1485,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 50.8) (xy 101.6 62.23)
+			(xy 88.9 50.8) (xy 88.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1614,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 39.37) (xy 101.6 50.8)
+			(xy 88.9 39.37) (xy 88.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1624,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 48.26) (xy 102.87 48.26)
+			(xy 83.82 48.26) (xy 90.17 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1634,17 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 38.1) (xy 62.23 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c15b88c8-02de-4f46-a000-160ce92cdff7")
-	)
-	(wire
-		(pts
-			(xy 96.52 36.83) (xy 102.87 36.83)
+			(xy 83.82 36.83) (xy 90.17 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1654,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 39.37) (xy 69.85 39.37)
+			(xy 52.07 39.37) (xy 57.15 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1664,7 +1535,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 33.02) (xy 156.21 31.75)
+			(xy 143.51 33.02) (xy 143.51 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1684,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 50.8) (xy 102.87 50.8)
+			(xy 88.9 50.8) (xy 90.17 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1694,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 27.94) (xy 101.6 39.37)
+			(xy 88.9 27.94) (xy 88.9 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1733,7 +1604,7 @@
 		(uuid "ff2a3ca7-c6d0-477d-b454-214dd23f66e2")
 	)
 	(image
-		(at 33.655 93.345)
+		(at 49.53 93.345)
 		(scale 0.322185)
 		(uuid "390488bb-7af2-4a5f-96a4-158cc1fc6556")
 		(data "iVBORw0KGgoAAAANSUhEUgAAArkAAAQhCAYAAAApu5egAAAAAXNSR0IArs4c6QAAAARnQU1BAACx"
@@ -3102,7 +2973,7 @@
 		)
 	)
 	(label "RESISTOR"
-		(at 96.52 36.83 180)
+		(at 83.82 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3112,7 +2983,7 @@
 		(uuid "0e2bef2b-5973-4464-9c45-96eeb53542df")
 	)
 	(label "DRAIN"
-		(at 208.28 29.21 180)
+		(at 195.58 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3122,7 +2993,7 @@
 		(uuid "101bda04-c903-46b8-bf22-93176244c889")
 	)
 	(label "RESISTOR"
-		(at 96.52 59.69 180)
+		(at 83.82 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3132,7 +3003,7 @@
 		(uuid "23febcdf-24ee-4b2c-a9b5-2bbfdc14723a")
 	)
 	(label "RESISTOR"
-		(at 96.52 48.26 180)
+		(at 83.82 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3142,7 +3013,7 @@
 		(uuid "2d663669-5f3d-4832-a16c-a4cb5fd81b82")
 	)
 	(label "RES_HV-"
-		(at 132.08 59.69 180)
+		(at 119.38 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3152,7 +3023,7 @@
 		(uuid "3f2fc957-7c09-4e95-b267-daa8acf03e0a")
 	)
 	(label "RES_HV-"
-		(at 147.32 33.02 0)
+		(at 134.62 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3162,7 +3033,7 @@
 		(uuid "8993fdbd-a3df-477e-998b-a21ef6a14bfe")
 	)
 	(label "DRAIN"
-		(at 170.18 21.59 180)
+		(at 157.48 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3172,7 +3043,7 @@
 		(uuid "9f840f16-a990-4a55-b7e9-695422d3fbfb")
 	)
 	(label "RESISTOR"
-		(at 96.52 25.4 180)
+		(at 83.82 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3216,7 +3087,7 @@
 	)
 	(hierarchical_label "HV-"
 		(shape output)
-		(at 147.32 39.37 180)
+		(at 134.62 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3227,7 +3098,7 @@
 	)
 	(hierarchical_label "VIN_PROT"
 		(shape input)
-		(at 152.4 29.21 180)
+		(at 139.7 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3238,7 +3109,7 @@
 	)
 	(hierarchical_label "HV_PRECHARGE_CTRL"
 		(shape input)
-		(at 196.85 39.37 180)
+		(at 184.15 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3249,7 +3120,7 @@
 	)
 	(hierarchical_label "HV+"
 		(shape input)
-		(at 96.52 27.94 180)
+		(at 83.82 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3271,7 +3142,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape output)
-		(at 210.82 45.72 0)
+		(at 198.12 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3293,7 +3164,7 @@
 	)
 	(hierarchical_label "VIN_PROT"
 		(shape input)
-		(at 152.4 21.59 180)
+		(at 139.7 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3304,7 +3175,7 @@
 	)
 	(hierarchical_label "HVGND"
 		(shape output)
-		(at 69.85 39.37 0)
+		(at 57.15 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3315,7 +3186,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 208.28 39.37 0)
+		(at 195.58 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3326,7 +3197,7 @@
 		(fields_autoplaced yes)
 		(uuid "0468e01f-723c-4f5a-b947-d236bcc4ee60")
 		(property "Reference" "Q1"
-			(at 213.995 38.0999 0)
+			(at 201.295 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3337,7 +3208,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 213.995 40.6399 0)
+			(at 201.295 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3348,7 +3219,7 @@
 			)
 		)
 		(property "Footprint" "ActivePrecharge-RevB:RES_PWR263S-35-3300F"
-			(at 213.36 36.83 0)
+			(at 200.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3359,7 +3230,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 208.28 52.07 0)
+			(at 195.58 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3370,7 +3241,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 208.28 39.37 0)
+			(at 195.58 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3252,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 208.28 56.515 0)
+			(at 195.58 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3392,7 +3263,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 208.28 58.42 0)
+			(at 195.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3403,7 +3274,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 208.28 54.61 0)
+			(at 195.58 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3521,7 +3392,7 @@
 	(symbol
 		(lib_name "PWR263S-35-3300F_1")
 		(lib_id "Precharge-R:PWR263S-35-3300F")
-		(at 113.03 26.67 180)
+		(at 100.33 26.67 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3531,7 +3402,7 @@
 		(dnp no)
 		(uuid "137196d5-dba9-4af5-966d-87a4e9129d25")
 		(property "Reference" "R2"
-			(at 113.03 23.622 0)
+			(at 100.33 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3541,7 +3412,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 113.03 29.972 0)
+			(at 100.33 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3551,7 +3422,7 @@
 			)
 		)
 		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3563,7 +3434,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/pwr263s_35.pdf"
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3574,7 +3445,7 @@
 			)
 		)
 		(property "Description" "Precharge Resistor"
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3585,7 +3456,7 @@
 			)
 		)
 		(property "PARTREV" "12/20"
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3468,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Bourns"
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3609,7 +3480,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3621,7 +3492,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3633,7 +3504,7 @@
 			)
 		)
 		(property "P/N" "  PWR263S-35-3300F"
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3644,7 +3515,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3655,7 +3526,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3666,7 +3537,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 113.03 26.67 0)
+			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3911,7 +3782,7 @@
 	)
 	(symbol
 		(lib_id "DE1a-12V:DE1a-12V")
-		(at 156.21 29.21 0)
+		(at 143.51 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3921,7 +3792,7 @@
 		(dnp no)
 		(uuid "26d29130-7903-452b-a4da-3cb4588cef5d")
 		(property "Reference" "K1"
-			(at 179.07 25.4 0)
+			(at 166.37 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3931,7 +3802,7 @@
 			)
 		)
 		(property "Value" "DE1a-12V"
-			(at 166.37 38.1 0)
+			(at 153.67 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3941,7 +3812,7 @@
 			)
 		)
 		(property "Footprint" "LIB_DE1a-12V:DE1a12V"
-			(at 198.12 124.13 0)
+			(at 185.42 124.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3953,7 +3824,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.it/datasheet/2/315/mech_eng_de-1299471.pdf"
-			(at 198.12 224.13 0)
+			(at 185.42 224.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3965,7 +3836,7 @@
 			)
 		)
 		(property "Description" "General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole , 16.7mA , 720 Ohms , -40C ~ 70C"
-			(at 156.21 29.21 0)
+			(at 143.51 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3976,7 +3847,7 @@
 			)
 		)
 		(property "Height" "12.8"
-			(at 198.12 424.13 0)
+			(at 185.42 424.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3988,7 +3859,7 @@
 			)
 		)
 		(property "Mouser Part Number" "769-DE1A-12V"
-			(at 198.12 524.13 0)
+			(at 185.42 524.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,7 +3871,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 198.12 624.13 0)
+			(at 185.42 624.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4012,7 +3883,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 198.12 724.13 0)
+			(at 185.42 724.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,7 +3895,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DE1a-12V"
-			(at 198.12 824.13 0)
+			(at 185.42 824.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4194,91 +4065,9 @@
 		)
 	)
 	(symbol
-		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 52.07 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c0b07f0-1d75-4574-8565-38029f385f56")
-		(property "Reference" "TP2"
-			(at 53.34 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HV-"
-			(at 53.34 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 52.07 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c227acf-ffe7-4f0f-91fb-f8432f72a62e")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "TP13")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "PWR263S-35-3300F_1")
 		(lib_id "Precharge-R:PWR263S-35-3300F")
-		(at 113.03 60.96 180)
+		(at 100.33 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4288,7 +4077,7 @@
 		(dnp yes)
 		(uuid "6e445d81-c516-483b-867e-1000bd8aa362")
 		(property "Reference" "R5"
-			(at 113.03 57.912 0)
+			(at 100.33 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4298,7 +4087,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 113.284 64.262 0)
+			(at 100.584 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4308,7 +4097,7 @@
 			)
 		)
 		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4320,7 +4109,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4331,7 +4120,7 @@
 			)
 		)
 		(property "Description" "Precharge Resistor"
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,7 +4131,7 @@
 			)
 		)
 		(property "PARTREV" "12/20"
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,7 +4143,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Bourns"
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,7 +4155,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,7 +4167,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4390,7 +4179,7 @@
 			)
 		)
 		(property "P/N" "  PWR263S-35-3300F"
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4401,7 +4190,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4412,7 +4201,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,7 +4212,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 113.03 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,88 +4239,6 @@
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 62.23 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ab66b05c-e7d7-4364-95f5-5756cf3f142d")
-		(property "Reference" "TP3"
-			(at 63.5 34.925 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HVGND"
-			(at 63.5 37.465 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 62.23 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b218d9a-0747-49ce-8fe7-c51142507f1b")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "TP14")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4667,7 +4374,7 @@
 	(symbol
 		(lib_name "PWR263S-35-3300F_1")
 		(lib_id "Precharge-R:PWR263S-35-3300F")
-		(at 113.03 49.53 180)
+		(at 100.33 49.53 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4677,7 +4384,7 @@
 		(dnp no)
 		(uuid "cd6653fc-9d24-41d3-8f71-74d999a35f25")
 		(property "Reference" "R4"
-			(at 113.03 46.482 0)
+			(at 100.33 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4687,7 +4394,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 113.03 52.832 0)
+			(at 100.33 52.832 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4697,7 +4404,7 @@
 			)
 		)
 		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +4416,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4427,7 @@
 			)
 		)
 		(property "Description" "Precharge Resistor"
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4438,7 @@
 			)
 		)
 		(property "PARTREV" "12/20"
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4743,7 +4450,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Bourns"
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4755,7 +4462,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4767,7 +4474,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4779,7 +4486,7 @@
 			)
 		)
 		(property "P/N" "  PWR263S-35-3300F"
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,7 +4497,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4801,7 +4508,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4812,7 +4519,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 113.03 49.53 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,7 +4554,7 @@
 	(symbol
 		(lib_name "PWR263S-35-3300F_1")
 		(lib_id "Precharge-R:PWR263S-35-3300F")
-		(at 113.03 38.1 180)
+		(at 100.33 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4857,7 +4564,7 @@
 		(dnp no)
 		(uuid "cf13b065-4f8d-4241-9e25-e8936449b400")
 		(property "Reference" "R3"
-			(at 113.03 35.052 0)
+			(at 100.33 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4867,7 +4574,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 112.776 41.402 0)
+			(at 100.076 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4877,7 +4584,7 @@
 			)
 		)
 		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4889,7 +4596,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4900,7 +4607,7 @@
 			)
 		)
 		(property "Description" "Precharge Resistor"
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4911,7 +4618,7 @@
 			)
 		)
 		(property "PARTREV" "12/20"
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4923,7 +4630,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Bourns"
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4935,7 +4642,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4947,7 +4654,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4959,7 +4666,7 @@
 			)
 		)
 		(property "P/N" "  PWR263S-35-3300F"
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4970,7 +4677,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4981,7 +4688,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4992,7 +4699,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 113.03 38.1 0)
+			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5026,7 +4733,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 158.75 21.59 0)
+		(at 146.05 21.59 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5037,7 +4744,7 @@
 		(dnp no)
 		(uuid "ee1e66c1-68ab-4a87-932e-9b08070b20ac")
 		(property "Reference" "D4"
-			(at 158.75 19.05 0)
+			(at 146.05 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5047,7 +4754,7 @@
 			)
 		)
 		(property "Value" "VSSAF522-M3/H"
-			(at 158.75 24.13 0)
+			(at 146.05 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5057,7 +4764,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT-Passives:SODFL5026X125N"
-			(at 158.75 21.59 0)
+			(at 146.05 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5068,7 +4775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 21.59 0)
+			(at 146.05 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +4786,7 @@
 			)
 		)
 		(property "Description" "Flyback diode"
-			(at 158.75 21.59 0)
+			(at 146.05 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +4797,7 @@
 			)
 		)
 		(property "P/N" "VSSAF522-M3/H"
-			(at 158.75 21.59 0)
+			(at 146.05 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5101,7 +4808,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 158.75 21.59 90)
+			(at 146.05 21.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5112,7 +4819,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 158.75 21.59 90)
+			(at 146.05 21.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,7 +4830,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 158.75 21.59 90)
+			(at 146.05 21.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5147,88 +4854,6 @@
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 52.07 19.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f58f62c7-c7ce-4449-a328-99b04c696c9e")
-		(property "Reference" "TP1"
-			(at 53.34 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HV+"
-			(at 53.34 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 52.07 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c79d4ff6-bd1d-496e-a454-58da252c7736")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "TP12")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
