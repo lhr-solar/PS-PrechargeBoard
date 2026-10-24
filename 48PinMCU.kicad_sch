@@ -54720,7 +54720,7 @@
 		(fields_autoplaced yes)
 		(uuid "002eac17-a991-4772-9ebb-de85cb363c95")
 		(property "Reference" "C65"
-			(at 204.597 57.4039 0)
+			(at 204.47 57.4039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54730,8 +54730,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 204.597 59.9439 0)
+		(property "Value" "1u"
+			(at 204.47 59.9439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55785,7 +55785,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 247.142 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56032,7 +56032,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b4d225e-4424-48ee-af92-ec4ead20e265")
 		(property "Reference" "C63"
-			(at 189.992 57.4039 0)
+			(at 189.23 57.4039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56042,8 +56042,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 189.992 59.9439 0)
+		(property "Value" "0.1u"
+			(at 189.23 59.9439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56196,7 +56196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 185.166 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56341,7 +56341,7 @@
 		(fields_autoplaced yes)
 		(uuid "7899c3e5-f5ad-47fa-8582-95ee58a8470d")
 		(property "Reference" "C59"
-			(at 174.752 57.4039 0)
+			(at 173.99 57.4039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56351,8 +56351,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 174.752 59.9439 0)
+		(property "Value" "0.1u"
+			(at 173.99 59.9439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56496,7 +56496,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d0b5590-f433-4e1a-8abc-3ef86fe2c079")
 		(property "Reference" "C71"
-			(at 257.937 57.277 0)
+			(at 257.81 56.6419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56506,8 +56506,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 257.937 59.817 0)
+		(property "Value" "100n"
+			(at 257.81 59.1819 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56609,7 +56609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 210.82 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56903,7 +56903,7 @@
 		(fields_autoplaced yes)
 		(uuid "97d0a934-f6bc-4e88-9f50-f07f86280893")
 		(property "Reference" "C68"
-			(at 224.028 33.0199 0)
+			(at 223.52 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56913,8 +56913,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 224.028 35.5599 0)
+		(property "Value" "0.1u"
+			(at 223.52 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57613,7 +57613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 173.99 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58040,7 +58040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 217.424 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58461,7 +58461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 169.672 109.2454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58874,7 +58874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 197.358 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59331,7 +59331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 232.664 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)

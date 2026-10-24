@@ -2975,7 +2975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AMC3311QDWERQ1:DWE0016A-IPC_A"
+		(property "Footprint" "Precharge:SOIC127P1030X265-16N"
 			(at 66.04 26.67 0)
 			(hide yes)
 			(show_name no)

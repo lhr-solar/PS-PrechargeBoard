@@ -6,6 +6,5 @@
 	(lib (name "LHRS_Power") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Power.pretty") (options "") (descr ""))
 	(lib (name "LHRS_Special") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Special.pretty") (options "") (descr ""))
 	(lib (name "LHRS_Connectors") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Connectors.pretty") (options "") (descr ""))
-	(lib (name "PWR263S-35-3300F") (type "KiCad") (uri "${KIPRJMOD}/External_Parts/PWR263S-35-3300F") (options "") (descr ""))
-	(lib (name "LIB_DE1a-12V") (type "KiCad") (uri "${KIPRJMOD}/External_Parts/LIB_DE1a-12V/DE1a-12V/KiCad") (options "") (descr ""))
+	(lib (name "Precharge_Board") (type "KiCad") (uri "${KIPRJMOD}/External_Parts/Precharge_Board.pretty") (options "") (descr ""))
 )

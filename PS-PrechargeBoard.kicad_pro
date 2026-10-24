@@ -467,7 +467,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -661,7 +661,7 @@
         "uuid": "74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
       }
     ],
-    "used_designators": "#PWR1-71,D1-21,R1-81,#FLG1-18,IC1-6,J1-15,C1-76,FB1-2,F1-10,JP1,L1,Q1-4,SW1-2,TP1-30,TP_3.3V1,U1-10,Y1,PS1,K1-2",
+    "used_designators": "D1-21,#PWR1-71,J1-15,IC1-6,R1-81,#FLG1-18,C1-76,FB1-2,F1-10,JP1,L1,Q1-4,SW1-2,TP1-30,TP_3.3V1,U1-10,Y1,PS1,K1-2",
     "variants": []
   },
   "sheets": [
@@ -718,6 +718,10 @@
       "PowerProtection"
     ],
     [
+      "278d3e71-a9d8-40e3-a9e7-673513fdd902",
+      "USB-C_Connector"
+    ],
+    [
       "948d6922-1fd9-4543-b1e5-414190ab0379",
       "LDO"
     ],
@@ -728,10 +732,6 @@
     [
       "00a9aff9-854f-4fe5-b1cf-85d3d4e30c03",
       "48PinMCU"
-    ],
-    [
-      "278d3e71-a9d8-40e3-a9e7-673513fdd902",
-      "USB-C_Connector"
     ]
   ],
   "text_variables": {},

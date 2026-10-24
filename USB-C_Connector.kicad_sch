@@ -19048,7 +19048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb253572-93fa-4369-bbf7-5f45d193f6ff")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 71.755 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -19109,7 +19109,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/278d3e71-a9d8-40e3-a9e7-673513fdd902"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -19238,7 +19238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 64.3128 35.687 0)
 			(show_name no)
 			(do_not_autoplace no)
