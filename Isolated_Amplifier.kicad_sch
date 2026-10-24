@@ -1891,7 +1891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09f0d5a2-e8d8-45f0-97d0-29df51055fc6")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 150.368 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1964,19 +1964,19 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4/03979947-561d-482f-9fca-eedcd558d33d"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4/4cf09e58-0892-4fb3-a566-fe1392b5d663"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d"
-					(reference "R61")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663"
-					(reference "R58")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -1993,7 +1993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12ec0ceb-0793-4d81-8856-b5b89a34e1e4")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 140.208 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,19 +2066,19 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4/03979947-561d-482f-9fca-eedcd558d33d"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4/4cf09e58-0892-4fb3-a566-fe1392b5d663"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d"
-					(reference "R60")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663"
-					(reference "R57")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -2095,7 +2095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2369a002-fdfd-490e-941d-4debe96bd84c")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 166.624 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2170,19 +2170,19 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4/03979947-561d-482f-9fca-eedcd558d33d"
-					(reference "R32")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4/4cf09e58-0892-4fb3-a566-fe1392b5d663"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d"
-					(reference "R62")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663"
-					(reference "R59")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -2965,7 +2965,7 @@
 				)
 			)
 		)
-		(property "Value" "AMC3311QDWERQ1"
+		(property "Value" ""
 			(at 81.28 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2975,7 +2975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Precharge:SOIC127P1030X265-16N"
+		(property "Footprint" "Precharge_Board:SOIC127P1030X265-16N"
 			(at 66.04 26.67 0)
 			(hide yes)
 			(show_name no)

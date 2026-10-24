@@ -18689,7 +18689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e4802a2-1696-4f84-a997-10989ac104a8")
-		(property "Reference" "R70"
+		(property "Reference" "R69"
 			(at 86.106 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18773,7 +18773,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/278d3e71-a9d8-40e3-a9e7-673513fdd902"
-					(reference "R70")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -18790,7 +18790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe3fa78-8c96-4fec-92a4-65d0f069d53a")
-		(property "Reference" "R71"
+		(property "Reference" "R70"
 			(at 93.726 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18874,7 +18874,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/278d3e71-a9d8-40e3-a9e7-673513fdd902"
-					(reference "R71")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -19048,7 +19048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb253572-93fa-4369-bbf7-5f45d193f6ff")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 71.755 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -19109,7 +19109,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/278d3e71-a9d8-40e3-a9e7-673513fdd902"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

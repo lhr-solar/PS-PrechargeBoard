@@ -2443,7 +2443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "137196d5-dba9-4af5-966d-87a4e9129d25")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 100.33 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2463,7 +2463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
+		(property "Footprint" "Precharge_Board:RES_PWR263S-35-3300F"
 			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -2601,11 +2601,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R33")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2961,7 +2961,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "6e445d81-c516-483b-867e-1000bd8aa362")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 100.33 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2981,7 +2981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
+		(property "Footprint" "Precharge_Board:RES_PWR263S-35-3300F"
 			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3119,11 +3119,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R36")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3268,7 +3268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd6653fc-9d24-41d3-8f71-74d999a35f25")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 100.33 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3288,7 +3288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
+		(property "Footprint" "Precharge_Board:RES_PWR263S-35-3300F"
 			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3426,11 +3426,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf13b065-4f8d-4241-9e25-e8936449b400")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 100.33 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3468,7 +3468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PWR263S-35-3300F:RES_PWR263S-35-3300F"
+		(property "Footprint" "Precharge_Board:RES_PWR263S-35-3300F"
 			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3606,11 +3606,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R34")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)

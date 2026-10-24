@@ -1630,7 +1630,7 @@
 	)
 	(text "CAN nano \nshield\n"
 		(exclude_from_sim no)
-		(at 226.568 16.256 0)
+		(at 226.06 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2260,7 +2260,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 21.59) (xy 228.6 21.59)
+			(xy 236.22 24.13) (xy 228.6 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2740,7 +2740,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 21.59) (xy 236.22 27.94)
+			(xy 236.22 24.13) (xy 236.22 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 35.56) (xy 236.22 40.64)
+			(xy 236.22 35.56) (xy 236.22 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5786,7 +5786,7 @@
 		(uuid "364ffd73-0484-4219-a6ac-28248c0e24d6")
 	)
 	(label "SHIELD"
-		(at 228.6 21.59 0)
+		(at 228.6 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6381,7 +6381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11df30e3-37fe-4778-b932-f200c4787908")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 267.97 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6441,7 +6441,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7313,7 +7313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f14f6a8-5d43-4329-96fc-3bdcd426e189")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 274.32 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7373,7 +7373,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7391,7 +7391,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "3656ea59-67ae-4d2c-b045-3c2c525d3ea6")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 233.172 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7453,7 +7453,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8838,7 +8838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eef93b9-b4b8-46aa-b968-8dab1289754e")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 274.32 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8898,7 +8898,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9308,7 +9308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb4207cb-0e39-4a9d-8eb6-75090f07bccb")
-		(property "Reference" "TP14"
+		(property "Reference" "TP16"
 			(at 270.764 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9369,7 +9369,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP14")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -9465,7 +9465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c534a855-7168-4067-a3f4-2c9b3b1cb959")
-		(property "Reference" "TP15"
+		(property "Reference" "TP14"
 			(at 256.794 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9526,7 +9526,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP15")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -9534,7 +9534,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 40.64 0)
+		(at 236.22 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9543,8 +9543,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c715bbf7-3e14-43cb-8765-2e188e158bf1")
-		(property "Reference" "#PWR032"
-			(at 236.22 46.99 0)
+		(property "Reference" "#PWR025"
+			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9555,7 +9555,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 44.45 0)
+			(at 236.22 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9565,7 +9565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 40.64 0)
+			(at 236.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9576,7 +9576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 40.64 0)
+			(at 236.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9587,7 +9587,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 40.64 0)
+			(at 236.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9603,7 +9603,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR032")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10056,7 +10056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaea27e8-6c8e-4d97-98bb-f165bde6bc30")
-		(property "Reference" "TP16"
+		(property "Reference" "TP15"
 			(at 256.794 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10117,7 +10117,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP16")
+					(reference "TP15")
 					(unit 1)
 				)
 			)

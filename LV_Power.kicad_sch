@@ -732,7 +732,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "94f99105-930d-4704-b2c2-a4c65945ecf3")
-		(property "Reference" "R63"
+		(property "Reference" "R62"
 			(at 38.1 23.368 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -794,7 +794,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(reference "R63")
+					(reference "R62")
 					(unit 1)
 				)
 			)

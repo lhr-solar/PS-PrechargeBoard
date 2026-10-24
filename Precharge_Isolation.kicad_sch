@@ -8093,6 +8093,17 @@
 				)
 			)
 		)
+		(property "P/N" "IRLML0030TRPBF"
+			(at 85.09 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f5c5f56-39e8-4bb0-abdf-22f5b2bf273f")
 		)
@@ -8284,7 +8295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIB_DE1a-12V:DE1a12V"
+		(property "Footprint" "Precharge_Board:DE1a12V"
 			(at 74.93 124.13 0)
 			(hide yes)
 			(show_name no)
