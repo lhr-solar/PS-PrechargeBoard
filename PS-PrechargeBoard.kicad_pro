@@ -724,6 +724,14 @@
     [
       "03979947-561d-482f-9fca-eedcd558d33d",
       "VoltageSensor_HV-"
+    ],
+    [
+      "5b236d54-dfec-450f-96e4-88b51678f51f",
+      "Motor_Isolation"
+    ],
+    [
+      "d5231689-0a25-4774-9952-2a5e507de834",
+      "Main_Isolation"
     ]
   ],
   "text_variables": {},

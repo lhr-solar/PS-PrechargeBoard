@@ -2539,7 +2539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19a9c985-f2a6-470b-b1dc-b191cc7e4a8c")
-		(property "Reference" "TP14"
+		(property "Reference" "TP18"
 			(at 52.07 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,11 +2600,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "TP14")
+					(reference "TP18")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "TP18")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -2621,7 +2621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bb4bf0b-1eb2-4276-8f41-f4259fdfa36d")
-		(property "Reference" "TP13"
+		(property "Reference" "TP17"
 			(at 52.07 32.258 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,11 +2682,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "TP13")
+					(reference "TP17")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "TP17")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -3988,7 +3988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "916e1448-71a5-4224-a4c8-fdef749bae08")
-		(property "Reference" "TP16"
+		(property "Reference" "TP20"
 			(at 177.8 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,11 +4049,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "TP16")
+					(reference "TP20")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "TP20")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -4657,7 +4657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3f22b50-537f-4fcb-9bbc-f03ed3dd47b3")
-		(property "Reference" "TP15"
+		(property "Reference" "TP19"
 			(at 177.8 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,11 +4718,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "TP15")
+					(reference "TP19")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "TP19")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
