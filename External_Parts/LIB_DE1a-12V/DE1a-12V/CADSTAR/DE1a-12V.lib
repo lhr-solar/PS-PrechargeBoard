@@ -1,0 +1,16 @@
+.DE1a-12V :1 ;General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole , 16.7mA , 720 Ohms , -40C ~ 70C
+DE1a12V
+*STM K
+*NGS
+*PLB 1="COIL+" 3="COM" 4="N.O." 5="DUMMY TERMINAL_1" 6="DUMMY TERMINAL_2" 8="COIL-"
+*MXP 6
+*DFN DE1a-12V
+~!Mouser Part Number (769-DE1A-12V)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (DE1a-12V)
+~!Link Datasheet (https://www.mouser.it/datasheet/2/315/mech_eng_de-1299471.pdf)
+~!Height (12.8mm)
+~!3D_Model (DE1a-12V)
+DE1a-12V
+1.1!U 3.1!U 4.1!U 5.1!U 6.1!U 8.1!U 

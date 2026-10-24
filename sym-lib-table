@@ -1,0 +1,9 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "lhrs_connectors") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/lhrs_connectors.kicad_sym") (options "") (descr ""))
+	(lib (name "lhrs_ics") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/lhrs_ics.kicad_sym") (options "") (descr ""))
+	(lib (name "lhrs_misc") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/lhrs_misc.kicad_sym") (options "") (descr ""))
+	(lib (name "lhrs_power") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/lhrs_power.kicad_sym") (options "") (descr ""))
+	(lib (name "lhrs_special") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/lhrs_special.kicad_sym") (options "") (descr ""))
+	(lib (name "PWR263S-35-3300F") (type "KiCad") (uri "C:/Downloads/PWR263S-35-3300F/PWR263S-35-3300F.kicad_sym") (options "") (descr ""))
+)
