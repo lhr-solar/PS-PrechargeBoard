@@ -661,7 +661,7 @@
         "uuid": "74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
       }
     ],
-    "used_designators": "#PWR1-71,D1-21,R1-69,#FLG1-18,IC1-6,J1-11,C1-76,FB1-2,F1-10,JP1,L1,Q1-4,SW1-2,TP1-30,TP_3.3V1,U1-10,Y1,PS1,K1-2",
+    "used_designators": "D1-21,#PWR1-71,J1-11,IC1-6,R1-69,#FLG1-18,C1-76,FB1-2,F1-10,JP1,L1,Q1-4,SW1-2,TP1-30,TP_3.3V1,U1-10,Y1,PS1,K1-2",
     "variants": []
   },
   "sheets": [
@@ -678,20 +678,20 @@
       "Main_VoltageSensor"
     ],
     [
-      "1eddab22-6734-4f8a-8dd2-45ad51a5d964",
-      "Main_Isolation"
+      "458858da-ebd1-466f-8e74-0190cecd288e",
+      "Motor_VoltageSensor"
     ],
     [
       "90c6c4b7-1465-4e8f-80ba-ec6b0750446b",
       "Motor_Precharge"
     ],
     [
-      "bb4a92c7-6f06-4544-a86e-ac726b1b2af4",
-      "Motor_VoltageSensor"
+      "4cf09e58-0892-4fb3-a566-fe1392b5d663",
+      "VoltageSensor_HV+"
     ],
     [
-      "0a46a740-47a9-44f7-a551-98ecce05cd8b",
-      "Motor_Isolation"
+      "03979947-561d-482f-9fca-eedcd558d33d",
+      "VoltageSensor_HV-"
     ],
     [
       "2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0",
@@ -716,6 +716,14 @@
     [
       "2a3ef9c4-dfbd-4c37-804f-440ab95d2b69",
       "USB-C_Connector"
+    ],
+    [
+      "03979947-561d-482f-9fca-eedcd558d33d",
+      "VoltageSensor_HV-"
+    ],
+    [
+      "4cf09e58-0892-4fb3-a566-fe1392b5d663",
+      "VoltageSensor_HV+"
     ]
   ],
   "text_variables": {},

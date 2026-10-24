@@ -3259,7 +3259,7 @@
 		)
 		(uuid "714b6852-4da3-4fc8-9d40-3edecc4f2729")
 	)
-	(hierarchical_label "HVGND"
+	(hierarchical_label "GND"
 		(shape output)
 		(at 210.82 45.72 0)
 		(effects
