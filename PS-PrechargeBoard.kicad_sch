@@ -1758,6 +1758,19 @@
 		)
 		(uuid "517fe24e-065a-4d5c-b385-815ea9694c92")
 	)
+	(text "        LV"
+		(exclude_from_sim no)
+		(at 143.51 9.906 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "633e31ba-4bea-4baf-81be-78281ec9c227")
+	)
 	(text "Motor Precharge"
 		(exclude_from_sim no)
 		(at 13.97 52.07 0)
@@ -1789,6 +1802,19 @@
 			)
 		)
 		(uuid "9edb06a2-66d8-4810-807b-1d6cfc7b66a7")
+	)
+	(text "HV        "
+		(exclude_from_sim no)
+		(at 143.51 9.906 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f713742-ee1c-4686-a7e2-15f4714dabfd")
 	)
 	(text "CAN debug nano connector: passive bus \nmonitor, powered from VIN_PROT"
 		(exclude_from_sim no)
@@ -2782,7 +2808,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.78 10.16) (xy 144.78 200.66)
+			(xy 143.51 10.16) (xy 143.51 200.279)
 		)
 		(stroke
 			(width 0)
