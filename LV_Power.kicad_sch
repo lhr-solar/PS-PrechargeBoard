@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(rectangle
-		(start 100.076 31.75)
+		(start 100.076 31.115)
 		(end 144.145 58.42)
 		(stroke
 			(width 0)
@@ -55,7 +55,7 @@
 	)
 	(text "LDO to convert 5V from USB to \nregulated 3.3V"
 		(exclude_from_sim no)
-		(at 62.23 38.1 0)
+		(at 62.484 37.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,7 +66,7 @@
 	)
 	(text "Surge, reverse polarity, and over/undervoltage \nprotection"
 		(exclude_from_sim no)
-		(at 13.97 16.51 0)
+		(at 14.478 15.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -77,7 +77,7 @@
 	)
 	(text "USB-C provides 5V power and data"
 		(exclude_from_sim no)
-		(at 31.75 38.1 0)
+		(at 31.75 38.608 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -87,7 +87,7 @@
 	)
 	(text "CAN transceiver converts MCU TX/RX to \nCAN_H and CAN_L, with protection and \ntermination"
 		(exclude_from_sim no)
-		(at 100.33 33.02 0)
+		(at 100.584 32.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)

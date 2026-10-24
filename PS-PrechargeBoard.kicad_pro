@@ -678,7 +678,7 @@
       "Main_VoltageSensor"
     ],
     [
-      "458858da-ebd1-466f-8e74-0190cecd288e",
+      "c9d052f0-39c4-441f-8d4e-0430a3425be4",
       "Motor_VoltageSensor"
     ],
     [
@@ -718,12 +718,12 @@
       "USB-C_Connector"
     ],
     [
-      "03979947-561d-482f-9fca-eedcd558d33d",
-      "VoltageSensor_HV-"
-    ],
-    [
       "4cf09e58-0892-4fb3-a566-fe1392b5d663",
       "VoltageSensor_HV+"
+    ],
+    [
+      "03979947-561d-482f-9fca-eedcd558d33d",
+      "VoltageSensor_HV-"
     ]
   ],
   "text_variables": {},
