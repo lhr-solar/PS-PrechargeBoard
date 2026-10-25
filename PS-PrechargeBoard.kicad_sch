@@ -6635,7 +6635,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:CUI_PD-30"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 196.85 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7411,7 +7411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 237.998 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -9170,7 +9170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:CUI_PD-30"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 270.51 124.46 0)
 			(hide yes)
 			(show_name no)
