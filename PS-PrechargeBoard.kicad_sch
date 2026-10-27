@@ -8443,7 +8443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Power:Fuse-3557-2"
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105309-xx03_1x03_P2.50mm_Vertical"
 			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10157,7 +10157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Power:Fuse-3557-2"
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105309-xx03_1x03_P2.50mm_Vertical"
 			(at 26.67 72.39 0)
 			(hide yes)
 			(show_name no)
