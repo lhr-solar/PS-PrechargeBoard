@@ -925,9 +925,9 @@
 		)
 		(uuid "2d84966d-0a49-4380-a90d-d71b3eb172fe")
 	)
-	(text "HV divider scales HV+ \n(100V-130V)down to V_IN \n(max 3.17V) for \nisolated amplifier"
+	(text "HV divider scales HV+ \n(100V-135V)down to V_IN for \nisolated amplifier"
 		(exclude_from_sim no)
-		(at 15.24 19.05 0)
+		(at 14.478 18.034 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -947,29 +947,18 @@
 		)
 		(uuid "4430c688-54d6-4ee2-bf57-22fa1557bd2d")
 	)
-	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 100k = 400k\nRbot = 10k\n\nVin = HV x 10k / (400k + 10k) = HV x 0.02439\n\nHV = 100V -> Vin = 2.44V\nHV = 120V -> Vin = 2.93V\nHV = 130V -> Vin = 3.17V\n\nAmp linear input range: +/-5V (AMC1350)\nDivider current at 130V: 130V / 410k = 0.32mA\nPer top resistor: ~32V, ~10mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
+	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 174k = 696k\nRbot = 10k\n\nVin = HV x 10k / (696k + 10k) = HV x 0.01416\n\nHV = 100V -> Vin = 1.42V\nHV = 120V -> Vin = 1.70V\nHV = 135V -> Vin = 1.91V\n\nAmp linear input range: +/-5V (AMC3311)\nDivider current at 135V: 135V / 706k = 0.19mA\nPer top resistor: ~33V, ~6.4mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
 		(exclude_from_sim no)
-		(at 45.72 158.75 0)
+		(at 45.72 159.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6a86ba63-93e7-4658-803f-344d17a4d08d")
+		(uuid "9ef649d4-46a3-40ce-9b66-5f91098cdc96")
 	)
-	(text "HV divider scales HV+ \n(100V-130V)down to V_IN \n(max 3.17V) for \nisolated amplifier"
-		(exclude_from_sim no)
-		(at 15.24 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85f58a96-d881-4d2d-8066-9072dc1b495a")
-	)
-	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 100k = 400k\nRbot = 10k\n\nVin = HV x 10k / (400k + 10k) = HV x 0.02439\n\nHV = 100V -> Vin = 2.44V\nHV = 120V -> Vin = 2.93V\nHV = 130V -> Vin = 3.17V\n\nAmp linear input range: +/-5V (AMC1350)\nDivider current at 130V: 130V / 410k = 0.32mA\nPer top resistor: ~32V, ~10mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
+	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 174k = 696k\nRbot = 10k\n\nVin = HV x 10k / (696k + 10k) = HV x 0.01416\n\nHV = 100V -> Vin = 1.42V\nHV = 120V -> Vin = 1.70V\nHV = 135V -> Vin = 1.91V\n\nAmp linear input range: +/-5V (AMC3311)\nDivider current at 135V: 135V / 706k = 0.19mA\nPer top resistor: ~33V, ~6.4mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
 		(exclude_from_sim no)
 		(at 45.72 86.36 0)
 		(effects
@@ -990,6 +979,17 @@
 			(justify left)
 		)
 		(uuid "af35c707-3fff-47d0-930f-a635080cb408")
+	)
+	(text "HV divider scales HV+ \n(100V-135V)down to V_IN for \nisolated amplifier"
+		(exclude_from_sim no)
+		(at 14.478 91.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3e0a753-8ce3-4444-b09e-8c9d26dd109f")
 	)
 	(text "Math for outp - outn difference\nMath for result"
 		(exclude_from_sim no)
@@ -2400,7 +2400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 22.86 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2457,7 +2457,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2485,7 +2485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 22.86 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2542,7 +2542,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R44")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -2997,7 +2997,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 22.86 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3054,7 +3054,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3082,7 +3082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 22.86 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3139,7 +3139,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -3167,7 +3167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 22.86 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3224,7 +3224,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R43")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -3309,7 +3309,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R45")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -3570,7 +3570,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R55")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -3653,7 +3653,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R52")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -3766,7 +3766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 22.86 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3823,7 +3823,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -3991,7 +3991,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -4156,7 +4156,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R51")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -4241,7 +4241,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -4354,7 +4354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 22.86 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4411,7 +4411,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -4575,7 +4575,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R54")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -4660,7 +4660,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -5035,7 +5035,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R53")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 22.86 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5120,7 +5120,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -5205,7 +5205,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -5290,7 +5290,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R50")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -5553,7 +5553,7 @@
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
 				)
 			)

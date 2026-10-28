@@ -999,7 +999,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "7bc1dda1-f760-42aa-9893-32bde276a5bc")
@@ -3170,7 +3170,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "099b6685-5a92-4ecb-b54a-c3f566aab2c9")
-		(at 206.555 135.519)
+		(at 200.5595 118.872)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C54"
@@ -3748,7 +3748,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d/09f0d5a2-e8d8-45f0-97d0-29df51055fc6")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d/12ec0ceb-0793-4d81-8856-b5b89a34e1e4")
 		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV-/")
 		(sheetfile "Isolated_Amplifier.kicad_sch")
 		(units
@@ -3817,7 +3817,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/VoltageSensor_HV-/OUTP")
+			(net "/Motor_VoltageSensor/VoltageSensor_HV-/OUTN")
 			(pintype "passive")
 			(uuid "9fd52d74-4b81-4515-ad54-db0e0f6aa079")
 		)
@@ -3826,7 +3826,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/OUTP_HV-")
+			(net "/Motor_VoltageSensor/OUTN_HV-")
 			(pintype "passive")
 			(uuid "553f1b82-e080-4d1c-9a10-33376bb0bbc3")
 		)
@@ -6810,14 +6810,12 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+	(footprint "Precharge_Board:RES_PWR263S-35-3300F"
 		(layer "F.Cu")
 		(uuid "28f019f6-b52e-4ffd-bafa-7176ba078f7f")
 		(at 77.724 86.487)
-		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
-		(tags "resistor handsolder")
 		(property "Reference" "R36"
-			(at -3.963 0 0)
+			(at 0.175 -6.135 0)
 			(layer "F.SilkS")
 			(uuid "981a9379-2548-48d6-bb80-769bd4f1e57a")
 			(effects
@@ -6827,8 +6825,8 @@
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 0 1.83 0)
+		(property "Value" "50"
+			(at 9.7 6.115 0)
 			(layer "F.Fab")
 			(uuid "f39a17f7-c7e6-47b3-9c13-a9f1342b5c46")
 			(effects
@@ -6838,7 +6836,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6849,7 +6847,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6860,101 +6858,615 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/b6d1edb4-e441-468a-8a38-0ce279f7c528")
-		(sheetname "/Motor_VoltageSensor/")
-		(sheetfile "Voltage_Sensor.kicad_sch")
+		(property "PARTREV" "12/20"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bef43d4d-ab93-4f5d-8cf5-3cf3da9cae1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "211dc577-732e-46ca-8633-96395bf2459d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92bb63b6-54e4-4c08-88fa-fd48223c8605")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fecaf177-e79d-48aa-9844-4bb03ae64b2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "  PWR263S-35-3300F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f8045e7-fc26-4c3e-9b60-bffd5099df6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35ea9262-c230-4c30-897b-b7ab4d436518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae1e1458-00a5-4ac4-bac9-3817d1b742f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f01d37b-7527-4d3e-81c6-fcf9b37bfcf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/90c6c4b7-1465-4e8f-80ba-ec6b0750446b/6e445d81-c516-483b-867e-1000bd8aa362")
+		(sheetname "/Motor_Fuse/")
+		(sheetfile "Fused_Relay.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "1" "2")
+				(pins "1" "2" "3")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.727064 -0.91)
-			(end 0.727064 -0.91)
+		(fp_poly
+			(pts
+				(xy 8.6 -5.6) (xy 8.6 5.6) (xy 4.38 5.6) (xy 4.38 4.1) (xy -2.12 4.1) (xy -2.12 -4.1) (xy 4.38 -4.1)
+				(xy 4.38 -5.6)
+			)
 			(stroke
-				(width 0.12)
+				(width 0)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "1397a34c-494b-4af1-acde-6c67a54fc615")
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "ad27a83d-68cc-4a31-ae80-72c583fedeec")
 		)
 		(fp_line
-			(start -0.727064 0.91)
-			(end 0.727064 0.91)
+			(start -2.705 -5.05)
+			(end 4.16 -5.05)
 			(stroke
-				(width 0.12)
+				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
 			(uuid "36a9f2a6-01f4-4e5d-b982-7c2500eed685")
 		)
-		(fp_rect
-			(start -2.45 -1.13)
-			(end 2.45 1.13)
+		(fp_line
+			(start -2.705 5.05)
+			(end -2.705 -5.05)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cd7a8d1b-e0c3-46fe-bc12-ae63790228db")
+		)
+		(fp_line
+			(start 4.16 5.05)
+			(end -2.705 5.05)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1397a34c-494b-4af1-acde-6c67a54fc615")
+		)
+		(fp_circle
+			(center -9 -2.54)
+			(end -8.9 -2.54)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "e03c74e6-25e4-4c38-a9e4-fcb3860d7717")
+		)
+		(fp_poly
+			(pts
+				(xy -1.585 -3.67) (xy -0.295 -3.67) (xy -0.295 -2.33) (xy -1.585 -2.33)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "244bfd45-8c3c-4464-967c-2c296ba69910")
+		)
+		(fp_poly
+			(pts
+				(xy -1.585 -1.67) (xy -0.295 -1.67) (xy -0.295 -0.33) (xy -1.585 -0.33)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "364041ea-d91b-42d7-af99-a1483d7343be")
+		)
+		(fp_poly
+			(pts
+				(xy -1.585 0.33) (xy -0.295 0.33) (xy -0.295 1.67) (xy -1.585 1.67)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "f1ac0b85-07d5-4c24-a7e0-aec18105d129")
+		)
+		(fp_poly
+			(pts
+				(xy -1.585 2.33) (xy -0.295 2.33) (xy -0.295 3.67) (xy -1.585 3.67)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "c1c7eab2-8b48-42de-8452-43996a116d34")
+		)
+		(fp_poly
+			(pts
+				(xy 0.585 -3.67) (xy 1.875 -3.67) (xy 1.875 -2.33) (xy 0.585 -2.33)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "f2956a28-28b8-489c-b108-a6fe9d70463a")
+		)
+		(fp_poly
+			(pts
+				(xy 0.585 -1.67) (xy 1.875 -1.67) (xy 1.875 -0.33) (xy 0.585 -0.33)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "f966d35f-ba30-4b95-b521-28d8d8096be7")
+		)
+		(fp_poly
+			(pts
+				(xy 0.585 0.33) (xy 1.875 0.33) (xy 1.875 1.67) (xy 0.585 1.67)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "9786f407-8592-4a49-ae76-d6e6a1c2d333")
+		)
+		(fp_poly
+			(pts
+				(xy 0.585 2.33) (xy 1.875 2.33) (xy 1.875 3.67) (xy 0.585 3.67)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "e3644bef-196d-4301-ab18-29eacb538887")
+		)
+		(fp_poly
+			(pts
+				(xy 2.755 -3.67) (xy 4.045 -3.67) (xy 4.045 -2.33) (xy 2.755 -2.33)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "21015b08-d872-4755-8076-8630780505bd")
+		)
+		(fp_poly
+			(pts
+				(xy 2.755 -1.67) (xy 4.045 -1.67) (xy 4.045 -0.33) (xy 2.755 -0.33)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "5139348e-33ea-49b1-a5f6-2dd88aec9476")
+		)
+		(fp_poly
+			(pts
+				(xy 2.755 0.33) (xy 4.045 0.33) (xy 4.045 1.67) (xy 2.755 1.67)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "5766d0c3-0390-4e12-9610-782872c2f973")
+		)
+		(fp_poly
+			(pts
+				(xy 2.755 2.33) (xy 4.045 2.33) (xy 4.045 3.67) (xy 2.755 3.67)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "15390310-4318-41a5-abcf-9aa341441755")
+		)
+		(fp_poly
+			(pts
+				(xy 5.5 -5.35) (xy 7.48 -5.35) (xy 7.48 -4.07) (xy 5.5 -4.07)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "b6223ed5-e836-4187-9134-e5531cad8dc3")
+		)
+		(fp_poly
+			(pts
+				(xy 5.5 -3.78) (xy 7.48 -3.78) (xy 7.48 -2.5) (xy 5.5 -2.5)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "7bd51c6e-b017-4cdb-8093-b9519a633f7d")
+		)
+		(fp_poly
+			(pts
+				(xy 5.5 -2.21) (xy 7.48 -2.21) (xy 7.48 -0.93) (xy 5.5 -0.93)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "59bb3f20-d3f7-46ce-9332-db3d75cbbece")
+		)
+		(fp_poly
+			(pts
+				(xy 5.5 -0.64) (xy 7.48 -0.64) (xy 7.48 0.64) (xy 5.5 0.64)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "b000a25e-e543-4f76-8f38-8e3ea25a7468")
+		)
+		(fp_poly
+			(pts
+				(xy 5.5 0.93) (xy 7.48 0.93) (xy 7.48 2.21) (xy 5.5 2.21)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "defa7616-7a8b-4679-a280-a1a8342cdd97")
+		)
+		(fp_poly
+			(pts
+				(xy 5.5 2.5) (xy 7.48 2.5) (xy 7.48 3.78) (xy 5.5 3.78)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "ea97f00b-e201-4696-aeb2-ab61a5a39f71")
+		)
+		(fp_poly
+			(pts
+				(xy 5.5 4.07) (xy 7.48 4.07) (xy 7.48 5.35) (xy 5.5 5.35)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "0158f367-4d12-4af4-9068-5dbaaaa37ff1")
+		)
+		(fp_line
+			(start -8.75 3.99)
+			(end -8.75 -3.99)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.CrtYd")
-			(uuid "ae718d32-ed6e-48f2-b0ba-9f76ebb04174")
+			(uuid "03b678ea-6ccb-43a1-9db0-84da3dbbf6b7")
 		)
-		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+		(fp_line
+			(start -2.955 -5.3)
+			(end -2.955 -3.99)
 			(stroke
-				(width 0.1)
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "36a211c3-5677-4c65-abc0-87e8727b0b25")
+		)
+		(fp_line
+			(start -2.955 -5.3)
+			(end 4.23 -5.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "efefb339-f83c-4415-b8a5-7e0b68428c7f")
+		)
+		(fp_line
+			(start -2.955 -3.99)
+			(end -8.75 -3.99)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fa6fb16c-7837-4763-80f9-8f80cd16d247")
+		)
+		(fp_line
+			(start -2.955 3.99)
+			(end -8.75 3.99)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d1af0883-d62c-4949-aabb-7033442fdcc6")
+		)
+		(fp_line
+			(start -2.955 5.3)
+			(end -2.955 3.99)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3da077cb-c2dd-4a5b-a8a8-7841600e9d40")
+		)
+		(fp_line
+			(start -2.955 5.3)
+			(end 4.23 5.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3e745f44-eb67-4432-98a2-64e6a8c45449")
+		)
+		(fp_line
+			(start 4.23 -5.75)
+			(end 8.75 -5.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "35fe30d4-463c-4e31-87aa-3a2ad314efa6")
+		)
+		(fp_line
+			(start 4.23 -5.3)
+			(end 4.23 -5.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4c2d7b97-ee7f-4886-8c21-88ec79ea4b79")
+		)
+		(fp_line
+			(start 4.23 5.3)
+			(end 4.23 5.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "daa46725-56b9-4c88-851d-b9dd146ff72b")
+		)
+		(fp_line
+			(start 8.75 -5.75)
+			(end 8.75 5.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ad48dc16-f8ab-4b43-b066-eaf0112f4cd0")
+		)
+		(fp_line
+			(start 8.75 5.75)
+			(end 4.23 5.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff5f7f57-9af6-413a-9ffa-833217e552f1")
+		)
+		(fp_line
+			(start -2.705 -5.05)
+			(end 6.095 -5.05)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2fb0877d-47f3-4ba3-a82f-0f61baa4917e")
+		)
+		(fp_line
+			(start -2.705 5.05)
+			(end -2.705 -5.05)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b1354598-0c5c-442e-a8cc-d38a57658a56")
+		)
+		(fp_line
+			(start 6.095 -5.05)
+			(end 6.095 5.05)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9bc689ad-4cb0-46bc-8c80-f0de337af8c0")
+		)
+		(fp_line
+			(start 6.095 5.05)
+			(end -2.705 5.05)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b23d863e-aeb1-4535-8cf4-67fc184f619b")
+		)
+		(fp_circle
+			(center -9 -2.54)
+			(end -8.9 -2.54)
+			(stroke
+				(width 0.2)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "72685f17-f51c-4cf6-8638-afd8e1482f06")
+			(uuid "94e77a31-e66a-45e5-bb51-7b616d7c35e7")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "2000ee10-0122-4502-855d-e9a699ad4ec8")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.55 0)
-			(size 1.3 1.75)
+		(pad "1" smd rect
+			(at -6.385 -2.54)
+			(size 4.23 2.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.192308)
-			(net "MOT_HV+")
+			(net "/MOT_RES_HV-")
 			(pintype "passive")
+			(solder_mask_margin 0.102)
 			(uuid "7e7cf051-fa92-422e-b853-e3e23b10aa7a")
 		)
-		(pad "2" smd roundrect
-			(at 1.55 0)
-			(size 1.3 1.75)
+		(pad "2" smd rect
+			(at -6.385 2.54)
+			(size 4.23 2.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.192308)
-			(net "Net-(R36-Pad2)")
+			(net "MOT_HV+")
 			(pintype "passive")
+			(solder_mask_margin 0.102)
 			(uuid "29841a5e-da07-4af9-9381-6480dd4bd966")
 		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
-			(offset
-				(xyz 0 0 0)
+		(pad "3" smd custom
+			(at 3.24 0)
+			(size 5 5)
+			(layers "F.Cu")
+			(net "/Motor_Fuse/RESISTOR")
+			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
 			)
-			(scale
-				(xyz 1 1 1)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 5.26 -5.5) (xy 5.26 5.5) (xy 1.24 5.5) (xy 1.24 4) (xy -5.26 4) (xy -5.26 -4) (xy 1.24 -4)
+						(xy 1.24 -5.5)
+					)
+					(width 0)
+					(fill yes)
+				)
 			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "e21d06ca-d26b-43f7-af15-1dad2739c82b")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -7291,7 +7803,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "6aefb066-09fb-489e-962e-d52bd882305b")
@@ -7325,7 +7837,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/89499884-7dab-4b46-9dba-4097dc29b04e")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/e8f701e4-43ae-4129-811d-b268b407ab00")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -7459,7 +7971,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7470,36 +7982,10 @@
 				)
 			)
 		)
-		(property "P/N" "0603WAF1002T5E"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df9f5d06-fc12-40da-8e69-3d7f32698039")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC P/N" "C25804"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "baa358db-679a-4089-865b-51f4393002c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/2c45fc8a-bcc4-4313-aeca-374a3cb5e0de")
-		(sheetname "/LV Power/PowerProtection/")
-		(sheetfile "PowerProtection.kicad_sch")
+		(path "/5b236d54-dfec-450f-96e4-88b51678f51f/a0b4f3da-981a-4a00-a69e-6898213906b1")
+		(sheetname "/Motor_Precharge/")
+		(sheetfile "Precharge_Isolation.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7566,7 +8052,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D10-K)")
+			(net "/MOTPRECHARGE_CTRL")
 			(pintype "passive")
 			(uuid "bc6709d1-1553-46f6-a0ce-380d27287b13")
 		)
@@ -7575,7 +8061,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/VIN_FUSED")
+			(net "Net-(Q2-G)")
 			(pintype "passive")
 			(uuid "c566067b-8fd9-4f59-ae3e-601a632eea06")
 		)
@@ -8065,7 +8551,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "764ce045-b2fc-4311-9b24-63c4fd60b50e")
@@ -8099,7 +8585,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/e8f701e4-43ae-4129-811d-b268b407ab00")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/b6d1edb4-e441-468a-8a38-0ce279f7c528")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -8168,7 +8654,7 @@
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
-			(net "Net-(R36-Pad2)")
+			(net "MOT_HV+")
 			(pintype "passive")
 			(uuid "2109e3b3-29b9-467a-b101-d0966dd56000")
 		)
@@ -10029,7 +10515,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "34c9cdd3-29bc-4d97-b962-55c0587e790d")
-		(at 206.555 138.029)
+		(at 201.0675 124.303)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C55"
@@ -10350,7 +10836,7 @@
 				)
 			)
 		)
-		(path "/90c6c4b7-1465-4e8f-80ba-ec6b0750446b/cd6653fc-9d24-41d3-8f71-74d999a35f25")
+		(path "/90c6c4b7-1465-4e8f-80ba-ec6b0750446b/cf13b065-4f8d-4241-9e25-e8936449b400")
 		(sheetname "/Motor_Fuse/")
 		(sheetfile "Fused_Relay.kicad_sch")
 		(units
@@ -10907,7 +11393,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/a27fc1dc-a94a-49b4-845d-fd494a19e72a")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/eb3bce39-ba20-4e93-8df0-e4ac3a42c022")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -10976,7 +11462,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/OUTN_HV-")
+			(net "Net-(U4B-+)")
 			(pintype "passive")
 			(uuid "c7f88e6b-54bd-40ab-a562-b8a9e48f0acb")
 		)
@@ -10985,7 +11471,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4B--)")
+			(net "GND")
 			(pintype "passive")
 			(uuid "5a41ffd7-5761-4266-9b8e-c023fdac2dab")
 		)
@@ -11663,7 +12149,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "39aaf72f-cfb6-43ac-99d0-878a5c34fd9d")
-		(at 211.025 143.109)
+		(at 234.061 110.744)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "JP1"
@@ -13283,7 +13769,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/a3ec2337-381f-4f04-ac4b-ddb4673b6c9e")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/eb112ce2-445b-490b-ba67-7ff681fbcf5e")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -13352,7 +13838,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4A-+)")
+			(net "/Motor_VoltageSensor/OUTP_HV+")
 			(pintype "passive")
 			(uuid "3a358ef1-1fa4-4b55-9812-0b3e5e96c18c")
 		)
@@ -13361,7 +13847,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "Net-(U4A-+)")
 			(pintype "passive")
 			(uuid "f6d2b299-5044-489d-a516-4609b447a8fc")
 		)
@@ -15307,7 +15793,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "494ab957-14d3-4706-ada6-eca9cb31ec2e")
@@ -15341,7 +15827,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4b230a66-be57-4b5a-b7c5-ef177e8936e3")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/89499884-7dab-4b46-9dba-4097dc29b04e")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -15419,7 +15905,7 @@
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
-			(net "/Motor_VoltageSensor/V_IN+")
+			(net "Net-(R39-Pad2)")
 			(pintype "passive")
 			(uuid "805bce61-4cec-4ee4-81b6-f37b2948239e")
 		)
@@ -17075,7 +17561,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/0e6f34d4-dbd3-4f05-a4bc-100cf41ed9c8")
+		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/c38a4f07-d458-48ed-bb8f-71f9526b9271")
 		(sheetname "/48PinMCU/")
 		(sheetfile "48PinMCU.kicad_sch")
 		(units
@@ -17144,7 +17630,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D15-Pad4)")
+			(net "Net-(D15-Pad2)")
 			(pintype "passive")
 			(uuid "747c490d-c0ca-4947-a8a7-efebb6b3ab23")
 		)
@@ -18239,7 +18725,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "56096dbc-9325-472d-9106-e3e40328ea7c")
-		(at 215.725 142.319)
+		(at 206.375 124.968)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C53"
@@ -18425,7 +18911,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "22"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f617eee6-1f07-4649-88d4-b5bf041fbd6d")
@@ -18458,72 +18944,7 @@
 				)
 			)
 		)
-		(property "Color" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86b37dd1-9cc7-412f-84db-3937ce09f005")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "If" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "61b62e30-8480-43fc-bc0b-5f19328bf594")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfg" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f56a41c7-be8b-4725-9254-21bf38b13ff5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5531ceac-b13a-49ab-8c37-fee494f2a8d7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "CRCW060310K0FKEI "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "247af6f9-6c2e-422d-bb13-1605a23dc76a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "FRC0603F22R0TS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18536,7 +18957,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C25804"
+		(property "LCSC P/N" "C2930077"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18549,8 +18970,21 @@
 				)
 			)
 		)
+		(property "LSCS P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a58218a2-f7ea-4394-aa55-b6c9037e5e43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/dec9d7f2-1eaa-4080-a4bf-354727e24a5d")
+		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/f23ec1e4-acc3-4cf2-ad35-855fed399198")
 		(sheetname "/48PinMCU/")
 		(sheetfile "48PinMCU.kicad_sch")
 		(units
@@ -18619,7 +19053,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/48PinMCU/BOOT0")
+			(net "/48PinMCU/SWCLK")
 			(pintype "passive")
 			(uuid "d0cf8a1e-697c-4a1d-a1ec-c4163709a693")
 		)
@@ -18628,7 +19062,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D16-A2)")
+			(net "Net-(J10-Pin_3)")
 			(pintype "passive")
 			(uuid "7c52ebe6-aeef-4b72-8d8f-e725c65eede6")
 		)
@@ -18941,7 +19375,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "be64e163-abb8-495a-b95a-dfc3f8a12cbb")
@@ -18974,7 +19408,7 @@
 				)
 			)
 		)
-		(property "P/N" "0603WAF1003T5E"
+		(property "P/N" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18987,7 +19421,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C25803"
+		(property "LCSC P/N" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19001,7 +19435,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/dc50b215-6e88-4055-b18d-dec3d913aa62")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/2c45fc8a-bcc4-4313-aeca-374a3cb5e0de")
 		(sheetname "/LV Power/PowerProtection/")
 		(sheetfile "PowerProtection.kicad_sch")
 		(units
@@ -19070,7 +19504,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/VIN_FUSED")
+			(net "Net-(D10-K)")
 			(pintype "passive")
 			(uuid "26306045-b429-40a3-bd62-dc7340a268a3")
 		)
@@ -19079,7 +19513,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/LV Power/PowerProtection/OV")
+			(net "/VIN_FUSED")
 			(pintype "passive")
 			(uuid "3045559f-bdae-4643-85a1-9e5a572f645a")
 		)
@@ -19829,7 +20263,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "22"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f5cedd7e-04b7-49eb-b3d9-7e4334f4a95a")
@@ -19862,7 +20296,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C21190"
+		(property "LCSC P/N" "C2930077"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19875,64 +20309,12 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "FRC0603F22R0TS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16b4b990-b195-49a5-86ab-80cd5fd2f169")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3520e44c-774e-4034-a5fa-fd190cdcd47a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5e8ac4b-debc-47c3-9cc5-7de16c4e57f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf6c7d73-3c9c-4e44-bd2a-46667f54407c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0740078-83f8-494d-9a4d-26fa3653a72b")
 			(effects
 				(font
 					(size 1 1)
@@ -19954,7 +20336,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/9e58848a-d25a-48d8-af18-b1913e691e59")
+		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/c8e67386-18b5-4c62-b820-41c571022901")
 		(sheetname "/48PinMCU/")
 		(sheetfile "48PinMCU.kicad_sch")
 		(units
@@ -20023,7 +20405,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D17-K)")
+			(net "/48PinMCU/SWDIO")
 			(pintype "passive")
 			(uuid "3903e50c-0580-4794-914c-75d54eb8432c")
 		)
@@ -20032,7 +20414,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "Net-(J10-Pin_4)")
 			(pintype "passive")
 			(uuid "d546be30-2073-4ac7-8512-f3bfe05d6a96")
 		)
@@ -20724,7 +21106,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "34fa35fb-63c4-4bfc-8091-548d29e41579")
@@ -20757,7 +21139,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C21190"
+		(property "LCSC P/N" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20770,7 +21152,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20783,12 +21165,12 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "Color" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d36e4229-0583-4d4d-9edf-0eb544294665")
+			(uuid "f6862199-02c4-467c-a7f1-a44665192c58")
 			(effects
 				(font
 					(size 1 1)
@@ -20796,12 +21178,12 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "If" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5368505f-304a-4132-8e00-aadbb14f2d19")
+			(uuid "4e747729-6322-414e-945f-671dc219a312")
 			(effects
 				(font
 					(size 1 1)
@@ -20809,12 +21191,12 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Mfg" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e759679-cdff-4939-a3c4-e45cabc54fa9")
+			(uuid "30aaeda7-7462-4e88-a680-7c448a4c3337")
 			(effects
 				(font
 					(size 1 1)
@@ -20822,12 +21204,12 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Vf" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8c16465-3c62-4cd1-b28b-bb42c78168be")
+			(uuid "6c312778-0992-4f83-81ff-e28ec2f726b0")
 			(effects
 				(font
 					(size 1 1)
@@ -20835,12 +21217,12 @@
 				)
 			)
 		)
-		(property "LSCS P/N" ""
+		(property "Mouser Part Number" "CRCW060310K0FKEI "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34b78b42-2451-436d-8e2b-962ad0f0fb44")
+			(uuid "3d5261fe-19bb-4adc-9819-c554ca3253cc")
 			(effects
 				(font
 					(size 1 1)
@@ -20849,7 +21231,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/9ac9921d-626c-4bcb-9b59-5fabb2d5c36e")
+		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/19e1e812-f194-42ec-935a-18332a0de50b")
 		(sheetname "/48PinMCU/")
 		(sheetfile "48PinMCU.kicad_sch")
 		(units
@@ -20918,7 +21300,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D15-Pad6)")
+			(net "/48PinMCU/NRST")
 			(pintype "passive")
 			(uuid "75564813-96d4-4d7c-8e7e-d47c4bd31fe1")
 		)
@@ -20927,7 +21309,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "3V3")
 			(pintype "passive")
 			(uuid "8486e1be-041a-45b9-86b1-a134cb5e08fb")
 		)
@@ -23213,14 +23595,14 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "667e38b0-d62e-44b6-9506-d9f0bc960fb5")
 		(at 77.724 105.283)
-		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R41"
-			(at -3.937 -0.127 0)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "1569d664-d0fd-4d0f-98a7-178227c8ea5e")
 			(effects
@@ -23230,8 +23612,8 @@
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 0 1.83 0)
+		(property "Value" "10k"
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b5bb4cfd-7b91-4958-a81f-780ac60d1611")
 			(effects
@@ -23264,7 +23646,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/53b4045c-a267-4e6b-81a7-bf27c5e0b384")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/f7e17b4c-2ed8-466f-aae7-ca6d342ef4b9")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -23276,18 +23658,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.727064 -0.91)
-			(end 0.727064 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "73b94e24-067d-43fd-bdef-29cbc0324a5b")
-		)
-		(fp_line
-			(start -0.727064 0.91)
-			(end 0.727064 0.91)
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -23295,9 +23667,19 @@
 			(layer "F.SilkS")
 			(uuid "2e62513f-8aaf-4f55-9b52-c3e9b83bf080")
 		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "73b94e24-067d-43fd-bdef-29cbc0324a5b")
+		)
 		(fp_rect
-			(start -2.45 -1.13)
-			(end 2.45 1.13)
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -23307,8 +23689,8 @@
 			(uuid "1797448c-935f-4e6a-b543-28f4cd0a1fb6")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -23323,31 +23705,31 @@
 			(uuid "3e2692a9-e9de-465a-82b1-bac944186bf2")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.55 0)
-			(size 1.3 1.75)
+			(at -0.9125 0)
+			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.192308)
-			(net "MOT_HV-")
+			(roundrect_rratio 0.25)
+			(net "/Motor_VoltageSensor/V_IN+")
 			(pintype "passive")
 			(uuid "671f3286-65f5-477e-9730-06044221429b")
 		)
 		(pad "2" smd roundrect
-			(at 1.55 0)
-			(size 1.3 1.75)
+			(at 0.9125 0)
+			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.192308)
-			(net "Net-(R41-Pad2)")
+			(roundrect_rratio 0.25)
+			(net "HVGND")
 			(pintype "passive")
 			(uuid "66ccb105-a5e1-4731-ae14-8e69937241d9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23376,7 +23758,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "73e5edf9-dc99-4d6f-8541-c3e245e9e9f6")
@@ -23409,7 +23791,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C2930077"
+		(property "LCSC P/N" "C21190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23435,7 +23817,7 @@
 				)
 			)
 		)
-		(property "P/N" "FRC0603F22R0TS"
+		(property "P/N" "CRCW06031K00FKEI "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23448,8 +23830,60 @@
 				)
 			)
 		)
+		(property "Height" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc8cb16b-36bc-44a8-9a47-bfe2e4db04d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba1d8c5-91b6-4b50-8552-e0e810062bb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c934927f-4c70-4313-8a34-d2beab04bbcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a274d1a-04de-49e3-81eb-51a1cb0ea7d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/c8e67386-18b5-4c62-b820-41c571022901")
+		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/9ac9921d-626c-4bcb-9b59-5fabb2d5c36e")
 		(sheetname "/48PinMCU/")
 		(sheetfile "48PinMCU.kicad_sch")
 		(units
@@ -23518,7 +23952,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/48PinMCU/SWDIO")
+			(net "Net-(D15-Pad6)")
 			(pintype "passive")
 			(uuid "3fa46194-91d2-4940-8211-22538eec1dbc")
 		)
@@ -23527,7 +23961,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(J10-Pin_4)")
+			(net "GND")
 			(pintype "passive")
 			(uuid "ad24dfc9-7bad-48eb-9b76-923d6122e23e")
 		)
@@ -23733,7 +24167,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "3d88a7da-a516-492c-8054-1a647bd8728a")
@@ -25611,7 +26045,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/e4fe736e-db94-42ff-b762-254423abc4de")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/819d6e79-c189-4ec9-ab3a-cf2ebcd50d73")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -25680,7 +26114,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4B--)")
+			(net "Net-(U4A--)")
 			(pintype "passive")
 			(uuid "321a72b2-569a-4a7a-ae72-85317993f7ca")
 		)
@@ -25770,7 +26204,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663/09f0d5a2-e8d8-45f0-97d0-29df51055fc6")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663/12ec0ceb-0793-4d81-8856-b5b89a34e1e4")
 		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV+/")
 		(sheetfile "Isolated_Amplifier.kicad_sch")
 		(units
@@ -25839,7 +26273,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/VoltageSensor_HV+/OUTP")
+			(net "/Motor_VoltageSensor/VoltageSensor_HV+/OUTN")
 			(pintype "passive")
 			(uuid "2e3c9472-85f7-4d9b-98a3-364c05df1f84")
 		)
@@ -25848,7 +26282,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/OUTP_HV+")
+			(net "/Motor_VoltageSensor/OUTN_HV+")
 			(pintype "passive")
 			(uuid "27d24510-4115-4bb8-b451-494eda20b53c")
 		)
@@ -26720,7 +27154,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "10k"
 			(at 9.7 6.115 0)
 			(layer "F.Fab")
 			(uuid "effc63f5-0778-4f01-bcf6-ad09d0233317")
@@ -26731,7 +27165,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/pwr263s_35.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26742,7 +27176,7 @@
 				)
 			)
 		)
-		(property "Description" "Precharge Resistor"
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26753,117 +27187,14 @@
 				)
 			)
 		)
-		(property "PARTREV" "12/20"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0206a67-b2c6-4d90-9522-44ab84f832b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Bourns"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b4cb764-143e-4aef-bcca-943fe91c164d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d441d82-dc33-4fcc-9cfe-84f3a6d5db3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ecf2d55-a277-426d-b45e-ab0ed28b3782")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "P/N" "  PWR263S-35-3300F"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3e29766-85dc-4e93-b739-743bacd27b4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18415cd2-62b8-4551-b018-eec7a8e55945")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "498e582d-4bcb-49cf-b19c-e33f2dc92dd0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ffe066b8-5bf9-4cd6-a14d-19c48c6716c4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/90c6c4b7-1465-4e8f-80ba-ec6b0750446b/137196d5-dba9-4af5-966d-87a4e9129d25")
-		(sheetname "/Motor_Fuse/")
-		(sheetfile "Fused_Relay.kicad_sch")
+		(property ki_fp_filters "R_*")
+		(path "/d5231689-0a25-4774-9952-2a5e507de834/a0b4f3da-981a-4a00-a69e-6898213906b1")
+		(sheetname "/Main_Precharge/")
+		(sheetfile "Precharge_Isolation.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "1" "2" "3")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -27325,7 +27656,7 @@
 			(at -6.385 -2.54)
 			(size 4.23 2.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MOT_RES_HV-")
+			(net "/MAINPRECHARGE_CTRL")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "dbaab090-dbf2-47d6-b4ec-6bc87d4fb623")
@@ -27334,7 +27665,7 @@
 			(at -6.385 2.54)
 			(size 4.23 2.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "MOT_HV+")
+			(net "Net-(Q1-G)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "3bd9e8db-9830-4c84-b1b5-82a14a2f182f")
@@ -27343,8 +27674,6 @@
 			(at 3.24 0)
 			(size 5 5)
 			(layers "F.Cu")
-			(net "/Motor_Fuse/RESISTOR")
-			(pintype "passive")
 			(options
 				(clearance outline)
 				(anchor rect)
@@ -27380,7 +27709,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4e8b05a1-3957-41e4-bed0-252f35e6ec19")
@@ -27413,7 +27742,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060347K0FKECC"
+		(property "P/N" "CRCW060310R0FKEE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27427,7 +27756,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663/2369a002-fdfd-490e-941d-4debe96bd84c")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663/09f0d5a2-e8d8-45f0-97d0-29df51055fc6")
 		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV+/")
 		(sheetfile "Isolated_Amplifier.kicad_sch")
 		(units
@@ -27496,7 +27825,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "3V3")
+			(net "/Motor_VoltageSensor/VoltageSensor_HV+/OUTP")
 			(pintype "passive")
 			(uuid "31d20b79-147f-4986-9c7f-bf19e0af1973")
 		)
@@ -27505,7 +27834,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MOT_DIAG")
+			(net "/Motor_VoltageSensor/OUTP_HV+")
 			(pintype "passive")
 			(uuid "0976d58e-a451-4433-ab09-fd79d402d53f")
 		)
@@ -27698,7 +28027,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "5.1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2bbdb369-4b45-4d03-a4af-95fa2e6b828b")
@@ -27731,7 +28060,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C166918"
+		(property "LCSC P/N" "C23186"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27744,7 +28073,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060360R4FKEA"
+		(property "P/N" "0603WAF5101T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27758,9 +28087,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f/f905bbd5-25e3-4518-9a89-c3e959777327")
-		(sheetname "/LV Power/CAN_Transceiver/")
-		(sheetfile "CAN_Transceiver.kicad_sch")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/278d3e71-a9d8-40e3-a9e7-673513fdd902/1e4802a2-1696-4f84-a997-10989ac104a8")
+		(sheetname "/LV Power/USB-C_Connector/")
+		(sheetfile "USB-C_Connector.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27827,7 +28156,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/BPS_CAN_H")
+			(net "GND")
 			(pintype "passive")
 			(uuid "62e8df15-0fb1-4ce4-9100-910ab0b2f32e")
 		)
@@ -27836,7 +28165,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C56-Pad2)")
+			(net "/LV Power/USB-C_Connector/CC1")
 			(pintype "passive")
 			(uuid "f8c17af4-d644-4829-8f49-64f969dd4db8")
 		)
@@ -27903,23 +28232,10 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310R0FKEE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de7404a9-83cd-4d19-a4af-cf57201fae0d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663/12ec0ceb-0793-4d81-8856-b5b89a34e1e4")
-		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV+/")
-		(sheetfile "Isolated_Amplifier.kicad_sch")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/7ad959e1-00d9-4cec-9fdd-e8e33d7b38eb")
+		(sheetname "/Motor_VoltageSensor/")
+		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27986,7 +28302,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/VoltageSensor_HV+/OUTN")
+			(net "Net-(R54-Pad2)")
 			(pintype "passive")
 			(uuid "d7083caf-4286-40c2-a7d2-ae561a518c28")
 		)
@@ -27995,7 +28311,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/OUTN_HV+")
+			(net "/MOT_V-")
 			(pintype "passive")
 			(uuid "057b7a96-6c37-4f13-91e9-97482ed987c7")
 		)
@@ -28029,7 +28345,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cb1f0902-f2a9-43b7-bdcb-2f714ed75858")
@@ -28062,7 +28378,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060347K0FKECC"
+		(property "P/N" "CRCW060310R0FKEE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28076,7 +28392,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d/2369a002-fdfd-490e-941d-4debe96bd84c")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d/09f0d5a2-e8d8-45f0-97d0-29df51055fc6")
 		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV-/")
 		(sheetfile "Isolated_Amplifier.kicad_sch")
 		(units
@@ -28145,7 +28461,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "3V3")
+			(net "/Motor_VoltageSensor/VoltageSensor_HV-/OUTP")
 			(pintype "passive")
 			(uuid "aae15ff2-9ebc-4eb7-a617-544b58374434")
 		)
@@ -28154,9 +28470,246 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MOT_DIAG")
+			(net "/Motor_VoltageSensor/OUTP_HV-")
 			(pintype "passive")
 			(uuid "64e178f1-a2d2-44c0-b094-688339566bd3")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "77e668ca-e775-4f6a-b236-cbc513aef997")
+		(at 272.1375 40.132)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor handsolder")
+		(property "Reference" "R82"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "63667535-9291-408d-8450-7f705a1318c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "11b85721-94cf-4598-8893-db6874a52aba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03f95c3b-1178-45a0-82ab-279dc371537a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2637131c-663b-455c-86fd-5ecc686d468b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aca6e759-974a-42d3-89f2-f7ec26f6f056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CRCW06031K00FKEI "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05cafbc4-7aeb-4e47-b19c-2ea772fdb232")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "062ce502-41ca-496c-8b5c-ff2f7a26d46a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1c90292-6d27-4236-8bdd-a4f07d4c1d90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03ceff10-da98-4557-be22-16d398f7e0c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77b38e28-96cb-43dd-8c73-f8255e446925")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LSCS P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09f2ed91-cb6b-4526-b696-bbfcdd1d924d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/9e58848a-d25a-48d8-af18-b1913e691e59")
+		(sheetname "/48PinMCU/")
+		(sheetfile "48PinMCU.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cc767e86-55bc-4d7f-9285-2d89f5ad48fc")
+		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d851317c-508e-4413-b06d-d36edaa242f9")
+		)
+		(fp_rect
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8fe5ace3-ece4-4c49-be36-b167f4bca44d")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9d9888ac-4c28-40ac-8c1e-63b869d75143")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3bc7c988-9177-46ff-9e59-2960026ecc37")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D17-K)")
+			(pintype "passive")
+			(uuid "a43339d5-e861-4eb3-a394-d81cebc81093")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "d8c2e82a-5832-42c8-8f5d-4fcad92cd335")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
@@ -28188,7 +28741,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "1fe8c611-a863-4961-8567-801ad9fae7ef")
@@ -28655,7 +29208,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/eb3bce39-ba20-4e93-8df0-e4ac3a42c022")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/d3308d86-4251-4236-9ec3-ac79bedd9c85")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -28724,7 +29277,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4B-+)")
+			(net "/Motor_VoltageSensor/OUTP_HV-")
 			(pintype "passive")
 			(uuid "bfa1eda7-abb7-4759-a563-fdcc44a15bc9")
 		)
@@ -28733,7 +29286,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "Net-(U4B-+)")
 			(pintype "passive")
 			(uuid "380252cc-bc94-44ab-b4b1-d07f79453df7")
 		)
@@ -28939,7 +29492,7 @@
 				)
 			)
 		)
-		(property "Value" "15.8k"
+		(property "Value" "7.32k"
 			(at -0.0235 1.618 0)
 			(layer "F.Fab")
 			(uuid "4ffce9e0-1990-46a7-b84c-ea2de21ddb78")
@@ -28972,7 +29525,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060315K8FKEA"
+		(property "P/N" "RT0603BRE077K32L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28985,7 +29538,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C843918"
+		(property "LCSC P/N" "C862286"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28999,7 +29552,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/30175d18-769c-4cf5-98fe-c1abd5d1092e")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/be94d869-90f2-4669-bef8-7f9b9e85a653")
 		(sheetname "/LV Power/PowerProtection/")
 		(sheetfile "PowerProtection.kicad_sch")
 		(units
@@ -29068,7 +29621,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "/LV Power/PowerProtection/OV")
 			(pintype "passive")
 			(uuid "90b46fca-48a8-4200-883a-258561ca2f68")
 		)
@@ -29077,7 +29630,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/LV Power/PowerProtection/EN{slash}UVLO")
+			(net "GND")
 			(pintype "passive")
 			(uuid "e5413acd-0450-4ac4-b36f-0328cfd3a6fd")
 		)
@@ -29111,7 +29664,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "47k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8f34b038-d251-4da7-85f5-4a0f427d4e46")
@@ -29144,7 +29697,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310R0FKEE"
+		(property "P/N" "CRCW060347K0FKECC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29158,8 +29711,8 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d/12ec0ceb-0793-4d81-8856-b5b89a34e1e4")
-		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV-/")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663/2369a002-fdfd-490e-941d-4debe96bd84c")
+		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV+/")
 		(sheetfile "Isolated_Amplifier.kicad_sch")
 		(units
 			(unit
@@ -29227,7 +29780,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/VoltageSensor_HV-/OUTN")
+			(net "3V3")
 			(pintype "passive")
 			(uuid "4576f5e4-fe99-4c90-9728-843f36594a90")
 		)
@@ -29236,7 +29789,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/OUTN_HV-")
+			(net "/MOT_DIAG")
 			(pintype "passive")
 			(uuid "ccb12ece-f398-4c38-9841-01faf0722c62")
 		)
@@ -29882,7 +30435,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/7ad959e1-00d9-4cec-9fdd-e8e33d7b38eb")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/d137f1c6-646b-4439-a537-ae705627b7ae")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -29960,7 +30513,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MOT_V-")
+			(net "/MOT_V+")
 			(pintype "passive")
 			(uuid "a689a906-4f15-4637-ac04-8b96512c21fd")
 		)
@@ -30532,7 +31085,7 @@
 	(footprint "LHRS_Passives:TCAN3413DR"
 		(layer "F.Cu")
 		(uuid "85c5e537-d581-4638-8b57-7a022136a691")
-		(at 212.98 137.539)
+		(at 210.014 115.951)
 		(descr "D0008A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC2"
@@ -31828,7 +32381,7 @@
 				)
 			)
 		)
-		(property "Value" "7.32k"
+		(property "Value" "33"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3b8d1daf-30c0-4447-a658-2efd627bcf3d")
@@ -31861,7 +32414,7 @@
 				)
 			)
 		)
-		(property "P/N" "RT0603BRE077K32L"
+		(property "P/N" "MCT06030C3309FP500"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31874,7 +32427,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C862286"
+		(property "LCSC P/N" "C2074308"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31887,8 +32440,21 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "594-MCT06030C3309FP5 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8b8fa70-a9a2-4805-846c-ad0933de3f79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/be94d869-90f2-4669-bef8-7f9b9e85a653")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/5f8c95be-4bec-4715-b67b-6a9afc6a3131")
 		(sheetname "/LV Power/PowerProtection/")
 		(sheetfile "PowerProtection.kicad_sch")
 		(units
@@ -31957,7 +32523,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/LV Power/PowerProtection/OV")
+			(net "Net-(C46-Pad1)")
 			(pintype "passive")
 			(uuid "b79c6f13-5152-44f5-b586-e4cf3feb4e68")
 		)
@@ -31966,7 +32532,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "/LV Power/PowerProtection/gate")
 			(pintype "passive")
 			(uuid "abdbcdb5-8ea4-42ce-b27a-bb53ce22cb4c")
 		)
@@ -32515,7 +33081,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "5ae668a3-2e75-4710-b549-ba6a14bf7137")
@@ -32549,7 +33115,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/5889733b-2faa-441d-8920-c50d6a9cc8c4")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/179ca1a6-4e0d-4c55-b8b3-f94a63a6786f")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -32868,7 +33434,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/eb112ce2-445b-490b-ba67-7ff681fbcf5e")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/6eea6770-272e-401a-babf-8925cc2fa794")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -32937,7 +33503,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/OUTP_HV+")
+			(net "/Motor_VoltageSensor/V_IN-")
 			(pintype "passive")
 			(uuid "97001596-538e-404b-943c-99f6f5e68f23")
 		)
@@ -32946,7 +33512,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4A-+)")
+			(net "HVGND")
 			(pintype "passive")
 			(uuid "b5aeb61d-f2d8-4c49-a577-57ca70d47d3a")
 		)
@@ -33365,14 +33931,14 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "95adba60-0230-4f82-94cb-fe3e6c43d7be")
 		(at 78.486 114.046 180)
-		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R45"
-			(at 0 -1.524 0)
+			(at 0 -1.83 180)
 			(layer "F.SilkS")
 			(uuid "b1fe0ce3-df40-4198-92b8-7348e795533f")
 			(effects
@@ -33382,8 +33948,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 0 1.43 0)
+		(property "Value" "174k"
+			(at 0 1.83 180)
 			(layer "F.Fab")
 			(uuid "dc601225-f713-4050-b8f8-1d9418097a64")
 			(effects
@@ -33394,7 +33960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5c1b1d0-86bf-4a7b-8f51-ccf299c04426")
@@ -33405,7 +33971,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "901a71fe-c621-4a76-83b0-80d102a3030c")
@@ -33416,7 +33982,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/6eea6770-272e-401a-babf-8925cc2fa794")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/181d3445-b340-49f0-9c57-dc63dc467470")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -33428,8 +33994,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.254724 0.5225)
-			(end 0.254724 0.5225)
+			(start -0.727064 0.91)
+			(end 0.727064 0.91)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -33438,8 +34004,8 @@
 			(uuid "1da6458b-cc9c-4972-9dc5-654fee4c6f78")
 		)
 		(fp_line
-			(start -0.254724 -0.5225)
-			(end 0.254724 -0.5225)
+			(start -0.727064 -0.91)
+			(end 0.727064 -0.91)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -33448,8 +34014,8 @@
 			(uuid "12eee2a8-0695-4728-9b78-80329f374cd0")
 		)
 		(fp_rect
-			(start -1.65 -0.73)
-			(end 1.65 0.73)
+			(start -2.45 -1.13)
+			(end 2.45 1.13)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -33459,8 +34025,8 @@
 			(uuid "0a2c32e4-fc7a-4377-964c-800de5c69144")
 		)
 		(fp_rect
-			(start -0.8 -0.4125)
-			(end 0.8 0.4125)
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -33470,36 +34036,36 @@
 			(uuid "14ec90a7-bc54-46d5-ba49-35b83d148604")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "87f39a70-aa57-4317-9622-555755d1a7a7")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0 180)
-			(size 0.975 0.95)
+			(at -1.55 0 180)
+			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/V_IN-")
+			(roundrect_rratio 0.192308)
+			(net "Net-(R44-Pad2)")
 			(pintype "passive")
 			(uuid "14ad7a20-137c-4f54-96e6-f6a720ca58e3")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0 180)
-			(size 0.975 0.95)
+			(at 1.55 0 180)
+			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "HVGND")
+			(roundrect_rratio 0.192308)
+			(net "/Motor_VoltageSensor/V_IN-")
 			(pintype "passive")
 			(uuid "898c4f9e-d9ab-4792-bf47-b16087d4ed3b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34470,7 +35036,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/f07653c5-8d88-4702-88df-582da9d44e81")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/dc50b215-6e88-4055-b18d-dec3d913aa62")
 		(sheetname "/LV Power/PowerProtection/")
 		(sheetfile "PowerProtection.kicad_sch")
 		(units
@@ -34548,7 +35114,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/LV Power/PowerProtection/EN{slash}UVLO")
+			(net "/LV Power/PowerProtection/OV")
 			(pintype "passive")
 			(uuid "f8968abe-a1ec-4b6e-bf31-f9be0c5e7978")
 		)
@@ -38059,7 +38625,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "5.1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5a593d1f-3f6a-4152-b807-4f8fcb7ca8c0")
@@ -38092,7 +38658,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C166918"
+		(property "LCSC P/N" "C23186"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38105,7 +38671,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060360R4FKEA"
+		(property "P/N" "0603WAF5101T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38119,9 +38685,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f/d3dc1093-5927-44fd-b183-035a11ec5677")
-		(sheetname "/LV Power/CAN_Transceiver/")
-		(sheetfile "CAN_Transceiver.kicad_sch")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/278d3e71-a9d8-40e3-a9e7-673513fdd902/1fe3fa78-8c96-4fec-92a4-65d0f069d53a")
+		(sheetname "/LV Power/USB-C_Connector/")
+		(sheetfile "USB-C_Connector.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38188,7 +38754,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C56-Pad2)")
+			(net "GND")
 			(pintype "passive")
 			(uuid "e2f28f00-0880-4e8b-8f12-b6bf0b1729b9")
 		)
@@ -38197,7 +38763,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(JP1-A)")
+			(net "/LV Power/USB-C_Connector/CC2")
 			(pintype "passive")
 			(uuid "0a52c997-50a3-4477-9962-2bb70ff1fb22")
 		)
@@ -39393,7 +39959,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "15.8k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "20ff27d5-f266-49c6-83ee-4b0b02fae6ef")
@@ -39415,7 +39981,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -39426,7 +39992,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C23186"
+		(property "LCSC P/N" "C843918"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39439,7 +40005,7 @@
 				)
 			)
 		)
-		(property "P/N" "0603WAF5101T5E"
+		(property "P/N" "CRCW060315K8FKEA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39453,9 +40019,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/278d3e71-a9d8-40e3-a9e7-673513fdd902/1fe3fa78-8c96-4fec-92a4-65d0f069d53a")
-		(sheetname "/LV Power/USB-C_Connector/")
-		(sheetfile "USB-C_Connector.kicad_sch")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/30175d18-769c-4cf5-98fe-c1abd5d1092e")
+		(sheetname "/LV Power/PowerProtection/")
+		(sheetfile "PowerProtection.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -39531,7 +40097,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/LV Power/USB-C_Connector/CC2")
+			(net "/LV Power/PowerProtection/EN{slash}UVLO")
 			(pintype "passive")
 			(uuid "016f3b87-0478-4441-8f52-e6b15e6668cb")
 		)
@@ -40425,7 +40991,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7d4d02f7-df4e-45bf-9694-4985fb5a5142")
@@ -40447,7 +41013,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40458,56 +41024,17 @@
 				)
 			)
 		)
-		(property "P/N" "MCT06030C3309FP500"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "673a96a0-7511-4be4-bb2d-487786633500")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "594-MCT06030C3309FP5 "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f1186763-56fe-4af5-8234-dc019868f123")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC P/N" "C2074308"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a71fac95-5728-4d2a-bab9-237e84df6ab7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/5f8c95be-4bec-4715-b67b-6a9afc6a3131")
-		(sheetname "/LV Power/PowerProtection/")
-		(sheetfile "PowerProtection.kicad_sch")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/94f99105-930d-4704-b2c2-a4c65945ecf3")
+		(sheetname "/LV Power/")
+		(sheetfile "LV_Power.kicad_sch")
 		(units
 			(unit
 				(name "A")
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -40567,7 +41094,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C46-Pad1)")
+			(net "/VIN_FUSED")
 			(pintype "passive")
 			(uuid "e86861fe-cca2-4b9a-9e34-82f5454e7b59")
 		)
@@ -40576,7 +41103,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/LV Power/PowerProtection/gate")
+			(net "/VIN_PROT")
 			(pintype "passive")
 			(uuid "5917633f-445b-4966-89d9-2c1e67ab1f77")
 		)
@@ -41426,7 +41953,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/pwr263s_35.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41552,7 +42079,7 @@
 				)
 			)
 		)
-		(path "/90c6c4b7-1465-4e8f-80ba-ec6b0750446b/cf13b065-4f8d-4241-9e25-e8936449b400")
+		(path "/90c6c4b7-1465-4e8f-80ba-ec6b0750446b/137196d5-dba9-4af5-966d-87a4e9129d25")
 		(sheetname "/Motor_Fuse/")
 		(sheetfile "Fused_Relay.kicad_sch")
 		(units
@@ -42458,7 +42985,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "de81c358-3173-4471-8abc-f5ef1ecd8597")
@@ -42492,7 +43019,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/d137f1c6-646b-4439-a537-ae705627b7ae")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/e4fe736e-db94-42ff-b762-254423abc4de")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -42561,7 +43088,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(R52-Pad2)")
+			(net "Net-(U4B--)")
 			(pintype "passive")
 			(uuid "ef07a60b-d3c7-47af-97d6-b288f5a53c8b")
 		)
@@ -42570,7 +43097,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MOT_V+")
+			(net "Net-(R54-Pad2)")
 			(pintype "passive")
 			(uuid "5834ef70-1ac8-411b-a2a9-05fac144c67d")
 		)
@@ -43264,7 +43791,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "60"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ffd91ea3-ce6d-406f-8e5e-a173ebba2d64")
@@ -43297,72 +43824,7 @@
 				)
 			)
 		)
-		(property "Color" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5676b796-fc82-4b81-8083-1a0ae9363f2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "If" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3ebe9a20-2388-491d-8e1b-16a7bcc1b1f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfg" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6562f1c0-2fe8-4aa5-9a38-4dc9154babe3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "25fe7c00-9efa-4536-83cd-7b1fa13e1b13")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "CRCW060310K0FKEI "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "349425fc-9b85-4d5f-bda3-2faab931ab5c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CRCW060360R4FKEA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43375,7 +43837,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C25804"
+		(property "LCSC P/N" "C166918"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43389,9 +43851,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/19e1e812-f194-42ec-935a-18332a0de50b")
-		(sheetname "/48PinMCU/")
-		(sheetfile "48PinMCU.kicad_sch")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f/d3dc1093-5927-44fd-b183-035a11ec5677")
+		(sheetname "/LV Power/CAN_Transceiver/")
+		(sheetfile "CAN_Transceiver.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -43458,7 +43920,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/48PinMCU/NRST")
+			(net "Net-(C56-Pad2)")
 			(pintype "passive")
 			(uuid "a691822b-98ec-4125-9d9f-2bbfd2549ac6")
 		)
@@ -43467,7 +43929,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "3V3")
+			(net "Net-(JP1-A)")
 			(pintype "passive")
 			(uuid "9627b75c-5b45-4518-84f7-175f97aab3ea")
 		)
@@ -43820,7 +44282,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "a45d2136-dea6-4fa9-a7e0-c0ad930ed6b3")
@@ -44125,7 +44587,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c169b8d2-9e4c-4283-b16f-a3fa41030c6d")
@@ -44158,7 +44620,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C2930077"
+		(property "LCSC P/N" "C21190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44184,7 +44646,7 @@
 				)
 			)
 		)
-		(property "P/N" "FRC0603F22R0TS"
+		(property "P/N" "CRCW06031K00FKEI "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44197,8 +44659,60 @@
 				)
 			)
 		)
+		(property "Height" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4dd36cb-a38f-465c-bb19-651e0d9729f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c334024-c737-4d10-bcee-95594353d9fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f32d3087-5dd8-4079-8b2a-dd7845fc3611")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "805a19c5-2477-4efa-8afd-82c4282428a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/f23ec1e4-acc3-4cf2-ad35-855fed399198")
+		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/0e6f34d4-dbd3-4f05-a4bc-100cf41ed9c8")
 		(sheetname "/48PinMCU/")
 		(sheetfile "48PinMCU.kicad_sch")
 		(units
@@ -44267,7 +44781,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/48PinMCU/SWCLK")
+			(net "Net-(D15-Pad4)")
 			(pintype "passive")
 			(uuid "88ef8016-8ecc-4dfe-b1b8-3f79cd1d8901")
 		)
@@ -44276,7 +44790,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(J10-Pin_3)")
+			(net "GND")
 			(pintype "passive")
 			(uuid "45fe137f-8c6c-4edc-88e1-4878ebdbb84a")
 		)
@@ -44445,7 +44959,7 @@
 				)
 			)
 		)
-		(path "/90c6c4b7-1465-4e8f-80ba-ec6b0750446b/6e445d81-c516-483b-867e-1000bd8aa362")
+		(path "/90c6c4b7-1465-4e8f-80ba-ec6b0750446b/cd6653fc-9d24-41d3-8f71-74d999a35f25")
 		(sheetname "/Motor_Fuse/")
 		(sheetfile "Fused_Relay.kicad_sch")
 		(units
@@ -44454,7 +44968,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -44968,7 +45482,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "9619b3f0-3543-42da-828a-384b90ad2233")
@@ -45114,7 +45628,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "100k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ec743a51-6fa1-49cb-bde1-6d74f10ca7e7")
@@ -45136,7 +45650,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -45147,7 +45661,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C23186"
+		(property "LCSC P/N" "C25803"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45160,7 +45674,7 @@
 				)
 			)
 		)
-		(property "P/N" "0603WAF5101T5E"
+		(property "P/N" "0603WAF1003T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45174,9 +45688,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/278d3e71-a9d8-40e3-a9e7-673513fdd902/1e4802a2-1696-4f84-a997-10989ac104a8")
-		(sheetname "/LV Power/USB-C_Connector/")
-		(sheetfile "USB-C_Connector.kicad_sch")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/f07653c5-8d88-4702-88df-582da9d44e81")
+		(sheetname "/LV Power/PowerProtection/")
+		(sheetfile "PowerProtection.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45243,7 +45757,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "/VIN_FUSED")
 			(pintype "passive")
 			(uuid "ecb43afc-43ca-4c71-9023-83c531e45470")
 		)
@@ -45252,7 +45766,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/LV Power/USB-C_Connector/CC1")
+			(net "/LV Power/PowerProtection/EN{slash}UVLO")
 			(pintype "passive")
 			(uuid "51741d55-5091-43f2-a9b6-baccbb3da487")
 		)
@@ -45994,7 +46508,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/d3308d86-4251-4236-9ec3-ac79bedd9c85")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/901ad7d5-223b-4386-8eff-160b153aa1da")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -46063,7 +46577,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/OUTP_HV-")
+			(net "/Motor_VoltageSensor/OUTN_HV+")
 			(pintype "passive")
 			(uuid "97949a01-3971-4b79-a9f6-c53adb935da2")
 		)
@@ -46072,7 +46586,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4B-+)")
+			(net "Net-(U4A--)")
 			(pintype "passive")
 			(uuid "64924e98-0697-4829-9677-8b206dcf8ab9")
 		)
@@ -47649,7 +48163,7 @@
 			(at 0.9525 0.9452)
 			(size 0.5588 1.3208)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MAINPRECHARGE_CTRL")
+			(net "Net-(Q1-G)")
 			(pinfunction "G_2")
 			(pintype "input")
 			(uuid "aefb4eaa-4e5d-4074-922b-473e29f5c2f7")
@@ -47828,7 +48342,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "67e403ae-9534-4c0c-9558-c74d8699c1ac")
@@ -47974,7 +48488,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "47k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "61ac34ee-85db-4d8e-bd16-95eea6007a58")
@@ -48007,17 +48521,30 @@
 				)
 			)
 		)
+		(property "P/N" "CRCW060347K0FKECC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2c4d9ce-77cd-455e-a7d9-9e17fceea2c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/94f99105-930d-4704-b2c2-a4c65945ecf3")
-		(sheetname "/LV Power/")
-		(sheetfile "LV_Power.kicad_sch")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d/2369a002-fdfd-490e-941d-4debe96bd84c")
+		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV-/")
+		(sheetfile "Isolated_Amplifier.kicad_sch")
 		(units
 			(unit
 				(name "A")
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -48077,7 +48604,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/VIN_FUSED")
+			(net "3V3")
 			(pintype "passive")
 			(uuid "008574a1-a3b6-4ef3-b1fb-f57e5f2dd5b2")
 		)
@@ -48086,7 +48613,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/VIN_PROT")
+			(net "/MOT_DIAG")
 			(pintype "passive")
 			(uuid "ec51ef73-6c63-40ee-97bc-f6631580b914")
 		)
@@ -48357,7 +48884,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "f69dccc2-fe2d-420c-85df-f5e7b417aae5")
@@ -48486,14 +49013,14 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e9ca1372-b4cc-405d-8361-a5920b722a55")
 		(at 78.587 95.25 180)
-		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R40"
-			(at 0 -1.524 0)
+			(at 0 -1.83 180)
 			(layer "F.SilkS")
 			(uuid "f07f2164-418c-4cef-83f0-e8859e67fee8")
 			(effects
@@ -48503,8 +49030,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 0 1.43 0)
+		(property "Value" "174k"
+			(at 0 1.83 180)
 			(layer "F.Fab")
 			(uuid "ba5c7ea2-c4c5-4c0a-a550-3b70bad553ed")
 			(effects
@@ -48515,7 +49042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d4e8a2d-fe42-4609-b1aa-a0e934d44ca5")
@@ -48526,7 +49053,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7149139-0e2f-43c6-8439-2d936059d3c8")
@@ -48537,7 +49064,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/f7e17b4c-2ed8-466f-aae7-ca6d342ef4b9")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4b230a66-be57-4b5a-b7c5-ef177e8936e3")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -48549,18 +49076,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.254724 0.5225)
-			(end 0.254724 0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c94fd4ea-18e9-402b-a13e-d8d771ff429a")
-		)
-		(fp_line
-			(start -0.254724 -0.5225)
-			(end 0.254724 -0.5225)
+			(start -0.727064 0.91)
+			(end 0.727064 0.91)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -48568,9 +49085,19 @@
 			(layer "F.SilkS")
 			(uuid "8180ba57-131f-48ee-9f27-d066a891d2a6")
 		)
+		(fp_line
+			(start -0.727064 -0.91)
+			(end 0.727064 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c94fd4ea-18e9-402b-a13e-d8d771ff429a")
+		)
 		(fp_rect
-			(start -1.65 -0.73)
-			(end 1.65 0.73)
+			(start -2.45 -1.13)
+			(end 2.45 1.13)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -48580,8 +49107,8 @@
 			(uuid "e5ba481b-7b3a-44a7-bf2e-10db37af0012")
 		)
 		(fp_rect
-			(start -0.8 -0.4125)
-			(end 0.8 0.4125)
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -48591,36 +49118,36 @@
 			(uuid "ae39d685-2757-4348-abd8-33d3ae902ee4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "7bd8a80b-0fc2-4121-9b5a-63858dca14c7")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0 180)
-			(size 0.975 0.95)
+			(at -1.55 0 180)
+			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/V_IN+")
+			(roundrect_rratio 0.192308)
+			(net "Net-(R39-Pad2)")
 			(pintype "passive")
 			(uuid "7288bb60-6c6f-4f39-974e-00315a3fb30d")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0 180)
-			(size 0.975 0.95)
+			(at 1.55 0 180)
+			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "HVGND")
+			(roundrect_rratio 0.192308)
+			(net "/Motor_VoltageSensor/V_IN+")
 			(pintype "passive")
 			(uuid "b67d3a3f-7966-4ba4-8748-35c1d77b4374")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48649,7 +49176,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "60"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9b0a254a-3244-4778-a198-a9861e4a10cf")
@@ -48682,7 +49209,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C21190"
+		(property "LCSC P/N" "C166918"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48695,7 +49222,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW06031K00FKEI "
+		(property "P/N" "CRCW060360R4FKEA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48708,75 +49235,10 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b50db60-d13f-4e71-a41e-58b92d11533d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23343e77-96e2-40c0-8d86-fb020f738b39")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "253e609a-0d73-4610-8ab3-1fa02077ea84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f70d78c4-68ff-4c13-a693-b73e32061209")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LSCS P/N" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b46f926c-67c0-4e01-af42-36072200c858")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
-		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/c38a4f07-d458-48ed-bb8f-71f9526b9271")
-		(sheetname "/48PinMCU/")
-		(sheetfile "48PinMCU.kicad_sch")
+		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f/f905bbd5-25e3-4518-9a89-c3e959777327")
+		(sheetname "/LV Power/CAN_Transceiver/")
+		(sheetfile "CAN_Transceiver.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -48843,7 +49305,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D15-Pad2)")
+			(net "/BPS_CAN_H")
 			(pintype "passive")
 			(uuid "031346e3-5155-489c-9eef-ffdd2d1ac7b8")
 		)
@@ -48852,7 +49314,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "Net-(C56-Pad2)")
 			(pintype "passive")
 			(uuid "09f598ec-6849-402a-abbf-d6c34c5f3611")
 		)
@@ -49066,7 +49528,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/819d6e79-c189-4ec9-ab3a-cf2ebcd50d73")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/a27fc1dc-a94a-49b4-845d-fd494a19e72a")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -49135,7 +49597,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4A--)")
+			(net "/Motor_VoltageSensor/OUTN_HV-")
 			(pintype "passive")
 			(uuid "08e2bea6-a206-4201-98a8-ced346f7baf0")
 		)
@@ -49144,7 +49606,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(R52-Pad2)")
+			(net "Net-(U4B--)")
 			(pintype "passive")
 			(uuid "6a2104f0-df70-470c-8e05-eb274da62de7")
 		)
@@ -49351,7 +49813,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "7af91d5d-554b-4cc9-afd3-ca4c325ecbd4")
@@ -49385,7 +49847,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/181d3445-b340-49f0-9c57-dc63dc467470")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/5889733b-2faa-441d-8920-c50d6a9cc8c4")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -49463,7 +49925,7 @@
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
-			(net "/Motor_VoltageSensor/V_IN-")
+			(net "Net-(R44-Pad2)")
 			(pintype "passive")
 			(uuid "6e752f6f-7b4e-49b1-8d94-8630464bde36")
 		)
@@ -49642,7 +50104,7 @@
 	(footprint "LHRS_Passives:CDSOT23-T24CAN"
 		(layer "F.Cu")
 		(uuid "eed2097b-e963-4eaf-b46a-cf59b172e9ab")
-		(at 215.72 146.099)
+		(at 222.393 118.745)
 		(descr "CDSOT23-T24CAN")
 		(tags "TVS Diode (Bi-directional)")
 		(property "Reference" "D14"
@@ -49976,6 +50438,243 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "f06f2b32-c9e0-4cd9-89b3-b2a785dcc233")
+		(at 272.1375 37.622)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor handsolder")
+		(property "Reference" "R81"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "6a783550-abc1-4095-abf4-9cf2572a2bb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "c256c4a5-65ca-4ffa-b3cf-8056d53eb0a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73f1ae00-c0cc-46b1-930d-80aa16beec72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "089d5eb3-d85d-4358-ac69-ce532d8f6502")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e65ff16e-1b33-4880-aee5-69d1a4227a89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "If" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05a5ebb3-997e-4016-b8a7-817d010d9a7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfg" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "122fbf8c-b42e-42eb-8a27-862e6a3e01a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a278616e-de95-4259-bbec-6e302ba219b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CRCW060310K0FKEI "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7d1c550-2109-4ff5-bf07-a35a09f4723d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CRCW060310K0FKEI "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad0e0a99-3bf1-4e75-9fe4-26fbacd837cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7adf148-0335-4061-95e3-479a99457cb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/dec9d7f2-1eaa-4080-a4bf-354727e24a5d")
+		(sheetname "/48PinMCU/")
+		(sheetfile "48PinMCU.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8d1ec885-074b-486e-acb6-abf35b0f0711")
+		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d49c0699-737e-4f89-b6d0-b27560f34475")
+		)
+		(fp_rect
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "32458dd0-b7c2-4d25-85d4-dac47f6b4527")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e44cd169-f5ae-4fd1-b771-c61755f1b940")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fea6ede4-ff7b-4124-ad63-1e23f9c0607a")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/48PinMCU/BOOT0")
+			(pintype "passive")
+			(uuid "a249b9a3-b1aa-44e1-9a31-30f8e106628a")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D16-A2)")
+			(pintype "passive")
+			(uuid "c43d113e-31ce-4ea3-90d4-7a631454e9bf")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -50597,7 +51296,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(R52-Pad2)")
+			(net "Net-(R53-Pad2)")
 			(pintype "output")
 			(uuid "a94f3bc3-39fc-4226-9aba-c68418205325")
 		)
@@ -50656,7 +51355,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(R53-Pad2)")
+			(net "Net-(R54-Pad2)")
 			(pintype "output")
 			(uuid "baefff4c-6bef-4441-b0e3-224ce23cb397")
 		)
@@ -50700,7 +51399,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "484f487a-fa8c-4d30-a701-f801fe733ada")
@@ -50880,7 +51579,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/901ad7d5-223b-4386-8eff-160b153aa1da")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/a3ec2337-381f-4f04-ac4b-ddb4673b6c9e")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -50949,7 +51648,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Motor_VoltageSensor/OUTN_HV+")
+			(net "Net-(U4A-+)")
 			(pintype "passive")
 			(uuid "19d04a6e-e01d-4b57-af19-7a94b8240750")
 		)
@@ -50958,7 +51657,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4A--)")
+			(net "GND")
 			(pintype "passive")
 			(uuid "f116ae8e-9908-448a-ac88-ac878b58edeb")
 		)
@@ -51990,7 +52689,7 @@
 			(at 0.9525 0.9452)
 			(size 0.5588 1.3208)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/MOTPRECHARGE_CTRL")
+			(net "Net-(Q2-G)")
 			(pinfunction "G_2")
 			(pintype "input")
 			(uuid "9f7f7d74-e923-497c-9012-dbbc5c2f4d8b")
@@ -52182,7 +52881,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "174k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "73733965-4b44-4a29-93e4-d6e4a344e666")
@@ -52216,7 +52915,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/179ca1a6-4e0d-4c55-b8b3-f94a63a6786f")
+		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/53b4045c-a267-4e6b-81a7-bf27c5e0b384")
 		(sheetname "/Motor_VoltageSensor/")
 		(sheetfile "Voltage_Sensor.kicad_sch")
 		(units
@@ -52285,7 +52984,7 @@
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
-			(net "Net-(R41-Pad2)")
+			(net "MOT_HV-")
 			(pintype "passive")
 			(uuid "8cf1dca0-344c-4dc6-9588-3941ebfe6c79")
 		)
@@ -54253,8 +54952,8 @@
 		(uuid "33d79f86-6f72-47a9-934c-79e3af6f5199")
 	)
 	(gr_rect
-		(start 243.358 36.188)
-		(end 285.141 74.161)
+		(start 243.358 31.75)
+		(end 290.576 78.613)
 		(stroke
 			(width 0.1)
 			(type default)
