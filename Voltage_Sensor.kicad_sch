@@ -1,0 +1,5800 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "baf34ed1-f949-4ebf-9135-c905f3c3255e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UTSVT-Misc:TLV9002QDRQ1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLV9002QDRQ1"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "kicad-embed://tlv9002-q1.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "P/N" "TLV9002QDRQ1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser P/N" "595-TLV9002QDRQ1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey P/N" "296-TLV9002QDRQ1CT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC P/N" "C2860922"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp rtor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "VSSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV9002QDRQ1_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9002QDRQ1_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9002QDRQ1_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lhrs_misc:Multimeter_TP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "[net name]"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Multimeter_TP_0_1"
+				(circle
+					(center 0 -1.778)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Multimeter_TP_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 45.72 13.97)
+		(end 121.285 46.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2fcd1215-a840-4732-9118-b0a4e63f4d5a")
+	)
+	(rectangle
+		(start 188.595 13.97)
+		(end 222.885 40.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "69b327b6-d62f-4372-81ce-42035adb153f")
+	)
+	(rectangle
+		(start 122.555 87.63)
+		(end 187.325 135.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7d232992-a6d9-4bdc-9078-ff920fcbd4f3")
+	)
+	(rectangle
+		(start 45.72 87.63)
+		(end 121.285 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a8487ffa-9af9-426c-8ab6-19c2e932e15e")
+	)
+	(rectangle
+		(start 13.97 87.63)
+		(end 44.45 159.385)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b20d2c27-9db4-4c22-9265-5b58022fa2f7")
+	)
+	(rectangle
+		(start 122.555 13.97)
+		(end 187.325 62.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c8840c4e-697b-435c-9b1f-d830d4613e57")
+	)
+	(rectangle
+		(start 13.97 13.97)
+		(end 44.45 85.725)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f4648547-9c32-4b74-9a43-34f512e50b7c")
+	)
+	(text "Isolated HV- Sensing"
+		(exclude_from_sim no)
+		(at 46.99 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d84966d-0a49-4380-a90d-d71b3eb172fe")
+	)
+	(text "HV divider scales HV+ \n(100V-130V)down to V_IN \n(max 3.17V) for \nisolated amplifier"
+		(exclude_from_sim no)
+		(at 15.24 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dc6ef71-86bc-457a-8af5-cc262cfe6c74")
+	)
+	(text "Op-amp difference stage : OUTP minus OUTN, filtered before \nthe ADC"
+		(exclude_from_sim no)
+		(at 123.19 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4430c688-54d6-4ee2-bf57-22fa1557bd2d")
+	)
+	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 100k = 400k\nRbot = 10k\n\nVin = HV x 10k / (400k + 10k) = HV x 0.02439\n\nHV = 100V -> Vin = 2.44V\nHV = 120V -> Vin = 2.93V\nHV = 130V -> Vin = 3.17V\n\nAmp linear input range: +/-5V (AMC1350)\nDivider current at 130V: 130V / 410k = 0.32mA\nPer top resistor: ~32V, ~10mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
+		(exclude_from_sim no)
+		(at 45.72 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a86ba63-93e7-4658-803f-344d17a4d08d")
+	)
+	(text "HV divider scales HV+ \n(100V-130V)down to V_IN \n(max 3.17V) for \nisolated amplifier"
+		(exclude_from_sim no)
+		(at 15.24 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85f58a96-d881-4d2d-8066-9072dc1b495a")
+	)
+	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 100k = 400k\nRbot = 10k\n\nVin = HV x 10k / (400k + 10k) = HV x 0.02439\n\nHV = 100V -> Vin = 2.44V\nHV = 120V -> Vin = 2.93V\nHV = 130V -> Vin = 3.17V\n\nAmp linear input range: +/-5V (AMC1350)\nDivider current at 130V: 130V / 410k = 0.32mA\nPer top resistor: ~32V, ~10mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
+		(exclude_from_sim no)
+		(at 45.72 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0c1bc99-1af6-4e49-a294-83c6294219e1")
+	)
+	(text "Isolated HV+ Sensing"
+		(exclude_from_sim no)
+		(at 46.99 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af35c707-3fff-47d0-930f-a635080cb408")
+	)
+	(text "Math for outp - outn difference\nMath for result"
+		(exclude_from_sim no)
+		(at 187.96 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e42f9d14-e7fd-4646-a39a-9104b33c74d8")
+	)
+	(text "Op-amp power: TLV9002 supply \non 3V3A with decoupling"
+		(exclude_from_sim no)
+		(at 189.23 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e865f63d-6c0d-4edb-8fbf-91a818afe11f")
+	)
+	(text "Op-amp difference stage : OUTP minus OUTN, filtered before \nthe ADC"
+		(exclude_from_sim no)
+		(at 123.19 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc8f0bb8-ae23-48dc-9d62-e51672a6a68c")
+	)
+	(junction
+		(at 196.85 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1167d99c-9b09-4876-9a78-15218bd0dd33")
+	)
+	(junction
+		(at 30.48 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19a0654e-3ea2-49eb-8ea6-fc5d45a7b715")
+	)
+	(junction
+		(at 21.59 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4072f20d-dc75-42cc-8ad3-e19aaefaa394")
+	)
+	(junction
+		(at 146.05 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58ba29a5-aeb5-48e3-a1a2-b4d1e81ed134")
+	)
+	(junction
+		(at 30.48 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c4c0389-1668-4382-86b4-cf53307afd0d")
+	)
+	(junction
+		(at 21.59 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d2a3b8-85c0-4a1d-a4c2-0f6cc87aa979")
+	)
+	(junction
+		(at 137.16 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a71b35a-eeda-4a00-9f5e-f5304795b83c")
+	)
+	(junction
+		(at 163.83 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a19fdfde-48e7-446f-87e6-e41c1033079b")
+	)
+	(junction
+		(at 163.83 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9f78e22-e9b6-4f14-a4a9-2a971ddc0a5f")
+	)
+	(junction
+		(at 146.05 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2f4b96c-6f00-4e57-adb3-f48b7609686d")
+	)
+	(junction
+		(at 21.59 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c166c77d-4754-461f-8bf7-75cc94b7ba31")
+	)
+	(junction
+		(at 176.53 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2563139-2f32-415a-9cb5-401b5a991240")
+	)
+	(junction
+		(at 176.53 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce7b8536-00d2-43c4-b580-c0b37db9a889")
+	)
+	(junction
+		(at 21.59 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d309fa3a-e4bc-4324-8e40-4927c59146f0")
+	)
+	(junction
+		(at 137.16 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d98fa654-68ce-40c4-95ca-ec12d71ed004")
+	)
+	(junction
+		(at 214.63 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcb41483-67a1-408a-97cb-43695b4c78ea")
+	)
+	(wire
+		(pts
+			(xy 21.59 99.06) (xy 21.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00cdad9a-1715-4a6e-b1df-5e2077b837eb")
+	)
+	(wire
+		(pts
+			(xy 113.03 40.64) (xy 106.68 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b3a062-3c19-424a-8024-93717f1bacda")
+	)
+	(wire
+		(pts
+			(xy 21.59 45.72) (xy 21.59 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0346ef0f-85b9-4eef-ac99-eda597ffaa5d")
+	)
+	(wire
+		(pts
+			(xy 113.03 99.06) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03559a89-bfca-4d82-b1f5-bce731fdb904")
+	)
+	(wire
+		(pts
+			(xy 173.99 38.1) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0821a63c-bd8b-4c85-bee7-983268f28b20")
+	)
+	(wire
+		(pts
+			(xy 137.16 33.02) (xy 137.16 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097c9778-2a96-4af7-ad91-facf22f563d6")
+	)
+	(wire
+		(pts
+			(xy 196.85 25.4) (xy 196.85 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7a818d-08d9-400c-b5be-43f1677be871")
+	)
+	(wire
+		(pts
+			(xy 176.53 114.3) (xy 176.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d95e691-d59f-43f8-b64f-15a7061a0150")
+	)
+	(wire
+		(pts
+			(xy 60.96 106.68) (xy 54.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4d7ba7-75bb-43f1-907f-cecac4a0b2d7")
+	)
+	(wire
+		(pts
+			(xy 161.29 38.1) (xy 163.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1104c34c-2853-45d8-a44f-d09659c6dac0")
+	)
+	(wire
+		(pts
+			(xy 21.59 109.22) (xy 21.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15648e25-16fc-44cf-9f4c-827541b18544")
+	)
+	(wire
+		(pts
+			(xy 21.59 68.58) (xy 21.59 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1582edf8-1564-4b23-9da9-617ae521a517")
+	)
+	(wire
+		(pts
+			(xy 113.03 110.49) (xy 106.68 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1889d331-c719-44e4-b954-145be1629ff7")
+	)
+	(wire
+		(pts
+			(xy 21.59 152.4) (xy 21.59 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7d3ee4-4a19-42f8-9028-dd55f3ad769c")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 113.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0a884c-68c3-469d-83b5-a6f6cb0338d3")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 60.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1b8349-0842-42cb-950f-1b4204453ad7")
+	)
+	(wire
+		(pts
+			(xy 21.59 35.56) (xy 21.59 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27463670-ac89-495e-992e-fb14d15f15de")
+	)
+	(wire
+		(pts
+			(xy 21.59 142.24) (xy 30.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c63cfcc-54f4-413b-8ac8-32886c41ba9e")
+	)
+	(wire
+		(pts
+			(xy 196.85 33.02) (xy 198.12 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd37146-8231-4517-b528-96addedfd0b5")
+	)
+	(wire
+		(pts
+			(xy 214.63 22.86) (xy 214.63 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30993753-f2e3-4467-81ea-aaa14548861f")
+	)
+	(wire
+		(pts
+			(xy 146.05 57.15) (xy 140.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e9d37c-d8ec-4165-ab3f-2e9e8ed52495")
+	)
+	(wire
+		(pts
+			(xy 21.59 129.54) (xy 21.59 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3678726e-c36b-4fdd-9485-e40d3fefbe82")
+	)
+	(wire
+		(pts
+			(xy 146.05 130.81) (xy 140.97 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376d25b4-f775-4497-a2be-b43bea8467b0")
+	)
+	(wire
+		(pts
+			(xy 137.16 99.06) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3acec313-55b4-4fb9-9380-083fb1eba427")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 54.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc18f24-eacc-41d6-a199-78633f0671b4")
+	)
+	(wire
+		(pts
+			(xy 113.03 40.64) (xy 113.03 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4381e09c-eb9a-4dfe-b55c-2f0a6028c2e7")
+	)
+	(wire
+		(pts
+			(xy 163.83 130.81) (xy 158.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46673856-8703-4a86-930f-aa4952860305")
+	)
+	(wire
+		(pts
+			(xy 163.83 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aec2c21-c767-4b0c-8e3b-4edc85bce157")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 133.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce0fd0d-10da-45f9-a475-bc630de19f73")
+	)
+	(wire
+		(pts
+			(xy 30.48 68.58) (xy 30.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5131f0e3-edfd-49fb-a0e0-ecba1d4b8a70")
+	)
+	(wire
+		(pts
+			(xy 209.55 25.4) (xy 214.63 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51fc849f-cdb2-423e-b3fd-ca36248e3bed")
+	)
+	(wire
+		(pts
+			(xy 124.46 130.81) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5641fbf9-c3b0-4e0e-a052-8b98a325d855")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577a12ea-1559-43b8-b433-be83d713e090")
+	)
+	(wire
+		(pts
+			(xy 54.61 40.64) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57823230-3761-4a6b-a863-7591dde7dc09")
+	)
+	(wire
+		(pts
+			(xy 146.05 40.64) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c1d933-86be-40b5-8d6d-37642f2d0f2e")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580bf45f-6de2-456d-abfc-57b7ae05cf8f")
+	)
+	(wire
+		(pts
+			(xy 137.16 38.1) (xy 137.16 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af749d4-ede3-486b-a541-35f3cada1c10")
+	)
+	(wire
+		(pts
+			(xy 176.53 110.49) (xy 176.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616e61f4-d8b5-4c3b-a95a-b0f62cd9a148")
+	)
+	(polyline
+		(pts
+			(xy 83.82 21.59) (xy 83.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "625a6ceb-6b40-4f50-acb1-8fac61ad9ed3")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 176.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644b7e8b-8d80-40da-b5b9-19a864056981")
+	)
+	(wire
+		(pts
+			(xy 177.8 38.1) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ceb744-7e2e-42c6-93e5-faf6d9f07873")
+	)
+	(wire
+		(pts
+			(xy 137.16 25.4) (xy 137.16 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65897fbd-0563-4a9a-932f-44f520c94bff")
+	)
+	(wire
+		(pts
+			(xy 60.96 33.02) (xy 54.61 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a8ed1e-4837-429d-8994-f375a5c7da7b")
+	)
+	(wire
+		(pts
+			(xy 21.59 80.01) (xy 21.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac186fb-501f-4665-b2ed-2cd5226163a7")
+	)
+	(wire
+		(pts
+			(xy 113.03 25.4) (xy 113.03 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de3119c-3f40-4222-bb4d-68972f3135da")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9055d6-92e5-4b82-9344-57aa8649de21")
+	)
+	(polyline
+		(pts
+			(xy 83.82 95.25) (xy 83.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7132b5ca-e9e0-415c-b2db-33c0556dca46")
+	)
+	(wire
+		(pts
+			(xy 21.59 66.04) (xy 21.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e06d02-1aca-419e-8216-a30edd8bd0fa")
+	)
+	(wire
+		(pts
+			(xy 21.59 153.67) (xy 21.59 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7894fbe7-c72b-4a31-a100-84512e5a558f")
+	)
+	(wire
+		(pts
+			(xy 137.16 35.56) (xy 146.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a544b18-c3e5-4bba-a967-81da2b446b1d")
+	)
+	(wire
+		(pts
+			(xy 21.59 78.74) (xy 21.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c11c5be-f6aa-48e6-aeb9-d4e6c4d969e2")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c397774-223e-4941-a4cd-95dfcc45f26a")
+	)
+	(wire
+		(pts
+			(xy 30.48 142.24) (xy 30.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80252e81-88bd-41bf-b774-16b4ffc00984")
+	)
+	(wire
+		(pts
+			(xy 176.53 40.64) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819a109e-704d-4c46-8632-cad1ec08502f")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836c18f1-1e64-40d0-b25c-e366f094011e")
+	)
+	(wire
+		(pts
+			(xy 54.61 40.64) (xy 54.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848001fc-e788-4d70-91b8-afa7c78868cc")
+	)
+	(wire
+		(pts
+			(xy 113.03 36.83) (xy 106.68 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885298df-7db0-41a1-a050-d72a27463eb3")
+	)
+	(wire
+		(pts
+			(xy 161.29 111.76) (xy 163.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aacc19c-fe55-4ca9-a799-14b3d109485f")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 146.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2bf429-4a93-460c-a662-f7cbc97d2d0f")
+	)
+	(wire
+		(pts
+			(xy 214.63 25.4) (xy 214.63 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8394c4-86dd-4c1a-8bfe-d984996a386e")
+	)
+	(wire
+		(pts
+			(xy 106.68 33.02) (xy 119.38 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efabdb3-ca7e-43d4-9606-17c1e4b0fae0")
+	)
+	(wire
+		(pts
+			(xy 196.85 33.02) (xy 196.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958f571a-3a8f-431e-87c3-00f692ba19fe")
+	)
+	(wire
+		(pts
+			(xy 173.99 111.76) (xy 176.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ea3cb9-4b16-4839-abf1-85d5a16ca975")
+	)
+	(wire
+		(pts
+			(xy 124.46 22.86) (xy 137.16 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c3bfea-3347-46f2-a381-b58ff4e9ed0b")
+	)
+	(wire
+		(pts
+			(xy 151.13 130.81) (xy 146.05 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9029d3-42b1-4124-8fdd-cb9018adf984")
+	)
+	(wire
+		(pts
+			(xy 119.38 29.21) (xy 106.68 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6eee90-7f5e-4951-ad58-779cf77c718e")
+	)
+	(wire
+		(pts
+			(xy 21.59 142.24) (xy 21.59 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affd302d-fd21-42e6-bf23-66277546b24d")
+	)
+	(wire
+		(pts
+			(xy 196.85 25.4) (xy 201.93 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b255c097-ec90-4461-8e15-c84acfb45330")
+	)
+	(wire
+		(pts
+			(xy 30.48 153.67) (xy 30.48 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3720adc-218d-496e-b432-a52653e7432a")
+	)
+	(wire
+		(pts
+			(xy 151.13 57.15) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a9876f-f049-4a9e-a6c5-4821bc9d4005")
+	)
+	(wire
+		(pts
+			(xy 21.59 80.01) (xy 30.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c664a7-d281-42a3-84ca-083322455623")
+	)
+	(wire
+		(pts
+			(xy 176.53 50.8) (xy 176.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcaf79b8-619a-4378-96e8-9ad82d9ec3a7")
+	)
+	(wire
+		(pts
+			(xy 21.59 55.88) (xy 21.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf32d25-d88c-4386-b648-fda7bef48de0")
+	)
+	(wire
+		(pts
+			(xy 119.38 102.87) (xy 106.68 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ef7c8e-f885-4720-b89f-8dc9c8153085")
+	)
+	(wire
+		(pts
+			(xy 113.03 25.4) (xy 106.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b3de30-828f-48b5-ac03-1b3e950d35b3")
+	)
+	(wire
+		(pts
+			(xy 176.53 36.83) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b01834-2890-498a-9704-6c3e5cbb95db")
+	)
+	(wire
+		(pts
+			(xy 137.16 45.72) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6774ed0-7a10-470c-97b4-2af8775c5508")
+	)
+	(wire
+		(pts
+			(xy 176.53 124.46) (xy 176.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da045a68-59a1-42d1-ab48-3e63b8373c49")
+	)
+	(wire
+		(pts
+			(xy 113.03 99.06) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc41e8e-7d36-4ad6-a338-f251bb2aa750")
+	)
+	(wire
+		(pts
+			(xy 21.59 153.67) (xy 30.48 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4c4967-1d63-4b31-9dba-db8fc58a61a6")
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1) (xy 163.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd913730-d86b-4005-b000-87a768e3a035")
+	)
+	(wire
+		(pts
+			(xy 163.83 111.76) (xy 163.83 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2e1072-b2f0-42e3-963c-58782c37220a")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8aa73c5-bbca-42d5-a10f-72b7b23fab8a")
+	)
+	(wire
+		(pts
+			(xy 137.16 119.38) (xy 137.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b57711-be15-43af-8a08-9d0900b69c4d")
+	)
+	(wire
+		(pts
+			(xy 146.05 114.3) (xy 146.05 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8b96e9-bde8-46ff-a35a-7a9a05814d43")
+	)
+	(wire
+		(pts
+			(xy 30.48 68.58) (xy 40.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee93cc27-5be5-48d8-81c4-3f139153b463")
+	)
+	(wire
+		(pts
+			(xy 30.48 142.24) (xy 40.64 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7baad3-d521-478e-adeb-4afad91c5d6b")
+	)
+	(wire
+		(pts
+			(xy 30.48 80.01) (xy 30.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12ecff1-8e88-42ac-9beb-b37da5be36b5")
+	)
+	(wire
+		(pts
+			(xy 21.59 119.38) (xy 21.59 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f152bf97-a9ea-40d7-9257-dd35edc54b9a")
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1) (xy 166.37 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4af5606-9557-4894-b9c6-049645ac056d")
+	)
+	(wire
+		(pts
+			(xy 21.59 25.4) (xy 21.59 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84443a3-76de-496d-8c7b-f7f09803f25e")
+	)
+	(wire
+		(pts
+			(xy 21.59 68.58) (xy 30.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1483cb-9624-4f53-b57f-ed6671e1753c")
+	)
+	(wire
+		(pts
+			(xy 213.36 33.02) (xy 214.63 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd78bc66-d1d1-40a6-869e-85387ed4efe3")
+	)
+	(wire
+		(pts
+			(xy 21.59 139.7) (xy 21.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5c5787-d2a3-4bfc-87d9-c849a4c2a1cd")
+	)
+	(label "OUTN_HV-"
+		(at 119.38 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32af0150-342f-4cb2-9441-0edf37865462")
+	)
+	(label "OUTN_HV+"
+		(at 124.46 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5722c804-f461-4158-9b5b-4df2a861a787")
+	)
+	(label "OUTP_HV-"
+		(at 119.38 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5868d817-9931-42d4-8e5d-2599f09c76c6")
+	)
+	(label "OUTN_HV-"
+		(at 124.46 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fc11669-e1dc-4a2f-a7a8-82a0c5e7034e")
+	)
+	(label "V_IN-"
+		(at 54.61 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fcee4df-0a12-4197-964a-9ad36cf9c49b")
+	)
+	(label "V_IN+"
+		(at 40.64 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83f9ff6d-e032-4f2c-bd72-622baefbdc20")
+	)
+	(label "OUTP_HV+"
+		(at 119.38 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bd4c50a-19bf-4d2d-80c8-27e62ae0c577")
+	)
+	(label "OUTP_HV+"
+		(at 124.46 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d7addca-7ff9-48f7-965b-057821b20dc6")
+	)
+	(label "V_IN-"
+		(at 40.64 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f0ef3df-e732-48d7-ab4a-03ecf358558a")
+	)
+	(label "OUTP_HV-"
+		(at 124.46 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b47cd015-d8cf-4b2b-ad64-2579946f7693")
+	)
+	(label "V_IN+"
+		(at 54.61 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd3d7055-dfe4-419e-ac28-6c06eb48fbea")
+	)
+	(label "OUTN_HV+"
+		(at 119.38 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e79dbe6a-1d02-453d-b5d8-d2162b9b6051")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 176.53 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c4ca033-b606-4559-9bd4-d996ed180603")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 113.03 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13d0b5ce-910d-41c9-ba2d-d4218560eb34")
+	)
+	(hierarchical_label "HV+"
+		(shape input)
+		(at 21.59 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e08833d-71ba-48c6-80aa-2cd9f4f2d0ee")
+	)
+	(hierarchical_label "3V3A"
+		(shape input)
+		(at 214.63 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2023806e-4b3e-43a8-a151-da237f73540f")
+	)
+	(hierarchical_label "HVGND"
+		(shape bidirectional)
+		(at 54.61 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5379fcaf-1ef8-4d6e-bdcf-e45e4586cb34")
+	)
+	(hierarchical_label "DIAG"
+		(shape output)
+		(at 113.03 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68894213-d72f-4b96-9dbf-a740f7ae3c60")
+	)
+	(hierarchical_label "HVGND"
+		(shape bidirectional)
+		(at 21.59 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b9e15e7-4574-4f04-970a-f731a26de28e")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 113.03 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "700956f3-b182-4ddd-be6d-ab433f65b02d")
+	)
+	(hierarchical_label "HVGND"
+		(shape bidirectional)
+		(at 21.59 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "789b578b-b267-4e5a-8e7d-f0bc7cfe7d29")
+	)
+	(hierarchical_label "DIAG"
+		(shape output)
+		(at 113.03 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78c82e4c-ac9b-4c70-9efc-ce5aebac0abc")
+	)
+	(hierarchical_label "V_OUT+"
+		(shape output)
+		(at 177.8 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c684b0b-74b5-4dbc-8914-833581ee4d79")
+	)
+	(hierarchical_label "AGND"
+		(shape bidirectional)
+		(at 113.03 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "907f6a7a-fe34-41e2-90c5-41378e1d48b3")
+	)
+	(hierarchical_label "HVGND"
+		(shape bidirectional)
+		(at 54.61 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92f95838-46eb-470e-a9a5-b0251732486d")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 196.85 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94b62148-fca4-4849-adc9-365bfb19ecb1")
+	)
+	(hierarchical_label "AGND"
+		(shape bidirectional)
+		(at 113.03 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf849c9b-afbe-4986-88f0-e5bbb83ad955")
+	)
+	(hierarchical_label "HV-"
+		(shape input)
+		(at 21.59 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c612392e-f1db-4d7e-8a4f-e39e451679fd")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 176.53 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4471704-78b4-463b-bdf4-1dad43d8de15")
+	)
+	(hierarchical_label "V_OUT-"
+		(shape output)
+		(at 177.8 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d472934c-3b7e-4ac6-8a64-837e35d113dc")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "179ca1a6-4e0d-4c55-b8b3-f94a63a6786f")
+		(property "Reference" "R12"
+			(at 22.86 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 22.86 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 19.812 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b33c3692-a300-4613-9fce-7e86f42c43fd")
+		)
+		(pin "2"
+			(uuid "f07a6cd3-d6f5-4bbc-bb83-8f812c987809")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "181d3445-b340-49f0-9c57-dc63dc467470")
+		(property "Reference" "R14"
+			(at 22.86 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 22.86 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 19.812 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cf20919-b207-4442-b878-c7d6b132c7e2")
+		)
+		(pin "2"
+			(uuid "7f603c01-9d27-4dde-8e1d-27c10eb90468")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 49.53 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19a9c985-f2a6-470b-b1dc-b191cc7e4a8c")
+		(property "Reference" "TP18"
+			(at 52.07 105.918 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "V_IN-"
+			(at 52.07 107.442 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 49.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3aa33746-ae52-4c36-bdd5-d1257d391591")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 49.53 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1bb4bf0b-1eb2-4276-8f41-f4259fdfa36d")
+		(property "Reference" "TP17"
+			(at 52.07 32.258 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "V_IN+"
+			(at 52.07 33.782 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92d586d2-f38d-47af-a40e-6fc2bf3ae4f4")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UTSVT-Misc:TLV9002QDRQ1")
+		(at 153.67 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20f2b401-95cd-4dbe-8138-5c6d5b9c5178")
+		(property "Reference" "U1"
+			(at 153.67 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9002QDRQ1"
+			(at 153.67 45.085 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 153.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://tlv9002-q1.pdf"
+			(at 153.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "TLV9002QDRQ1"
+			(at 153.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "595-TLV9002QDRQ1"
+			(at 153.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey P/N" "296-TLV9002QDRQ1CT-ND"
+			(at 153.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC P/N" "C2860922"
+			(at 153.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 153.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 153.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 153.67 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "f3a0a8fa-feca-4163-be95-a6074f5cdc9e")
+		)
+		(pin "8"
+			(uuid "c0123522-ea0e-4919-9f86-00273db0d696")
+		)
+		(pin "3"
+			(uuid "9d344237-e6e4-4202-bad8-4e5975945b18")
+		)
+		(pin "1"
+			(uuid "d7278c95-1010-47f2-b86a-bd5b7e0e25b8")
+		)
+		(pin "7"
+			(uuid "adbd5ae4-67c3-4619-bbd8-eba656178c56")
+		)
+		(pin "4"
+			(uuid "96d67ed3-73c2-44d7-a2bb-13204500bfe4")
+		)
+		(pin "5"
+			(uuid "e9c2c750-2844-4aa2-9e7a-8d676a754122")
+		)
+		(pin "2"
+			(uuid "890fba87-721a-4f28-9958-14dc3a3cb842")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30.48 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37f1426f-bb39-4803-b05d-8d8583b2ec92")
+		(property "Reference" "C1"
+			(at 33.02 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 33.02 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 31.4452 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 30.48 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a03d6ad-5c64-40f7-83c6-e73e224eee7b")
+		)
+		(pin "2"
+			(uuid "eb834839-3678-4276-ba74-9a6adee1f063")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b230a66-be57-4b5a-b7c5-ef177e8936e3")
+		(property "Reference" "R9"
+			(at 22.86 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 22.86 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 19.812 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cec4292-350e-46cc-ad80-4f24d32afd06")
+		)
+		(pin "2"
+			(uuid "0dc8dbd1-2599-4cf5-b257-9d2a17dceacb")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53b4045c-a267-4e6b-81a7-bf27c5e0b384")
+		(property "Reference" "R11"
+			(at 22.86 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 22.86 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 19.812 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3790b88-a522-4e36-8e86-f6965f7f8955")
+		)
+		(pin "2"
+			(uuid "f1c0396e-ea4f-4ffe-8984-b72069b2306c")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5889733b-2faa-441d-8920-c50d6a9cc8c4")
+		(property "Reference" "R13"
+			(at 22.86 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 22.86 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 19.812 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5200dd0-7432-4356-b192-0efcb1d29b1f")
+		)
+		(pin "2"
+			(uuid "47af0db3-f432-438f-b25d-c12ac580a19d")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6eea6770-272e-401a-babf-8925cc2fa794")
+		(property "Reference" "R15"
+			(at 22.86 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 22.86 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 19.812 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77af2b5a-3e48-441a-b86e-d68043f30c1c")
+		)
+		(pin "2"
+			(uuid "faaacc25-7c6d-4e55-9c02-74784ef9406f")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UTSVT-Misc:TLV9002QDRQ1")
+		(at 153.67 111.76 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74d77c69-91b2-45a1-9494-bfb0bd353aa1")
+		(property "Reference" "U1"
+			(at 153.67 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9002QDRQ1"
+			(at 153.67 118.745 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://tlv9002-q1.pdf"
+			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "TLV9002QDRQ1"
+			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "595-TLV9002QDRQ1"
+			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey P/N" "296-TLV9002QDRQ1CT-ND"
+			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC P/N" "C2860922"
+			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "acd946ed-eed0-4451-ace4-a4f18a1a5e27")
+		)
+		(pin "8"
+			(uuid "c0123522-ea0e-4919-9f86-00273db0d697")
+		)
+		(pin "3"
+			(uuid "226bc68c-18ac-4114-afaf-7e98da3d333c")
+		)
+		(pin "1"
+			(uuid "0357e2a1-4397-48fe-a6d2-8dec952a588d")
+		)
+		(pin "7"
+			(uuid "5a3c5906-bdc2-4aa9-9725-059bf0cbae3c")
+		)
+		(pin "4"
+			(uuid "96d67ed3-73c2-44d7-a2bb-13204500bfe5")
+		)
+		(pin "5"
+			(uuid "c7d05784-2e94-4dff-b788-c7aa4265d8a7")
+		)
+		(pin "2"
+			(uuid "0c44cfb1-8be7-40b6-b2d4-b4ba5bb0e729")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "U1")
+					(unit 2)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ad959e1-00d9-4cec-9fdd-e8e33d7b38eb")
+		(property "Reference" "R25"
+			(at 170.18 109.601 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 170.18 113.919 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 170.18 113.538 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5ef7dc7-6ff5-4007-9636-bc2b5b2874d7")
+		)
+		(pin "2"
+			(uuid "ceece6d6-8b4d-4746-873f-2b0d4ecd6592")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "819d6e79-c189-4ec9-ab3a-cf2ebcd50d73")
+		(property "Reference" "R22"
+			(at 154.94 54.991 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 154.94 59.309 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 154.94 58.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ac46644-6fcc-448f-9614-5df7f7913a67")
+		)
+		(pin "2"
+			(uuid "5e4bdb21-ed08-4ae7-911f-e371ab02dbb3")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "823af343-f230-45d5-b795-aa425ea95e57")
+		(property "Reference" "C3"
+			(at 179.07 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 179.07 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 177.4952 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bfdbbbfc-efc2-4dea-bf27-89e327dae885")
+		)
+		(pin "1"
+			(uuid "18bc9ed5-9749-408c-9abe-01bcf03a39ba")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89499884-7dab-4b46-9dba-4097dc29b04e")
+		(property "Reference" "R8"
+			(at 22.86 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 22.86 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 19.812 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5112e4da-ca6f-4bdf-8e02-fcde739027a7")
+		)
+		(pin "2"
+			(uuid "50075a03-7263-4cdf-b545-12d0b46556d8")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30.48 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e34dbe2-b145-4025-973d-8082a4250451")
+		(property "Reference" "C2"
+			(at 33.02 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 33.02 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 31.4452 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 30.48 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7c0bb37-2985-41d1-95a1-b7c8ff53dbd7")
+		)
+		(pin "2"
+			(uuid "fe895de9-2343-4b5e-91f5-dc9c27570688")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "901ad7d5-223b-4386-8eff-160b153aa1da")
+		(property "Reference" "R18"
+			(at 137.16 54.991 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 137.16 59.309 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 137.16 58.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36fc8dd8-7b2b-4eef-863d-5c609b106de2")
+		)
+		(pin "2"
+			(uuid "af53178c-d835-4fc3-852c-eaa212d145d6")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 176.53 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "916e1448-71a5-4224-a4c8-fdef749bae08")
+		(property "Reference" "TP20"
+			(at 177.8 107.315 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_OUT-"
+			(at 177.8 109.855 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 176.53 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb3d010b-64b0-4477-b6ae-9b418c1b6559")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "TP20")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a27fc1dc-a94a-49b4-845d-fd494a19e72a")
+		(property "Reference" "R21"
+			(at 137.16 128.651 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 137.16 132.969 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 137.16 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6ad4dd1-2a41-4a59-b9c2-bcb6bece87f3")
+		)
+		(pin "2"
+			(uuid "9111f13d-0fb4-48ff-94cb-fffc07dd2a8a")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3ec2337-381f-4f04-ac4b-ddb4673b6c9e")
+		(property "Reference" "R17"
+			(at 138.43 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 135.382 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df3e8d71-7bbc-42b3-8236-cc7ef7880acd")
+		)
+		(pin "2"
+			(uuid "b9060a30-e4e7-449e-971e-fd1c3f22e8a0")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3e77366-298b-4690-9820-3b38d0fa0cc0")
+		(property "Reference" "C4"
+			(at 179.07 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 179.07 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 177.4952 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ff497d9f-5d3a-4af5-94e7-e40b11c208be")
+		)
+		(pin "1"
+			(uuid "2e85b659-08fe-4940-b679-b2faf4af1db2")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6d1edb4-e441-468a-8a38-0ce279f7c528")
+		(property "Reference" "R6"
+			(at 22.86 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 22.86 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 19.812 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17a04fb2-0e63-4ab9-858c-1d586bbee16f")
+		)
+		(pin "2"
+			(uuid "97b2bfa5-59bb-4891-aae6-0f6a27956a4a")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c56e0217-355b-4532-bfff-7f071d6e3653")
+		(property "Reference" "#PWR030"
+			(at 137.16 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5a621ad-fe8e-4798-91ad-4bd07659e1d3")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d137f1c6-646b-4439-a537-ae705627b7ae")
+		(property "Reference" "R24"
+			(at 170.18 35.941 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 170.18 40.259 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 170.18 39.878 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3a619ba-c03f-4352-b214-4402adf0d213")
+		)
+		(pin "2"
+			(uuid "ba2f2cdf-5a28-4457-87ec-8d4aa61dd5f2")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3308d86-4251-4236-9ec3-ac79bedd9c85")
+		(property "Reference" "R19"
+			(at 138.43 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 135.382 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d17870f6-2dd0-49d8-a325-1b81ed99902c")
+		)
+		(pin "2"
+			(uuid "4ce273f5-7ead-424f-a6a9-16a0211cd13a")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 176.53 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3f22b50-537f-4fcb-9bbc-f03ed3dd47b3")
+		(property "Reference" "TP19"
+			(at 177.8 33.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_OUT+"
+			(at 177.8 36.195 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 176.53 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2536213-0590-4162-b917-893a19d6ec59")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "TP19")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d722f3f3-91a2-4717-a97a-f6fb15250569")
+		(property "Reference" "#PWR029"
+			(at 137.16 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "415e880a-d21b-4088-b836-5f859d8d4cee")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 205.74 25.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df4aa770-97f7-4890-9dcb-8705016faaa8")
+		(property "Reference" "C5"
+			(at 204.47 21.59 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 205.74 28.956 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 201.93 24.4348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1uF Capacitors"
+			(at 205.74 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "MLASU168SB5105KTNA01"
+			(at 205.74 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 205.74 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 205.74 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0fbc118-9689-48d0-990c-13e60c7b0585")
+		)
+		(pin "2"
+			(uuid "6b2604c8-3c05-430f-b901-74fd4f049159")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4fe736e-db94-42ff-b762-254423abc4de")
+		(property "Reference" "R23"
+			(at 154.94 128.651 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 154.94 132.969 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 154.94 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "805a1086-da47-435a-83cb-775628580137")
+		)
+		(pin "2"
+			(uuid "41ec77de-6df6-424e-b754-fb63a2148ba6")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8f701e4-43ae-4129-811d-b268b407ab00")
+		(property "Reference" "R7"
+			(at 22.86 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 22.86 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 19.812 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4100e7bc-d2a1-464f-a743-9c583aca1f59")
+		)
+		(pin "2"
+			(uuid "83ff654e-1d8e-4bed-a27c-0183d81f313c")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb112ce2-445b-490b-ba67-7ff681fbcf5e")
+		(property "Reference" "R16"
+			(at 138.43 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 135.382 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca38af49-8fb2-4d38-b41e-8e111a242d2a")
+		)
+		(pin "2"
+			(uuid "afa648a3-8b9d-4c7d-b177-9789f48434ce")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb3bce39-ba20-4e93-8df0-e4ac3a42c022")
+		(property "Reference" "R20"
+			(at 138.43 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 135.382 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "641f30f0-5cc2-487e-929e-7143d1c9a441")
+		)
+		(pin "2"
+			(uuid "e0cced3b-82be-41d5-9534-02375af78c56")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UTSVT-Misc:TLV9002QDRQ1")
+		(at 205.74 35.56 270)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ede49246-b40f-4f26-9aa2-6f4fa81e9da7")
+		(property "Reference" "U1"
+			(at 205.74 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9002QDRQ1"
+			(at 205.74 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://tlv9002-q1.pdf"
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "TLV9002QDRQ1"
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "595-TLV9002QDRQ1"
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey P/N" "296-TLV9002QDRQ1CT-ND"
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC P/N" "C2860922"
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "f3a0a8fa-feca-4163-be95-a6074f5cdc9f")
+		)
+		(pin "8"
+			(uuid "adc6dc7e-fc61-4531-b273-f02a07ad731a")
+		)
+		(pin "3"
+			(uuid "f669f7a5-cbbd-4348-b287-f6abf570847f")
+		)
+		(pin "1"
+			(uuid "d3f8e871-7fe0-40da-baab-a6af29d70269")
+		)
+		(pin "7"
+			(uuid "adbd5ae4-67c3-4619-bbd8-eba656178c57")
+		)
+		(pin "4"
+			(uuid "3fd075de-71cc-4380-a900-06aac98be68c")
+		)
+		(pin "5"
+			(uuid "e9c2c750-2844-4aa2-9e7a-8d676a754123")
+		)
+		(pin "2"
+			(uuid "5b65c1d4-79ce-4e35-8426-3656e3996625")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "U1")
+					(unit 3)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7e17b4c-2ed8-466f-aae7-ca6d342ef4b9")
+		(property "Reference" "R10"
+			(at 22.86 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 22.86 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 19.812 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a0ae1f1-1b18-4936-b1a7-bab87fa5d600")
+		)
+		(pin "2"
+			(uuid "a1b71648-46ad-4b4e-8584-016323b3d13d")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 95.25)
+		(size 45.72 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "03979947-561d-482f-9fca-eedcd558d33d")
+		(property "Sheetname" "VoltageSensor_HV-"
+			(at 60.96 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Isolated_Amplifier.kicad_sch"
+			(at 60.96 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 106.68 99.06 0)
+			(uuid "9d250e2b-7925-4285-b332-946fe77340f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIAG" output
+			(at 106.68 110.49 0)
+			(uuid "51922a12-3f85-4287-9919-d204fbbda9c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AGND" bidirectional
+			(at 106.68 114.3 0)
+			(uuid "d26fc199-5438-4dbe-9d25-179494193031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HVGND" bidirectional
+			(at 60.96 114.3 180)
+			(uuid "4730f16a-2f66-439d-912e-ac4e6a1e0dbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_N" output
+			(at 106.68 106.68 0)
+			(uuid "df20ff93-d530-4b69-a506-15e09081e5e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_P" output
+			(at 106.68 102.87 0)
+			(uuid "2e3a55cc-12a8-41b6-a472-c8e7d1fe5e39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_IN" input
+			(at 60.96 106.68 180)
+			(uuid "758568c2-e8d4-4ca3-9806-72c153bfaced")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(page "5")
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 21.59)
+		(size 45.72 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4cf09e58-0892-4fb3-a566-fe1392b5d663")
+		(property "Sheetname" "VoltageSensor_HV+"
+			(at 60.96 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Isolated_Amplifier.kicad_sch"
+			(at 60.96 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 106.68 25.4 0)
+			(uuid "8316ee7d-e41e-4533-8dcf-0bad1fbe2b92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIAG" output
+			(at 106.68 36.83 0)
+			(uuid "6d587427-bf9b-4e4c-bece-ed0974534a32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AGND" bidirectional
+			(at 106.68 40.64 0)
+			(uuid "b0298e58-18c8-469b-b1cf-52f1ecfa85ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HVGND" bidirectional
+			(at 60.96 40.64 180)
+			(uuid "9ba56976-6efd-49f8-b10c-a67325c070b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_N" output
+			(at 106.68 33.02 0)
+			(uuid "86f2ee1a-48ec-4948-8994-71cf6de2771e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_P" output
+			(at 106.68 29.21 0)
+			(uuid "48efa69c-e8d6-4c4d-8b87-02f570367e4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_IN" input
+			(at 60.96 33.02 180)
+			(uuid "48cabd6e-2f72-49a5-92c5-2ba9aa467be0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
+					(page "4")
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
+					(page "9")
+				)
+			)
+		)
+	)
+)
