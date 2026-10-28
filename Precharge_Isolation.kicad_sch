@@ -251,6 +251,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -7749,7 +7889,7 @@
 	)
 	(rectangle
 		(start 13.4938 13.3349)
-		(end 98.4249 48.5775)
+		(end 98.4249 49.5299)
 		(stroke
 			(width 0)
 			(type default)
@@ -7819,7 +7959,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 34.29) (xy 87.63 29.21)
+			(xy 87.63 35.56) (xy 87.63 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7836,16 +7976,6 @@
 			(type dash)
 		)
 		(uuid "742cb273-e3c1-4a7b-a8f6-c6d903d59a35")
-	)
-	(wire
-		(pts
-			(xy 73.66 39.37) (xy 80.01 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dcc1b50-11e3-4917-b0be-42392f3d2ef5")
 	)
 	(wire
 		(pts
@@ -7889,7 +8019,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 45.72) (xy 87.63 44.45)
+			(xy 87.63 46.99) (xy 87.63 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7929,7 +8059,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 87.63 45.72 0)
+		(at 87.63 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7951,7 +8081,7 @@
 	)
 	(hierarchical_label "HV_PRECHARGE_CTRL"
 		(shape input)
-		(at 73.66 39.37 180)
+		(at 72.39 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7995,7 +8125,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 85.09 39.37 0)
+		(at 85.09 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8006,7 +8136,7 @@
 		(fields_autoplaced yes)
 		(uuid "65d79452-1a42-42f7-a888-52bb6e26c509")
 		(property "Reference" "Q1"
-			(at 90.805 38.0999 0)
+			(at 90.805 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8017,7 +8147,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 90.805 40.6399 0)
+			(at 90.805 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8028,7 +8158,7 @@
 			)
 		)
 		(property "Footprint" "LHRS_ICs:SOT23_NXP"
-			(at 90.17 36.83 0)
+			(at 90.17 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8039,7 +8169,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 85.09 52.07 0)
+			(at 85.09 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8050,7 +8180,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 85.09 39.37 0)
+			(at 85.09 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8061,7 +8191,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 85.09 56.515 0)
+			(at 85.09 57.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8072,7 +8202,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 85.09 58.42 0)
+			(at 85.09 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8083,7 +8213,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 85.09 54.61 0)
+			(at 85.09 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8094,7 +8224,7 @@
 			)
 		)
 		(property "P/N" "IRLML0030TRPBF"
-			(at 85.09 39.37 0)
+			(at 85.09 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8259,6 +8389,89 @@
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/d5231689-0a25-4774-9952-2a5e507de834"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0b4f3da-981a-4a00-a69e-6898213906b1")
+		(property "Reference" "R?"
+			(at 76.2 38.608 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 76.2 42.926 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 42.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a8b9254-8b54-4a2b-86f9-2aca79087cb3")
+		)
+		(pin "1"
+			(uuid "85e697a8-67d2-4f04-9434-cda47be63f38")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/5b236d54-dfec-450f-96e4-88b51678f51f"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/d5231689-0a25-4774-9952-2a5e507de834"
+					(reference "R?")
 					(unit 1)
 				)
 			)
