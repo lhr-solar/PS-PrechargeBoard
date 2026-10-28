@@ -8405,7 +8405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0b4f3da-981a-4a00-a69e-6898213906b1")
-		(property "Reference" "R?"
+		(property "Reference" "R32"
 			(at 76.2 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8467,11 +8467,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/5b236d54-dfec-450f-96e4-88b51678f51f"
-					(reference "R?")
+					(reference "R63")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/d5231689-0a25-4774-9952-2a5e507de834"
-					(reference "R?")
+					(reference "R32")
 					(unit 1)
 				)
 			)
