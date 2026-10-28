@@ -6546,7 +6546,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "MAIN_HV-"
+		(property "Value" "MOT_HV-"
 			(at 94.742 62.992 90)
 			(show_name no)
 			(do_not_autoplace no)
