@@ -250,12 +250,12 @@
 		(uuid "552bc313-e475-4bd2-a7b0-f2833d181fb1")
 	)
 	(no_connect
-		(at 50.8 46.99)
-		(uuid "32bb249f-7eec-458e-b928-3ec66d26c0f4")
+		(at 49.53 44.45)
+		(uuid "2e024141-4529-4a34-9243-8b54d4a5d59d")
 	)
 	(no_connect
-		(at 50.8 44.45)
-		(uuid "c3ba41f5-c9b2-4579-9204-37cc0010931d")
+		(at 49.53 46.99)
+		(uuid "b0efcd83-9b93-4c97-9119-cd7b51ff9a73")
 	)
 	(wire
 		(pts
@@ -279,6 +279,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 54.61) (xy 26.67 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0904842b-e9a9-49c4-a15c-b3e5ba07edee")
+	)
+	(wire
+		(pts
 			(xy 26.67 24.13) (xy 27.94 24.13)
 		)
 		(stroke
@@ -286,6 +296,16 @@
 			(type default)
 		)
 		(uuid "09b13b40-08ec-465b-ba81-f6c8483f312d")
+	)
+	(wire
+		(pts
+			(xy 26.67 46.99) (xy 27.94 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b0d8f7-7ad3-443e-a406-daab89b0a53c")
 	)
 	(wire
 		(pts
@@ -319,13 +339,33 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 46.99) (xy 25.4 46.99)
+			(xy 26.67 50.8) (xy 27.94 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c7e5eae-2112-4fcc-b1d4-1bea53ad1043")
+		(uuid "46f28da1-9748-4c3c-b0e6-fe1ba75f1efc")
+	)
+	(wire
+		(pts
+			(xy 26.67 44.45) (xy 27.94 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c13fe8-b4d3-428d-9e62-326fb86b7669")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.8) (xy 55.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b45efbd-70d9-4c49-8904-45055bd661ac")
 	)
 	(wire
 		(pts
@@ -336,16 +376,6 @@
 			(type default)
 		)
 		(uuid "708063d6-ea13-4499-89ea-e53b69428883")
-	)
-	(wire
-		(pts
-			(xy 24.13 54.61) (xy 24.13 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73980e19-c079-46b7-baae-caa9c27a6807")
 	)
 	(wire
 		(pts
@@ -366,16 +396,6 @@
 			(type default)
 		)
 		(uuid "7ecf033b-d311-47eb-aef2-7f7f8b812e56")
-	)
-	(wire
-		(pts
-			(xy 24.13 50.8) (xy 25.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89407376-3ba3-470c-97ea-a2d7293ab1d7")
 	)
 	(wire
 		(pts
@@ -409,13 +429,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 46.99) (xy 50.8 46.99)
+			(xy 48.26 46.99) (xy 49.53 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b17164ea-a158-4c84-8cf2-2a2d665fc05b")
+		(uuid "b8325b56-cc68-4ee5-874f-4a1181c3f4be")
 	)
 	(wire
 		(pts
@@ -469,26 +489,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 50.8) (xy 57.15 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ff2b0a-a761-4e5c-8203-1c35c46580dd")
-	)
-	(wire
-		(pts
-			(xy 49.53 44.45) (xy 50.8 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3f03853-b3fd-4eee-b72f-09e83122a018")
-	)
-	(wire
-		(pts
 			(xy 133.35 48.26) (xy 132.08 48.26)
 		)
 		(stroke
@@ -496,6 +496,16 @@
 			(type default)
 		)
 		(uuid "e42eb346-3432-471e-bdee-72a9b54522df")
+	)
+	(wire
+		(pts
+			(xy 48.26 44.45) (xy 49.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82ebaf4-4cd6-4412-a1cd-768076536a71")
 	)
 	(wire
 		(pts
@@ -537,26 +547,6 @@
 		)
 		(uuid "fb7b5901-b261-423c-bc4c-b4fdac9174d5")
 	)
-	(wire
-		(pts
-			(xy 24.13 44.45) (xy 25.4 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe515072-63ed-4969-b716-1bafc3016068")
-	)
-	(label "USB_5V"
-		(at 57.15 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04686cbc-1c83-4254-b5bf-ea9e510ca996")
-	)
 	(label "USB_5V"
 		(at 63.5 46.99 0)
 		(effects
@@ -566,6 +556,16 @@
 			(justify left bottom)
 		)
 		(uuid "331e9066-9555-4c90-b446-0aca6c7cf750")
+	)
+	(label "USB_5V"
+		(at 55.88 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59edb0c0-b15b-4124-b1a3-746afb734d41")
 	)
 	(hierarchical_label "3V3"
 		(shape output)
@@ -666,17 +666,6 @@
 		)
 		(uuid "a148e405-a2a2-40b9-ae3b-a79914547816")
 	)
-	(hierarchical_label "USB_D-"
-		(shape input)
-		(at 24.13 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7b5dd3d-218c-4605-9d82-62d971358fab")
-	)
 	(hierarchical_label "VIN_FUSED"
 		(shape input)
 		(at 26.67 24.13 180)
@@ -701,25 +690,36 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 24.13 54.61 180)
+		(at 26.67 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d10e3ce4-05ca-4e3c-81e0-aa33f9f149e5")
+		(uuid "b54ac330-903b-4b44-bd6a-384dc7e306a7")
 	)
 	(hierarchical_label "USB_D+"
 		(shape input)
-		(at 24.13 46.99 180)
+		(at 26.67 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e42f595c-465e-4bcc-9807-5492f1aeb05e")
+		(uuid "c450b041-fde2-4bcf-aed1-bfd9e15d5bf5")
+	)
+	(hierarchical_label "USB_D-"
+		(shape input)
+		(at 26.67 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6803d24-bfb6-4683-87e8-a8a4fd81905b")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -796,6 +796,134 @@
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
 					(reference "R64")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 41.91)
+		(size 20.32 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "036a0807-6806-41f7-813f-18abaaf63006")
+		(property "Sheetname" "USB-C_Connector"
+			(at 27.94 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C_Connector.kicad_sch"
+			(at 27.94 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Author" "Shuopu Wang"
+			(at 0 1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Date Modified" "9/5/2026"
+			(at 0 1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "CC1" bidirectional
+			(at 48.26 44.45 0)
+			(uuid "d8cdbdf9-a2ec-4414-80c3-b52fc73d504b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC2" bidirectional
+			(at 48.26 46.99 0)
+			(uuid "840540a3-a344-408c-a829-3edf7b150706")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 27.94 50.8 180)
+			(uuid "92528f2e-4e93-47cd-836f-14cd976750e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_5V" output
+			(at 48.26 50.8 0)
+			(uuid "11df6ba8-7e2b-4c30-adf6-eae3575dcb1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 27.94 46.99 180)
+			(uuid "10c1573f-e9ea-4f9a-b5fa-5840d4a009b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 27.94 44.45 180)
+			(uuid "fa4f31a6-a5c1-4e94-ab40-be5c739f9dc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
+					(page "14")
 				)
 			)
 		)
@@ -924,134 +1052,6 @@
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
 					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 25.4 41.91)
-		(size 24.13 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "278d3e71-a9d8-40e3-a9e7-673513fdd902")
-		(property "Sheetname" "USB-C_Connector"
-			(at 25.4 41.1984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USB-C_Connector.kicad_sch"
-			(at 25.4 53.9246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Author" "Shuopu Wang"
-			(at 0 -21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Date Modified" "9/5/2026"
-			(at 0 -21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "CC1" bidirectional
-			(at 49.53 44.45 0)
-			(uuid "f6605715-8ad9-4f66-b5b6-56b84df6d67b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CC2" bidirectional
-			(at 49.53 46.99 0)
-			(uuid "f2e5be19-9354-40d4-af7b-7a8e44c97051")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" input
-			(at 25.4 50.8 180)
-			(uuid "b29b62d8-4104-4a09-8c34-3f432337eeae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_5V" output
-			(at 49.53 50.8 0)
-			(uuid "2b6fc1fc-cefc-4c1e-9171-5cc50cbc4c28")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_DM" bidirectional
-			(at 25.4 44.45 180)
-			(uuid "ff110568-a51e-4b35-b4eb-e569131c480b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_DP" bidirectional
-			(at 25.4 46.99 180)
-			(uuid "caee718d-b901-49e0-9f10-c4d74d653aa4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0"
-					(page "14")
 				)
 			)
 		)

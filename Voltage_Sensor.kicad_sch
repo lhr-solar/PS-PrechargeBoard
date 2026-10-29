@@ -1132,16 +1132,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 40.64) (xy 106.68 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b3a062-3c19-424a-8024-93717f1bacda")
-	)
-	(wire
-		(pts
 			(xy 21.59 45.72) (xy 21.59 48.26)
 		)
 		(stroke
@@ -1262,16 +1252,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 114.3) (xy 113.03 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b0a884c-68c3-469d-83b5-a6f6cb0338d3")
-	)
-	(wire
-		(pts
 			(xy 54.61 114.3) (xy 60.96 114.3)
 		)
 		(stroke
@@ -1369,16 +1349,6 @@
 			(type default)
 		)
 		(uuid "3fc18f24-eacc-41d6-a199-78633f0671b4")
-	)
-	(wire
-		(pts
-			(xy 113.03 40.64) (xy 113.03 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4381e09c-eb9a-4dfe-b55c-2f0a6028c2e7")
 	)
 	(wire
 		(pts
@@ -1659,16 +1629,6 @@
 			(type default)
 		)
 		(uuid "819a109e-704d-4c46-8632-cad1ec08502f")
-	)
-	(wire
-		(pts
-			(xy 113.03 114.3) (xy 106.68 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "836c18f1-1e64-40d0-b25c-e366f094011e")
 	)
 	(wire
 		(pts
@@ -2213,7 +2173,7 @@
 		)
 		(uuid "1e08833d-71ba-48c6-80aa-2cd9f4f2d0ee")
 	)
-	(hierarchical_label "3V3A"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 214.63 22.86 0)
 		(effects
@@ -2301,17 +2261,6 @@
 		)
 		(uuid "7c684b0b-74b5-4dbc-8914-833581ee4d79")
 	)
-	(hierarchical_label "AGND"
-		(shape bidirectional)
-		(at 113.03 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "907f6a7a-fe34-41e2-90c5-41378e1d48b3")
-	)
 	(hierarchical_label "HVGND"
 		(shape bidirectional)
 		(at 54.61 44.45 180)
@@ -2333,17 +2282,6 @@
 			(justify right)
 		)
 		(uuid "94b62148-fca4-4849-adc9-365bfb19ecb1")
-	)
-	(hierarchical_label "AGND"
-		(shape bidirectional)
-		(at 113.03 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf849c9b-afbe-4986-88f0-e5bbb83ad955")
 	)
 	(hierarchical_label "HV-"
 		(shape input)
@@ -2559,7 +2497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19a9c985-f2a6-470b-b1dc-b191cc7e4a8c")
-		(property "Reference" "TP18"
+		(property "Reference" "TP16"
 			(at 52.07 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2581,7 +2519,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 49.53 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2620,11 +2558,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "TP18")
+					(reference "TP16")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "TP22")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -2641,7 +2579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bb4bf0b-1eb2-4276-8f41-f4259fdfa36d")
-		(property "Reference" "TP17"
+		(property "Reference" "TP15"
 			(at 52.07 32.258 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2663,7 +2601,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 49.53 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -2702,11 +2640,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "TP17")
+					(reference "TP15")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "TP21")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -4008,7 +3946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "916e1448-71a5-4224-a4c8-fdef749bae08")
-		(property "Reference" "TP20"
+		(property "Reference" "TP18"
 			(at 177.8 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,7 +3968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 176.53 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4069,11 +4007,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "TP20")
+					(reference "TP18")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "TP24")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c56e0217-355b-4532-bfff-7f071d6e3653")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 137.16 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4488,11 +4426,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4677,7 +4615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3f22b50-537f-4fcb-9bbc-f03ed3dd47b3")
-		(property "Reference" "TP19"
+		(property "Reference" "TP17"
 			(at 177.8 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,7 +4637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 176.53 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -4738,11 +4676,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "TP19")
+					(reference "TP17")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "TP23")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -4759,7 +4697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d722f3f3-91a2-4717-a97a-f6fb15250569")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR025"
 			(at 137.16 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4819,11 +4757,11 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "#PWR029")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "#PWR031")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5617,16 +5555,6 @@
 				(justify right)
 			)
 		)
-		(pin "AGND" bidirectional
-			(at 106.68 114.3 0)
-			(uuid "d26fc199-5438-4dbe-9d25-179494193031")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "HVGND" bidirectional
 			(at 60.96 114.3 180)
 			(uuid "4730f16a-2f66-439d-912e-ac4e6a1e0dbd")
@@ -5729,16 +5657,6 @@
 		(pin "DIAG" output
 			(at 106.68 36.83 0)
 			(uuid "6d587427-bf9b-4e4c-bece-ed0974534a32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "AGND" bidirectional
-			(at 106.68 40.64 0)
-			(uuid "b0298e58-18c8-469b-b1cf-52f1ecfa85ed")
 			(effects
 				(font
 					(size 1.27 1.27)

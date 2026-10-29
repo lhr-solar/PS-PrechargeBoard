@@ -1758,7 +1758,7 @@
 		)
 		(uuid "21ac0fbe-8c7e-4e2c-ae76-a0fbeec8ff21")
 	)
-	(hierarchical_label "AGND"
+	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 170.18 39.37 0)
 		(effects
@@ -1780,7 +1780,7 @@
 		)
 		(uuid "aea150f9-67bb-4d62-a2d1-4b0f75b61850")
 	)
-	(hierarchical_label "AGND"
+	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 118.11 67.31 0)
 		(effects
@@ -1847,7 +1847,7 @@
 		)
 		(uuid "ec23ecd0-d28e-49e0-8376-1c94328420ba")
 	)
-	(hierarchical_label "AGND"
+	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 118.11 31.75 0)
 		(effects

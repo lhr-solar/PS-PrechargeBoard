@@ -1685,22 +1685,10 @@
 		(uuid "33099f30-8b21-403d-ad9c-94767d8f4cc3")
 	)
 	(junction
-		(at 267.97 38.1)
+		(at 205.74 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c5f19351-8235-43cc-9fba-350021db6f4b")
-	)
-	(junction
-		(at 200.66 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cad6f2a5-475d-4509-98b6-fae864600fc9")
-	)
-	(junction
-		(at 200.66 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe32aa00-df7d-4846-acfb-e6c207b767ca")
+		(uuid "859d5a03-582b-4168-99f1-ab74dee89c39")
 	)
 	(no_connect
 		(at 245.11 144.78)
@@ -1723,6 +1711,10 @@
 		(uuid "2ed22f6c-3418-40a7-94ca-4c4c43781bf8")
 	)
 	(no_connect
+		(at 210.82 100.33)
+		(uuid "30525171-4d0c-4dec-80ae-232d1b307610")
+	)
+	(no_connect
 		(at 210.82 127)
 		(uuid "36a0f809-c47d-4d8f-86ca-c98b152917c3")
 	)
@@ -1741,6 +1733,10 @@
 	(no_connect
 		(at 210.82 129.54)
 		(uuid "53ae32b7-b60f-4f7d-8627-6378b7c65063")
+	)
+	(no_connect
+		(at 210.82 148.59)
+		(uuid "66a277a8-d0c4-4ca1-bfb2-875fb5137e9a")
 	)
 	(no_connect
 		(at 210.82 104.14)
@@ -2120,16 +2116,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 148.59) (xy 200.66 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3157584f-c4fc-4652-9152-23e0d4c68d7e")
-	)
-	(wire
-		(pts
 			(xy 31.75 30.48) (xy 33.02 30.48)
 		)
 		(stroke
@@ -2197,16 +2183,6 @@
 			(type default)
 		)
 		(uuid "3e5edf38-2c69-4705-af22-31f46a3956a9")
-	)
-	(wire
-		(pts
-			(xy 168.91 74.93) (xy 168.91 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe56501-3982-4d0f-a257-8dd7f42a4e6e")
 	)
 	(wire
 		(pts
@@ -2310,16 +2286,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 148.59) (xy 212.09 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51883513-2ed0-470b-afa3-79f10ba1c0e0")
-	)
-	(wire
-		(pts
 			(xy 165.1 40.64) (xy 165.1 43.18)
 		)
 		(stroke
@@ -2337,16 +2303,6 @@
 			(type default)
 		)
 		(uuid "542361d2-c2a1-46f4-af51-2c9b400a45b0")
-	)
-	(wire
-		(pts
-			(xy 168.91 38.1) (xy 168.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a1e8d68-b706-44c5-8d37-ea9b03734ad3")
 	)
 	(wire
 		(pts
@@ -2417,16 +2373,6 @@
 			(type default)
 		)
 		(uuid "62058005-da2b-42d4-9c87-82a7fca45b8d")
-	)
-	(wire
-		(pts
-			(xy 162.56 74.93) (xy 168.91 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "666544a3-cad7-44af-bd1f-cdee6337aa36")
 	)
 	(wire
 		(pts
@@ -2507,6 +2453,16 @@
 			(type default)
 		)
 		(uuid "73a58f20-762a-4bc2-885d-5eb3ef0f9bb5")
+	)
+	(wire
+		(pts
+			(xy 212.09 148.59) (xy 210.82 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787750de-4611-4b59-b1ff-b0655b22a7f5")
 	)
 	(wire
 		(pts
@@ -2710,16 +2666,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 100.33) (xy 199.39 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a547cb8c-edf9-4303-8fad-9a78b40828cb")
-	)
-	(wire
-		(pts
 			(xy 31.75 40.64) (xy 31.75 38.1)
 		)
 		(stroke
@@ -2737,6 +2683,16 @@
 			(type default)
 		)
 		(uuid "aafb375c-e5e5-436f-8b84-7526d316f8a3")
+	)
+	(wire
+		(pts
+			(xy 212.09 100.33) (xy 210.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab91cce9-d90b-450a-8fb7-1724d3192d2d")
 	)
 	(wire
 		(pts
@@ -2860,16 +2816,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 38.1) (xy 168.91 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c05770f1-182d-4d22-adc0-fcd966d56078")
-	)
-	(wire
-		(pts
 			(xy 212.09 116.84) (xy 210.82 116.84)
 		)
 		(stroke
@@ -2960,16 +2906,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 97.79) (xy 200.66 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4984e3a-263d-4815-ad96-67ac7b4b8751")
-	)
-	(wire
-		(pts
 			(xy 243.84 116.84) (xy 254 116.84)
 		)
 		(stroke
@@ -3007,16 +2943,6 @@
 			(type default)
 		)
 		(uuid "d8f9d902-2f6d-41f0-9fc7-83689e2317c0")
-	)
-	(wire
-		(pts
-			(xy 200.66 100.33) (xy 212.09 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7a4898-f6a6-4bc0-82b5-6c93b5657184")
 	)
 	(wire
 		(pts
@@ -6248,7 +6174,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 96.52 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -6294,83 +6220,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 200.66 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0fe08faa-65a9-4f7f-8cb1-17f9ece08d3c")
-		(property "Reference" "#PWR019"
-			(at 200.66 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 200.66 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 200.66 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c91839f-a640-4b62-bd57-2480cbb3312b")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 267.97 39.37 0)
 		(unit 1)
@@ -6381,7 +6230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11df30e3-37fe-4778-b932-f200c4787908")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR022"
 			(at 267.97 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6441,7 +6290,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR026")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6557,7 +6406,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 96.52 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6849,7 +6698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b0dfca1-9831-44ce-bfa5-0a13acf8c8d7")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 172.72 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6909,7 +6758,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7102,7 +6951,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 187.96 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7158,7 +7007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a7d6057-ee42-442c-9ba2-cd072a03df92")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 172.72 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7218,7 +7067,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7235,7 +7084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c79573d-2127-4356-81a2-41a4c19f0f0b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 205.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7295,7 +7144,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7313,7 +7162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f14f6a8-5d43-4329-96fc-3bdcd426e189")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR023"
 			(at 274.32 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7373,7 +7222,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR027")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7492,7 +7341,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 81.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7625,7 +7474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d50cd89-65bc-4043-94f4-56657bbcc129")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR018"
 			(at 205.74 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7685,7 +7534,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR022")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7702,7 +7551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41019bbe-031b-411b-baa8-cb837d47e0e2")
-		(property "Reference" "TP10"
+		(property "Reference" "TP9"
 			(at 196.596 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7724,7 +7573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 194.31 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7763,7 +7612,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP10")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7781,7 +7630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47c5fb1c-deef-44bb-9ee1-2c0fae7b3de5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 172.72 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7841,7 +7690,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8110,7 +7959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60edeefa-1b50-43e4-a2e5-a6304c4b7cf8")
-		(property "Reference" "TP11"
+		(property "Reference" "TP10"
 			(at 196.596 143.764 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8132,7 +7981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 194.31 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8171,7 +8020,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP11")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -8210,7 +8059,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8327,83 +8176,6 @@
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "672c21ec-f9e9-4a36-9273-24ff0c6930c9")
-		(property "Reference" "#PWR014"
-			(at 168.91 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 168.91 80.01 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3760f9d6-42d0-487d-930f-627497a1ddbf")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8572,161 +8344,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 194.31 100.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e43930b-c921-4603-ba7c-4af342bb78bf")
-		(property "Reference" "TP9"
-			(at 196.596 99.314 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 195.326 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 194.31 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "240348d3-1cb0-4bff-9e6c-c0fd7c1c0fe0")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 200.66 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "711e788d-5328-4afc-9d2c-9efe7a821692")
-		(property "Reference" "#PWR020"
-			(at 200.66 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 200.66 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e315cc4-a20c-4e6e-9add-129eac62b961")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lhrs_connectors:CAN_NANO_01x05")
 		(at 204.47 43.18 0)
 		(mirror y)
@@ -8838,7 +8455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eef93b9-b4b8-46aa-b968-8dab1289754e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR024"
 			(at 274.32 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8898,7 +8515,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR028")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8915,7 +8532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8324b400-7459-4b24-a4ce-696261abf55b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 172.72 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8975,7 +8592,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9091,7 +8708,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 163.83 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -9230,7 +8847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8b10f9d-0be0-4fa7-82b4-9e908c99f26e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR020"
 			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9290,7 +8907,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR024")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9298,8 +8915,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 273.05 38.1 270)
-		(mirror x)
+		(at 200.66 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9307,9 +8923,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bb4207cb-0e39-4a9d-8eb6-75090f07bccb")
-		(property "Reference" "TP16"
-			(at 270.764 37.084 90)
+		(uuid "bdb645f2-c0e7-48c9-8cbe-a92aec153211")
+		(property "Reference" "TP11"
+			(at 202.946 150.114 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9320,7 +8936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 272.034 38.1 90)
+			(at 201.676 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9330,8 +8946,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 273.05 38.1 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 200.66 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9342,7 +8958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 38.1 0)
+			(at 200.66 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9353,7 +8969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 38.1 0)
+			(at 200.66 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9364,90 +8980,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2e30ba7-ee02-4365-ae1a-d351905c2bac")
+			(uuid "ec8e65ee-7996-4b97-8672-68f68db15a15")
 		)
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 194.31 148.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c320b117-ec97-4593-bfc4-d2a74e8318b0")
-		(property "Reference" "TP12"
-			(at 196.596 147.574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AGND"
-			(at 195.326 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 194.31 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf754d8b-0dcb-4052-8b6d-208e3149c0d4")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP12")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -9465,7 +9003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c534a855-7168-4067-a3f4-2c9b3b1cb959")
-		(property "Reference" "TP14"
+		(property "Reference" "TP13"
 			(at 256.794 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9487,7 +9025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 259.08 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9526,7 +9064,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP14")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -9543,7 +9081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c715bbf7-3e14-43cb-8765-2e188e158bf1")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR021"
 			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9603,7 +9141,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR025")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9642,7 +9180,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 16.51 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9699,7 +9237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0f25d7a-377f-45ad-a8cc-986c506242a7")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR019"
 			(at 215.9 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9759,7 +9297,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR023")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9776,7 +9314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d859e3cc-ab28-4e32-874d-9a5c40bdaae1")
-		(property "Reference" "TP13"
+		(property "Reference" "TP12"
 			(at 220.98 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9798,7 +9336,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 220.98 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9837,84 +9375,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db7743de-0633-4d0d-9db3-65aa5e3e1a03")
-		(property "Reference" "#PWR013"
-			(at 168.91 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 168.91 43.18 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42a9c32d-712b-4a71-ae91-dc068b152e63")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "#PWR013")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -10056,7 +9517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaea27e8-6c8e-4d97-98bb-f165bde6bc30")
-		(property "Reference" "TP15"
+		(property "Reference" "TP14"
 			(at 256.794 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10078,7 +9539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 259.08 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10117,7 +9578,7 @@
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
-					(reference "TP15")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -10342,7 +9803,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 17.78 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11250,16 +10711,6 @@
 				(justify right)
 			)
 		)
-		(pin "AGND" bidirectional
-			(at 162.56 38.1 0)
-			(uuid "105ffc61-e5c9-4dab-b0e2-5431943239bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e"
@@ -11618,16 +11069,6 @@
 		(pin "DIAG" output
 			(at 162.56 64.77 0)
 			(uuid "50e06e3b-35a8-4a66-a720-67c89552e8a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "AGND" bidirectional
-			(at 162.56 74.93 0)
-			(uuid "05154c5d-c255-4fe6-b6ea-6a37e5797f01")
 			(effects
 				(font
 					(size 1.27 1.27)
