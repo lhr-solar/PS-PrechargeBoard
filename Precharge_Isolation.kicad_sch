@@ -7889,7 +7889,7 @@
 	)
 	(rectangle
 		(start 13.4938 13.3349)
-		(end 98.4249 49.5299)
+		(end 98.4249 51.4349)
 		(stroke
 			(width 0)
 			(type default)
@@ -7908,6 +7908,12 @@
 			)
 		)
 		(uuid "a5d5c5ef-ad7d-4189-9f18-bbcde1963d4f")
+	)
+	(junction
+		(at 78.74 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "792387b5-0f0c-479e-9cc2-430a575e7eb4")
 	)
 	(no_connect
 		(at 80.01 31.75)
@@ -7949,6 +7955,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 40.64) (xy 80.01 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df15db6-f392-49aa-ac98-5188c5745d37")
+	)
+	(wire
+		(pts
 			(xy 78.74 34.29) (xy 80.01 34.29)
 		)
 		(stroke
@@ -7966,6 +7982,36 @@
 			(type default)
 		)
 		(uuid "3f9d0bef-33f4-42c7-b59f-3eebbcd5b04a")
+	)
+	(wire
+		(pts
+			(xy 78.74 49.53) (xy 78.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4016f693-98e8-4d63-b79c-c8b900364f2e")
+	)
+	(wire
+		(pts
+			(xy 77.47 40.64) (xy 78.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507c387e-9dec-4dd3-a029-e7d16fdeb94d")
+	)
+	(wire
+		(pts
+			(xy 69.85 40.64) (xy 68.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e21a2df-114f-4a6f-b191-b88ed2310e5a")
 	)
 	(polyline
 		(pts
@@ -8019,7 +8065,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 46.99) (xy 87.63 45.72)
+			(xy 87.63 49.53) (xy 87.63 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8059,7 +8105,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 87.63 46.99 0)
+		(at 87.63 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8081,7 +8127,7 @@
 	)
 	(hierarchical_label "HV_PRECHARGE_CTRL"
 		(shape input)
-		(at 72.39 40.64 180)
+		(at 68.58 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8100,6 +8146,17 @@
 			(justify right)
 		)
 		(uuid "9ee26bfa-fc13-4d7e-ab1a-41367a48b342")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 78.74 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad1629b2-142d-4812-978e-174f69a8776d")
 	)
 	(hierarchical_label "RES_HV-"
 		(shape input)
@@ -8122,6 +8179,89 @@
 			(justify right)
 		)
 		(uuid "f4358099-f24e-4ec0-b9f8-c3e0bdf9b881")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 44.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0579f7e9-9d28-42bd-ab2e-a67f630a0362")
+		(property "Reference" "R5"
+			(at 81.788 43.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 81.788 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 80.518 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ece99ef1-eb63-40c4-a6f0-4a5bab74ce86")
+		)
+		(pin "1"
+			(uuid "d1b71ec5-4525-4649-86ee-c8c30edcff2f")
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/5b236d54-dfec-450f-96e4-88b51678f51f"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/d5231689-0a25-4774-9952-2a5e507de834"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
@@ -8396,7 +8536,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 40.64 90)
+		(at 73.66 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8406,7 +8546,7 @@
 		(dnp no)
 		(uuid "a0b4f3da-981a-4a00-a69e-6898213906b1")
 		(property "Reference" "R32"
-			(at 76.2 38.608 90)
+			(at 73.66 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8415,8 +8555,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 76.2 42.926 90)
+		(property "Value" "100"
+			(at 73.66 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8426,7 +8566,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.2 42.418 90)
+			(at 73.66 42.418 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8437,7 +8577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 40.64 0)
+			(at 73.66 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8448,7 +8588,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 40.64 0)
+			(at 73.66 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

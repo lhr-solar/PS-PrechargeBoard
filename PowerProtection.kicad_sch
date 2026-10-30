@@ -2,11 +2,8 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a968d2b9-0c0e-491c-a5a4-aacd8448ff64")
-	(paper "A5")
-	(title_block
-		(title "Power Protection")
-	)
+	(uuid "33414352-dcba-4935-a705-ef9522c6f31d")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
