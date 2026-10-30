@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a09f9696-80ee-4697-8aaa-225f287b667b")
+	(uuid "8d7b4598-cc90-45a0-bf47-a1a71d34afde")
 	(paper "A4")
 	(lib_symbols
 		(symbol "CDSOT23-T24CAN:CDSOT23-T24CAN"

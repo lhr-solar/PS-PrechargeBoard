@@ -522,7 +522,7 @@
 	)
 	(rectangle
 		(start 71.755 13.335)
-		(end 128.27 66.675)
+		(end 128.27 61.595)
 		(stroke
 			(width 0)
 			(type default)
@@ -545,7 +545,7 @@
 	)
 	(text "Resistor (R) = 50 ohms :\nBattery Vmax: 135V\nTarget Time (Tmax): 0.25 s\nPrecharge Level: 95%\nSystem Capacitance (C): 1420µF\n\nFuse = 5A :\nPeak Inrush Current: 2.7A\n3A fuse too close to 2.7A peak"
 		(exclude_from_sim no)
-		(at 71.12 68.58 0)
+		(at 72.136 63.246 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -572,44 +572,22 @@
 		(uuid "0fbe6c3a-97a1-4c67-99b0-2b957021d3e8")
 	)
 	(junction
-		(at 110.49 60.96)
+		(at 110.49 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "196b0570-f73b-48fd-9443-38a3526ff0d2")
+		(uuid "8042d00a-656b-49c0-85db-992e012075a5")
 	)
 	(junction
 		(at 110.49 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f80aa7f-f9b5-4429-8b02-c8a3bd715adc")
-	)
-	(junction
-		(at 88.9 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62199171-97ac-4a87-8093-a6d24c43cc47")
-	)
-	(junction
-		(at 110.49 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6458bb35-1c37-4e59-8531-53b21991d391")
+		(uuid "87d51e80-cdfb-4e96-9cff-02af31c66c0c")
 	)
 	(junction
 		(at 88.9 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e72efc8-6c23-46f5-8545-5481055e7dec")
-	)
-	(wire
-		(pts
-			(xy 110.49 38.1) (xy 110.49 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04d84186-e297-4cd8-b293-fe16c8eef387")
 	)
 	(wire
 		(pts
@@ -693,33 +671,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 60.96) (xy 115.57 60.96)
+			(xy 110.49 49.53) (xy 115.57 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ce9d624-7b22-4d24-9dea-5aa9234f87e4")
-	)
-	(wire
-		(pts
-			(xy 88.9 62.23) (xy 90.17 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95ae8f17-9b23-4b99-90ce-451189ed8755")
-	)
-	(wire
-		(pts
-			(xy 83.82 59.69) (xy 90.17 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9cc67c-9e90-45b0-88ff-6a4349cca8a1")
+		(uuid "96b8d4a8-3ed6-4bfb-accd-a0e84d641145")
 	)
 	(wire
 		(pts
@@ -740,16 +698,6 @@
 			(type default)
 		)
 		(uuid "a70ba987-f33b-47d0-96b2-7b76d2fa8ba1")
-	)
-	(wire
-		(pts
-			(xy 88.9 50.8) (xy 88.9 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af04f392-86cb-445b-b7ee-f1f6daf0ac3f")
 	)
 	(wire
 		(pts
@@ -840,6 +788,16 @@
 			(type default)
 		)
 		(uuid "f9913830-603f-48d4-b82e-fcad64bb0e5f")
+	)
+	(wire
+		(pts
+			(xy 110.49 38.1) (xy 110.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcef5287-d561-4f37-9eb5-f036e243a64f")
 	)
 	(wire
 		(pts
@@ -2231,16 +2189,6 @@
 		(uuid "0e2bef2b-5973-4464-9c45-96eeb53542df")
 	)
 	(label "RESISTOR"
-		(at 83.82 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "23febcdf-24ee-4b2c-a9b5-2bbfdc14723a")
-	)
-	(label "RESISTOR"
 		(at 83.82 48.26 180)
 		(effects
 			(font
@@ -2259,6 +2207,17 @@
 			(justify right bottom)
 		)
 		(uuid "9fb7d8a8-e028-4596-8eb7-734a0fb56e71")
+	)
+	(hierarchical_label "RES_HV-"
+		(shape output)
+		(at 115.57 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0638ce74-a8b4-4ffc-a392-61f31048de7a")
 	)
 	(hierarchical_label "HV+"
 		(shape input)
@@ -2325,17 +2284,6 @@
 			(justify left)
 		)
 		(uuid "7ef5aec3-57b1-401d-b26e-c9d580d179fc")
-	)
-	(hierarchical_label "RES_HV-"
-		(shape output)
-		(at 115.57 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f71fe152-2428-4560-9a09-f94b506cfff6")
 	)
 	(hierarchical_label "HVGND"
 		(shape output)
@@ -2944,186 +2892,6 @@
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "PWR263S-35-3300F_1")
-		(lib_id "Precharge-R:PWR263S-35-3300F")
-		(at 100.33 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "6e445d81-c516-483b-867e-1000bd8aa362")
-		(property "Reference" "R5"
-			(at 100.33 57.912 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 100.584 64.262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Precharge_Board:RES_PWR263S-35-3300F"
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Precharge Resistor"
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "12/20"
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Bourns"
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5mm"
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "P/N" "  PWR263S-35-3300F"
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 100.33 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ffd1df2f-4cd5-4c83-a131-feb8d6ef2237")
-		)
-		(pin "1"
-			(uuid "8410d158-0093-4dc2-bb80-d24a1a8d147f")
-		)
-		(pin "3"
-			(uuid "f696fe0f-fbf4-4ace-824f-83b457b0d5ba")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/90c6c4b7-1465-4e8f-80ba-ec6b0750446b"
-					(reference "R36")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/9d2e20d2-bc37-4993-8fa8-5a82459dba6b"
-					(reference "R5")
 					(unit 1)
 				)
 			)
