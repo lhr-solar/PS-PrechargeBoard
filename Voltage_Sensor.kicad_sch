@@ -1242,6 +1242,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 114.3) (xy 113.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1955264a-7d6d-41dd-8151-2b23f77f422d")
+	)
+	(wire
+		(pts
 			(xy 21.59 152.4) (xy 21.59 153.67)
 		)
 		(stroke
@@ -1279,6 +1289,16 @@
 			(type default)
 		)
 		(uuid "2c63cfcc-54f4-413b-8ac8-32886c41ba9e")
+	)
+	(wire
+		(pts
+			(xy 113.03 40.64) (xy 113.03 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e06d5a5-bb52-4b7b-853b-647e5aed4eed")
 	)
 	(wire
 		(pts
@@ -1342,6 +1362,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 40.64) (xy 106.68 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c608aaa-d661-4799-ad79-4125d63726cb")
+	)
+	(wire
+		(pts
 			(xy 54.61 114.3) (xy 54.61 118.11)
 		)
 		(stroke
@@ -1359,6 +1389,16 @@
 			(type default)
 		)
 		(uuid "46673856-8703-4a86-930f-aa4952860305")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a52bc0-9c70-4894-8371-2eb18403cf13")
 	)
 	(wire
 		(pts
@@ -2283,6 +2323,17 @@
 		)
 		(uuid "94b62148-fca4-4849-adc9-365bfb19ecb1")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 113.03 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1798b6e-3d28-4f94-9b1a-eaafa1e5cd92")
+	)
 	(hierarchical_label "HV-"
 		(shape input)
 		(at 21.59 99.06 180)
@@ -2315,6 +2366,17 @@
 			(justify left)
 		)
 		(uuid "d472934c-3b7e-4ac6-8a64-837e35d113dc")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 113.03 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5e127b6-ccbb-4aca-bc8f-ce7b75868891")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5595,6 +5657,16 @@
 				(justify left)
 			)
 		)
+		(pin "GND" bidirectional
+			(at 106.68 114.3 0)
+			(uuid "6a0e76e6-e40f-42a0-9a2a-42c25a816739")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PS-PrechargeBoard"
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
@@ -5702,6 +5774,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 106.68 40.64 0)
+			(uuid "abbc304f-c913-4b32-a19b-11e95234b766")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
