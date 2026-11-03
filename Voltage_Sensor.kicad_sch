@@ -1002,7 +1002,7 @@
 		)
 		(uuid "e42f9d14-e7fd-4646-a39a-9104b33c74d8")
 	)
-	(text "Op-amp power: TLV9002 supply \non 3V3A with decoupling"
+	(text "Op-amp power: TLV9002 supply \non 3V3 with decoupling"
 		(exclude_from_sim no)
 		(at 189.23 17.78 0)
 		(effects
@@ -2400,7 +2400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "174k"
+		(property "Value" ""
 			(at 22.86 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2485,7 +2485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "174k"
+		(property "Value" ""
 			(at 22.86 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2997,7 +2997,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "174k"
+		(property "Value" ""
 			(at 22.86 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,7 +3082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "174k"
+		(property "Value" ""
 			(at 22.86 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3167,7 +3167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "174k"
+		(property "Value" ""
 			(at 22.86 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3766,7 +3766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "174k"
+		(property "Value" ""
 			(at 22.86 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,7 +4354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "174k"
+		(property "Value" ""
 			(at 22.86 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5063,7 +5063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "174k"
+		(property "Value" ""
 			(at 22.86 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
