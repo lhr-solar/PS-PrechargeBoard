@@ -2582,7 +2582,7 @@
 			)
 		)
 		(property "Value" "RSX068MP2STR"
-			(at 47.625 41.91 0)
+			(at 48.26 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2899,7 +2899,8 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 48.26 53.34 180)
+		(at 48.26 53.34 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2919,7 +2920,7 @@
 			)
 		)
 		(property "Value" "RSX068MP2STR"
-			(at 48.895 55.88 0)
+			(at 48.514 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
