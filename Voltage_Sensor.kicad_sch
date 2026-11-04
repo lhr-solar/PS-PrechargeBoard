@@ -1500,16 +1500,6 @@
 		)
 		(uuid "5af749d4-ede3-486b-a541-35f3cada1c10")
 	)
-	(wire
-		(pts
-			(xy 176.53 110.49) (xy 176.53 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "616e61f4-d8b5-4c3b-a95a-b0f62cd9a148")
-	)
 	(polyline
 		(pts
 			(xy 83.82 21.59) (xy 83.82 43.18)
@@ -1869,16 +1859,6 @@
 			(type default)
 		)
 		(uuid "c7b3de30-828f-48b5-ac03-1b3e950d35b3")
-	)
-	(wire
-		(pts
-			(xy 176.53 36.83) (xy 176.53 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b01834-2890-498a-9704-6c3e5cbb95db")
 	)
 	(wire
 		(pts
@@ -3998,88 +3978,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 176.53 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "916e1448-71a5-4224-a4c8-fdef749bae08")
-		(property "Reference" "TP18"
-			(at 177.8 107.315 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_OUT-"
-			(at 177.8 109.855 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 176.53 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb3d010b-64b0-4477-b6ae-9b418c1b6559")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "TP18")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 137.16 130.81 90)
 		(unit 1)
@@ -4661,88 +4559,6 @@
 				)
 				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
 					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 176.53 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d3f22b50-537f-4fcb-9bbc-f03ed3dd47b3")
-		(property "Reference" "TP17"
-			(at 177.8 33.655 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_OUT+"
-			(at 177.8 36.195 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 176.53 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2536213-0590-4162-b917-893a19d6ec59")
-		)
-		(instances
-			(project "PS-PrechargeBoard"
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/6627985a-aef4-4302-9d05-a969136ea8f4"
-					(reference "TP17")
-					(unit 1)
-				)
-				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c9d052f0-39c4-441f-8d4e-0430a3425be4"
-					(reference "TP21")
 					(unit 1)
 				)
 			)
