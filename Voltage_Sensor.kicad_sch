@@ -947,7 +947,7 @@
 		)
 		(uuid "4430c688-54d6-4ee2-bf57-22fa1557bd2d")
 	)
-	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 174k = 696k\nRbot = 10k\n\nVin = HV x 10k / (696k + 10k) = HV x 0.01416\n\nHV = 100V -> Vin = 1.42V\nHV = 120V -> Vin = 1.70V\nHV = 135V -> Vin = 1.91V\n\nAmp linear input range: +/-5V (AMC3311)\nDivider current at 135V: 135V / 706k = 0.19mA\nPer top resistor: ~33V, ~6.4mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
+	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 180k = 720k\nRbot = 10k\n\nVin = HV x 10k / (720k + 10k) = HV x 0.01370\n\nHV = 100V -> Vin = 1.37V\nHV = 120V -> Vin = 1.64V\nHV = 135V -> Vin = 1.85V\n\nAmp linear input range: +/-5V (AMC3311)\nDivider current at 135V: 135V / 730k = 0.18mA\nPer top resistor: ~33V, ~6.2mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
 		(exclude_from_sim no)
 		(at 45.72 159.258 0)
 		(effects
@@ -958,7 +958,7 @@
 		)
 		(uuid "9ef649d4-46a3-40ce-9b66-5f91098cdc96")
 	)
-	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 174k = 696k\nRbot = 10k\n\nVin = HV x 10k / (696k + 10k) = HV x 0.01416\n\nHV = 100V -> Vin = 1.42V\nHV = 120V -> Vin = 1.70V\nHV = 135V -> Vin = 1.91V\n\nAmp linear input range: +/-5V (AMC3311)\nDivider current at 135V: 135V / 706k = 0.19mA\nPer top resistor: ~33V, ~6.4mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
+	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 180k = 720k\nRbot = 10k\n\nVin = HV x 10k / (720k + 10k) = HV x 0.01370\n\nHV = 100V -> Vin = 1.37V\nHV = 120V -> Vin = 1.64V\nHV = 135V -> Vin = 1.85V\n\nAmp linear input range: +/-5V (AMC3311)\nDivider current at 135V: 135V / 730k = 0.18mA\nPer top resistor: ~33V, ~6.2mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
 		(exclude_from_sim no)
 		(at 45.72 86.36 0)
 		(effects
@@ -2380,7 +2380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "180k"
 			(at 22.86 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2465,7 +2465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "180k"
 			(at 22.86 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2977,7 +2977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "180k"
 			(at 22.86 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3062,7 +3062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "180k"
 			(at 22.86 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3147,7 +3147,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "180k"
 			(at 22.86 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3746,7 +3746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "180k"
 			(at 22.86 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4252,7 +4252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "180k"
 			(at 22.86 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4879,7 +4879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "180k"
 			(at 22.86 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
