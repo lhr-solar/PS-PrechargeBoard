@@ -5,4 +5,5 @@
 	(lib (name "lhrs_misc") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/lhrs_misc.kicad_sym") (options "") (descr ""))
 	(lib (name "lhrs_power") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/lhrs_power.kicad_sym") (options "") (descr ""))
 	(lib (name "lhrs_special") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/lhrs_special.kicad_sym") (options "") (descr ""))
+	(lib (name "IRLML0030TRPBF") (type "KiCad") (uri "${KIPRJMOD}/External_Parts/Precharge_Board.pretty/IRLML0030TRPBF.kicad_sym") (options "") (descr ""))
 )

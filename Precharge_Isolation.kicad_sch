@@ -8297,7 +8297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_ICs:SOT23_NXP"
+		(property "Footprint" "Precharge_Board:SOT95P237X112-3N"
 			(at 90.17 38.1 0)
 			(hide yes)
 			(show_name no)
