@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DE1a-12V"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2026-03-30-13:30:03)
+    (mountForm default
+        (footprintRef "DE1a12V")
+        (spec "System")
+    )
+)

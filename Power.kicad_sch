@@ -1,0 +1,489 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "283481a1-ca52-4626-89e4-412c79949926")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 114.3 13.97)
+		(end 156.21 41.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "13d654bf-933e-4203-a659-f497e2a499f7")
+	)
+	(rectangle
+		(start 68.58 13.97)
+		(end 112.395 39.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7f19bc9c-5922-4769-92da-6c4b02ba7cc2")
+	)
+	(rectangle
+		(start 13.97 13.97)
+		(end 66.675 41.275)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8c0ef93b-301a-4461-9b2a-636e7dc816b4")
+	)
+	(text "Buck to convert protected 12V to 5V"
+		(exclude_from_sim no)
+		(at 86.995 15.875 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e462f4a-4958-4a4c-b80a-9be5c990d5ef")
+	)
+	(text "Surge, reverse polarity, and over/undervoltage \nprotection"
+		(exclude_from_sim no)
+		(at 14.605 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e671f449-94ba-44d1-b01b-997dbc9dd50c")
+	)
+	(text "LDO to convert 5V to regulated 3.3V"
+		(exclude_from_sim no)
+		(at 114.935 15.875 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fecdbc6e-982d-4748-92a2-714b0982fea0")
+	)
+	(wire
+		(pts
+			(xy 27.305 33.655) (xy 30.48 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780b7895-0b25-489d-8ce1-24cd95b13c31")
+	)
+	(wire
+		(pts
+			(xy 149.225 34.29) (xy 146.05 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a57961-2ca1-47d7-9cbf-088bc6c2249e")
+	)
+	(wire
+		(pts
+			(xy 50.8 25.4) (xy 53.975 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a40f19-7223-4a17-b4d5-9e77f0d31d07")
+	)
+	(wire
+		(pts
+			(xy 27.305 25.4) (xy 30.48 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe4c72a-1b03-44d6-8d41-51d46b006b5d")
+	)
+	(wire
+		(pts
+			(xy 122.555 33.655) (xy 125.73 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd99a248-89e7-4b74-b120-eba28b6bf4e0")
+	)
+	(wire
+		(pts
+			(xy 77.47 31.115) (xy 80.645 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b14548-db04-4c2a-a7dc-a47637b38210")
+	)
+	(wire
+		(pts
+			(xy 116.205 26.67) (xy 125.73 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5b28eb-c6b8-4ed7-9b98-d4c0c3d68ac4")
+	)
+	(wire
+		(pts
+			(xy 100.965 31.115) (xy 110.49 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc78a3ab-d9e5-41c5-96ca-79da8e735716")
+	)
+	(wire
+		(pts
+			(xy 70.485 23.495) (xy 80.645 23.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83d94b8-9572-4c11-827a-e47cbd8adde7")
+	)
+	(label "5V_BUCK"
+		(at 110.49 31.115 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "835c8128-330a-42ed-b98e-6d83af77e3b7")
+	)
+	(label "VIN_PROT"
+		(at 70.485 23.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd665106-29e3-4709-b5e6-ef4a0253a04c")
+	)
+	(label "5V_BUCK"
+		(at 116.205 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa02aa39-b312-4137-ad91-2c44911e70de")
+	)
+	(hierarchical_label "VIN_PROT"
+		(shape output)
+		(at 53.975 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e6af945-36e2-40e3-8c9f-83f89e55a970")
+	)
+	(hierarchical_label "VIN_FUSED"
+		(shape input)
+		(at 27.305 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f9b1e5f-4585-45e6-ac98-e44943226fc3")
+	)
+	(hierarchical_label "3V3"
+		(shape output)
+		(at 149.225 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ccb0794-183a-4704-9909-82c5dd7acb59")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 77.47 31.115 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e5ff01d-0276-4374-b179-cbdcb3bdea7d")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 27.305 33.655 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f88ac54-fd97-4a53-957a-778eaa6a9e68")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 122.555 33.655 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9a20c9b-7a0d-4659-a1db-1b8304a5f42d")
+	)
+	(sheet
+		(at 125.73 23.495)
+		(size 20.32 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "90ec3f79-b3d6-4fd7-840b-31d3af1f4c2b")
+		(property "Sheetname" "LDO"
+			(at 125.73 22.7834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LDO.kicad_sch"
+			(at 125.73 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 125.73 33.655 180)
+			(uuid "7a1facdd-fdf3-4203-88f2-2a5fbb500626")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 125.73 26.67 180)
+			(uuid "a97182bc-ab7f-4ce2-b9b1-494a9a5003fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 146.05 34.29 0)
+			(uuid "bd6b6e93-8e16-4334-9048-f1489c759475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c6e51092-efec-40a8-afae-63cae62691f2"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 22.86)
+		(size 20.32 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9aee96ea-fe7f-4344-be59-bff28dc77cb5")
+		(property "Sheetname" "PowerProtection"
+			(at 30.48 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerProtection.kicad_sch"
+			(at 30.48 38.0496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 30.48 33.655 180)
+			(uuid "a4741e5c-b3a2-489d-8b50-e5489f56af53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 30.48 25.4 180)
+			(uuid "9150d28c-626a-4608-bcde-b80a4a172f2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 50.8 25.4 0)
+			(uuid "1e9775d6-7ddc-4437-bcdf-7b0c2967103e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c6e51092-efec-40a8-afae-63cae62691f2"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.645 20.955)
+		(size 20.32 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d0a2e77c-6f3b-4bbc-a3d8-ef9f85477fa8")
+		(property "Sheetname" "12VBuck"
+			(at 80.645 20.2434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12VBuck.kicad_sch"
+			(at 80.645 36.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 80.645 31.115 180)
+			(uuid "326e57f0-34d4-49f9-8ca9-e304974a0181")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_in_12V" input
+			(at 80.645 23.495 180)
+			(uuid "4ad121bb-fd6d-439b-95f6-d6dd30d4ad62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out_5V" output
+			(at 100.965 31.115 0)
+			(uuid "f4d3e71b-0cb9-4f95-85a0-9454a58d2933")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PS-PrechargeBoard"
+				(path "/74d17fe6-68d4-4bd7-954a-e2bbb58b1f1e/c6e51092-efec-40a8-afae-63cae62691f2"
+					(page "9")
+				)
+			)
+		)
+	)
+)
