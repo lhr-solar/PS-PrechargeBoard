@@ -1232,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 110.49) (xy 106.68 110.49)
+			(xy 109.22 110.49) (xy 106.68 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 36.83) (xy 106.68 36.83)
+			(xy 109.22 36.83) (xy 106.68 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2215,9 +2215,9 @@
 		)
 		(uuid "5379fcaf-1ef8-4d6e-bdcf-e45e4586cb34")
 	)
-	(hierarchical_label "DIAG"
+	(hierarchical_label "DIAG_HV-"
 		(shape output)
-		(at 113.03 110.49 0)
+		(at 109.22 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2259,9 +2259,9 @@
 		)
 		(uuid "789b578b-b267-4e5a-8e7d-f0bc7cfe7d29")
 	)
-	(hierarchical_label "DIAG"
+	(hierarchical_label "DIAG_HV+"
 		(shape output)
-		(at 113.03 36.83 0)
+		(at 109.22 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
