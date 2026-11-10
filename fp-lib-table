@@ -7,4 +7,5 @@
 	(lib (name "LHRS_Special") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Special.pretty") (options "") (descr ""))
 	(lib (name "LHRS_Connectors") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Connectors.pretty") (options "") (descr ""))
 	(lib (name "Precharge_Board") (type "KiCad") (uri "${KIPRJMOD}/External_Parts/Precharge_Board.pretty") (options "") (descr ""))
+	(lib (name "Silkscreen_Images") (type "KiCad") (uri "${KIPRJMOD}/Silkscreen_Images") (options "") (descr ""))
 )
