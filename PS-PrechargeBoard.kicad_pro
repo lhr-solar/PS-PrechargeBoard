@@ -717,7 +717,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "New folder/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
