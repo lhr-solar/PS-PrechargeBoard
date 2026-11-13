@@ -785,6 +785,28 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW06030000Z0EI"
+			(at 38.1 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 38.1 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f731257f-ad65-453c-9074-81e34d33f610")
 		)

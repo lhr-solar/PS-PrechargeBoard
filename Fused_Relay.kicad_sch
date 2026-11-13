@@ -2360,6 +2360,28 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "576-05200101Z"
+			(at 38.1 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "05200101Z "
+			(at 38.1 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4635e101-ff79-4195-acae-f19d44af6993")
 		)
@@ -2423,7 +2445,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/pwr263s_35.pdf"
+		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
 			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -2493,7 +2515,7 @@
 				(justify bottom)
 			)
 		)
-		(property "P/N" "  PWR263S-35-3300F"
+		(property "P/N" "PWR263S-35-3300F"
 			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -2527,6 +2549,17 @@
 			)
 		)
 		(property "Sim.Name" ""
+			(at 100.33 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-PWR263S353300F"
 			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -2668,6 +2701,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "755-RSX068MP2STR"
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "291ad15e-8494-4223-8305-001de17a0904")
 		)
@@ -2742,6 +2786,28 @@
 		)
 		(property "Description" "Fuse"
 			(at 38.1 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "576-05200101Z"
+			(at 38.1 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "05200101Z "
+			(at 38.1 24.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,6 +2944,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "755-RSX068MP2STR"
+			(at 48.26 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c80ab50-1618-402b-9879-19ca8303c1bc")
 		)
@@ -2996,6 +3073,17 @@
 			)
 		)
 		(property "Sim.Name" ""
+			(at 48.26 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "755-RSX068MP2STR"
 			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3139,7 +3227,7 @@
 				(justify bottom)
 			)
 		)
-		(property "P/N" "  PWR263S-35-3300F"
+		(property "P/N" "PWR263S-35-3300F"
 			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3173,6 +3261,17 @@
 			)
 		)
 		(property "Sim.Name" ""
+			(at 100.33 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-PWR263S353300F"
 			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3319,7 +3418,7 @@
 				(justify bottom)
 			)
 		)
-		(property "P/N" "  PWR263S-35-3300F"
+		(property "P/N" "PWR263S-35-3300F"
 			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3353,6 +3452,17 @@
 			)
 		)
 		(property "Sim.Name" ""
+			(at 100.33 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-PWR263S353300F"
 			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)

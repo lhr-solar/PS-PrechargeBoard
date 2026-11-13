@@ -5889,7 +5889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://Blue LED.pdf"
 			(at 133.35 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -5911,7 +5911,29 @@
 				)
 			)
 		)
-		(property "P/N" "NCD0603R1"
+		(property "P/N" "FR1101C-2005-M-TR"
+			(at 133.35 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C125103"
+			(at 133.35 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "327-FR1101C2005MTR"
 			(at 133.35 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -6621,6 +6643,28 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW06030000Z0EI"
+			(at 236.22 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 236.22 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6e1bdff2-00ec-4a77-a423-50ffef6094d8")
 		)
@@ -6703,7 +6747,29 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603150RFKEC"
+		(property "P/N" "CRCW06031K00FKEI "
+			(at 82.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
+			(at 82.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-1.0K-E3"
 			(at 82.55 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6874,7 +6940,29 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW1206470RFKEA "
+		(property "P/N" "CRCW06031K00FKEI "
+			(at 133.35 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
+			(at 133.35 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-1.0K-E3"
 			(at 133.35 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7353,7 +7441,29 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603150RFKEC"
+		(property "P/N" "CRCW06031K00FKEI "
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-1.0K-E3"
 			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7522,6 +7632,17 @@
 			)
 		)
 		(property "P/N" "1053091104"
+			(at 260.35 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "538-105309-1104"
 			(at 260.35 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -7934,6 +8055,28 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "538-105309-1203"
+			(at 26.67 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "105309-1203"
+			(at 26.67 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c2c7b82a-bada-432b-8515-7c5d116cc19e")
 		)
@@ -8184,6 +8327,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "538-105309-1105"
+			(at 204.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "6a8368ea-a386-4582-a33c-93f550fd5c7b")
 		)
@@ -8253,7 +8407,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://Blue LED.pdf"
 			(at 82.55 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8275,7 +8429,29 @@
 				)
 			)
 		)
-		(property "P/N" "NCD0603R1"
+		(property "P/N" "FR1101C-2005-M-TR"
+			(at 82.55 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C125103"
+			(at 82.55 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "327-FR1101C2005MTR"
 			(at 82.55 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -8423,7 +8599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://Blue LED.pdf"
 			(at 106.68 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8445,7 +8621,29 @@
 				)
 			)
 		)
-		(property "P/N" "NCD0603R1"
+		(property "P/N" "FR1101C-2005-M-TR"
+			(at 106.68 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C125103"
+			(at 106.68 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "327-FR1101C2005MTR"
 			(at 106.68 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -10062,6 +10260,28 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "538-105309-1203"
+			(at 26.67 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "105309-1203"
+			(at 26.67 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b904f18f-76a3-4453-a326-d4f2975e91b0")
 		)
@@ -10147,6 +10367,17 @@
 			)
 		)
 		(property "P/N" "1053091105"
+			(at 204.47 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "538-105309-1105"
 			(at 204.47 17.78 0)
 			(hide yes)
 			(show_name no)

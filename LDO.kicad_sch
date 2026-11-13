@@ -1855,7 +1855,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1878,6 +1878,17 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
+			(at 165.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43K"
 			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2002,6 +2013,17 @@
 			)
 		)
 		(property "LCSC MFG P/N" "LM39100S-3.3"
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "579-MCP1826S-3302EDB"
 			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2139,6 +2161,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "241-SBA130CH-AUR10A1"
+			(at 133.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "746b2f09-0964-4919-bf29-1cd33eb9536c")
 		)
@@ -2210,7 +2243,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2233,6 +2266,17 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
+			(at 139.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43K"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)

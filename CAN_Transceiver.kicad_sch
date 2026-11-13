@@ -33741,7 +33741,18 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
+			(at 73.66 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
 			(at 73.66 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -33842,7 +33853,18 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
+			(at 189.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
 			(at 189.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -34025,7 +34047,18 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
+			(at 85.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
 			(at 85.09 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -34139,6 +34172,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "GRM21BR61H106KE43K"
+			(at 62.23 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "38b36bd2-0df1-4409-b91d-a2f5d43fedf7")
 		)
@@ -34230,6 +34274,17 @@
 			)
 		)
 		(property "P/N" "CRCW060360R4FKEA"
+			(at 201.93 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-60.4-E3"
 			(at 201.93 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -34383,6 +34438,17 @@
 			)
 		)
 		(property "LCSC P/N" "C2959841"
+			(at 185.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-CDSOT23-T24CAN"
 			(at 185.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -34549,6 +34615,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "595-TCAN3413DR"
+			(at 111.76 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6e66733-70a4-4868-ba8e-2fc9210c3b59")
 		)
@@ -34658,6 +34735,17 @@
 			)
 		)
 		(property "P/N" "CRCW060360R4FKEA"
+			(at 176.53 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-60.4-E3"
 			(at 176.53 85.09 90)
 			(hide yes)
 			(show_name no)

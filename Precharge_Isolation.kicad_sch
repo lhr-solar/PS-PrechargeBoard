@@ -8233,7 +8233,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
 			(at 78.74 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8364,6 +8397,17 @@
 			)
 		)
 		(property "P/N" "IRLML0030TRPBF"
+			(at 85.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "942-IRLML0030TRPBF"
 			(at 85.09 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8515,6 +8559,28 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "621-1N5819HW-F"
+			(at 35.56 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "1N5819HW-7-F"
+			(at 35.56 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "63dc13cc-d8c5-4738-9017-a625605f2b54")
 		)
@@ -8589,6 +8655,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1000T5E"
+			(at 73.66 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1000T5E"
+			(at 73.66 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8741,6 +8829,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser P/N" "769-DE1A-12V"
+			(at 33.02 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "DE1a-12V"
+			(at 33.02 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
