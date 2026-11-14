@@ -1,85 +1,58 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"C1, C2, C22, C23, C26, C5",0603,6,1u,
-"C10, C18, C31, C39, C65, C67",0603,6,1u,C15849
-"C11, C19, C24, C25, C3, C32, C4, C40",0603,8,10n,
-"C12, C14, C17, C20, C27, C30, C33, C35, C38, C41, C6, C9",0603,12,1n,
-"C13, C15, C16, C21, C28, C29, C34, C36, C37, C42, C7, C71, C8",0603,13,100n,C15849
-"C43, C48, C49",0603,3,0.1u,C1591
-C44,0603,1,1u,C559769
-C45,0603,1,220n,C107083
-C46,0603,1,10n,C100042
-"C47, C50, C51, C52, C53, C60",0805,6,10u,C440198
-"C54, C55, C56, C59, C61, C62, C63, C64, C66, C68, C69, C70",0603,12,0.1u,C14663
-"C57, C58",0603,2,26p,C92670
-"D1, D2, D3, D5, D6, D7",D_SOD-123,6,RSX068MP2STR,
-D10,SODFL5026X125N,1,SMAF4758A,C183490
-D11,D_SOD-123,1,D_Schottky,C82544
-D12,SOT-143,1,SP0503BAHT,C7074
-D13,D_SOD-323_HandSoldering,1,SBA130CH-AU_R1_000A1,C191023
-D14,CDSOT23-T24CAN,1,CDSOT23-T24CAN,C2959841
-D15,RGB_LED,1,RGB_LED,C264519
-D16,D_SOD-323,1,TVS,C725495
-D17,0603,1,LED,C125103
-"D18, D19, D20",0603,3,LED,
-"D4, D8",SODFL5226X100N,2,VSSAF510HM3/H,
-D9,D_SMB,1,SMBJ15CA,C669039
-F1,Fuse-3557-2,1,2A,C3205238
-"F2, F3, F4, F5",HV-Fuse,4,5A,
-"FB1, FB2",0603,2,FerriteBead,C354394
-IC1,LM74502DDFR,1,LM74502DDFR,C3236215
-IC2,TCAN3413DR,1,TCAN3413DR,C22433320
-J1,Molex_Nano-Fit_105309-xx03_1x03_P2.50mm_Vertical,1,HV_Main,
-J10,PinHeader_1x04_P2.54mm_Vertical,1,SWD,
-J11,PinHeader_1x02_P2.54mm_Vertical,1,MAIN_DIAG,
-J2,Molex_Nano-Fit_105309-xx03_1x03_P2.50mm_Vertical,1,HV_Motor,
-J3,PinHeader_1x02_P2.54mm_Vertical,1,MOTOR_DIAG,
-J4,Molex_Nano-Fit_105309-xx05_1x05_P2.50mm_Vertical,1,CAN_IN,
-J5,Molex_Nano-Fit_105309-xx05_1x05_P2.50mm_Vertical,1,CAN_OUT,
-J6,Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical,1,DEBUG_NANO,
-J7,PinHeader_1x02_P2.54mm_Vertical,1,PRECHARGE_CTRL,
-J8,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,1,USB_C_Receptacle_USB2.0_16P,C3020560
-J9,SWD_Conn,1,SWD_Header,C17492485
-JP1,PinHeader_1x02_P2.54mm_Vertical,1,TRM,
-"K1, K2",DE1a12V,2,DE1a-12V,
-"Q1, Q2",SOT95P237X112-3N,2,NMOS,
-"Q3, Q4",LFPAK56,2,PSMN012-100YS,C20443035
-"R1, R64",0603,2,0,
-"R10, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R41, R46, R47, R48, R49, R5, R50, R51, R52, R53, R54",0603,22,10k,
-"R11, R12, R13, R14, R37, R38, R39, R40, R42, R43, R44, R45, R6, R7, R8, R9",0603,16,180k,
-"R2, R3, R33, R34, R35, R4",RES_PWR263S-35-3300F,6,50,
-"R24, R25, R26, R27, R29, R30, R55, R56, R57, R58, R60, R61",0603,12,10,
-"R28, R31, R59, R62",0603,4,47k,
-"R32, R63",0603,2,100,
-"R65, R76, R81",0603,3,10k,C25804
-R66,0603,1,33,C2074308
-"R67, R69",0603,2,100k,C25803
-R68,0603,1,7.32k,C862286
-R70,0603,1,15.8k,C843918
-"R71, R72",0603,2,5.1k,C23186
-"R73, R74",0603,2,60,C166918
-"R75, R77, R78, R82",0603,4,1k,C21190
-"R79, R80",0603,2,22,C2930077
-"R83, R84, R85",0603,3,1k,
-SW1,TL3365AF180QG,1,Reset,C2886926
-SW2,BootSW,1,SW_SPDT,-
-TP1,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,MOT_HV+,
-TP10,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,MAIN_V-,
-TP11,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,GND,
-TP12,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,VIN_FUSED,
-TP13,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,MOT_V+,
-TP14,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,MOT_V-,
-"TP15, TP19",TestPoint_THTPad_D3.0mm_Drill1.5mm,2,V_IN+,
-"TP16, TP20",TestPoint_THTPad_D3.0mm_Drill1.5mm,2,V_IN-,
-TP2,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,MAIN_HV+,
-TP3,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,HVGND,
-TP4,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,MAIN_HV-,
-TP5,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,MOT_HV-,
-TP6,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,3V3,
-TP7,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,VIN_PROT,
-TP8,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,VIN_PREFUSE,
-TP9,TestPoint_THTPad_D3.0mm_Drill1.5mm,1,MAIN_V+,
-"U1, U4",SOIC-8_3.9x4.9mm_P1.27mm,2,TLV9002QDRQ1,
-"U2, U3, U5, U6",SOIC127P1030X265-16N,4,~,
-U7,SOT-223-3_TabPin2,1,MCP1826S,C126055
-U8,48PinMCU,1,STM32G473CETx,C730113
-Y1,Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm,1,Crystal,C144380
+"Reference","Value","Exclude from BOM","Footprint","Datasheet","LCSC P/N","Mouser P/N","P/N","Description"
+"Y1","Crystal","","LHRS_Passives:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm","kicad-embed://HSE_Crystal.pdf","C144380","815-ABM3-8-D2Y-T","ABM3-8.000MHZ-D2Y-T","Two pin crystal"
+"U8","STM32G473CETx","","LHRS_Special:48PinMCU","kicad-embed://stm32g473cb.pdf","C730113","511-STM32G473CET6","STM32G473CET6","STMicroelectronics Arm Cortex-M4 MCU, 128-512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
+"U7","MCP1826S","","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf","C126055","579-MCP1826S-3302EDB","MCP1826S-3302E/DB","1000mA, Low-Voltage, Low Quiescent Current LDO Regulator, SOT-223, TO-220, TO-263"
+"U2,U3,U5,U6","","","Precharge_Board:SOIC127P1030X265-16N","https://www.ti.com/lit/ds/symlink/amc3311-q1.pdf?ts=1793258758946","","595-AMC3311QDWERQ1","AMC3311QDWERQ1",""
+"U1,U4","TLV9002QDRQ1","","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","kicad-embed://tlv9002-q1.pdf","","595-TLV9002QDRQ1","TLV9002QDRQ1",""
+"SW2","SW_SPDT","","LHRS_Special:BootSW","kicad-embed://BootSW.pdf","-","710-450406020024","450406020024","Switch, single pole double throw"
+"SW1","Reset","","LHRS_Special:TL3365AF180QG","kicad-embed://ResetBtn.pdf","C2886926","612-TL3365AF180QG","TL3365AF180QG","Push button switch, generic, two pins"
+"R79,R80","22","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C2930077","279-CRG0603F22R","CRG0603F22R","Resistor"
+"R75,R77,R78,R82,R83,R84,R85","1k","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C21190","71-CRCW0603-1.0K-E3","CRCW06031K00FKEI ","Resistor"
+"R73,R74","60","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C166918","71-CRCW0603-60.4-E3","CRCW060360R4FKEA","Resistor"
+"R71,R72","5.1k","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C23186","303-0603WAF5101T5E","0603WAF5101T5E","Resistor"
+"R70","15.8k","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C843918","71-CRCW0603-15.8K-E3","CRCW060315K8FKEA","Resistor, US symbol"
+"R68","7.32k","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C862286","603-RT0603BRD077K32L","RT0603BRE077K32L","Resistor, US symbol"
+"R67,R69","100k","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C25803","303-0603WAF1003T5E","0603WAF1003T5E","Resistor, US symbol"
+"R66","33","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C2074308","594-MCT06030C3309FP5","MCT06030C3309FP500","Resistor, US symbol"
+"R32,R63","100","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","","303-0603WAF1000T5E","0603WAF1000T5E","Resistor"
+"R28,R31,R59,R62","47k","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","","71-CRCW060347K0FKECC","CRCW060347K0FKECC","Resistor"
+"R24,R25,R26,R27,R29,R30,R55,R56,R57,R58,R60,R61","10","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","","71-CRCW0603-10K-E3","CRCW060310R0FKEE","Resistor"
+"R6,R7,R8,R9,R11,R12,R13,R14,R37,R38,R39,R40,R42,R43,R44,R45","180k","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","","791-RMC16K184FTP","RMC16K184FTP","Resistor"
+"R5,R10,R15,R16,R17,R18,R19,R20,R21,R22,R23,R36,R41,R46,R47,R48,R49,R50,R51,R52,R53,R54,R65,R76,R81","10k","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C20443035","303-0603WAF1002T5E","0603WAF1002T5E","Precharge Resistor"
+"R2,R3,R4,R33,R34,R35","50","","Precharge_Board:RES_PWR263S-35-3300F","kicad-embed://pwr263s-35.pdf","","652-PWR263S353300F","PWR263S-35-3300F","Precharge Resistor"
+"R1,R64","0","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","","71-CRCW06030000Z0EI","CRCW06030000Z0EE","Resistor"
+"Q3,Q4","PSMN012-100YS","","Package_TO_SOT_SMD:LFPAK56","kicad-embed://PSMN012-100YS.pdf","C20443035","771-PSMN012-100YSFX","PSMN012-100YSFX","N-MOSFET transistor, drain/source/gate"
+"Q1,Q2","NMOS","","Precharge_Board:SOT95P237X112-3N","https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs","","942-IRLML0030TRPBF","IRLML0030TRPBF","N-MOSFET transistor, drain/source/gate"
+"K1,K2","DE1a-12V","","Precharge_Board:DE1a12V","https://www.mouser.it/datasheet/2/315/mech_eng_de-1299471.pdf","","769-DE1A-12V","DE1a-12V","General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole , 16.7mA , 720 Ohms , -40C ~ 70C"
+"J9","SWD_Header","","LHRS_Connectors:SWD_Conn","kicad-embed://Conn_02x02_Odd_Even.pdf","C17492485","538-87832-0406","0878320406","Generic connector, double row, 02x02"
+"J8","USB_C_Receptacle_USB2.0_16P","","LHRS_Connectors:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","C3020560","640-USB4105-GF-A","USB4105-GF-A","USB 2.0-only 16P Type-C Receptacle connector"
+"J7","PRECHARGE_CTRL","","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","","","","","Generic connector, single row, 01x02, script generated"
+"J6","DEBUG_NANO","","LHRS_Connectors:Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical","","","538-105309-1104","1053091104",""
+"J5","CAN_OUT","","LHRS_Connectors:Molex_Nano-Fit_105309-xx05_1x05_P2.50mm_Vertical","","","538-105309-1105","1053091105",""
+"J4","CAN_IN","","LHRS_Connectors:Molex_Nano-Fit_105309-xx05_1x05_P2.50mm_Vertical","","","538-105309-1105","1053091105",""
+"J2","HV_Motor","","LHRS_Connectors:Molex_Nano-Fit_105309-xx03_1x03_P2.50mm_Vertical","","","538-105309-1203","105309-1203","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"J1","HV_Main","","LHRS_Connectors:Molex_Nano-Fit_105309-xx03_1x03_P2.50mm_Vertical","","","538-105309-1203","105309-1203","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"IC2","TCAN3413DR","","LHRS_Passives:TCAN3413DR","kicad-embed://tcan3413.pdf","C22433320","595-TCAN3413DR","TCAN3413DR","1/1 Transceiver Half CANbus 8-SOIC"
+"IC1","LM74502DDFR","","LHRS_Power:LM74502DDFR","kicad-embed://LM74502DDFR.pdf","C3236215","595-LM74502DDFR","LM74502DDFR","Hot Swap Voltage Controllers 3.2-V to 65-V industrial RPP controller with load disconnect, OVP, and high gate drive"
+"FB1,FB2","FerriteBead","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","kicad-embed://FerriteBead.pdf","C354394","81-BLM18PG121SH1D","BLM18PG121SH1D","Ferrite bead"
+"F2,F3,F4,F5","5A","","LHRS_Power:HV-Fuse","","","576-05200101Z","05200101Z ","Fuse"
+"F1","2A","","LHRS_Power:Fuse-3557-2","kicad-embed://3557-2-datasheet.pdf","C3205238","534-3557-2","3557-2","Fuse, low-profile"
+"D17,D18,D19,D20","LED","","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","kicad-embed://Blue LED.pdf","C125103","327-FR1101C2005MTR","FR1101C-2005-M-TR","Light emitting diode"
+"D16","TVS","","Diode_SMD:D_SOD-323","kicad-embed://TVS.pdf","C725495","771-PESD15VL1BA-T/R","PESD15VL1BA","Bidirectional transient-voltage-suppression diode"
+"D15","RGB_LED","","LHRS_Special:RGB_LED","kicad-embed://EVER-S-A0007433884-1.pdf","C264519","638-19337R6GHBHCA01T","19-337/R6GHBHC-A01/2T ",""
+"D14","CDSOT23-T24CAN","","LHRS_Passives:CDSOT23-T24CAN","kicad-embed://cdsot23-t24can.pdf","C2959841","652-CDSOT23-T24CAN","CDSOT23-T24CAN","Bourns CDSOT23-T24CAN, Dual Bi-Directional ESD Protection Diode, 3-Pin SOT-23"
+"D13","SBA130CH-AU_R1_000A1","","Diode_SMD:D_SOD-323_HandSoldering","https://www.mouser.com/datasheet/3/3736/1/11145663EF9055F8C188C22CC003165FC5A818A8439A953D3A6E1D8FCBF51DA1.pdf","C191023","241-SBA130CH-AUR10A1","SBA130CH-AU_R1_000A1 ","Schottky diode, small symbol"
+"D12","SP0503BAHT","","Package_TO_SOT_SMD:SOT-143","kicad-embed://Littelfuse-TVS-Diode-Array-SP05-Datasheet.pdf","C7074","576-SP0503BAHTG","SP0503BAHTG",""
+"D11","D_Schottky","","Diode_SMD:D_SOD-123","","C82544","621-BAT760-7","BAT760-7","Schottky diode"
+"D10","SMAF4758A","","LHRS_Passives:SODFL5026X125N","kicad-embed://SMAF4758A.pdf","C183490","833-SMAF4758A-TP","SMAF4758A","Zener diode"
+"D9","SMBJ15CA","","Diode_SMD:D_SMB","kicad-embed://SMBJ15CA.pdf","C669039","78-SMBJ15CA","SMBJ15CA","TVS diode"
+"D4,D8","VSSAF510HM3/H","","LHRS_Passives:SODFL5226X100N","kicad-embed://DIOD-S-A0007810469-1.pdf","","621-1N5819HW-F","1N5819HW-7-F","Diodes Inc B540C-13-F, SMT Schottky Diode, 40V 5A, 2-Pin DO-214AB"
+"D1,D2,D3,D5,D6,D7","RSX068MP2STR","","Diode_SMD:D_SOD-123","https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rsx068mp2str-e.pdf","","755-RSX068MP2STR","RSX068MP2STR","Schottky diode"
+"C57,C58","26p","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","C92670","791-0603N270F500CT","0603N270F500CT ","Unpolarized capacitor"
+"C47,C50,C51,C52,C53,C60","10u","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","","C440198","GRM21BR61H106KE43K","GRM21BR61H106KE43K","Unpolarized capacitor"
+"C45","220n","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","C107083","603-CC0603KR9BB224","CC0603KRX7R9BB224","Unpolarized capacitor"
+"C43,C48,C49,C54,C55,C56,C59,C61,C62,C63,C64,C66,C68,C69,C70","0.1u","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","C14663","80-C0805C104K5PACTU","C0805C104K5PACTU","Unpolarized capacitor"
+"C7,C8,C13,C15,C16,C21,C28,C29,C34,C36,C37,C42,C71","100n","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","C15849","MLASH168SB7104KT","MLASH168SB7104KTNA01","Unpolarized capacitor"
+"C6,C9,C12,C14,C17,C20,C27,C30,C33,C35,C38,C41","1n","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","","603-CC603KRX7R9BB102","CC0603KRX7R9BB102","Unpolarized capacitor"
+"C3,C4,C11,C19,C24,C25,C32,C40,C46","10n","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","C100042","603-CC603KRX7R9BB103","CC0603KRX7R9BB103","Unpolarized capacitor"
+"C1,C2,C5,C10,C18,C22,C23,C26,C31,C39,C44,C65,C67","1u","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","C15849","603-CC603KRX7R9BB105","CC0603KRX7R9BB105","Unpolarized capacitor"
