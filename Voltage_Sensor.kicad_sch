@@ -947,7 +947,18 @@
 		)
 		(uuid "4430c688-54d6-4ee2-bf57-22fa1557bd2d")
 	)
-	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 180k = 720k\nRbot = 10k\n\nVin = HV x 10k / (720k + 10k) = HV x 0.01370\n\nHV = 100V -> Vin = 1.37V\nHV = 120V -> Vin = 1.64V\nHV = 135V -> Vin = 1.85V\n\nAmp linear input range: +/-5V (AMC3311)\nDivider current at 135V: 135V / 730k = 0.18mA\nPer top resistor: ~33V, ~6.2mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
+	(text "Worst case for low Vin (+1% on top string, -1% on Rbot):\nRtop = 720k x 1.01 = 727.2k\nRbot = 10k x 0.99 = 9.9k\nRatio = 9.9k / (727.2k + 9.9k) = 9.9 / 737.1 = 0.013431\n\nWorst case for high Vin (-1% on top string, +1% on Rbot):\nRtop = 720k x 0.99 = 712.8k\nRbot = 10k x 1.01 = 10.1k\nRatio = 10.1k / (712.8k + 10.1k) = 10.1 / 722.9 = 0.013972"
+		(exclude_from_sim no)
+		(at 122.682 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9be3c855-9146-49a5-90e5-53b00fa3d207")
+	)
+	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 180k = 720k\nRbot = 10k\n\nVin = HV x 10k / (720k + 10k) = HV x 0.01370\n\nHV = 100V -> Vin = 1.37V, 1.34V to 1.40V\nHV = 120V -> Vin = 1.64V, 1.61V to 1.68V\nHV = 135V -> Vin = 1.85V, 1.81V to 1.89V\n\nAmp linear input range: +/-5V (AMC3311)\nDivider current at 135V: 135V / 730k = 0.18mA\nPer top resistor: ~33V, ~6.2mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
 		(exclude_from_sim no)
 		(at 45.72 159.258 0)
 		(effects
@@ -958,7 +969,7 @@
 		)
 		(uuid "9ef649d4-46a3-40ce-9b66-5f91098cdc96")
 	)
-	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 180k = 720k\nRbot = 10k\n\nVin = HV x 10k / (720k + 10k) = HV x 0.01370\n\nHV = 100V -> Vin = 1.37V\nHV = 120V -> Vin = 1.64V\nHV = 135V -> Vin = 1.85V\n\nAmp linear input range: +/-5V (AMC3311)\nDivider current at 135V: 135V / 730k = 0.18mA\nPer top resistor: ~33V, ~6.2mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
+	(text "Vin = HV x Rbot / (Rtop + Rbot)\nRtop = 4 x 180k = 720k\nRbot = 10k\n\nVin = HV x 10k / (720k + 10k) = HV x 0.01370\n\nHV = 100V -> Vin = 1.37V, 1.34V to 1.40V\nHV = 120V -> Vin = 1.64V, 1.61V to 1.68V\nHV = 135V -> Vin = 1.85V, 1.81V to 1.89V\n\nAmp linear input range: +/-5V (AMC3311)\nDivider current at 135V: 135V / 730k = 0.18mA\nPer top resistor: ~33V, ~6.2mW\nAmp input (1.25M) loads Rbot ~0.8%: correct in firmware"
 		(exclude_from_sim no)
 		(at 45.72 86.36 0)
 		(effects
