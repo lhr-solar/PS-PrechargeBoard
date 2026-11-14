@@ -16449,7 +16449,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at -0.0978 3.284446 90)
+			(at 0 2.7 90)
 			(layer "F.SilkS")
 			(uuid "4f4a095a-93a7-42cc-add8-5254998231ef")
 			(effects
@@ -16458,6 +16458,7 @@
 					(thickness 0.2)
 					(bold yes)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "TLV9002QDRQ1"
@@ -51132,7 +51133,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U4"
-			(at 0 0 90)
+			(at 0 2.7 90)
 			(layer "F.SilkS")
 			(uuid "7dd152e8-2eb4-4095-a9fc-fd9b5407d4f0")
 			(effects
@@ -51140,6 +51141,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "TLV9002QDRQ1"
