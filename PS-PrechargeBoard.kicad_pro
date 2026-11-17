@@ -1066,7 +1066,7 @@
     ],
     [
       "d5231689-0a25-4774-9952-2a5e507de834",
-      "Main_Precharge"
+      "Precharge_Relay"
     ],
     [
       "90c6c4b7-1465-4e8f-80ba-ec6b0750446b",
@@ -1083,10 +1083,6 @@
     [
       "03979947-561d-482f-9fca-eedcd558d33d",
       "VoltageSensor_HV-"
-    ],
-    [
-      "5b236d54-dfec-450f-96e4-88b51678f51f",
-      "Motor_Precharge"
     ],
     [
       "2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0",

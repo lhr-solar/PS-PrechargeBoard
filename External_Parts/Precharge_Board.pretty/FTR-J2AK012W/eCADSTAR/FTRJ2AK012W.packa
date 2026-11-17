@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "FTR-J2AK012W"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-04-03-10:45:48)
+    (mountForm default
+        (footprintRef "FTRJ2AK012W")
+        (spec "System")
+    )
+)
