@@ -255,7 +255,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -326,6 +326,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0baf627a-fd96-46b7-9ef1-695ea84901a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bad5b00-d316-49f3-8e1d-72373bad8262")
 			(effects
 				(font
 					(size 1 1)
@@ -570,6 +583,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW0603-1.0K-E3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89eba705-c177-474b-98bc-5facd934d607")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/9e58848a-d25a-48d8-af18-b1913e691e59")
 		(sheetname "/48PinMCU/")
@@ -766,7 +792,7 @@
 				)
 			)
 		)
-		(property "P/N" "  PWR263S-35-3300F"
+		(property "P/N" "PWR263S-35-3300F"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -811,6 +837,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f2f6820f-5e5b-4a04-bcea-10ea941c7586")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-PWR263S353300F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "023e7c43-e4ee-4d9a-afe5-2a2deae2eeac")
 			(effects
 				(font
 					(size 1 1)
@@ -1385,6 +1424,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed955bc7-074a-4022-bd7c-e80cca7e83bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0c4d90d-e539-49b6-ab16-3a7fa5bdcecd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/e8f701e4-43ae-4129-811d-b268b407ab00")
 		(sheetname "/Main_VoltageSensor/")
@@ -1580,6 +1645,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "10ac4512-b529-4b12-b3dc-81c597256393")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "241-SBA130CH-AUR10A1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "350bd532-1ddc-4797-9816-5b69ed08086d")
 			(effects
 				(font
 					(size 1 1)
@@ -1852,7 +1930,7 @@
 				)
 			)
 		)
-		(property "Description" "1uF Capacitors"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1863,7 +1941,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1908,6 +1986,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1506211b-cb76-4e15-8275-52f3283fe750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C15849"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21334cc8-405d-4248-9bdc-fa6f2f237f16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7240024c-3234-423a-8672-0a61d8fd1a62")
 			(effects
 				(font
 					(size 1 1)
@@ -2087,6 +2191,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "81-BLM18PG121SH1D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2ffa867-5b56-46a1-9f3c-3cc63f6cee19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/42a965bd-dd19-4214-a5c9-ab641113c3d8")
 		(sheetname "/48PinMCU/")
@@ -2222,7 +2339,7 @@
 				)
 			)
 		)
-		(property "Description" "1uF Capacitors"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2233,7 +2350,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2278,6 +2395,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41efc3bf-1fdc-4517-96d1-43e3232507bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C15849"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94647157-a176-438b-8628-162a34afd9b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cefaa803-5240-40c3-9947-e76c89860881")
 			(effects
 				(font
 					(size 1 1)
@@ -2430,6 +2573,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "576-05200101Z"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99777ccc-60aa-408c-8257-c8744c4bbe85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "05200101Z "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64aee8d8-4b91-4cd1-accd-2bbbd80844a1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2741,6 +2910,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de99a023-19e0-4733-ae08-7b19972bde9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/03979947-561d-482f-9fca-eedcd558d33d/09f0d5a2-e8d8-45f0-97d0-29df51055fc6")
 		(sheetname "/Main_VoltageSensor/VoltageSensor_HV-/")
@@ -2922,6 +3104,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c337d81-54a8-4df8-8de0-58dc3b46b846")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "538-87832-0406"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97676ba4-8673-458d-bd05-4bfb59d38aba")
 			(effects
 				(font
 					(size 1 1)
@@ -3252,12 +3447,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "50208212-3e63-47da-be20-afa1e8e10fc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fc6a0b1-f6e7-4822-b5e1-58b0f5daeca1")
 			(effects
 				(font
 					(size 1 1)
@@ -3408,6 +3616,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C100042"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "589b19ff-9b1e-4931-98a9-2ea8f4dc7b0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB103"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c84400a-b5cf-40ef-91f1-bcd3cd65a3bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB103"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e7c0394-03d1-46f0-95f5-23c63d9ead75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3583,6 +3830,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bae9c8ce-c00b-4b4a-99fb-bccf619b6b59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/03979947-561d-482f-9fca-eedcd558d33d/28342aaf-adef-4921-bba0-da7ccb075b40")
 		(sheetname "/Main_VoltageSensor/VoltageSensor_HV-/")
@@ -3742,6 +4002,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -3845,6 +4106,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "86683b26-769e-4ea3-b805-9564ed018f72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7837734e-77bd-4d5d-8769-84cb23cfee2d")
 			(effects
 				(font
 					(size 1 1)
@@ -3987,7 +4261,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3995,6 +4269,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eda45a6-c61d-4915-a13e-749e596e4c97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fdd07e9-8581-4866-9004-792fffeeea01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9393e0d3-ff76-4a7a-8f48-8af0bbb6fb4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4183,6 +4496,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "594-MCT06030C3309FP5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c871fa12-e57d-44a4-9a28-6eab4bf7088a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/5f8c95be-4bec-4715-b67b-6a9afc6a3131")
 		(sheetname "/LV Power/PowerProtection/")
@@ -4348,6 +4674,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a98c4fde-4690-43ef-b6cb-3cf87f78af90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e93dabaf-3dd7-4009-b995-379cba3badd6")
 			(effects
 				(font
 					(size 1 1)
@@ -4632,6 +4971,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "303-0603WAF1003T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc63432b-735f-4da0-983e-432dec0b2dd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/f07653c5-8d88-4702-88df-582da9d44e81")
 		(sheetname "/LV Power/PowerProtection/")
@@ -4791,6 +5143,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4885,6 +5238,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW060310R0FKEE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5b432cb-a76a-4c8c-bea9-986bd82ffb41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9afdf185-97bd-4391-9a45-baf01dcccedc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5034,12 +5413,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "05f6e104-74ba-4f7f-acb2-72a019a1e8ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f4a83d3-c2f7-45ef-80f0-f13feeec2cd0")
 			(effects
 				(font
 					(size 1 1)
@@ -5190,6 +5582,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C100042"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e904feeb-9da1-4db7-bb0f-c769bc950794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB103"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ded6ade0-bf32-4158-8426-136e50f262ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB103"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1753e999-3274-4ddc-b1ed-8ff8f9488c6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5344,6 +5775,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "af75e014-5e5d-463d-9be8-c15b514940cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "595-AMC3311QDWERQ1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8efff0f1-365b-4a2b-adc1-60199305c7b5")
 			(effects
 				(font
 					(size 1 1)
@@ -5733,7 +6177,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5752,6 +6196,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08fdf5d3-e4e0-4543-9a1e-79753734acc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3dd14a5-1ade-4346-8d0a-2af9485ea86a")
 			(effects
 				(font
 					(size 1 1)
@@ -5905,12 +6362,38 @@
 				)
 			)
 		)
-		(property "P/N" "MSASH168SB5103KTNA01"
+		(property "P/N" "CC0603KRX7R9BB103"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "36a9dd0c-b41c-468c-99fd-a00d19417fdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C100042"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "017a25e1-c337-451e-b7e0-609a3be2d67a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "741f43c5-cd02-40fd-8f33-0ca802a06792")
 			(effects
 				(font
 					(size 1 1)
@@ -6113,6 +6596,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cf936dba-4c7e-4d38-8d9d-4e266fd9bd56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "755-RSX068MP2STR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d96fd024-76a1-4ebf-8ce8-0c05fc95e87d")
 			(effects
 				(font
 					(size 1 1)
@@ -6406,6 +6902,45 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C15849"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab1560a3-5594-4031-afbe-8369fb17fac7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5acd26d6-30f0-414a-bc85-61d4596b8631")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63f41663-5713-4fea-80ca-0ae9dfb41222")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/37f1426f-bb39-4803-b05d-8d8583b2ec92")
 		(sheetname "/Motor_VoltageSensor/")
@@ -6578,6 +7113,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW0603-15.8K-E3"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b50b1f3b-a51b-43b3-9eef-501b4b9a4d09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/30175d18-769c-4cf5-98fe-c1abd5d1092e")
 		(sheetname "/LV Power/PowerProtection/")
@@ -6721,6 +7269,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C100042"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b306d7ba-23e2-4095-a2db-88bdcaec27e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB103"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c2a9a3e-f4c7-4a3a-95ac-28994770d9ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB103"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b4e1aed-51ec-45ba-b968-88d0d51ae8b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6896,6 +7483,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f3780d2-fe07-41c6-b803-3a362188030a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/4cf09e58-0892-4fb3-a566-fe1392b5d663/3966bd28-231e-416d-bdfc-392625a173a0")
 		(sheetname "/Main_VoltageSensor/VoltageSensor_HV+/")
@@ -7039,6 +7639,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2c8743f-fada-4fc5-8dcf-a20c5486b2af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13287487-76c7-4909-b826-1d40ee639559")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7188,9 +7814,35 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "303-0603WAF1000T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01ec93cb-ed7d-4656-beb8-5bb337f8c801")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1000T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d7334c9-87d8-4328-9469-a645aacde36f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/5b236d54-dfec-450f-96e4-88b51678f51f/a0b4f3da-981a-4a00-a69e-6898213906b1")
-		(sheetname "/Motor_Precharge/")
+		(path "/d5231689-0a25-4774-9952-2a5e507de834/2f6d14b3-7a9d-467c-9b8e-ae99621481fa")
+		(sheetname "/Precharge_Relay/")
 		(sheetfile "Precharge_Isolation.kicad_sch")
 		(units
 			(unit
@@ -7334,12 +7986,38 @@
 				)
 			)
 		)
-		(property "P/N" "MSASH168SB5103KTNA01"
+		(property "P/N" "CC0603KRX7R9BB103"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7240c4e-6dc0-4590-b0b5-b25ac3500f10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C100042"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfa2ee8b-c764-447e-9ee8-f425d5e77ffa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0709fbb-007f-40e4-88cd-e4546a4e8d00")
 			(effects
 				(font
 					(size 1 1)
@@ -7492,6 +8170,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "576-05200101Z"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74c72587-03d6-4f2b-b430-5d61860f78e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "05200101Z "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4e3ca10-7522-42c9-be4d-bdcce921d6e5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7790,6 +8494,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7252599-0f00-4902-a256-bc47ef4cea30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b15ee5c-d3b1-4d74-b4fb-45dd3f672417")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/b6d1edb4-e441-468a-8a38-0ce279f7c528")
 		(sheetname "/Motor_VoltageSensor/")
@@ -7936,12 +8666,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f424285-a5e6-43b0-a9ec-edbc4135d189")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa0df246-5ece-4c70-89f7-d122e6b1098b")
 			(effects
 				(font
 					(size 1 1)
@@ -8084,7 +8827,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8114,6 +8857,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "487bf248-874e-4df8-87e6-efebacd9df91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b2bb2e8-9c01-47fb-8a89-1ade2f18206b")
 			(effects
 				(font
 					(size 1 1)
@@ -8217,14 +8973,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "30c317c0-166f-4138-87f3-9f8309e86ead")
 		(at 212.8481 111.869799 180)
-		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
-		(tags "capacitor")
+		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
+		(tags "capacitor handsolder")
 		(property "Reference" "C50"
-			(at 3.125 -0.0152 0)
+			(at 0 -1.68 180)
 			(layer "F.SilkS")
 			(uuid "3b55a5e9-4c48-4951-b558-8cc88d505b08")
 			(effects
@@ -8235,7 +8991,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 2.383 6.815 0)
+			(at 0 1.68 180)
 			(layer "F.Fab")
 			(uuid "f5c9feca-cdb4-4b46-b107-483428adf642")
 			(effects
@@ -8246,7 +9002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd18f60d-1f5f-46b3-b6ba-f4d28d5dc84f")
@@ -8257,7 +9013,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69cef4d6-2fba-4ae0-b075-886922908a34")
@@ -8267,12 +9023,12 @@
 				)
 			)
 		)
-		(property "P/N" "TMK212BBJ106MGHT"
+		(property "P/N" "GRM21BR61H106KE43K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a654b137-3bcc-4d0f-ac4b-ddaf4f1e34a0")
+			(uuid "d0ad67f4-22cf-411c-8963-8d4a6edcca73")
 			(effects
 				(font
 					(size 1 1)
@@ -8285,7 +9041,20 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3003bb9b-22f6-45a2-9ff0-2ba61ac2ee0a")
+			(uuid "b24a59dc-a457-4725-b7a4-5533e4c66000")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "GRM21BR61H106KE43K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eece43d4-997a-4dfe-8e0b-9649f790ae77")
 			(effects
 				(font
 					(size 1 1)
@@ -8326,8 +9095,8 @@
 			(uuid "a5423f86-78b0-49c2-9627-549def62e407")
 		)
 		(fp_rect
-			(start -1.7 -0.98)
-			(end 1.7 0.98)
+			(start -1.88 -0.98)
+			(end 1.88 0.98)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -8348,7 +9117,7 @@
 			(uuid "22a4c44a-3207-410a-b3fb-86857a661cc3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "0be33630-5be9-48cd-8710-c5752643d778")
 			(effects
@@ -8359,19 +9128,19 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0 180)
-			(size 1 1.45)
+			(at -1.0375 0 180)
+			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.212766)
 			(net "GND")
 			(pintype "passive")
 			(uuid "1ac81da4-572e-40b8-87fb-c0c06ca9998f")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0 180)
-			(size 1 1.45)
+			(at 1.0375 0 180)
+			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.212766)
 			(net "/LV Power/USB_5V")
 			(pintype "passive")
 			(uuid "cedd607f-72db-48b8-8414-fecd27face93")
@@ -8470,6 +9239,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b4bbde5d-e9fd-4dd6-be67-de9ff7665c48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "638-19337R6GHBHCA01T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43a87895-5d19-42fa-be87-0b493620555a")
 			(effects
 				(font
 					(size 1 1)
@@ -8728,6 +9510,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60932b5d-09d1-44c0-8d27-1de5a8a7589f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/03979947-561d-482f-9fca-eedcd558d33d/12ec0ceb-0793-4d81-8856-b5b89a34e1e4")
 		(sheetname "/Main_VoltageSensor/VoltageSensor_HV-/")
@@ -8923,6 +9718,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5b612a9-a0a6-425b-bb45-868840176e5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "755-RSX068MP2STR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c79b6cc-a456-4c10-a715-4af5f46e4d0b")
 			(effects
 				(font
 					(size 1 1)
@@ -9485,6 +10293,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "771-PSMN012-100YSFX"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bd5f225-f33f-4f69-b458-e01fb0a38002")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/a643014a-f928-43c7-bf94-eec8ea1e787f")
 		(sheetname "/LV Power/PowerProtection/")
 		(sheetfile "PowerProtection.kicad_sch")
@@ -10006,6 +10827,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "538-105309-1105"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab9472a9-b7a2-49c7-832f-bdf79697027c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f47354da-ffcd-4033-9c0b-40c7cd4fa8a2")
 		(sheetname "/")
 		(sheetfile "PS-PrechargeBoard.kicad_sch")
@@ -10508,7 +11342,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "de6960d8-89f0-4522-8976-31d06bb4940d")
@@ -10541,9 +11375,35 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "303-0603WAF1000T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53875865-d912-4e70-bd0f-34e76738ca41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1000T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02d1c965-056e-415e-ada3-ddd9757ba3a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/5b236d54-dfec-450f-96e4-88b51678f51f/0579f7e9-9d28-42bd-ab2e-a67f630a0362")
-		(sheetname "/Motor_Precharge/")
+		(path "/d5231689-0a25-4774-9952-2a5e507de834/9f945132-9648-47ac-b370-ae25529306ab")
+		(sheetname "/Precharge_Relay/")
 		(sheetfile "Precharge_Isolation.kicad_sch")
 		(units
 			(unit
@@ -10611,7 +11471,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "/MAINPRECHARGE_CTRL")
 			(pintype "passive")
 			(uuid "91ca7e74-51b5-461a-ba69-cab7f438dd0c")
 		)
@@ -10620,7 +11480,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(Q2-G)")
+			(net "Net-(Q1-G)")
 			(pintype "passive")
 			(uuid "e8978333-6c04-4af5-9c40-b9796f08323c")
 		)
@@ -10700,12 +11560,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a18d5cb9-9a64-4c26-8b6a-dddd7f2bccb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e9af813-27fd-4752-bb1c-24bdef5ea45c")
 			(effects
 				(font
 					(size 1 1)
@@ -10909,7 +11782,7 @@
 				)
 			)
 		)
-		(property "P/N" "  PWR263S-35-3300F"
+		(property "P/N" "PWR263S-35-3300F"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10954,6 +11827,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d378d17e-2dfd-4628-b402-9eb31e08602a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-PWR263S353300F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1546fb2-1cc8-451d-a7b9-f0860853e92c")
 			(effects
 				(font
 					(size 1 1)
@@ -11517,7 +12403,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11525,6 +12411,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c6343e2-f710-46c1-ab12-38208a1815e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6229c175-2a17-4ac7-9569-3bba273f6118")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96fdaaba-31c3-4c2e-a9c4-6ef5a9d97256")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11724,7 +12649,7 @@
 				)
 			)
 		)
-		(property "P/N" "  PWR263S-35-3300F"
+		(property "P/N" "PWR263S-35-3300F"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11769,6 +12694,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be6c8940-ed68-4065-bd99-b215feb4f9a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-PWR263S353300F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ff876ea-2271-4ec3-b9b2-48e59e006773")
 			(effects
 				(font
 					(size 1 1)
@@ -12343,12 +13281,38 @@
 				)
 			)
 		)
-		(property "P/N" "MSASH168SB5103KTNA01"
+		(property "P/N" "CC0603KRX7R9BB103"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6fd97d0-e190-4aec-9edd-9781a1e2038d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C100042"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64d189b5-41ac-4703-8b46-9f1a88aa79b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3fe5769-7f7c-4956-b3e5-fdaeb7a1dae0")
 			(effects
 				(font
 					(size 1 1)
@@ -12528,6 +13492,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1fbfb74-7525-4f6b-99fe-643f600cfec6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/4cf09e58-0892-4fb3-a566-fe1392b5d663/28342aaf-adef-4921-bba0-da7ccb075b40")
 		(sheetname "/Main_VoltageSensor/VoltageSensor_HV+/")
@@ -12700,6 +13677,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eccab602-ecd6-4d29-a065-5ee685ab3e50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663/28342aaf-adef-4921-bba0-da7ccb075b40")
 		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV+/")
@@ -12846,6 +13836,45 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C15849"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11fb63c1-59ab-4a2e-a9f9-6d9ea4ad61aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05439576-06f1-4643-84bd-20baec2e1687")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "893c85e3-d601-45d9-8720-33e2ae893fbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/8e34dbe2-b145-4025-973d-8082a4250451")
 		(sheetname "/Main_VoltageSensor/")
@@ -12989,6 +14018,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C15849"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ec85ac4-6109-4ade-89e6-ba2cf9eb8d83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b96ee4a2-0820-4737-9ccc-d95be3bb870b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56fba119-6168-4db6-a2c8-3f8960986d15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13143,6 +14211,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "817f4c2e-2f75-480f-872e-bca1dac4144c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "595-AMC3311QDWERQ1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1868d2d-8b32-44d1-bda3-083238a28fc6")
 			(effects
 				(font
 					(size 1 1)
@@ -13545,6 +14626,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13631,7 +14713,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13639,6 +14721,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9500c3c1-ec38-459d-8763-7d00f1cf8a6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff332c58-3b2c-4cb6-a666-c09e663592c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c383709-aa06-4487-8d66-72864e2e20a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13788,12 +14909,38 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603150RFKEC"
+		(property "P/N" "CRCW06031K00FKEI "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "64064c23-cf6e-4fda-9179-5eef884b70df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81f874fa-89cc-4a64-8b67-d7db9dab484e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-1.0K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "183bdad4-6045-47e6-8cd0-22c6d164abdd")
 			(effects
 				(font
 					(size 1 1)
@@ -13947,12 +15094,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ba6f000c-72f6-4759-83cc-ebfa6fb8f06d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fda84f25-505f-4dd3-9939-f14ce6cda7a4")
 			(effects
 				(font
 					(size 1 1)
@@ -14132,6 +15292,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb3ac2cd-e1e6-4624-aff0-9ea704d8dd5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/4cf09e58-0892-4fb3-a566-fe1392b5d663/90c00def-46b7-4d2b-a17b-32aa4a20505f")
 		(sheetname "/Main_VoltageSensor/VoltageSensor_HV+/")
@@ -14283,6 +15456,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28919959-e1bb-42c4-a1de-fb62e3abad0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "595-AMC3311QDWERQ1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "603be51e-f16d-4e08-97f5-ccbe83e15db5")
 			(effects
 				(font
 					(size 1 1)
@@ -14698,6 +15884,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dc47f89-373d-4576-b886-625ecab95cb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/03979947-561d-482f-9fca-eedcd558d33d/90c00def-46b7-4d2b-a17b-32aa4a20505f")
 		(sheetname "/Main_VoltageSensor/VoltageSensor_HV-/")
@@ -14833,7 +16032,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14857,12 +16056,25 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C25804"
+		(property "LCSC P/N" "C20443035"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4718e799-a83e-40ee-8236-37a278cc5085")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12eafc5c-258c-49f1-817b-d539d1c5bd91")
 			(effects
 				(font
 					(size 1 1)
@@ -15042,6 +16254,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dc18aef-761b-499e-8243-2673daba78de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d/3966bd28-231e-416d-bdfc-392625a173a0")
 		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV-/")
@@ -15202,6 +16427,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -15324,6 +16550,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67429b70-ed93-46c2-9759-f63cbc99280f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "815-ABM3-8-D2Y-T"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a10e0a3e-aed9-4fcb-aa44-4dcb8685198e")
 			(effects
 				(font
 					(size 1 1)
@@ -15672,6 +16911,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW0603-60.4-E3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05fe556e-3dbc-4941-a725-9b9c02bf3a38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f/d3dc1093-5927-44fd-b183-035a11ec5677")
 		(sheetname "/LV Power/CAN_Transceiver/")
@@ -15815,6 +17067,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "374ebb80-d902-4c60-b0d5-6145028b39e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "520b9b72-449e-416e-9fb6-0aa5e135b915")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15963,6 +17241,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "576-05200101Z"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a71ff193-5e0b-4937-af67-cc11b50ee0f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "05200101Z "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63eccb56-501d-4945-a242-a9bc7439e7d9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16991,6 +18295,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "833-SMAF4758A-TP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "709911de-c9f7-45b4-9d3c-f69622daef85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/03fbb6c3-15d6-4535-82c3-c84cadec759c")
 		(sheetname "/LV Power/PowerProtection/")
@@ -17635,6 +18952,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW0603-1.0K-E3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34c7f834-6572-402f-b187-748e479aeb0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/c38a4f07-d458-48ed-bb8f-71f9526b9271")
 		(sheetname "/48PinMCU/")
@@ -17731,14 +19061,14 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_0603_1608Metric"
+	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "53acc74e-b55f-4fb0-90b0-c2535ff8f5e3")
 		(at 195.9408 104.486299 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
-		(tags "LED")
+		(tags "LED handsolder")
 		(property "Reference" "D17"
-			(at 0 -1.5046 90)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "d37b29c8-cff0-42c4-af00-604470f244ed")
 			(effects
@@ -17786,7 +19116,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc2e8cea-4e21-4b61-a9d6-ef0e17e678ff")
+			(uuid "0b037c83-b6b8-47c7-8970-798208c6cdbe")
 			(effects
 				(font
 					(size 1 1)
@@ -17799,7 +19129,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a058b5aa-e5b5-4c76-8d82-7fc71cbae9f3")
+			(uuid "3cb13fb8-d29b-4fb8-8e27-55162400a619")
 			(effects
 				(font
 					(size 1 1)
@@ -17807,12 +19137,25 @@
 				)
 			)
 		)
-		(property "P/N" "LTST-C193TBKT-5A"
+		(property "P/N" "FR1101C-2005-M-TR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a50592c2-3012-4229-8a8b-e09e5397d1dc")
+			(uuid "0c5ed748-0365-469c-87db-30735d4451d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "327-FR1101C2005MTR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30e54bb9-5988-4760-b47b-46bcbabd7397")
 			(effects
 				(font
 					(size 1 1)
@@ -17834,7 +19177,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.8 -0.735)
-			(end -1.485 -0.735)
+			(end -1.66 -0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -17843,8 +19186,8 @@
 			(uuid "e5ed9ece-c9ca-4242-afdc-42cc931bddd2")
 		)
 		(fp_line
-			(start -1.485 -0.735)
-			(end -1.485 0.735)
+			(start -1.66 -0.735)
+			(end -1.66 0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -17853,7 +19196,7 @@
 			(uuid "ab9716ac-9fa2-41db-89eb-162a4b0ce1aa")
 		)
 		(fp_line
-			(start -1.485 0.735)
+			(start -1.66 0.735)
 			(end 0.8 0.735)
 			(stroke
 				(width 0.12)
@@ -17863,8 +19206,8 @@
 			(uuid "d9e295ee-79d0-42c4-8848-f4976b121440")
 		)
 		(fp_rect
-			(start -1.48 -0.73)
-			(end 1.48 0.73)
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -17935,8 +19278,8 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0 90)
-			(size 0.875 0.95)
+			(at -0.875 0 90)
+			(size 1.05 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D17-K)")
@@ -17945,8 +19288,8 @@
 			(uuid "a4d3f122-5c54-4353-9e8f-0c3998757fed")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0 90)
-			(size 0.875 0.95)
+			(at 0.875 0 90)
+			(size 1.05 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D16-A2)")
@@ -18017,7 +19360,7 @@
 				)
 			)
 		)
-		(property "P/N" "FRC0603F22R0TS"
+		(property "P/N" "CRG0603F22R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18049,6 +19392,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa127d70-9026-4a52-b909-5925bd5758ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "279-CRG0603F22R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "906159a8-ec8a-4f92-bfb9-6b1098fce82d")
 			(effects
 				(font
 					(size 1 1)
@@ -18277,6 +19633,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0df134b8-c314-4192-b3e8-31186a678c80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "595-TCAN3413DR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "659a87a2-abeb-4b57-a202-77f470d7c98f")
 			(effects
 				(font
 					(size 1 1)
@@ -18880,7 +20249,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18951,6 +20320,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f32c2afd-adf3-457d-b5b8-6943891c6a0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa4557f7-2d65-4efc-99c1-eeba24f1c579")
 			(effects
 				(font
 					(size 1 1)
@@ -19118,6 +20500,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -19228,7 +20611,7 @@
 				)
 			)
 		)
-		(property "P/N" "FRC0603F22R0TS"
+		(property "P/N" "CRG0603F22R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19247,6 +20630,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8e444e67-ad6c-4b9a-813a-0ec5ca918b9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "279-CRG0603F22R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b151602-ed82-4ee1-b96d-30ab5bfb6223")
 			(effects
 				(font
 					(size 1 1)
@@ -19376,7 +20772,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/pwr263s_35.pdf"
+		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19450,7 +20846,7 @@
 				)
 			)
 		)
-		(property "P/N" "  PWR263S-35-3300F"
+		(property "P/N" "PWR263S-35-3300F"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19495,6 +20891,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6157c5b-6ba2-458d-b056-1e5bea475e19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-PWR263S353300F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b76b209b-0cd1-44d4-b6a5-fd26a5341a9b")
 			(effects
 				(font
 					(size 1 1)
@@ -20058,7 +21467,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20069,7 +21478,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C25804"
+		(property "LCSC P/N" "C20443035"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20082,7 +21491,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20153,6 +21562,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ac32552-29f2-4165-ac29-771f014cdc7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3128c02e-ebf3-4bf3-a2a1-7d4bf51c23c7")
 			(effects
 				(font
 					(size 1 1)
@@ -20306,7 +21728,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20325,6 +21747,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1e11265-2cb0-47ea-abf9-1b445de22649")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00d4476a-904f-4995-9204-93084a3fa20a")
 			(effects
 				(font
 					(size 1 1)
@@ -20491,6 +21926,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -20601,7 +22037,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20672,6 +22108,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c33e181-fe6a-4fa0-8b24-d70bff705d7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a99fc71-aab4-4481-9698-4f5278c7bfd0")
 			(effects
 				(font
 					(size 1 1)
@@ -20838,7 +22287,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20909,6 +22358,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4524dd47-7f75-435e-834a-2d46a492b3b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5765f69c-051a-4f2a-95b8-60302340be5b")
 			(effects
 				(font
 					(size 1 1)
@@ -21051,7 +22513,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21059,6 +22521,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76a04323-b8d5-43ab-ae88-26237bb646a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fb06cf3-09a8-4138-8a1f-6c8cc392619e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82a08f14-c854-4d30-b682-e1df79a25bfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21584,7 +23085,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21603,6 +23104,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8fcf7ff5-6e84-451c-a150-77e446b06327")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd157e13-0ba1-44bf-912a-cf3fd2a0be9a")
 			(effects
 				(font
 					(size 1 1)
@@ -21769,7 +23283,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21840,6 +23354,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "39a40325-12e2-4a5f-80fa-c528ebdcdd42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e75bbc75-c4bc-4427-9e8f-b76b3605e8e6")
 			(effects
 				(font
 					(size 1 1)
@@ -22006,6 +23533,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -22092,7 +23620,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22100,6 +23628,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c993b22a-b0e3-49a6-a00a-34c61b072385")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "903d27f6-31c4-42d1-be56-e07ee6069f3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56093624-abc0-4b11-899f-90225e8733c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22737,6 +24304,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW0603-1.0K-E3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56686c89-a445-42eb-b9fa-1052eefabc01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/9ac9921d-626c-4bcb-9b59-5fabb2d5c36e")
 		(sheetname "/48PinMCU/")
@@ -22909,6 +24489,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1015222-6bbc-403d-8176-07106edde266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/03979947-561d-482f-9fca-eedcd558d33d/3966bd28-231e-416d-bdfc-392625a173a0")
 		(sheetname "/Main_VoltageSensor/VoltageSensor_HV-/")
@@ -23052,6 +24645,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b75b8bb-7cc1-420c-8a25-1f4b94ae29ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adaa443f-edf0-47cb-96a6-eefc54d9c836")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23227,6 +24846,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "603-CC0603KR9BB224"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac3325f3-d7cf-425e-8a59-fa48eabbfb62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/042b9804-47b9-407a-87bf-5006a6aed699")
 		(sheetname "/LV Power/PowerProtection/")
@@ -23387,6 +25019,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -23490,6 +25123,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8320798c-36e1-41f1-a8fe-4959e329b42c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86356053-ea70-4c2e-bc43-0a649f1990b2")
 			(effects
 				(font
 					(size 1 1)
@@ -23643,12 +25289,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "faf484ba-afed-43bd-8119-914f3cd638c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "741aee70-e4fd-472a-99ca-466ba3137e17")
 			(effects
 				(font
 					(size 1 1)
@@ -23815,6 +25474,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -23925,6 +25585,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -24096,6 +25757,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c19de805-1044-41ae-a3cb-68715bc22fda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "710-450406020024"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91cf914b-d76f-4675-a681-19007d8e6660")
 			(effects
 				(font
 					(size 1 1)
@@ -24414,425 +26088,6 @@
 			)
 		)
 	)
-	(footprint "Precharge_Board:DE1a12V"
-		(layer "F.Cu")
-		(uuid "6d65a81e-951a-430f-be16-ea9dca67ff2c")
-		(at 152.0965 83.4396 180)
-		(descr "DE1a-12V")
-		(tags "Relay or Contactor")
-		(property "Reference" "K1"
-			(at 10.8725 3.4804 0)
-			(layer "F.SilkS")
-			(uuid "f573f9f4-57a0-4da4-8a0f-581a5176af22")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Value" "DE1a-12V"
-			(at 11.35 -3.81 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "be438e38-8a5c-495a-8648-3e4f899e6e26")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.it/datasheet/2/315/mech_eng_de-1299471.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b18a0183-08bb-40ff-b365-a556b6b32ce6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole , 16.7mA , 720 Ohms , -40C ~ 70C"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "409454e0-7590-4da8-86c2-54345ada2d4e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "12.8"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "905f34fa-8d36-458b-82c2-b0c240bef5c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "769-DE1A-12V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f5d334c-99d6-4e4d-ba27-2067e389c2b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a2784ed-cf38-453a-8504-273a50bead0e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e33e7759-a5a8-4645-8160-b121cfb78bce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DE1a-12V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2e8b2840-4527-4cc2-93f6-5e286db4262e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d5231689-0a25-4774-9952-2a5e507de834/b825340f-8f9c-48c6-8a37-388a9416bcf6")
-		(sheetname "/Main_Precharge/")
-		(sheetfile "Precharge_Isolation.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "4" "8" "6" "5")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 23.85 2.44)
-			(end 23.85 0.99)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d0c6a843-e54c-46c6-9ffc-9ed46846d5ee")
-		)
-		(fp_line
-			(start 23.85 -1.01)
-			(end 23.85 -6.61)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6dc4a32c-2cb7-4194-a7b3-c5f2b4d0bf8e")
-		)
-		(fp_line
-			(start 23.85 -10.06)
-			(end 23.85 -8.61)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8287c7b8-4a9d-412b-84b0-e2c7463223d2")
-		)
-		(fp_line
-			(start -1.15 2.44)
-			(end 23.85 2.44)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8e28bbc0-70b9-499e-9cb5-4185c58b94c8")
-		)
-		(fp_line
-			(start -1.15 1.19)
-			(end -1.15 2.44)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d10cc826-6b2b-450a-8782-468c09324049")
-		)
-		(fp_line
-			(start -1.15 -1.21)
-			(end -1.15 -6.61)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f22213a5-52cc-4c7d-9158-937d7c7c4325")
-		)
-		(fp_line
-			(start -1.15 -8.61)
-			(end -1.15 -10.06)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "957718c5-58af-475e-a31f-4efe8eb16b86")
-		)
-		(fp_line
-			(start -1.15 -10.06)
-			(end 23.85 -10.06)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e04014a4-a9d7-43cc-a969-1031ad72fe55")
-		)
-		(fp_line
-			(start -1.55 0)
-			(end -1.55 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "55e62acd-02a0-4619-8dbd-21832bcc1bf5")
-		)
-		(fp_line
-			(start -1.65 0)
-			(end -1.65 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "37e8e694-025c-4cbf-8e54-a0379ee9e305")
-		)
-		(fp_arc
-			(start -1.55 0)
-			(mid -1.6 0.05)
-			(end -1.65 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "209c74b7-7f4d-4001-b06b-0ebc0b9fefec")
-		)
-		(fp_arc
-			(start -1.65 0)
-			(mid -1.6 -0.05)
-			(end -1.55 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ee36f31d-3c89-4fb9-b859-ab1941b9172f")
-		)
-		(fp_line
-			(start 24.85 3.44)
-			(end 24.85 -11.06)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a15084e8-a0af-47d2-bd2e-d48aab98309d")
-		)
-		(fp_line
-			(start 24.85 -11.06)
-			(end -2.15 -11.06)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ce47cf24-5e4d-40e0-82ed-b64d7d923527")
-		)
-		(fp_line
-			(start -2.15 3.44)
-			(end 24.85 3.44)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9d59200b-c3d7-4eec-81ef-274824541875")
-		)
-		(fp_line
-			(start -2.15 -11.06)
-			(end -2.15 3.44)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "88720d8b-bbbe-4125-86c1-80babe222127")
-		)
-		(fp_line
-			(start 23.85 2.44)
-			(end 23.85 -10.06)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4e9106af-58a9-4d5c-8d87-f6cc5b4d0e32")
-		)
-		(fp_line
-			(start 23.85 -10.06)
-			(end -1.15 -10.06)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "35c4c6fd-c489-4b4f-a3b9-f7c42a466afd")
-		)
-		(fp_line
-			(start -1.15 2.44)
-			(end 23.85 2.44)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "62289ef4-2a4a-4657-b6aa-2ca10348e2e5")
-		)
-		(fp_line
-			(start -1.15 -10.06)
-			(end -1.15 2.44)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c3be2e67-4f2f-4316-8128-086ac384035c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 11.35 -3.81 0)
-			(layer "F.Fab")
-			(uuid "8fb0876b-01a1-4cd8-9f08-18d7cf1893ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 0 0 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/VIN_PROT")
-			(pinfunction "COIL+_1")
-			(pintype "passive")
-			(uuid "7f8aa13f-0173-494a-bfb5-51646524774a")
-		)
-		(pad "3" thru_hole circle
-			(at 15.24 0 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/MAIN_RES_HV-")
-			(pinfunction "COM_3")
-			(pintype "passive")
-			(uuid "4f6fe61e-4ad5-4dd7-9bbb-99c9148d67fc")
-		)
-		(pad "4" thru_hole circle
-			(at 22.86 0 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "MAIN_HV-")
-			(pinfunction "N.O._4")
-			(pintype "passive")
-			(uuid "78d39533-f4a4-428f-aa6d-2730538a21f2")
-		)
-		(pad "5" thru_hole circle
-			(at 22.86 -7.62 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(K1-DUMMY_TERMINAL_1-Pad5)")
-			(pinfunction "DUMMY_TERMINAL_1_5")
-			(pintype "passive+no_connect")
-			(uuid "f28fa657-6654-474d-9ad8-1a56ea724c63")
-		)
-		(pad "6" thru_hole circle
-			(at 15.24 -7.62 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(K1-DUMMY_TERMINAL_2-Pad6)")
-			(pinfunction "DUMMY_TERMINAL_2_6")
-			(pintype "passive+no_connect")
-			(uuid "b993d7ca-9081-4d90-af0a-bb805bc8950b")
-		)
-		(pad "8" thru_hole circle
-			(at 0 -7.62 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/Main_Precharge/DRAIN")
-			(pinfunction "COIL-_8")
-			(pintype "passive")
-			(uuid "8267cd22-84a3-4b70-8bab-a21277ae05aa")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/External_Parts/Precharge_Board.pretty/LIB_DE1a-12V/DE1a-12V/3D/DE1a-12V.stp"
-			(offset
-				(xyz 11.5 4 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6e0081e5-2412-4cfd-9838-0c771d0a0c94")
@@ -24872,7 +26127,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24880,6 +26135,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6eca8ba1-ef68-4ace-ac2b-7a61260d9aad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "345edf37-4da6-463a-9185-91a6eb23207b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da4169e7-69e1-4842-8342-d8ef02e4e0df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25035,6 +26329,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dee4544c-1dfe-47a8-a754-31d77d3a93ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1160ccee-ec1d-4bdf-862a-6babc3574359")
 			(effects
 				(font
 					(size 1 1)
@@ -25201,6 +26508,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -25321,6 +26629,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3217df8-4f4a-4a64-8dd2-375f89a5d73d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "78-SMBJ15CA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68200631-f316-440b-89f4-a73cd83cbb05")
 			(effects
 				(font
 					(size 1 1)
@@ -25609,6 +26930,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e59a0351-1517-406b-9bda-ea71a30e155b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "595-AMC3311QDWERQ1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31471ac5-1e4a-4263-9bc2-224665a13dc3")
 			(effects
 				(font
 					(size 1 1)
@@ -25991,6 +27325,45 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C15849"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e7703d1-e484-41ff-bee4-8317305eafe0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcf3c5b0-55f5-4f35-8fdd-9a28a6e24132")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "022c73a9-0fdd-47ea-8064-2c2b4d3fd84d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/37f1426f-bb39-4803-b05d-8d8583b2ec92")
 		(sheetname "/Main_VoltageSensor/")
@@ -26126,7 +27499,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26134,6 +27507,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4288b6e-55f5-4799-af5a-51b40031945b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24ce98a0-4634-4d07-9d8c-7e1153c2f9a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a2abdf-2c77-48e6-a2cb-9ddd7fe50e65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26250,7 +27662,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d5e06695-64c8-4efc-ba8c-4ffd3ff26b74")
@@ -26272,7 +27684,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26283,9 +27695,48 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f833bd16-bbc0-42e9-9d23-3a2e544ac782")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31a0857b-74a2-45d2-a16c-8ae6a2329421")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "077e1068-1976-4ee5-858c-6059faae4d3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/d5231689-0a25-4774-9952-2a5e507de834/a0b4f3da-981a-4a00-a69e-6898213906b1")
-		(sheetname "/Main_Precharge/")
+		(path "/d5231689-0a25-4774-9952-2a5e507de834/2a69ad52-6b64-4cd2-a598-330d24918cbd")
+		(sheetname "/Precharge_Relay/")
 		(sheetfile "Precharge_Isolation.kicad_sch")
 		(units
 			(unit
@@ -26353,7 +27804,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MAINPRECHARGE_CTRL")
+			(net "GND")
 			(pintype "passive")
 			(uuid "dbaab090-dbf2-47d6-b4ec-6bc87d4fb623")
 		)
@@ -26362,7 +27813,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(Q1-G)")
+			(net "Net-(Q2-G)")
 			(pintype "passive")
 			(uuid "3bd9e8db-9830-4c84-b1b5-82a14a2f182f")
 		)
@@ -26435,6 +27886,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2a9cc5f7-ea75-4117-9ab5-0961dadef7ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e76a15a5-3110-484d-8fa8-2cfdfa72aa6c")
 			(effects
 				(font
 					(size 1 1)
@@ -26594,6 +28058,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f5ba2e9-7afa-425d-9e96-f73324731e66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW060347K0FKECC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e89bb4f-c40f-49fb-9258-0c173709d23d")
 			(effects
 				(font
 					(size 1 1)
@@ -26773,6 +28250,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "303-0603WAF5101T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d0fe999-5035-428d-8660-8fbc0e325d9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/036a0807-6806-41f7-813f-18abaaf63006/1e4802a2-1696-4f84-a997-10989ac104a8")
 		(sheetname "/LV Power/USB-C_Connector/")
@@ -26916,6 +28406,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW060310R0FKEE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d8e0df1-d8ad-442b-9a77-75662caa924e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "940a8123-2423-4755-9ff7-60f8239d877b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27071,6 +28587,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c46bff2-6376-44a2-93b1-b5747ad67811")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daaefc6a-854e-4af7-b3da-12c8031810a4")
 			(effects
 				(font
 					(size 1 1)
@@ -27235,7 +28764,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -27454,6 +28983,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "566d272c-7ab9-4342-9c82-1a20eb07f97a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7dd3b16-80e3-4890-890a-beb14351a36a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/179ca1a6-4e0d-4c55-b8b3-f94a63a6786f")
 		(sheetname "/Main_VoltageSensor/")
@@ -27626,6 +29181,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "GRM21BR61H106KE43K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4344a6cb-ac4b-4fd6-98fc-9db52c17f902")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f/8bc6d0f8-90a9-4a3e-bd4c-4f1d37db40e4")
 		(sheetname "/LV Power/CAN_Transceiver/")
@@ -27791,6 +29359,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eaa37121-ad32-4261-bb46-bf5afbe5b496")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1003T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee6d3f98-78e7-49dc-935d-beef6d616955")
 			(effects
 				(font
 					(size 1 1)
@@ -28011,9 +29592,35 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "621-1N5819HW-F"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f15f67db-75d2-4982-a1f7-4bbcb70fa3ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "1N5819HW-7-F"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbfb2f70-fdaa-4ca8-97ef-2d204fe3909f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/d5231689-0a25-4774-9952-2a5e507de834/89f2792b-cfcf-45cf-abd5-e158589e5172")
-		(sheetname "/Main_Precharge/")
+		(path "/d5231689-0a25-4774-9952-2a5e507de834/7242ce66-e9b4-4df1-b512-9ea934dd5f50")
+		(sheetname "/Precharge_Relay/")
 		(sheetfile "Precharge_Isolation.kicad_sch")
 		(units
 			(unit
@@ -28157,7 +29764,7 @@
 			(at 2.175 0 270)
 			(size 1.45 1.49)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Main_Precharge/DRAIN")
+			(net "/Precharge_Relay/MAIN_DRAIN")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "31a167e1-9824-4e5c-aafb-40e11b5efe50")
@@ -28221,7 +29828,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28229,6 +29836,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "153bfdb5-9651-49bf-8d9a-a27ca19d863a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c33eb8b3-65eb-4ae9-b1bd-bfa13bf844a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97b0dd12-79d0-4ec5-856f-e7f29d7396a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -28378,7 +30024,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28397,6 +30043,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2fc7154d-ce17-4c0c-b411-3345c5a8a65e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c6ef8e4-7072-4e85-a753-9c4676272797")
 			(effects
 				(font
 					(size 1 1)
@@ -29771,7 +31430,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL10B104KB8NNNC"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29784,12 +31443,25 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C1591"
+		(property "LCSC P/N" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "821c12ad-3678-49a5-a2fc-a1f3f6393b8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85b5cb27-41e5-4892-94ca-d990e708bace")
 			(effects
 				(font
 					(size 1 1)
@@ -29956,6 +31628,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW060347K0FKECC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05ae4bf9-b5e9-4eec-b79c-91099f637d5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663/2369a002-fdfd-490e-941d-4debe96bd84c")
 		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV+/")
@@ -30080,7 +31765,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://Blue LED.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30102,12 +31787,38 @@
 				)
 			)
 		)
-		(property "P/N" "NCD0603R1"
+		(property "P/N" "FR1101C-2005-M-TR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7a4aa1f0-92c2-47a3-9215-5069780015cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C125103"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e93415cc-7626-4a83-bfb1-96736ac80b06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "327-FR1101C2005MTR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a688a27f-4e17-47b7-86c9-3fcae4a31ef1")
 			(effects
 				(font
 					(size 1 1)
@@ -30400,6 +32111,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7210dbee-6700-4cbc-ae15-99359961236d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "612-TL3365AF180QG"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d278afb-ef9c-40db-a39d-67385e7c57e5")
 			(effects
 				(font
 					(size 1 1)
@@ -30718,6 +32442,32 @@
 				)
 			)
 		)
+		(property "P/N" "CRCW060310R0FKEE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e571e75-0fa0-4337-aa6c-25439102f6f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37a2b7fb-58c8-485d-a21e-2e60c70ac611")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/d137f1c6-646b-4439-a537-ae705627b7ae")
 		(sheetname "/Motor_VoltageSensor/")
@@ -30875,6 +32625,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd544a1a-6379-4ec6-a405-cd62c33d0e5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "538-105309-1105"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "634ae7cc-a59e-4124-981d-1e524c7a006b")
 			(effects
 				(font
 					(size 1 1)
@@ -31473,6 +33236,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "755-RSX068MP2STR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8533c71-74d1-4f68-b83c-610a999e417e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9d2e20d2-bc37-4993-8fa8-5a82459dba6b/23790743-a19e-408c-b3c2-50a7ddc1407e")
 		(sheetname "/Main_Fuse/")
@@ -31759,7 +33535,7 @@
 				)
 			)
 		)
-		(property "P/N" "GRM21BR61H106KE43L"
+		(property "P/N" "GRM21BR61H106KE43K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31778,6 +33554,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2ac05dca-8314-4688-8234-9792672770c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "GRM21BR61H106KE43K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2692cee-fa64-4041-aa72-dfa7dd75d408")
 			(effects
 				(font
 					(size 1 1)
@@ -31920,7 +33709,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31928,6 +33717,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f531d7e-c1d2-4dd8-b2c1-c740a81cacbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95048414-38eb-415f-9551-ec9d1d0b033f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "637670e3-ee0e-42f3-ac47-2110bd0299a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32103,6 +33931,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d204f7aa-362b-41fe-92ad-f9112a68d78d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4cf09e58-0892-4fb3-a566-fe1392b5d663/90c00def-46b7-4d2b-a17b-32aa4a20505f")
 		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV+/")
@@ -32262,6 +34103,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -32408,6 +34250,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "24c20876-ad1c-4ab4-81ec-40b6f118fd39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "755-RSX068MP2STR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ed543ae-4e95-42e3-9c13-d0c66da66197")
 			(effects
 				(font
 					(size 1 1)
@@ -32701,6 +34556,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02162b5e-0a07-4e92-b480-15f71b0019cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaab6880-d9d4-49d9-bb1e-d0e178c18a6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/179ca1a6-4e0d-4c55-b8b3-f94a63a6786f")
 		(sheetname "/Motor_VoltageSensor/")
@@ -32860,6 +34741,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -32946,7 +34828,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32954,6 +34836,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a70425b-404e-49b8-b396-5b08c60c5154")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a6923b1-258f-450a-b769-1a1ffabd5a48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38f6ffa6-0b1b-411b-a2c1-af5ab34b1b85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -33114,7 +35035,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 3.92)
@@ -33333,6 +35254,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba46add0-3127-4972-948f-f1f70942be31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "204adfef-a995-494b-8204-29fdcee6de13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/181d3445-b340-49f0-9c57-dc63dc467470")
 		(sheetname "/Motor_VoltageSensor/")
@@ -33515,6 +35462,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "61679c4f-a7c9-4a07-9b9a-d7ee0528d5fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "576-SP0503BAHTG"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a29697b-5844-4828-ba7e-270f548ba871")
 			(effects
 				(font
 					(size 1 1)
@@ -33781,6 +35741,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "886ccffc-18ba-47d6-bdce-533f9511a651")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "538-105309-1104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad6a87a1-56c9-414b-b425-45d9711fdaa2")
 			(effects
 				(font
 					(size 1 1)
@@ -34394,6 +36367,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "652-CDSOT23-T24CAN"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b39f950b-6bf3-4fee-a6fe-e7fbf47bfdf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f/d7bbf058-1019-472a-b210-c9dc6eda02c8")
 		(sheetname "/LV Power/CAN_Transceiver/")
 		(sheetfile "CAN_Transceiver.kicad_sch")
@@ -34988,6 +36974,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-0603N270F500CT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcfe2399-ea2a-4819-b526-d31ca348028f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/ee918710-b71f-4299-90d2-bba868a89c94")
 		(sheetname "/48PinMCU/")
@@ -35220,6 +37219,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28a8cf17-e4f9-4c54-9e16-2140b11cb609")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "595-LM74502DDFR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0116eebe-3dd2-445d-a237-5d8f1bc87fce")
 			(effects
 				(font
 					(size 1 1)
@@ -35530,6 +37542,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "576-05200101Z"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f20c18a-0d9b-47af-a46c-77e088383379")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "05200101Z "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fec8d92-c0b2-4bf0-bb8e-925f3d4704f5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -35854,6 +37892,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "816f5e47-0ebe-4b83-af62-334e017bdf1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/7d0b5590-f433-4e1a-8abc-3ef86fe2c079")
 		(sheetname "/48PinMCU/")
@@ -36105,12 +38156,38 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW1206470RFKEA "
+		(property "P/N" "CRCW06031K00FKEI "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27d8ca95-7f40-4d8f-853a-ba263c37bca4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "161fc16e-de63-40f6-a7ab-44b380c5f070")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-1.0K-E3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "462f22e7-8519-43ad-857c-87d28bb7d947")
 			(effects
 				(font
 					(size 1 1)
@@ -36264,6 +38341,32 @@
 				)
 			)
 		)
+		(property "P/N" "CRCW060310R0FKEE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0a4b86f-e793-4943-8bd7-e763df9b0fce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28bcbdc6-26bb-4ff7-9c5c-2e9bc3753b98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/d137f1c6-646b-4439-a537-ae705627b7ae")
 		(sheetname "/Main_VoltageSensor/")
@@ -36410,6 +38513,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW06030000Z0EI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfb1c955-d94a-4557-9b58-ceb7cdadfe0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7548fe1-c0a8-40b8-af13-9d8ac30be9d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3656ea59-67ae-4d2c-b045-3c2c525d3ea6")
 		(sheetname "/")
@@ -36506,14 +38635,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a834d3b2-80af-4f3a-9963-e629fcf13954")
 		(at 191.897 111.436216 180)
-		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
-		(tags "capacitor")
+		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
+		(tags "capacitor handsolder")
 		(property "Reference" "C60"
-			(at 0.0254 1.651 180)
+			(at 0 -1.68 180)
 			(layer "F.SilkS")
 			(uuid "a9d8fbce-4af0-4f8d-a869-35e79dc52513")
 			(effects
@@ -36524,7 +38653,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.68 0)
+			(at 0 1.68 180)
 			(layer "F.Fab")
 			(uuid "dd6e80b0-068f-4546-b0d6-93c5476dc02c")
 			(effects
@@ -36535,7 +38664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "767da582-f064-4061-bf63-5b70d221d279")
@@ -36546,7 +38675,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc3860e6-ae5e-4504-8448-a06e70765817")
@@ -36561,7 +38690,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4413714-847a-4cab-a976-8b39ccdd245d")
+			(uuid "c72d471c-01fd-4cf5-89dc-80109725295d")
 			(effects
 				(font
 					(size 1 1)
@@ -36574,7 +38703,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b6c8c5f-844b-4331-94a0-187e0cbc25a4")
+			(uuid "d9456f1e-c0e1-4f45-96b1-819040d2545e")
 			(effects
 				(font
 					(size 1 1)
@@ -36587,7 +38716,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f644a00d-0175-4cf9-8ec6-39f2b3734eb3")
+			(uuid "604db49a-efe5-4af2-a8fc-980223a87450")
 			(effects
 				(font
 					(size 1 1)
@@ -36600,7 +38729,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c71eee6a-f4c4-4d31-b88a-fe3795196da9")
+			(uuid "662113fb-a57a-4863-b4dc-125f84b294fa")
 			(effects
 				(font
 					(size 1 1)
@@ -36613,7 +38742,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "904ce77d-d46b-459d-8242-8bcbc1ce8443")
+			(uuid "400a03ed-0782-49fb-8925-3dbc1ea83fe8")
 			(effects
 				(font
 					(size 1 1)
@@ -36626,7 +38755,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbbf9661-f983-4ad6-86a4-8d14f9feef12")
+			(uuid "df036e93-6795-48fc-9d73-871c06d8119e")
 			(effects
 				(font
 					(size 1 1)
@@ -36639,7 +38768,20 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4863db2-80c7-4d08-b27b-663f745e2da1")
+			(uuid "0104d44c-8b53-4478-858c-8eabf883c9f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "GRM21BR61H106KE43K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cce2243-1cdc-4f26-ad66-51ecf0e5cf6c")
 			(effects
 				(font
 					(size 1 1)
@@ -36680,8 +38822,8 @@
 			(uuid "c5052ede-56b3-4b80-bd7f-06bea9f96be3")
 		)
 		(fp_rect
-			(start -1.7 -0.98)
-			(end 1.7 0.98)
+			(start -1.88 -0.98)
+			(end 1.88 0.98)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -36702,7 +38844,7 @@
 			(uuid "eca32bf4-52e0-4b22-9a61-44fb9bdacd7c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "3bd91740-230e-4d17-b15d-33209d5dc7e3")
 			(effects
@@ -36713,19 +38855,19 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0 180)
-			(size 1 1.45)
+			(at -1.0375 0 180)
+			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.212766)
 			(net "3V3")
 			(pintype "passive")
 			(uuid "0e36b32e-c94d-46af-b99d-fc3f48c06044")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0 180)
-			(size 1 1.45)
+			(at 1.0375 0 180)
+			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.212766)
 			(net "GND")
 			(pintype "passive")
 			(uuid "bd4d4214-da60-443f-8144-b381cebd0c51")
@@ -36799,6 +38941,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f32741a-60c6-4aa0-b457-d02a2e257028")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW060347K0FKECC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8123c8e7-cf4e-49ad-8da8-92648fa5a4ed")
 			(effects
 				(font
 					(size 1 1)
@@ -36978,6 +39133,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-0603N270F500CT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b6f8532-f111-4879-970a-6dbecf2102dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/b1e645f2-79d7-47b7-ae93-5fc546dc9e22")
 		(sheetname "/48PinMCU/")
@@ -37138,6 +39306,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -37284,6 +39453,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "45122ead-f409-4382-a782-cfa5de65ee21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "579-MCP1826S-3302EDB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "366f0bbf-0517-4375-afa1-2652998d597e")
 			(effects
 				(font
 					(size 1 1)
@@ -37585,6 +39767,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "81-BLM18PG121SH1D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46f2bde5-3c93-4408-9fde-0ca53f290cdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/de40b8ae-1bdf-43d4-b74f-91c8c0bfa2ee")
 		(sheetname "/48PinMCU/")
@@ -37731,12 +39926,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55597e2e-2e2d-4cc4-8c6e-3672f707c28b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "710b623b-9354-4cf2-887a-adaf1846d935")
 			(effects
 				(font
 					(size 1 1)
@@ -37916,6 +40124,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "303-0603WAF5101T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a2e36a6-38ad-4530-8f85-7236cd4bf560")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/036a0807-6806-41f7-813f-18abaaf63006/1fe3fa78-8c96-4fec-92a4-65d0f069d53a")
 		(sheetname "/LV Power/USB-C_Connector/")
@@ -38087,6 +40308,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a2da10bb-6188-4343-af3b-d22848428fc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "640-USB4105-GF-A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04cbe68b-e5dd-41e9-b4c1-c6e25873738c")
 			(effects
 				(font
 					(size 1 1)
@@ -38492,6 +40726,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -38590,6 +40825,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "538-105309-1203"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67777962-5f5a-4f98-82e2-ef276f27ee91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "105309-1203"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e29883c-e9ab-4865-9518-77f184f0ca4a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -39120,12 +41381,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ecfba9c-1dad-4c28-b357-c1208bc90517")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fabba80d-02f6-4ec5-bdaa-770b698b8a68")
 			(effects
 				(font
 					(size 1 1)
@@ -39276,6 +41550,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW06030000Z0EI"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42e8cb2b-0472-46aa-b961-4fd37ccee037")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b25fc35-577a-49d5-bd3b-07d0d0276c82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -39438,6 +41738,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -39535,12 +41836,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e8cbe673-7b74-408d-9aa2-e102c9fd8d9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89f2e545-0915-49ef-a6a4-131d83651753")
 			(effects
 				(font
 					(size 1 1)
@@ -39717,6 +42031,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9568c57-6ce4-48dc-bd4a-bef7cde108e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "621-BAT760-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40a9c83f-2221-4be8-8897-99a125614b09")
 			(effects
 				(font
 					(size 1 1)
@@ -40010,12 +42337,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "120e58f4-55e0-4d40-988a-9b5dbe458b09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "764969b3-4d09-4a08-99ca-e816f17cdb37")
 			(effects
 				(font
 					(size 1 1)
@@ -40145,7 +42485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/pwr263s_35.pdf"
+		(property "Datasheet" "kicad-embed://pwr263s-35.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40219,7 +42559,7 @@
 				)
 			)
 		)
-		(property "P/N" "  PWR263S-35-3300F"
+		(property "P/N" "PWR263S-35-3300F"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40264,6 +42604,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "46a3fdf2-4a64-4a9d-a6ad-e57e666f36b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-PWR263S353300F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8198a83-3ec0-4c23-bbb7-08939cb28498")
 			(effects
 				(font
 					(size 1 1)
@@ -40851,7 +43204,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40922,6 +43275,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b30d212-dc1c-4f98-a7dd-e47fea269b12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10adcb1a-5f08-4407-924e-b67520b65acb")
 			(effects
 				(font
 					(size 1 1)
@@ -41064,7 +43430,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41140,7 +43506,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41153,12 +43519,25 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C25804"
+		(property "LCSC P/N" "C20443035"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1dacd94-f037-490f-974e-3e078b199aa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26bc5c4b-c142-452b-a917-b60eba773d7b")
 			(effects
 				(font
 					(size 1 1)
@@ -41301,7 +43680,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41309,6 +43688,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f050b5ef-726f-4d7a-996a-ad8832169fbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71c946f3-3665-4efe-9351-56a3ab3d52d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57c69937-05bd-42a9-be37-221c9b3ef8a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -41471,12 +43889,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1de4024e-d11c-4290-ae85-c41fe45d68b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c292fe3b-eb98-4853-849e-fd8f578c5662")
 			(effects
 				(font
 					(size 1 1)
@@ -42398,7 +44829,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -42406,6 +44837,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5f03528-dd2c-421d-a0ec-b5d635720f43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cfdbf6e-a53e-42c7-83b2-91bd7c15fd2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7eb5798-1891-421a-a346-71c15c2df4df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -42568,12 +45038,25 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C559769"
+		(property "LCSC P/N" "C15849"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4de22186-dfb0-4a96-bbc8-27c1242a94ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dddf7a6-7266-4c3d-af17-4c3963e20076")
 			(effects
 				(font
 					(size 1 1)
@@ -42716,7 +45199,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -42724,6 +45207,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f49b37b-a1b1-441e-877d-9ace3a6c8209")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1d343f4-16f6-4459-95fb-49c12a8ae0c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99b46348-0198-4a62-8f52-efc372766d52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -42886,12 +45408,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3c8e45ab-dd4b-4be1-babd-098c9fa12591")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bf45ccc-a537-4f02-9087-62999b467ad0")
 			(effects
 				(font
 					(size 1 1)
@@ -43094,6 +45629,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7e1b4fe-5e72-49c8-95fa-639ca3c8dd26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "755-RSX068MP2STR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b7f93fc-5296-47c9-876e-a578358187e4")
 			(effects
 				(font
 					(size 1 1)
@@ -43413,6 +45961,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW0603-60.4-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1aa4d16-0e10-4bb9-83cb-a942716a6640")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/0fa5f73a-b7b5-42a0-9641-ab69db5b9d0f/f905bbd5-25e3-4518-9a89-c3e959777327")
 		(sheetname "/LV Power/CAN_Transceiver/")
@@ -43585,6 +46146,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccee9f2f-0f40-4bd5-bff1-ed7eaa42e9c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d/28342aaf-adef-4921-bba0-da7ccb075b40")
 		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV-/")
@@ -43744,6 +46318,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -43830,7 +46405,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43838,6 +46413,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "228ded91-dd79-4cdf-819c-0e63e0263144")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "127b7720-a9c7-46f5-a109-17771ad30ccd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61ec9451-c365-404e-9ca2-c0eee48f1648")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -43987,6 +46601,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04f74a69-72bc-4f95-9b6e-c3b613d44716")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81bbc8c2-f538-4cc2-9467-fe81f1902657")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/181d3445-b340-49f0-9c57-dc63dc467470")
 		(sheetname "/Main_VoltageSensor/")
@@ -44111,7 +46751,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://Blue LED.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44133,12 +46773,38 @@
 				)
 			)
 		)
-		(property "P/N" "NCD0603R1"
+		(property "P/N" "FR1101C-2005-M-TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bfc36be0-d415-4502-8b5e-5df68eb1f099")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C125103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85d60f0d-8838-471e-acb5-309a372b5d04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "327-FR1101C2005MTR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1cd24e8-4d15-4dd6-9fd4-9c2a12ef56e9")
 			(effects
 				(font
 					(size 1 1)
@@ -44343,12 +47009,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a10598c-28e3-4369-8a9a-d9006bfd72a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "092bb6a6-7f3c-4ff8-aa82-5e53dedfc0cf")
 			(effects
 				(font
 					(size 1 1)
@@ -44593,6 +47272,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW0603-1.0K-E3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e5abf7a-9b10-4bc8-9832-c4db0d3c225a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00a9aff9-854f-4fe5-b1cf-85d3d4e30c03/0e6f34d4-dbd3-4f05-a4bc-100cf41ed9c8")
 		(sheetname "/48PinMCU/")
@@ -44789,7 +47481,7 @@
 				)
 			)
 		)
-		(property "P/N" "  PWR263S-35-3300F"
+		(property "P/N" "PWR263S-35-3300F"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44834,6 +47526,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c98310d2-57e6-4286-9654-b0a15e10f061")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-PWR263S353300F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b144f65f-9e82-48d1-a382-a85c72df31b9")
 			(effects
 				(font
 					(size 1 1)
@@ -45408,6 +48113,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "405723f8-6d4b-45c1-9b02-662680dd424c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ad0f14b-1830-412c-84b6-927e295cd077")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/5889733b-2faa-441d-8920-c50d6a9cc8c4")
 		(sheetname "/Main_VoltageSensor/")
@@ -45580,6 +48311,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b7f7e02-11f4-4c8e-9783-a0178838da90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2ca150cf-fbe5-4d5b-a7dc-f2dc5c6024d0/f8c7dce2-42c7-4aa0-bec7-e504fb9f435f/9b1ddc4f-24aa-46be-8d1e-e07bf585137f")
 		(sheetname "/LV Power/PowerProtection/")
@@ -45715,7 +48459,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45723,6 +48467,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "158f100d-0982-4924-b3ee-6836c6022753")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7477410a-8a86-48fe-bd61-cef0bffdd1ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b4569a5-e0c6-4f5e-a359-00c6dacc8cbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -45873,6 +48656,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "538-105309-1203"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "907ab14b-b05d-48bc-9c4c-7f4df73db3f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "105309-1203"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "646950a9-8607-4313-bc7c-9492e501dd83")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -46392,7 +49201,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46400,6 +49209,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f05fca09-773d-45f5-aad9-8f48f0d80626")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ad5bfa6-e8b3-43ed-86d3-b450d04e2e98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43ddc7f6-d1ec-4c3f-9d1f-9d609ebb1437")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -46549,7 +49397,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL10B104KB8NNNC"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46562,12 +49410,25 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C1591"
+		(property "LCSC P/N" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2aae6b1f-e99d-405c-a31e-065b23e1e69e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3526a462-9e7e-48ac-abe2-951c28c38784")
 			(effects
 				(font
 					(size 1 1)
@@ -46710,7 +49571,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46740,6 +49601,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6e1b8ad3-74fa-4a9a-bdab-9247a4061379")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8eee0946-a187-4a19-8863-3e0e3c375610")
 			(effects
 				(font
 					(size 1 1)
@@ -46882,7 +49756,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46890,6 +49764,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c0173b3-a003-4611-bda7-26920f5cbbf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e57f225e-1b8f-48d8-8d1a-7059a1e64946")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d13a621-2c15-4af0-88ab-71765fea1110")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -47050,7 +49963,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 3.92)
@@ -47295,6 +50208,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "MLASH168SB7104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bd6ba80-0b77-4b54-bc74-605b291747ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/03979947-561d-482f-9fca-eedcd558d33d/90c00def-46b7-4d2b-a17b-32aa4a20505f")
 		(sheetname "/Motor_VoltageSensor/VoltageSensor_HV-/")
@@ -47454,6 +50380,19 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "71-CRCW0603-10K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b57e479b-3f1d-4bb6-9867-a74d9692088e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/4cf09e58-0892-4fb3-a566-fe1392b5d663/12ec0ceb-0793-4d81-8856-b5b89a34e1e4")
 		(sheetname "/Main_VoltageSensor/VoltageSensor_HV+/")
@@ -47550,425 +50489,6 @@
 			)
 		)
 	)
-	(footprint "Precharge_Board:DE1a12V"
-		(layer "F.Cu")
-		(uuid "d713a823-4c7b-4a77-8cf2-6a290ad5f39b")
-		(at 152.0965 124.5235 180)
-		(descr "DE1a-12V")
-		(tags "Relay or Contactor")
-		(property "Reference" "K2"
-			(at 10.9233 3.4671 0)
-			(layer "F.SilkS")
-			(uuid "41f19873-4f0e-46c9-a5e5-d309e5848e27")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Value" "DE1a-12V"
-			(at 11.35 -3.81 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f2673034-15af-45aa-b67e-be53cb353ada")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.it/datasheet/2/315/mech_eng_de-1299471.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7007aadc-a207-4595-b5e0-660ca52b41ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole , 16.7mA , 720 Ohms , -40C ~ 70C"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "944c99dd-dbb1-4c30-baca-3d74eb476857")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "12.8"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e90aebb6-f1a2-45b5-b674-7ee5648ba773")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "769-DE1A-12V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5c161285-7d0f-4188-82f6-7f0a369ccccd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "915e9f62-321f-4ca5-aa6a-6543bd6cff09")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40c8d81e-bd3e-4633-8fb0-5ca48382aed4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DE1a-12V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa107f57-9bd2-4308-9fed-8c452e18d3ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/5b236d54-dfec-450f-96e4-88b51678f51f/b825340f-8f9c-48c6-8a37-388a9416bcf6")
-		(sheetname "/Motor_Precharge/")
-		(sheetfile "Precharge_Isolation.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "4" "8" "6" "5")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 23.85 2.44)
-			(end 23.85 0.99)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2087aa00-d7b2-4a6d-ab36-ced9c59cd2e8")
-		)
-		(fp_line
-			(start 23.85 -1.01)
-			(end 23.85 -6.61)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d10999d7-3e28-42cb-a145-6cdd7f8281c1")
-		)
-		(fp_line
-			(start 23.85 -10.06)
-			(end 23.85 -8.61)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3a0a4dd1-93f7-44b6-8a91-3506768ab88a")
-		)
-		(fp_line
-			(start -1.15 2.44)
-			(end 23.85 2.44)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "71917aaf-d5d1-413a-b0ea-c6af18ba6d59")
-		)
-		(fp_line
-			(start -1.15 1.19)
-			(end -1.15 2.44)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a2b97b3e-749b-4399-8d9a-298b266a5696")
-		)
-		(fp_line
-			(start -1.15 -1.21)
-			(end -1.15 -6.61)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4d8a6082-269f-4a1a-8400-ad878244430a")
-		)
-		(fp_line
-			(start -1.15 -8.61)
-			(end -1.15 -10.06)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dd9f45ea-3df4-4507-a7b3-428141f8e644")
-		)
-		(fp_line
-			(start -1.15 -10.06)
-			(end 23.85 -10.06)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "033a74fb-54f2-479c-96dd-75991bad7409")
-		)
-		(fp_line
-			(start -1.55 0)
-			(end -1.55 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "de7b7e58-99c5-4d3c-8d39-5f128054f78c")
-		)
-		(fp_line
-			(start -1.65 0)
-			(end -1.65 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "96732aaa-ff33-4603-b967-10cffbb4e3e1")
-		)
-		(fp_arc
-			(start -1.55 0)
-			(mid -1.6 0.05)
-			(end -1.65 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b26062f4-c811-470e-ac07-767f85f88633")
-		)
-		(fp_arc
-			(start -1.65 0)
-			(mid -1.6 -0.05)
-			(end -1.55 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1ea284c4-ed3a-4973-9926-04936852c5d8")
-		)
-		(fp_line
-			(start 24.85 3.44)
-			(end 24.85 -11.06)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "984a2718-49f4-45d9-8d2d-046785f360db")
-		)
-		(fp_line
-			(start 24.85 -11.06)
-			(end -2.15 -11.06)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "872dfa83-714e-4de8-a8d7-60af43d89cab")
-		)
-		(fp_line
-			(start -2.15 3.44)
-			(end 24.85 3.44)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fc2d7dbc-d83d-4818-aea5-68992a88ecac")
-		)
-		(fp_line
-			(start -2.15 -11.06)
-			(end -2.15 3.44)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "01f80b0f-f5a2-4eb7-8682-ab22e5484abe")
-		)
-		(fp_line
-			(start 23.85 2.44)
-			(end 23.85 -10.06)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f53d698f-5ec3-4fc5-b41a-71f447c359e1")
-		)
-		(fp_line
-			(start 23.85 -10.06)
-			(end -1.15 -10.06)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7581eef3-7b97-40bf-ad32-1063256161d8")
-		)
-		(fp_line
-			(start -1.15 2.44)
-			(end 23.85 2.44)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2ea66fab-0796-43fb-a49a-49fca9ca05f8")
-		)
-		(fp_line
-			(start -1.15 -10.06)
-			(end -1.15 2.44)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9cc40b0e-2559-48f6-b6dc-fa288d1510a3")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 11.35 -3.81 0)
-			(layer "F.Fab")
-			(uuid "b5abb541-f040-41f7-9a02-a2ebcbf7b09e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 0 0 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/VIN_PROT")
-			(pinfunction "COIL+_1")
-			(pintype "passive")
-			(uuid "43205353-bfda-4707-a614-255387e1793d")
-		)
-		(pad "3" thru_hole circle
-			(at 15.24 0 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/MOT_RES_HV-")
-			(pinfunction "COM_3")
-			(pintype "passive")
-			(uuid "9fa64e7d-9d7d-44dd-a242-9818431d407e")
-		)
-		(pad "4" thru_hole circle
-			(at 22.86 0 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "MOT_HV-")
-			(pinfunction "N.O._4")
-			(pintype "passive")
-			(uuid "99b83818-893b-4f70-ab7e-079fa71d1135")
-		)
-		(pad "5" thru_hole circle
-			(at 22.86 -7.62 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(K2-DUMMY_TERMINAL_1-Pad5)")
-			(pinfunction "DUMMY_TERMINAL_1_5")
-			(pintype "passive+no_connect")
-			(uuid "2a07bbfc-b4b2-438b-9ae6-6188bfd33d92")
-		)
-		(pad "6" thru_hole circle
-			(at 15.24 -7.62 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(K2-DUMMY_TERMINAL_2-Pad6)")
-			(pinfunction "DUMMY_TERMINAL_2_6")
-			(pintype "passive+no_connect")
-			(uuid "1b90571f-3ec3-4fa4-9731-4216f1389d0a")
-		)
-		(pad "8" thru_hole circle
-			(at 0 -7.62 180)
-			(size 1.8 1.8)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/Motor_Precharge/DRAIN")
-			(pinfunction "COIL-_8")
-			(pintype "passive")
-			(uuid "59cd295a-06cb-4779-921b-4e6272ba4808")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/External_Parts/Precharge_Board.pretty/LIB_DE1a-12V/DE1a-12V/3D/DE1a-12V.stp"
-			(offset
-				(xyz 11.5 4 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-	)
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d86e712c-15d0-43a9-84e0-6514bb328b8f")
@@ -47997,7 +50517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://Blue LED.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48019,12 +50539,38 @@
 				)
 			)
 		)
-		(property "P/N" "NCD0603R1"
+		(property "P/N" "FR1101C-2005-M-TR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "01875f62-abbd-46cf-b8c7-d42f8e226abe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C125103"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dddf2d1d-1c11-4dc3-b811-9ea265254004")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "327-FR1101C2005MTR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63619461-e423-418c-8e2a-f6037122a600")
 			(effects
 				(font
 					(size 1 1)
@@ -48283,8 +50829,21 @@
 				)
 			)
 		)
-		(path "/d5231689-0a25-4774-9952-2a5e507de834/65d79452-1a42-42f7-a888-52bb6e26c509")
-		(sheetname "/Main_Precharge/")
+		(property "Mouser P/N" "942-IRLML0030TRPBF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba2f3962-9f9f-464b-860e-697a384efb4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d5231689-0a25-4774-9952-2a5e507de834/d3a89002-1d4d-4e87-a60f-26ed2b133a8b")
+		(sheetname "/Precharge_Relay/")
 		(sheetfile "Precharge_Isolation.kicad_sch")
 		(units
 			(unit
@@ -48449,7 +51008,7 @@
 			(at -1.05 -0.95 90)
 			(size 0.6 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Main_Precharge/DRAIN")
+			(net "/Precharge_Relay/MAIN_DRAIN")
 			(pinfunction "D_1")
 			(pintype "passive")
 			(uuid "9d5b4776-ae6f-4395-a61f-3462cd9d5c1f")
@@ -48532,6 +51091,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C100042"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a04611dd-84a2-48ca-8beb-120331698972")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB103"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b4bdbe4-991e-437c-a828-7110326077a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB103"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "643d80de-2a84-43f8-b09e-58483c7ef5b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -48678,6 +51276,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c421c81b-72a2-4c7c-a400-6930b5dc56e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8198e23-8e98-4521-b819-d4dabeb55d5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -48833,6 +51457,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b2c4d9ce-77cd-455e-a7d9-9e17fceea2c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW060347K0FKECC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7eb23a29-8df2-4026-8957-8d12c37130c6")
 			(effects
 				(font
 					(size 1 1)
@@ -48999,7 +51636,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49070,6 +51707,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bc7f69a0-6527-4b00-8bf8-e78531946f11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1078dedd-ce74-4836-92f2-d00ec9f31e19")
 			(effects
 				(font
 					(size 1 1)
@@ -49173,6 +51823,407 @@
 			)
 		)
 	)
+	(footprint "Precharge_Board:FTRJ2AK012W"
+		(layer "F.Cu")
+		(uuid "df125f7b-25ab-4389-a42e-772055e9056a")
+		(at 131.926 143.924)
+		(descr "FTR-J2AK012W-2-1")
+		(tags "Relay or Contactor")
+		(property "Reference" "K1"
+			(at 9.425 10 0)
+			(layer "F.SilkS")
+			(uuid "41668c06-b5e7-4084-bce9-9a7fb221917d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "FTR-J2AK012W"
+			(at 9.425 10 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f53b2da9-0dc2-4e03-9979-7334c8b1ce11")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2c1e756-5a5d-436a-a494-f867f83a1819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Electromechanical Relay 12VDC 270Ohm 12A SPST-NO/SPST-NO(24x23.5x27)mm THT Voltage Relay"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "beb39865-119f-417b-8c61-9a555d63538e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d87cea3-bc80-485b-96bd-cf8d5f2dd707")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "817-FTR-J2AK012W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b938528-69ff-440d-b735-4e8599c55315")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Fujitsu/FTR-J2AK012W?qs=EvTR%252B%2FkpER9cjG7hKs6Mbg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd48f25e-8f9b-4198-ba23-a36ff6f63c6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FCL Components"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ced9a29b-daaf-4986-8686-b0bda7a3f8a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FTR-J2AK012W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec79cf66-7736-440e-bcae-5c2357045b25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d5231689-0a25-4774-9952-2a5e507de834/c399bbdb-d64e-4dd3-9142-850c87d2848a")
+		(sheetname "/Precharge_Relay/")
+		(sheetfile "Precharge_Isolation.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -3 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "40bd246a-8029-4ce6-836e-6769291040b6")
+		)
+		(fp_line
+			(start -3 0.3)
+			(end -3 0.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58f3e965-0db5-4312-93e1-b51c7172d875")
+		)
+		(fp_line
+			(start -2 -1.75)
+			(end -2 21.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8eddc834-a388-4003-8fdd-01e03633d96d")
+		)
+		(fp_line
+			(start -2 21.75)
+			(end 22 21.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9eb0fd35-831c-49d3-b240-4550653ecfb1")
+		)
+		(fp_line
+			(start 22 -1.75)
+			(end -2 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3fd78bf5-c90f-4d82-9a09-033daf512bdc")
+		)
+		(fp_line
+			(start 22 21.75)
+			(end 22 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "29206521-492f-4a14-ba5a-77829993278a")
+		)
+		(fp_arc
+			(start -3 0)
+			(mid -2.85 0.15)
+			(end -3 0.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a7737e81-0778-4754-b4e0-db6002f1bc83")
+		)
+		(fp_arc
+			(start -3 0.3)
+			(mid -3.15 0.15)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0debc99e-fc08-4265-9318-0bda0b40893f")
+		)
+		(fp_line
+			(start -4.15 -2.75)
+			(end -4.15 22.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ba0985a3-21fe-474f-9548-6585abc265b4")
+		)
+		(fp_line
+			(start -4.15 22.75)
+			(end 23 22.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a2f59a4c-baea-418a-98a1-c73d39033814")
+		)
+		(fp_line
+			(start 23 -2.75)
+			(end -4.15 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "069a2e31-f010-4c42-a06a-47731d0d579f")
+		)
+		(fp_line
+			(start 23 22.75)
+			(end 23 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e9af5004-6c7f-46fe-89c3-82f70ae064c9")
+		)
+		(fp_line
+			(start -2 -1.75)
+			(end -2 21.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "68f283db-8c64-42d9-a311-5d5272c33984")
+		)
+		(fp_line
+			(start -2 21.75)
+			(end 22 21.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a61890d0-2f32-418e-9f6f-abe17ea68c46")
+		)
+		(fp_line
+			(start 22 -1.75)
+			(end -2 -1.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "deea11c1-689c-4769-9dc0-241ef9950f99")
+		)
+		(fp_line
+			(start 22 21.75)
+			(end 22 -1.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "433fbb90-79bf-4cb1-aab3-8fe5e6b66fed")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 9.425 10 0)
+			(layer "F.Fab")
+			(uuid "66f8a927-0fef-4474-b322-d631b044b68e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/Precharge_Relay/MAIN_DRAIN")
+			(pinfunction "COIL1_1_1")
+			(pintype "passive")
+			(uuid "60028729-4074-4ffc-82fe-8702c1e13ba3")
+		)
+		(pad "2" thru_hole circle
+			(at 0 7.5)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/VIN_PROT")
+			(pinfunction "COIL1_2_2")
+			(pintype "passive")
+			(uuid "edc9e4f2-2344-4ad4-955f-8ac982d0cef2")
+		)
+		(pad "3" thru_hole circle
+			(at 0 12.5)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/Precharge_Relay/MOT_DRAIN")
+			(pinfunction "COIL2_1_3")
+			(pintype "passive")
+			(uuid "4dc44f0e-8854-4865-b64b-0b85ed583ef3")
+		)
+		(pad "4" thru_hole circle
+			(at 0 20)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/VIN_PROT")
+			(pinfunction "COIL2_2_4")
+			(pintype "passive")
+			(uuid "f9cc7e1e-3c41-47ab-9b8f-1399dccbdc55")
+		)
+		(pad "5" thru_hole circle
+			(at 20 0)
+			(size 2.1 2.1)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "MAIN_HV-")
+			(pinfunction "NO_1_5")
+			(pintype "passive")
+			(uuid "0b84f913-eb34-4416-afef-120f9fe528df")
+		)
+		(pad "6" thru_hole circle
+			(at 16.5 7.5)
+			(size 2.1 2.1)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/MAIN_RES_HV-")
+			(pinfunction "COM_1_6")
+			(pintype "passive")
+			(uuid "fecc74b8-3094-47f2-946c-0c835dc908bc")
+		)
+		(pad "7" thru_hole circle
+			(at 20 12.5)
+			(size 2.1 2.1)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "MOT_HV-")
+			(pinfunction "NO_2_7")
+			(pintype "passive")
+			(uuid "479a1e45-feba-4c62-8e99-6b8ce24a5083")
+		)
+		(pad "8" thru_hole circle
+			(at 16.5 20)
+			(size 2.1 2.1)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/MOT_RES_HV-")
+			(pinfunction "COM_2_8")
+			(pintype "passive")
+			(uuid "77a3c760-1317-47ea-bd7d-3abf55f5dc04")
+		)
+		(embedded_fonts no)
+		(model "FTR-J2AK012W.stp"
+			(offset
+				(xyz 10.02999958 -9.99999985 27.19000013)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e014be0c-6a2f-45ca-88ee-c55b7d91291f")
@@ -49223,12 +52274,38 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603150RFKEC"
+		(property "P/N" "CRCW06031K00FKEI "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1672e95-f705-473b-ba96-4f41285afec1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b089234-58fa-4076-a9c6-76c52a5933e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "71-CRCW0603-1.0K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba6dbc2c-dedd-4a44-8009-a203217a0cab")
 			(effects
 				(font
 					(size 1 1)
@@ -49382,7 +52459,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL10B104KB8NNNC"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49395,12 +52472,25 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C1591"
+		(property "LCSC P/N" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8680016-0b8b-441e-b1b1-110a3d2eb2e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f88e891-ef8f-4af0-a5b2-54d5686497dc")
 			(effects
 				(font
 					(size 1 1)
@@ -49551,6 +52641,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "961a14c6-bd1d-4724-b9fe-22d426256fbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0d4a5c8-7466-4114-a0a6-c4690709ec64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -49870,6 +52986,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2597dfc9-74f9-449d-9eec-8227f188072e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcf2f4a1-ca59-4002-b611-3d14c2c4beb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/4b230a66-be57-4b5a-b7c5-ef177e8936e3")
 		(sheetname "/Motor_VoltageSensor/")
@@ -50139,7 +53281,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -50147,6 +53289,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faf32f42-e4e7-435c-b7c6-0d771b9bf361")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4807e42a-b7da-411f-9f28-b1dfc4efed94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad95205b-bdd6-4766-9468-ebf04f05ad46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -50285,7 +53466,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -50296,9 +53477,48 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff789a3c-6eac-45f0-a09e-48fd4f361b47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f39e02e0-7887-4303-8947-ec4d90c94eed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41059060-287e-40bc-a938-4a5cb268d769")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/d5231689-0a25-4774-9952-2a5e507de834/0579f7e9-9d28-42bd-ab2e-a67f630a0362")
-		(sheetname "/Main_Precharge/")
+		(path "/d5231689-0a25-4774-9952-2a5e507de834/a9a169d4-1b2b-4d14-a094-842f5c0acfd2")
+		(sheetname "/Precharge_Relay/")
 		(sheetfile "Precharge_Isolation.kicad_sch")
 		(units
 			(unit
@@ -50431,7 +53651,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -50439,6 +53659,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3cecc3b-aa02-4c89-bd41-236d2957ef62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2593d53f-dde3-480f-a722-525ff8dd0c63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbdb0c40-dc53-46ac-adf6-35e1773f23aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -50602,6 +53861,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -50696,6 +53956,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f404a46-8ca9-49b5-b588-8c7126899e9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bd98bb9-a8e0-4d6b-87fa-c9643692d759")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -50845,12 +54131,38 @@
 				)
 			)
 		)
-		(property "P/N" "MSASH168SB5103KTNA01"
+		(property "P/N" "CC0603KRX7R9BB103"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa16f1f9-7ded-449a-93b2-0c46bf4c95f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC P/N" "C100042"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4905a4ee-ec37-49db-837c-add9054def1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "360e3e91-f5e5-492d-8073-1250040ce381")
 			(effects
 				(font
 					(size 1 1)
@@ -51023,6 +54335,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8a2e095-d6ac-4410-bb08-14534dfa5b57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-RT0603BRD077K32L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "506908f5-ac79-42bd-bd88-b3e8beed4049")
 			(effects
 				(font
 					(size 1 1)
@@ -51749,6 +55074,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1403f754-497a-428b-b934-68c410601fbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb87415b-6f32-42f8-84e9-5dbd3462382e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6627985a-aef4-4302-9d05-a969136ea8f4/89499884-7dab-4b46-9dba-4097dc29b04e")
 		(sheetname "/Main_VoltageSensor/")
@@ -51884,7 +55235,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -51892,6 +55243,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C20443035"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8bf7f44-2718-4985-bb52-53b134c41253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcc9b3ff-69d9-481f-affb-cbebf62e0056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "303-0603WAF1002T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "951b21ed-0931-449e-a6d8-ea90b3baa40a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -52108,9 +55498,35 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "621-1N5819HW-F"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "545309cd-88bb-4a61-9c9a-b0a9c688d8fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "1N5819HW-7-F"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47943273-74de-4994-b320-1ba3aa519d0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/5b236d54-dfec-450f-96e4-88b51678f51f/89f2792b-cfcf-45cf-abd5-e158589e5172")
-		(sheetname "/Motor_Precharge/")
+		(path "/d5231689-0a25-4774-9952-2a5e507de834/6c50e104-db69-417b-908e-1e00ecf8da34")
+		(sheetname "/Precharge_Relay/")
 		(sheetfile "Precharge_Isolation.kicad_sch")
 		(units
 			(unit
@@ -52254,7 +55670,7 @@
 			(at 2.175 0 270)
 			(size 1.45 1.49)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Motor_Precharge/DRAIN")
+			(net "/Precharge_Relay/MOT_DRAIN")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "0778c8f5-affa-4b87-a17b-f18ac445c9ba")
@@ -52342,7 +55758,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52413,6 +55829,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d10d95b0-bf11-4b7b-b7b7-663df185b6dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94edaeaf-aa99-455c-a084-e60a17128f72")
 			(effects
 				(font
 					(size 1 1)
@@ -52620,8 +56049,21 @@
 				)
 			)
 		)
-		(path "/5b236d54-dfec-450f-96e4-88b51678f51f/65d79452-1a42-42f7-a888-52bb6e26c509")
-		(sheetname "/Motor_Precharge/")
+		(property "Mouser P/N" "942-IRLML0030TRPBF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "910de688-8cba-4c6d-a504-43af17187b88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d5231689-0a25-4774-9952-2a5e507de834/f33f97a9-af4b-43f9-8d7b-bcbe69338187")
+		(sheetname "/Precharge_Relay/")
 		(sheetfile "Precharge_Isolation.kicad_sch")
 		(units
 			(unit
@@ -52786,7 +56228,7 @@
 			(at -1.05 -0.95 90)
 			(size 0.6 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Motor_Precharge/DRAIN")
+			(net "/Precharge_Relay/MOT_DRAIN")
 			(pinfunction "D_1")
 			(pintype "passive")
 			(uuid "7c086131-eb23-411f-af2b-5a93f1e6da9f")
@@ -52872,12 +56314,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "461530f7-999d-4894-8ca7-cc220b11a973")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c357b48f-a885-451f-a29d-52ae5cfd60dd")
 			(effects
 				(font
 					(size 1 1)
@@ -53031,6 +56486,32 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "791-RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51a1e51e-d0af-4473-a0b6-5bab7a84c3a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "RMC16K184FTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38a355d9-08dc-4697-bbe9-118ee649eaa1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9d052f0-39c4-441f-8d4e-0430a3425be4/53b4045c-a267-4e6b-81a7-bf27c5e0b384")
 		(sheetname "/Motor_VoltageSensor/")
@@ -53177,12 +56658,25 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU063SB7102KFNA01"
+		(property "P/N" "CC0603KRX7R9BB102"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a0067db-2482-42b0-8273-bd143b158336")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB102"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36b0f448-ffc1-4d97-9714-869a24bcc988")
 			(effects
 				(font
 					(size 1 1)
@@ -53399,6 +56893,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "153351ab-f5e5-4922-b442-37330c826ab9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "771-PSMN012-100YSFX"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24a98613-5a7e-4bdc-896e-a16a7350efe2")
 			(effects
 				(font
 					(size 1 1)
@@ -53929,6 +57436,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "176e3218-cfa8-4e5a-bbdb-f6829a869ca5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "511-STM32G473CET6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49c86268-494d-4cb1-9ec7-6ebe84f9c6b4")
 			(effects
 				(font
 					(size 1 1)
@@ -54876,7 +58396,7 @@
 				(pins "1" "2" "3" "4")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -55166,6 +58686,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c4f430a0-07cb-4416-8f8a-980a72e07805")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser P/N" "755-RSX068MP2STR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad02ea07-3b4a-4de5-bb20-bde01941867c")
 			(effects
 				(font
 					(size 1 1)
@@ -55477,7 +59010,7 @@
 				(justify mirror)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -55553,6 +59086,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e70c2791-76c5-4368-a0bb-013eb409740b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "14991b89-a1a0-45e5-926d-0c6afee7fb75")
 			(effects
 				(font
 					(size 1 1)
@@ -56716,7 +60263,7 @@
 				(justify mirror)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "C0805C104K5PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -56792,6 +60339,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ed759939-f98d-449d-98d2-73742140920e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser P/N" "80-C0805C104K5PACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "948f3f14-2b75-4243-8580-bc80ca5b7250")
 			(effects
 				(font
 					(size 1 1)
@@ -57334,7 +60895,7 @@
 				(justify mirror)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -57410,6 +60971,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c1d4b8e2-0b04-412f-9050-4116a7589048")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB105"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7192acb2-7220-4cd4-a528-1e57ee2a80d9")
 			(effects
 				(font
 					(size 1 1)
@@ -64559,28 +68134,12 @@
 		(uuid "52e7319f-874c-4011-81f7-de6745862909")
 	)
 	(segment
-		(start 133.1735 86.995)
-		(end 136.8565 83.312)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "/MAIN_RES_HV-")
-		(uuid "19c1f3ae-2720-488f-8679-b6c62730b5be")
-	)
-	(segment
 		(start 101.092 77.7748)
 		(end 110.3122 86.995)
 		(width 0.5)
 		(layer "B.Cu")
 		(net "/MAIN_RES_HV-")
 		(uuid "554912ac-9bae-4114-bbe6-b13191f62554")
-	)
-	(segment
-		(start 110.3122 86.995)
-		(end 133.1735 86.995)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "/MAIN_RES_HV-")
-		(uuid "cf810b8f-aeba-43b5-8e09-5c43c121dfb2")
 	)
 	(segment
 		(start 96.8785 87.288438)
@@ -71639,28 +75198,12 @@
 		(uuid "41ed0fb9-b629-4c23-b5b7-bde15a9c1084")
 	)
 	(segment
-		(start 125.109 128.651)
-		(end 129.2365 124.5235)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "MOT_HV-")
-		(uuid "5e68c835-5ead-4d19-b971-3a42384987cd")
-	)
-	(segment
 		(start 110.596 110.384)
 		(end 96.9645 124.0155)
 		(width 0.5)
 		(layer "B.Cu")
 		(net "MOT_HV-")
 		(uuid "acd49a8a-70cc-4f82-92dc-9ad78ca9b938")
-	)
-	(segment
-		(start 108.966 128.651)
-		(end 125.109 128.651)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "MOT_HV-")
-		(uuid "b813f83e-3919-45a6-8f6b-27f01c33669a")
 	)
 	(segment
 		(start 96.901 131.2164)
@@ -72799,14 +76342,6 @@
 		(uuid "1cfed4f5-181d-4706-8e8b-71c8164d7990")
 	)
 	(segment
-		(start 129.2365 83.312)
-		(end 126.3155 86.233)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "MAIN_HV-")
-		(uuid "4d849cbc-98fa-4977-87dd-720e9d8afd01")
-	)
-	(segment
 		(start 96.8502 85.2932)
 		(end 96.8502 80.854338)
 		(width 0.5)
@@ -72853,22 +76388,6 @@
 		(layer "B.Cu")
 		(net "MAIN_HV-")
 		(uuid "9e4a84a1-e339-41ae-9b3a-d15a24db5cc2")
-	)
-	(segment
-		(start 126.3155 86.233)
-		(end 110.617 86.233)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "MAIN_HV-")
-		(uuid "b3c3b15f-07dd-4329-9994-16ef41e6a359")
-	)
-	(segment
-		(start 128.571 83.312)
-		(end 128.651 83.312)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "MAIN_HV-")
-		(uuid "c4cf03a7-8088-4134-b371-7b7aa2803af8")
 	)
 	(segment
 		(start 123.1195 67.781077)
@@ -73637,22 +77156,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "/MOT_RES_HV-")
 		(uuid "4785778c-5f92-4137-954b-a8c1ec73269f")
-	)
-	(segment
-		(start 136.8565 124.5235)
-		(end 131.84 129.54)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "/MOT_RES_HV-")
-		(uuid "2e183971-ad89-4b0d-920d-6e18b394b2c8")
-	)
-	(segment
-		(start 131.84 129.54)
-		(end 108.712 129.54)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "/MOT_RES_HV-")
-		(uuid "bbde1be5-9b91-4288-9cf1-a71a4b760bc0")
 	)
 	(segment
 		(start 101.092 121.92)
@@ -75886,30 +79389,6 @@
 		(uuid "c86ce393-451e-40fd-b892-a393e7cafc01")
 	)
 	(segment
-		(start 158.428 89.551)
-		(end 155.9052 89.551)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/Main_Precharge/DRAIN")
-		(uuid "3efb30ee-f408-4e14-a5ea-6eb929635604")
-	)
-	(segment
-		(start 152.0965 91.0596)
-		(end 154.3966 91.0596)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/Main_Precharge/DRAIN")
-		(uuid "54db7436-b20c-4bcd-8333-3673997097f0")
-	)
-	(segment
-		(start 154.3966 91.0596)
-		(end 155.9052 89.551)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/Main_Precharge/DRAIN")
-		(uuid "83d3f32a-2591-479e-b581-eca1d2125b9d")
-	)
-	(segment
 		(start 168.763779 97.5322)
 		(end 169.851246 97.5322)
 		(width 0.2)
@@ -77542,11 +81021,43 @@
 		(uuid "9e392541-99d6-4712-aecf-68ed038924f9")
 	)
 	(segment
+		(start 209.04395 125.4252)
+		(end 211.58005 125.4252)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D19-A)")
+		(uuid "c13b24bf-6bb2-440b-ac8a-2db0d4b1302d")
+	)
+	(segment
+		(start 158.428 89.551)
+		(end 155.9052 89.551)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/Precharge_Relay/MAIN_DRAIN")
+		(uuid "3efb30ee-f408-4e14-a5ea-6eb929635604")
+	)
+	(segment
+		(start 152.0965 91.0596)
+		(end 154.3966 91.0596)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/Precharge_Relay/MAIN_DRAIN")
+		(uuid "54db7436-b20c-4bcd-8333-3673997097f0")
+	)
+	(segment
+		(start 154.3966 91.0596)
+		(end 155.9052 89.551)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/Precharge_Relay/MAIN_DRAIN")
+		(uuid "83d3f32a-2591-479e-b581-eca1d2125b9d")
+	)
+	(segment
 		(start 155.91525 132.4)
 		(end 155.91525 130.6068)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Motor_Precharge/DRAIN")
+		(net "/Precharge_Relay/MOT_DRAIN")
 		(uuid "5fc85bd7-57aa-4b69-927b-351e937c2a16")
 	)
 	(segment
@@ -77554,7 +81065,7 @@
 		(end 155.91525 130.6068)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Motor_Precharge/DRAIN")
+		(net "/Precharge_Relay/MOT_DRAIN")
 		(uuid "98c79283-68f9-4ce8-bf0a-f1ff6b6ff048")
 	)
 	(segment
@@ -77562,16 +81073,8 @@
 		(end 154.37855 132.1435)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Motor_Precharge/DRAIN")
+		(net "/Precharge_Relay/MOT_DRAIN")
 		(uuid "9cd7406b-3145-4d24-9f0e-1948af396023")
-	)
-	(segment
-		(start 209.04395 125.4252)
-		(end 211.58005 125.4252)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D19-A)")
-		(uuid "c13b24bf-6bb2-440b-ac8a-2db0d4b1302d")
 	)
 	(zone
 		(net "/VIN_PROT")
