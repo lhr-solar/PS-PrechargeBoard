@@ -1,0 +1,9 @@
+Manufacturer=FCL Components
+PartNumber=FTR-J2AK012W
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=8
+Version=2.1
+Released=2019-05-25 22:13:35
+Downloaded=2026-11-17 19:34:26
+3D=Y

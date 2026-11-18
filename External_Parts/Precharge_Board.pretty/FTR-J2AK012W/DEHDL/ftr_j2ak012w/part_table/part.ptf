@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FTR_J2AK012W'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "FCL Components", "FTR-J2AK012W" (!) = "", "FTRJ2AK012W", "Other", "817-FTR-J2AK012W", "https://www.mouser.co.uk/ProductDetail/Fujitsu/FTR-J2AK012W?qs=EvTR%252B%2FkpER9cjG7hKs6Mbg%3D%3D", "Electromechanical Relay 12VDC 270Ohm 12A SPST-NO/SPST-NO(24x23.5x27)mm THT Voltage Relay", ""
+END_PART
+
+END.
