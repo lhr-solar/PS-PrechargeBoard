@@ -1157,16 +1157,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 31.75) (xy 72.39 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7050e5bb-6196-48df-b157-bde8e49b1be5")
-	)
-	(wire
-		(pts
 			(xy 118.11 83.82) (xy 116.84 83.82)
 		)
 		(stroke
@@ -1254,6 +1244,16 @@
 			(type default)
 		)
 		(uuid "b925bc7b-5ebf-4e17-868c-1b771890e2a4")
+	)
+	(wire
+		(pts
+			(xy 76.2 29.21) (xy 72.39 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f12b09-f2a1-4c0b-9906-f1735b203a12")
 	)
 	(wire
 		(pts
@@ -2480,6 +2480,17 @@
 		)
 		(uuid "4e4c78da-c9e2-47a3-b8a0-6e8cc81316eb")
 	)
+	(hierarchical_label "MOT_RES_HV-"
+		(shape input)
+		(at 76.2 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5857f3b1-1f53-4d2b-837c-0e3b9582ca66")
+	)
 	(hierarchical_label "VIN_PROT"
 		(shape input)
 		(at 27.94 64.77 180)
@@ -2490,17 +2501,6 @@
 			(justify right)
 		)
 		(uuid "6ae50070-3f59-4583-b03b-8dce46e3dca2")
-	)
-	(hierarchical_label "MOT_HV-"
-		(shape output)
-		(at 72.39 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f1f91ef-8090-4582-b015-20926ae28e32")
 	)
 	(hierarchical_label "MAIN_HV-"
 		(shape output)
@@ -2524,6 +2524,17 @@
 		)
 		(uuid "bef3954d-443a-4855-a1f3-b82e777b3f40")
 	)
+	(hierarchical_label "MOT_HV-"
+		(shape output)
+		(at 72.39 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c01a67ef-d355-4032-9fcf-c68c262357d8")
+	)
 	(hierarchical_label "VIN_PROT"
 		(shape input)
 		(at 27.94 30.48 180)
@@ -2545,17 +2556,6 @@
 			(justify left)
 		)
 		(uuid "cf608d4d-f6fb-4e1c-ab3c-f9292726fd68")
-	)
-	(hierarchical_label "MOT_RES_HV-"
-		(shape input)
-		(at 76.2 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5adb1c1-7ef2-415d-bed9-54bda6132287")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3424,6 +3424,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser P/N" "817-FTR-J2AK012W"
+			(at 39.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "FTR-J2AK012W"
+			(at 39.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
